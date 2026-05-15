@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porter Moat Analyzer — Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f8f8f6; --surface: #ffffff; --border: #e5e5e0;
+    --text: #1a1a18; --muted: #6b6b68; --accent: #2563eb;
+    --green: #16a34a; --red: #dc2626; --amber: #d97706;
+    --radius: 10px; --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+
+  /* NAV */
+  nav { background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 0 2rem; display: flex; align-items: center; gap: 2rem; height: 56px; position: sticky; top: 0; z-index: 100; }
+  nav .logo { font-weight: 600; font-size: 16px; }
+  nav .nav-tabs { display: flex; gap: 0; }
+  nav .nav-tab { padding: 0 1.25rem; height: 56px; display: flex; align-items: center;
+    font-size: 14px; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent;
+    transition: all .15s; border: none; background: none; }
+  nav .nav-tab:hover { color: var(--text); }
+  nav .nav-tab.active { color: var(--accent); border-bottom: 2px solid var(--accent); font-weight: 500; }
+
+  /* LAYOUT */
+  .page { display: none; max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .page.active { display: block; }
+
+  /* RANKING PAGE */
+  .ranking-grid { display: grid; gap: 1rem; }
+  .rank-card { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.25rem 1.5rem;
+    display: grid; grid-template-columns: 2rem 1fr auto; gap: 1rem; align-items: center;
+    cursor: pointer; transition: box-shadow .15s; }
+  .rank-card:hover { box-shadow: var(--shadow); }
+  .rank-card.selected { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,.1); }
+  .rank-num { font-size: 18px; font-weight: 600; color: var(--muted); }
+  .rank-info .ticker { font-size: 18px; font-weight: 600; }
+  .rank-info .company { font-size: 13px; color: var(--muted); }
+  .rank-info .verdict { display: inline-block; font-size: 11px; font-weight: 500;
+    padding: 2px 8px; border-radius: 99px; margin-top: 4px; }
+  .rank-scores { text-align: right; }
+  .rank-scores .score { font-size: 22px; font-weight: 600; }
+  .rank-scores .label { font-size: 11px; color: var(--muted); }
+
+  /* VERDICT COLORS */
+  .v-strong-buy { background: #dcfce7; color: #15803d; }
+  .v-buy { background: #dbeafe; color: #1d4ed8; }
+  .v-hold { background: #fef9c3; color: #a16207; }
+  .v-avoid { background: #fee2e2; color: #b91c1c; }
+
+  /* METRICS ROW */
+  .metrics-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin-bottom: 1.5rem; }
+  .metric { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: .875rem 1rem; }
+  .metric .label { font-size: 11px; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: .04em; }
+  .metric .value { font-size: 20px; font-weight: 600; }
+  .metric .sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* SECTION */
+  .section { margin-bottom: 2rem; }
+  .section-title { font-size: 13px; font-weight: 500; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .06em; margin-bottom: 1rem; }
+
+  /* CHARTS */
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .chart-card { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.25rem; }
+  .chart-card h3 { font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 1rem; }
+  .chart-wrap { position: relative; width: 100%; height: 220px; }
+
+  /* PORTER RADAR */
+  .radar-wrap { position: relative; width: 100%; height: 280px; }
+
+  /* THESIS CARD */
+  .thesis-card { background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem; }
+  .thesis-card .thesis-text { font-size: 15px; line-height: 1.7; color: var(--text); margin-bottom: 1rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .bullet-list { list-style: none; }
+  .bullet-list li { font-size: 13px; padding: 4px 0; color: var(--muted); }
+  .bullet-list li::before { content: attr(data-icon); margin-right: 6px; }
+
+  /* FORCE BARS */
+  .force-row { display: flex; align-items: center; gap .75rem; margin-bottom: .6rem; }
+  .force-label { font-size: 12px; color: var(--muted); width: 160px; flex-shrink: 0; }
+  .force-bar-wrap { flex: 1; background: #f0f0ee; border-radius: 99px; height: 8px; overflow: hidden; }
+  .force-bar { height: 100%; border-radius: 99px; background: var(--accent); transition: width .4s; }
+  .force-score { font-size: 12px; font-weight: 500; width: 28px; text-align: right; }
+
+  /* VALUATION TABLE */
+  .val-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .val-table th { text-align: left; padding: 6px 12px; font-size: 11px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--border); }
+  .val-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  .val-table tr:last-child td { border-bottom: none; }
+  .tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 99px; font-weight: 500; }
+  .tag-green { background: #dcfce7; color: #15803d; }
+  .tag-amber { background: #fef9c3; color: #a16207; }
+  .tag-red { background: #fee2e2; color: #b91c1c; }
+
+  @media (max-width: 680px) {
+    .chart-grid { grid-template-columns: 1fr; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">📊 Moat Analyzer</div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="showPage('ranking', this)">Ranking</button>
+    <button class="nav-tab" onclick="showPage('detail', this)">Company Detail</button>
+    <button class="nav-tab" onclick="showPage('compare', this)">Compare</button>
+  </div>
+</nav>
+
+<!-- RANKING PAGE -->
+<div class="page active" id="page-ranking">
+  <div style="margin-bottom:1.5rem;">
+    <h1 style="font-size:22px;font-weight:600;margin-bottom:4px;">S&P 500 Moat Ranking</h1>
+    <p style="color:var(--muted);font-size:14px;">Ranked by investment score (Porter + fundamentals + valuation)</p>
+  </div>
+  <div class="ranking-grid" id="ranking-list"></div>
+</div>
+
+<!-- DETAIL PAGE -->
+<div class="page" id="page-detail">
+  <div style="display:flex;gap:.75rem;margin-bottom:1.5rem;flex-wrap:wrap;" id="ticker-tabs"></div>
+  <div id="detail-content"></div>
+</div>
+
+<!-- COMPARE PAGE -->
+<div class="page" id="page-compare">
+  <div style="margin-bottom:1.5rem;">
+    <h1 style="font-size:22px;font-weight:600;margin-bottom:4px;">Side-by-side comparison</h1>
+    <p style="color:var(--muted);font-size:14px;">Moat score vs valuation positioning</p>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;margin-bottom:1.5rem;">
+    <div style="position:relative;width:100%;height:320px;">
+      <canvas id="scatterChart" role="img" aria-label="Scatter plot of moat score vs investment score for all companies"></canvas>
+    </div>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem;">
+    <div style="position:relative;width:100%;height:280px;">
+      <canvas id="compareBar" role="img" aria-label="Bar chart comparing key metrics across all companies"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>
+const RAW = {
+  "AAPL": {
+    "porter": {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "forces": {
+        "rivalry": {
+          "score": 2,
+          "rationale": "Apple faces intense competition in highly competitive global markets characterized by aggressive price competition, downward pressure on gross margins, and frequent new product introductions. Competitors with significant resources, broad product lines, low-priced offerings, and large installed bases actively imitate Apple's features and infringe on its intellectual property, with some willing to operate at little or no profit."
+        },
+        "new_entrants": {
+          "score": 4,
+          "rationale": "High barriers to entry exist due to Apple's substantial R&D investments, extensive intellectual property portfolio (patents, trademarks, copyrights), vertically integrated design-to-service ecosystem, and established brand reputation. However, the score is not 5 because capital requirements, while significant, are achievable for well-funded tech companies, and some competitors have successfully entered adjacent markets."
+        },
+        "substitutes": {
+          "score": 3,
+          "rationale": "Moderate threat from substitutes exists as consumers can choose alternative devices and platforms (Android phones, Windows PCs, competing tablets and wearables). However, Apple's ecosystem integration and services lock-in reduce substitutability, and the company's unique visionOS spatial computing represents a differentiated offering with limited direct substitutes currently available."
+        },
+        "buyer_power": {
+          "score": 2,
+          "rationale": "Buyers demonstrate significant pricing power due to price sensitivity, availability of competitive alternatives, and willingness to switch platforms. The 10-K explicitly notes aggressive price competition and consumer price sensitivity as market characteristics, though Apple's brand loyalty and ecosystem lock-in provide some pricing protection relative to competitors."
+        },
+        "supplier_power": {
+          "score": 3,
+          "rationale": "Supplier power is moderate-to-high; while many components are available from multiple sources, Apple relies on single or limited sources for certain critical custom components and faces industry-wide component shortages and commodity pricing fluctuations. The 10-K emphasizes supply chain concentration risks, particularly for new technologies, though Apple's scale and purchasing power provide some negotiating leverage."
+        }
+      },
+      "moat_score": 3.8,
+      "moat_summary": "Apple maintains a strong but increasingly challenged competitive moat built on brand reputation, proprietary ecosystem integration, extensive intellectual property, and vertical integration of hardware-software-services. The company's ability to command premium pricing and customer loyalty is substantial, though intensifying competition, supplier concentration risks, and buyer price sensitivity are eroding traditional advantages. The moat remains defensible through continuous innovation and ecosystem lock-in, but requires sustained R&D investment and successful product transitions to maintain competitive positioning.",
+      "key_risks": [
+        "Intense competitive rivalry with aggressive pricing pressure and margin compression from well-resourced competitors willing to operate at minimal profit",
+        "Supply chain concentration and geopolitical risks, including tariff exposure, single-source component dependencies, and manufacturing concentration in China, India, Vietnam, and Taiwan",
+        "Rapid technological change and product cycle management requiring continuous innovation investment with uncertain returns; failure to successfully introduce new products could materially impact market share",
+        "Intellectual property enforcement challenges across global markets and regulatory threats to IP protection; competitors actively infringing on patents and designs",
+        "Macroeconomic sensitivity with majority of sales outside U.S. exposed to currency fluctuations, recession risk, and regional economic downturns affecting consumer spending",
+        "Geopolitical and trade tensions, including new U.S. tariffs announced in Q2 2025 and retaliatory measures that could increase product costs or limit market access"
+      ],
+      "data_source": "10-K",
+      "analysis_date": "2026-05-15"
+    },
+    "financials": {
+      "ticker": "AAPL",
+      "revenue_cagr": 3.3,
+      "years_analyzed": 5,
+      "current": {
+        "price": 302.53,
+        "pe_ratio": 36.625908,
+        "forward_pe": 31.559238,
+        "market_cap_B": 4443.4,
+        "ev_ebitda": 27.48,
+        "price_to_fcf": null,
+        "52w_high": 303.2,
+        "52w_low": 193.46,
+        "dividend_yield": 0.36,
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "pct_from_52w_high": -0.2
+      },
+      "history": [
+        {
+          "year": "2025",
+          "date": "2025-09-27",
+          "revenue_B": 416.2,
+          "gross_margin": 46.9,
+          "operating_margin": 32.0,
+          "net_margin": 26.9,
+          "fcf_margin": 23.7,
+          "roic": 60.2,
+          "debt_equity": 1.52
+        },
+        {
+          "year": "2024",
+          "date": "2024-09-28",
+          "revenue_B": 391.0,
+          "gross_margin": 46.2,
+          "operating_margin": 31.5,
+          "net_margin": 24.0,
+          "fcf_margin": 27.8,
+          "roic": 53.3,
+          "debt_equity": 2.09
+        },
+        {
+          "year": "2023",
+          "date": "2023-09-30",
+          "revenue_B": 383.3,
+          "gross_margin": 44.1,
+          "operating_margin": 29.8,
+          "net_margin": 25.3,
+          "fcf_margin": 26.0,
+          "roic": 52.1,
+          "debt_equity": 1.99
+        },
+        {
+          "year": "2022",
+          "date": "2022-09-24",
+          "revenue_B": 394.3,
+          "gross_margin": 43.3,
+          "operating_margin": 30.3,
+          "net_margin": 25.3,
+          "fcf_margin": 28.3,
+          "roic": 54.5,
+          "debt_equity": 2.61
+        },
+        {
+          "year": "2021",
+          "date": "2021-09-25",
+          "revenue_B": 365.8,
+          "gross_margin": 41.8,
+          "operating_margin": 29.8,
+          "net_margin": 25.9,
+          "fcf_margin": 25.4,
+          "roic": 47.4,
+          "debt_equity": 2.16
+        }
+      ]
+    },
+    "investment": {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "investment_score": 6,
+      "verdict": "hold",
+      "moat_confirmed_by_numbers": true,
+      "valuation_assessment": "expensive",
+      "margin_trend": "improving",
+      "roic_assessment": "exceptional (>25%)",
+      "key_thesis": "Apple demonstrates a genuine economic moat with exceptional ROIC (60.2%), expanding operating margins (32.0%), and fortress-like balance sheet metrics that validate the 3.8/5 Porter score. However, the stock is priced for perfection at 36.6x P/E with a PEG ratio of 11.1 (2x the expensive threshold), leaving minimal margin of safety despite strong fundamentals. The 3.3% revenue CAGR suggests mature market saturation, and geopolitical/supply chain risks are material headwinds that justify a valuation discount to historical multiples.",
+      "moat_vs_numbers": "The Porter analysis is strongly confirmed by financial data. ROIC of 60.2% far exceeds Buffett's 15% moat threshold, gross margins of 46.9% and operating margins of 32.0% demonstrate pricing power and operational leverage that only a company with durable competitive advantages can sustain. The improving margin trajectory (gross margin +260bps from 2021, operating margin +220bps) proves the moat is widening, not eroding, despite intense competitive rivalry noted in the 10-K.",
+      "upside_catalysts": [
+        "Successful launch of AI-integrated products (Apple Intelligence) driving premium pricing and installed base expansion",
+        "Services segment acceleration (currently ~20% of revenue) with higher margins and recurring revenue model reducing cyclicality",
+        "Margin expansion from manufacturing optimization and India/Vietnam production diversification reducing China concentration risk"
+      ],
+      "downside_risks": [
+        "Geopolitical escalation (US-China tensions, Taiwan semiconductor supply chain disruption) could materially impact gross margins and supply continuity",
+        "iPhone market saturation in developed markets with limited TAM expansion; 3.3% revenue CAGR suggests limited organic growth runway",
+        "Valuation compression if macro rates remain elevated or if forward guidance disappoints; current 31.6x forward P/E leaves no room for earnings misses"
+      ],
+      "valuation_notes": "At $302.53, Apple trades at 36.6x trailing P/E and 27.48x EV/EBITDA with a PEG ratio of 11.1\u2014more than 5x the threshold for 'expensive' valuation. For a 3.3% revenue growth company, this multiple is unjustifiable even with exceptional ROIC; fair value would suggest 22-26x P/E range ($210-240) based on growth-adjusted comparables.",
+      "comparable_companies": [
+        "MSFT",
+        "NVDA",
+        "GOOGL"
+      ],
+      "time_horizon": "long-term (3yr+)",
+      "analysis_date": "2026-05-15"
+    }
+  },
+  "MSFT": {
+    "porter": {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "forces": {
+        "rivalry": {
+          "score": 2,
+          "rationale": "Microsoft faces intense competition across all segments from well-capitalized rivals including Amazon (AWS), Google (cloud/search), Apple (devices), Meta (advertising), Salesforce (CRM), and numerous open-source alternatives. The 10-K explicitly acknowledges diverse competitors in cloud, productivity software, gaming, and search, indicating a highly competitive landscape with multiple strong players."
+        },
+        "new_entrants": {
+          "score": 4,
+          "rationale": "High barriers to entry exist due to Microsoft's massive R&D investments ($27.2B annually per inference), extensive IP portfolio, established enterprise relationships, network effects (especially in productivity/collaboration), and significant capital requirements for cloud infrastructure. However, AI-first startups and open-source alternatives present emerging threats, preventing a perfect score."
+        },
+        "substitutes": {
+          "score": 3,
+          "rationale": "Credible substitutes exist across segments: open-source software (Linux, Apache), web-based alternatives (Google Workspace, Salesforce), cloud competitors (AWS, Google Cloud), gaming platforms (PlayStation, Nintendo), and search engines (Google). The 10-K acknowledges web-based and AI-first application companies as competitors, though Microsoft's integrated ecosystem provides some stickiness."
+        },
+        "buyer_power": {
+          "score": 3,
+          "rationale": "Enterprise customers have moderate bargaining power, particularly large organizations that can negotiate volume licensing terms and multi-year agreements. However, Microsoft's broad product integration, switching costs, and the mission-critical nature of many products (Windows, Office, Azure) limit buyer leverage. Consumer segments have less power due to ecosystem lock-in."
+        },
+        "supplier_power": {
+          "score": 2,
+          "rationale": "Supplier power is moderate-to-high in critical areas: the 10-K explicitly notes 'few qualified suppliers for certain components' including GPUs and server components, creating vulnerability to supply disruptions. However, Microsoft's scale, vertical integration efforts (custom silicon), and geographic diversification of manufacturing reduce overall supplier leverage compared to smaller competitors."
+        }
+      },
+      "moat_score": 3.8,
+      "moat_summary": "Microsoft possesses a substantial but not impregnable competitive moat built on network effects (enterprise ecosystem), switching costs (integrated Microsoft 365/Azure stack), brand strength, and significant R&D capabilities. The company's dominant positions in productivity software, enterprise cloud infrastructure, and gaming create defensible market positions. However, intense competition from AWS, Google, and open-source alternatives, combined with emerging AI-first competitors and supplier constraints on critical components, prevent a higher moat rating.",
+      "key_risks": [
+        "Intense competition from AWS, Google Cloud, and other hyperscalers eroding Azure market share and pricing power",
+        "Supply chain vulnerability for GPUs and specialized server components, critical for AI/datacenter expansion",
+        "Rapid AI commoditization and emergence of open-source alternatives reducing differentiation in AI services",
+        "Regulatory scrutiny on market dominance, particularly in cloud and productivity software, potentially limiting pricing and bundling strategies",
+        "Customer concentration risk and ability of large enterprises to negotiate aggressive volume licensing terms",
+        "Substitution risk from web-based and mobile-first alternatives, particularly in emerging markets"
+      ],
+      "data_source": "10-K",
+      "analysis_date": "2026-05-15"
+    },
+    "financials": {
+      "ticker": "MSFT",
+      "revenue_cagr": 13.8,
+      "years_analyzed": 5,
+      "current": {
+        "price": 427.76,
+        "pe_ratio": 25.477068,
+        "forward_pe": 22.101274,
+        "market_cap_B": 3177.6,
+        "ev_ebitda": 16.744,
+        "price_to_fcf": null,
+        "52w_high": 555.45,
+        "52w_low": 356.28,
+        "dividend_yield": 0.89,
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "pct_from_52w_high": -23.0
+      },
+      "history": [
+        {
+          "year": "2025",
+          "date": "2025-06-30",
+          "revenue_B": 281.7,
+          "gross_margin": 68.8,
+          "operating_margin": 45.6,
+          "net_margin": 36.1,
+          "fcf_margin": 25.4,
+          "roic": 22.3,
+          "debt_equity": 0.33
+        },
+        {
+          "year": "2024",
+          "date": "2024-06-30",
+          "revenue_B": 245.1,
+          "gross_margin": 69.8,
+          "operating_margin": 44.6,
+          "net_margin": 36.0,
+          "fcf_margin": 30.2,
+          "roic": 24.1,
+          "debt_equity": 0.36
+        },
+        {
+          "year": "2023",
+          "date": "2023-06-30",
+          "revenue_B": 211.9,
+          "gross_margin": 68.9,
+          "operating_margin": 41.8,
+          "net_margin": 34.1,
+          "fcf_margin": 28.1,
+          "roic": 25.3,
+          "debt_equity": 0.39
+        },
+        {
+          "year": "2022",
+          "date": "2022-06-30",
+          "revenue_B": 198.3,
+          "gross_margin": 68.4,
+          "operating_margin": 42.1,
+          "net_margin": 36.7,
+          "fcf_margin": 32.9,
+          "roic": 29.7,
+          "debt_equity": 0.47
+        },
+        {
+          "year": "2021",
+          "date": "2021-06-30",
+          "revenue_B": 168.1,
+          "gross_margin": 68.9,
+          "operating_margin": 41.6,
+          "net_margin": 36.5,
+          "fcf_margin": 33.4,
+          "roic": 27.3,
+          "debt_equity": 0.58
+        }
+      ]
+    },
+    "investment": {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "investment_score": 7.2,
+      "verdict": "buy",
+      "moat_confirmed_by_numbers": true,
+      "valuation_assessment": "fair",
+      "margin_trend": "stable",
+      "roic_assessment": "strong (15-25%)",
+      "key_thesis": "Microsoft demonstrates a durable competitive moat evidenced by persistent 22-25% ROIC, stable 68-70% gross margins, and 13.8% revenue CAGR despite intense competition. The company's diversified portfolio (productivity software, cloud infrastructure, AI services) and entrenched enterprise relationships provide multiple growth vectors. Current valuation at 22.1x forward P/E with 1.85 PEG ratio is reasonable for a quality compounder, though not compelling; the 23% pullback from 52-week highs presents a modest entry opportunity for long-term investors.",
+      "moat_vs_numbers": "Porter's 3.8/5 moat score is well-supported by financial metrics: ROIC consistently exceeds 20% (well above Buffett's 15% threshold), gross margins remain stable despite competitive pressure, and operating leverage is evident in the 45.6% operating margin. However, the 2/5 rivalry score appears understated\u2014AWS and Google Cloud pose genuine threats to Azure pricing power and market share, which is reflected in the modest 13.8% revenue CAGR relative to historical cloud growth rates.",
+      "upside_catalysts": [
+        "AI monetization acceleration: Enterprise adoption of Copilot and AI-integrated Office 365/Azure services driving higher ARPU and margin expansion",
+        "Azure market share stabilization: Competitive positioning improvements or customer lock-in effects reversing recent share losses to AWS",
+        "Operating leverage realization: Continued revenue growth with disciplined cost management driving operating margins toward 50%+ levels"
+      ],
+      "downside_risks": [
+        "Azure commoditization: Sustained pricing pressure and market share erosion to AWS/GCP if AI differentiation fails to materialize or open-source alternatives proliferate",
+        "GPU supply constraints: Inability to secure sufficient AI accelerators limiting datacenter expansion and cloud service scaling, particularly if geopolitical tensions worsen",
+        "Regulatory/antitrust headwinds: Increased scrutiny of bundling practices (Office + Teams + Azure) or forced divestitures impacting revenue synergies and margins"
+      ],
+      "valuation_notes": "At 22.1x forward P/E with 1.85 PEG ratio, MSFT trades at a modest premium to its 13.8% growth rate, suggesting fair but not cheap valuation. EV/EBITDA of 16.7x is reasonable for a quality infrastructure software company with 45%+ operating margins, though elevated relative to historical averages (12-14x pre-2020). The 23% pullback from 52-week highs provides modest margin of safety but does not represent a compelling deep-value entry.",
+      "comparable_companies": [
+        "GOOGL",
+        "AMZN",
+        "ORCL"
+      ],
+      "time_horizon": "long-term (3yr+)",
+      "analysis_date": "2026-05-15"
+    }
+  },
+  "GOOGL": {
+    "porter": {
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "forces": {
+        "rivalry": {
+          "score": 2,
+          "rationale": "Alphabet faces intense competition across all business segments from large established companies (Microsoft, Amazon, Meta) and emerging startups. The 10-K explicitly states 'We face formidable competition in every aspect of our business' including search, advertising, cloud services, AI, and hardware, with competitors having substantial resources and established relationships."
+        },
+        "new_entrants": {
+          "score": 4,
+          "rationale": "High barriers to entry exist due to Alphabet's massive R&D investments ($200B+ over 5 years), proprietary AI infrastructure (custom TPUs), network effects in search/YouTube, and brand moat. However, AI democratization and cloud computing accessibility lower barriers somewhat, allowing well-funded startups to compete in specific segments."
+        },
+        "substitutes": {
+          "score": 2,
+          "rationale": "Significant substitute threats exist including vertical search engines, e-commerce platforms, social networks for discovery, alternative advertising channels, and emerging AI-powered search alternatives. The 10-K identifies users may navigate directly to specialized platforms rather than Google, and AI is reshaping how information discovery occurs."
+        },
+        "buyer_power": {
+          "score": 2,
+          "rationale": "Advertisers (70%+ of revenue) have moderate-to-high power as they can easily shift spending to competitors and contracts are terminable at-will. However, Google's superior targeting capabilities and reach create switching costs. Enterprise cloud customers have increasing negotiating power as cloud services commoditize, though Google's AI capabilities provide differentiation."
+        },
+        "supplier_power": {
+          "score": 2,
+          "rationale": "Alphabet faces increasing supplier power from semiconductor manufacturers (NVIDIA, TSMC) for GPUs and custom chip production, and from energy providers for data center operations. The 10-K notes significant dependence on third-party equipment availability and pricing for AI infrastructure, creating vulnerability to supply constraints and price increases."
+        }
+      },
+      "moat_score": 3.6,
+      "moat_summary": "Alphabet possesses a moderately strong competitive moat anchored by network effects (search, YouTube, Android ecosystem), brand recognition, and proprietary AI capabilities including custom TPUs and frontier models like Gemini. However, the moat is under pressure from intense competition in AI, emerging substitutes in search and advertising, and increasing regulatory scrutiny. The company's scale advantages in data and infrastructure provide defensibility, but rapid technological change and well-funded competitors limit the durability of its competitive advantages.",
+      "key_risks": [
+        "Advertising revenue concentration (70%+ of total) vulnerable to macroeconomic downturns, AI-driven format shifts, and advertiser migration to alternative platforms",
+        "Intense AI competition requiring massive ongoing capital investment in infrastructure (TPUs, data centers, energy) with uncertain ROI and potential supplier constraints on critical components",
+        "Regulatory and legal risks including antitrust investigations, data privacy regulations, content moderation requirements, and evolving AI governance that could limit business practices or require costly compliance",
+        "Substitution threats from vertical search engines, social networks, e-commerce platforms, and alternative AI-powered search solutions that could fragment user traffic",
+        "Dependence on third-party semiconductor and energy suppliers for AI infrastructure, creating cost and availability vulnerabilities in a supply-constrained environment"
+      ],
+      "data_source": "10-K",
+      "analysis_date": "2026-05-15"
+    },
+    "financials": {
+      "ticker": "GOOGL",
+      "revenue_cagr": 11.8,
+      "years_analyzed": 5,
+      "current": {
+        "price": 396.97,
+        "pe_ratio": 30.27994,
+        "forward_pe": 27.469406,
+        "market_cap_B": 4809.5,
+        "ev_ebitda": 29.931,
+        "price_to_fcf": null,
+        "52w_high": 403.7,
+        "52w_low": 162.0,
+        "dividend_yield": 0.22,
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "pct_from_52w_high": -1.7
+      },
+      "history": [
+        {
+          "year": "2025",
+          "date": "2025-12-31",
+          "revenue_B": 403.0,
+          "gross_margin": 59.7,
+          "operating_margin": 32.1,
+          "net_margin": 32.8,
+          "fcf_margin": 18.2,
+          "roic": 27.9,
+          "debt_equity": 0.14
+        },
+        {
+          "year": "2024",
+          "date": "2024-12-31",
+          "revenue_B": 350.0,
+          "gross_margin": 58.2,
+          "operating_margin": 32.1,
+          "net_margin": 28.6,
+          "fcf_margin": 20.8,
+          "roic": 28.6,
+          "debt_equity": 0.08
+        },
+        {
+          "year": "2023",
+          "date": "2023-12-31",
+          "revenue_B": 307.4,
+          "gross_margin": 56.6,
+          "operating_margin": 27.4,
+          "net_margin": 24.0,
+          "fcf_margin": 22.6,
+          "roic": 23.8,
+          "debt_equity": 0.1
+        },
+        {
+          "year": "2022",
+          "date": "2022-12-31",
+          "revenue_B": 282.8,
+          "gross_margin": 55.4,
+          "operating_margin": 26.5,
+          "net_margin": 21.2,
+          "fcf_margin": 21.2,
+          "roic": 21.0,
+          "debt_equity": 0.12
+        },
+        {
+          "year": "2021",
+          "date": "2021-12-31",
+          "revenue_B": 257.6,
+          "gross_margin": 56.9,
+          "operating_margin": 30.6,
+          "net_margin": 29.5,
+          "fcf_margin": 26.0,
+          "roic": 27.2,
+          "debt_equity": 0.11
+        }
+      ]
+    },
+    "investment": {
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "investment_score": 7,
+      "verdict": "buy",
+      "moat_confirmed_by_numbers": true,
+      "valuation_assessment": "expensive",
+      "margin_trend": "improving",
+      "roic_assessment": "exceptional (>25%)",
+      "key_thesis": "Alphabet demonstrates a durable competitive moat evidenced by exceptional ROIC (27.9% in 2025) and expanding operating margins (32.1% in 2025-2024 vs 26.5% in 2022), supported by 11.8% revenue CAGR and strong free cash flow generation (18.2% FCF margin). The company's dominance in search and advertising, combined with significant AI infrastructure investments and emerging Gemini monetization opportunities, positions it well for long-term value creation. However, valuation at 30.3x P/E and 2.57x PEG ratio reflects substantial growth expectations already priced in, leaving limited margin of safety for near-term investors. The business remains fundamentally sound for long-term holders willing to accept current multiples.",
+      "moat_vs_numbers": "Porter's 3.6/5 moat score is conservative relative to financial performance. The 27.9% ROIC substantially exceeds Buffett's 15% threshold for a true moat, and margins have expanded 570 basis points in operating leverage since 2022 despite intense competition, confirming durable competitive advantages. However, the 2/5 rivalry score is well-calibrated\u2014Microsoft's Copilot integration, Amazon's advertising growth, and emerging AI competitors do pose real threats that prevent a higher moat rating despite superior financial returns.",
+      "upside_catalysts": [
+        "Gemini AI monetization acceleration through enterprise adoption and consumer premium tiers, potentially adding 2-3% to revenue growth",
+        "Cloud infrastructure margin expansion as Google Cloud achieves scale and AI workload pricing power increases",
+        "Regulatory resolution of antitrust cases with acceptable remedies, removing overhang and enabling strategic flexibility"
+      ],
+      "downside_risks": [
+        "Advertising revenue concentration (70%+ of total) creates vulnerability to recession or advertiser budget reallocation to AI-native platforms or TikTok-style competitors",
+        "Massive capex requirements for AI infrastructure ($200B+ over 5 years) may not generate sufficient ROI if AI monetization lags or competitive intensity increases, pressuring FCF and returns",
+        "Regulatory fragmentation (EU AI Act, China restrictions, US antitrust remedies) could fragment business model, limit data usage, or force divestitures, reducing competitive moat"
+      ],
+      "valuation_notes": "At 30.3x P/E against 11.8% revenue CAGR, Alphabet trades at a 2.57x PEG ratio (expensive threshold >2.0), suggesting the market is pricing in above-historical growth or multiple expansion. EV/EBITDA of 29.9x is elevated for a mature tech company, though justified by 27.9% ROIC and margin expansion trajectory. Fair value likely ranges $340-380 depending on AI monetization assumptions; current $397 price offers limited margin of safety.",
+      "comparable_companies": [
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "time_horizon": "long-term (3yr+)",
+      "analysis_date": "2026-05-15"
+    }
+  }
+};
+
+const TICKERS = Object.keys(RAW);
+
+function verdictClass(v) {
+  return 'v-' + (v || 'hold').replace(' ', '-');
+}
+
+function scoreColor(s) {
+  if (s >= 8) return '#16a34a';
+  if (s >= 6) return '#2563eb';
+  if (s >= 4) return '#d97706';
+  return '#dc2626';
+}
+
+function tagClass(val, metric) {
+  if (metric === 'peg') {
+    if (val < 1) return 'tag-green';
+    if (val < 2) return 'tag-amber';
+    return 'tag-red';
+  }
+  if (metric === 'moat') {
+    if (val >= 4) return 'tag-green';
+    if (val >= 3) return 'tag-amber';
+    return 'tag-red';
+  }
+  return 'tag-amber';
+}
+
+// ── RANKING ──
+function buildRanking() {
+  const sorted = TICKERS.slice().sort((a, b) =>
+    (RAW[b].investment.investment_score || 0) - (RAW[a].investment.investment_score || 0)
+  );
+  const el = document.getElementById('ranking-list');
+  el.innerHTML = sorted.map((t, i) => {
+    const inv = RAW[t].investment;
+    const fin = RAW[t].financials;
+    const por = RAW[t].porter;
+    const c = fin.current || {};
+    const sc = inv.investment_score || 0;
+    return `<div class="rank-card" onclick="goDetail('${t}')">
+      <div class="rank-num">#${i+1}</div>
+      <div class="rank-info">
+        <div class="ticker">${t} <span style="font-size:13px;font-weight:400;color:var(--muted);">${inv.company}</span></div>
+        <div class="company">${c.sector || ''} · ${c.industry || ''}</div>
+        <span class="verdict ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span>
+        <span style="font-size:12px;color:var(--muted);margin-left:8px;">Moat ${por.moat_score}/5 · CAGR ${fin.revenue_cagr}% · P/E ${c.pe_ratio ? c.pe_ratio.toFixed(1) : 'n/a'}x</span>
+      </div>
+      <div class="rank-scores">
+        <div class="score" style="color:${scoreColor(sc)}">${sc}<span style="font-size:14px;color:var(--muted)">/10</span></div>
+        <div class="label">Investment score</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── DETAIL ──
+let charts = {};
+
+function goDetail(ticker) {
+  showPage('detail', document.querySelectorAll('.nav-tab')[1]);
+  renderDetail(ticker);
+}
+
+function buildTickerTabs() {
+  const el = document.getElementById('ticker-tabs');
+  el.innerHTML = TICKERS.map(t =>
+    `<button style="padding:6px 16px;border-radius:99px;border:1px solid var(--border);background:var(--surface);font-size:13px;cursor:pointer;" onclick="renderDetail('${t}')" id="tab-${t}">${t}</button>`
+  ).join('');
+}
+
+function renderDetail(ticker) {
+  TICKERS.forEach(t => {
+    const b = document.getElementById('tab-' + t);
+    if (b) b.style.background = t === ticker ? '#2563eb' : 'var(--surface)';
+    if (b) b.style.color = t === ticker ? '#fff' : 'var(--text)';
+    if (b) b.style.borderColor = t === ticker ? '#2563eb' : 'var(--border)';
+  });
+
+  const inv = RAW[ticker].investment;
+  const fin = RAW[ticker].financials;
+  const por = RAW[ticker].porter;
+  const c = fin.current || {};
+  const hist = fin.history || [];
+  const years = hist.map(h => h.year).reverse();
+
+  const peg = (c.pe_ratio && fin.revenue_cagr && fin.revenue_cagr > 0)
+    ? (c.pe_ratio / fin.revenue_cagr).toFixed(2) : 'n/a';
+
+  const forces = por.forces || {};
+  const forceKeys = ['rivalry','new_entrants','substitutes','buyer_power','supplier_power'];
+  const forceLabels = ['Rivalry','New entrants','Substitutes','Buyer power','Supplier power'];
+
+  document.getElementById('detail-content').innerHTML = `
+    <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+      <h1 style="font-size:24px;font-weight:600;">${ticker}</h1>
+      <span style="font-size:16px;color:var(--muted);">${inv.company}</span>
+      <span class="verdict ${verdictClass(inv.verdict)}" style="font-size:13px;padding:4px 12px;border-radius:99px;">${(inv.verdict||'').toUpperCase()}</span>
+      <span style="font-size:22px;font-weight:600;color:${scoreColor(inv.investment_score || 0)};">${inv.investment_score}/10</span>
+    </div>
+
+    <div class="metrics-row">
+      <div class="metric"><div class="label">Price</div><div class="value">$${c.price ? c.price.toFixed(2) : 'n/a'}</div><div class="sub">${c.pct_from_52w_high}% vs 52w high</div></div>
+      <div class="metric"><div class="label">P/E ratio</div><div class="value">${c.pe_ratio ? c.pe_ratio.toFixed(1) : 'n/a'}x</div><div class="sub">Fwd ${c.forward_pe ? c.forward_pe.toFixed(1) : 'n/a'}x</div></div>
+      <div class="metric"><div class="label">EV/EBITDA</div><div class="value">${c.ev_ebitda || 'n/a'}x</div><div class="sub">${c.sector || ''}</div></div>
+      <div class="metric"><div class="label">PEG ratio</div><div class="value">${peg}x</div><div class="sub">P/E ÷ Rev CAGR</div></div>
+      <div class="metric"><div class="label">Mkt cap</div><div class="value">$${c.market_cap_B}B</div><div class="sub">Rev CAGR ${fin.revenue_cagr}%</div></div>
+      <div class="metric"><div class="label">Moat score</div><div class="value">${por.moat_score}/5</div><div class="sub">${{'true':'Confirmed ✓','false':'Not confirmed ✗'}[String(inv.moat_confirmed_by_numbers)]}</div></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Investment thesis</div>
+      <div class="thesis-card">
+        <div class="thesis-text">${inv.key_thesis}</div>
+        <div class="two-col">
+          <div>
+            <div style="font-size:12px;font-weight:500;margin-bottom:6px;color:var(--green);">↑ Upside catalysts</div>
+            <ul class="bullet-list">
+              ${(inv.upside_catalysts||[]).map(c => `<li data-icon="↑">${c}</li>`).join('')}
+            </ul>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:500;margin-bottom:6px;color:var(--red);">↓ Downside risks</div>
+            <ul class="bullet-list">
+              ${(inv.downside_risks||[]).map(r => `<li data-icon="↓">${r}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:13px;color:var(--muted);">
+          <strong>Valuation:</strong> ${inv.valuation_notes}
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-grid section">
+      <div class="chart-card">
+        <h3>Margin trends (%)</h3>
+        <div class="chart-wrap"><canvas id="marginChart-${ticker}"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Revenue growth ($B)</h3>
+        <div class="chart-wrap"><canvas id="revenueChart-${ticker}"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Porter's five forces</h3>
+        <div style="padding-top:.5rem;">
+          ${forceKeys.map((k,i) => {
+            const f = forces[k] || {};
+            const s = f.score || 0;
+            const pct = s / 5 * 100;
+            const col = s >= 4 ? '#16a34a' : s >= 3 ? '#2563eb' : '#d97706';
+            return `<div class="force-row" style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;">
+              <div class="force-label" style="font-size:12px;color:var(--muted);width:140px;">${forceLabels[i]}</div>
+              <div style="flex:1;background:#f0f0ee;border-radius:99px;height:8px;overflow:hidden;">
+                <div style="width:${pct}%;height:100%;border-radius:99px;background:${col};"></div>
+              </div>
+              <div style="font-size:12px;font-weight:500;width:28px;text-align:right;">${s}/5</div>
+            </div>`;
+          }).join('')}
+          <div style="margin-top:.75rem;padding-top:.75rem;border-top:1px solid var(--border);font-size:12px;color:var(--muted);">${inv.moat_vs_numbers}</div>
+        </div>
+      </div>
+      <div class="chart-card">
+        <h3>Valuation multiples</h3>
+        <table class="val-table">
+          <thead><tr><th>Metric</th><th>Value</th><th>Signal</th></tr></thead>
+          <tbody>
+            <tr><td>P/E ratio</td><td>${c.pe_ratio ? c.pe_ratio.toFixed(1) + 'x' : 'n/a'}</td><td><span class="tag ${c.pe_ratio < 20 ? 'tag-green' : c.pe_ratio < 30 ? 'tag-amber' : 'tag-red'}">${c.pe_ratio < 20 ? 'Cheap' : c.pe_ratio < 30 ? 'Fair' : 'Expensive'}</span></td></tr>
+            <tr><td>Forward P/E</td><td>${c.forward_pe ? c.forward_pe.toFixed(1) + 'x' : 'n/a'}</td><td><span class="tag ${c.forward_pe < 20 ? 'tag-green' : c.forward_pe < 28 ? 'tag-amber' : 'tag-red'}">${c.forward_pe < 20 ? 'Cheap' : c.forward_pe < 28 ? 'Fair' : 'Expensive'}</span></td></tr>
+            <tr><td>EV/EBITDA</td><td>${c.ev_ebitda ? c.ev_ebitda + 'x' : 'n/a'}</td><td><span class="tag ${c.ev_ebitda < 15 ? 'tag-green' : c.ev_ebitda < 25 ? 'tag-amber' : 'tag-red'}">${c.ev_ebitda < 15 ? 'Cheap' : c.ev_ebitda < 25 ? 'Fair' : 'Expensive'}</span></td></tr>
+            <tr><td>PEG ratio</td><td>${peg}x</td><td><span class="tag ${parseFloat(peg) < 1 ? 'tag-green' : parseFloat(peg) < 2 ? 'tag-amber' : 'tag-red'}">${parseFloat(peg) < 1 ? 'Cheap' : parseFloat(peg) < 2 ? 'Fair' : 'Expensive'}</span></td></tr>
+            <tr><td>vs 52w High</td><td>${c.pct_from_52w_high}%</td><td><span class="tag ${c.pct_from_52w_high < -15 ? 'tag-green' : c.pct_from_52w_high < -5 ? 'tag-amber' : 'tag-red'}">${c.pct_from_52w_high < -15 ? 'Pulled back' : c.pct_from_52w_high < -5 ? 'Modest pullback' : 'Near highs'}</span></td></tr>
+            <tr><td>Div yield</td><td>${c.dividend_yield ? (c.dividend_yield*100).toFixed(2) + '%' : '0%'}</td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+
+  // Destroy old charts
+  ['margin','revenue'].forEach(k => {
+    const id = k + 'Chart-' + ticker;
+    if (charts[id]) { charts[id].destroy(); delete charts[id]; }
+  });
+
+  // Margin chart
+  const mCanvas = document.getElementById('marginChart-' + ticker);
+  if (mCanvas) {
+    charts['marginChart-' + ticker] = new Chart(mCanvas, {
+      type: 'line',
+      data: {
+        labels: years,
+        datasets: [
+          { label: 'Gross margin', data: hist.map(h=>h.gross_margin).reverse(), borderColor:'#2563eb', backgroundColor:'transparent', tension:.3, borderWidth:2, pointRadius:3 },
+          { label: 'Op margin', data: hist.map(h=>h.operating_margin).reverse(), borderColor:'#16a34a', backgroundColor:'transparent', tension:.3, borderWidth:2, pointRadius:3 },
+          { label: 'Net margin', data: hist.map(h=>h.net_margin).reverse(), borderColor:'#7c3aed', backgroundColor:'transparent', tension:.3, borderWidth:2, pointRadius:3 },
+          { label: 'FCF margin', data: hist.map(h=>h.fcf_margin).reverse(), borderColor:'#d97706', backgroundColor:'transparent', tension:.3, borderWidth:2, borderDash:[5,4], pointRadius:3 },
+        ]
+      },
+      options: { responsive:true, maintainAspectRatio:false,
+        plugins:{ legend:{ display:false } },
+        scales:{ y:{ ticks:{ callback: v => v+'%' } } }
+      }
+    });
+  }
+
+  // Revenue chart
+  const rCanvas = document.getElementById('revenueChart-' + ticker);
+  if (rCanvas) {
+    charts['revenueChart-' + ticker] = new Chart(rCanvas, {
+      type: 'bar',
+      data: {
+        labels: years,
+        datasets: [{ label: 'Revenue ($B)', data: hist.map(h=>h.revenue_B).reverse(), backgroundColor:'#2563eb22', borderColor:'#2563eb', borderWidth:1.5, borderRadius:4 }]
+      },
+      options: { responsive:true, maintainAspectRatio:false,
+        plugins:{ legend:{ display:false } },
+        scales:{ y:{ ticks:{ callback: v => '$'+v+'B' } } }
+      }
+    });
+  }
+}
+
+// ── COMPARE ──
+function buildCompare() {
+  // Scatter: moat score vs investment score
+  const scatterData = TICKERS.map(t => ({
+    x: RAW[t].porter.moat_score,
+    y: RAW[t].investment.investment_score,
+    label: t
+  }));
+
+  new Chart(document.getElementById('scatterChart'), {
+    type: 'scatter',
+    data: {
+      datasets: TICKERS.map((t, i) => {
+        const colors = ['#2563eb','#16a34a','#d97706'];
+        return {
+          label: t,
+          data: [{ x: RAW[t].porter.moat_score, y: RAW[t].investment.investment_score }],
+          backgroundColor: colors[i],
+          pointRadius: 10, pointHoverRadius: 12,
+        };
+      })
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'top' } },
+      scales: {
+        x: { title: { display:true, text:'Moat score (Porter)' }, min:0, max:5 },
+        y: { title: { display:true, text:'Investment score' }, min:0, max:10 }
+      }
+    }
+  });
+
+  // Bar comparison
+  new Chart(document.getElementById('compareBar'), {
+    type: 'bar',
+    data: {
+      labels: TICKERS,
+      datasets: [
+        { label: 'Investment score (/10)', data: TICKERS.map(t => RAW[t].investment.investment_score), backgroundColor: '#2563eb' },
+        { label: 'Moat score (/5 × 2)', data: TICKERS.map(t => (RAW[t].porter.moat_score||0)*2), backgroundColor: '#16a34a' },
+        { label: 'Revenue CAGR %', data: TICKERS.map(t => RAW[t].financials.revenue_cagr), backgroundColor: '#d97706' },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'top' } },
+      scales: { y: { beginAtZero: true } }
+    }
+  });
+}
+
+// ── NAV ──
+function showPage(name, btn) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  if (btn) btn.classList.add('active');
+  if (name === 'compare') buildCompare();
+}
+
+// ── INIT ──
+buildRanking();
+buildTickerTabs();
+renderDetail(TICKERS[0]);
+</script>
+</body>
+</html>
