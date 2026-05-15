@@ -22,11 +22,6 @@ nav .logo{font-weight:600;font-size:16px}
 .metric .label{font-size:11px;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
 .metric .value{font-size:20px;font-weight:600}
 .metric .sub{font-size:11px;color:var(--muted);margin-top:2px}
-.score-bar{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem}
-.score-bar .lbl{font-size:12px;color:var(--muted);width:140px;flex-shrink:0}
-.score-bar .track{flex:1;background:#f0f0ee;border-radius:99px;height:8px;overflow:hidden}
-.score-bar .fill{height:100%;border-radius:99px}
-.score-bar .num{font-size:12px;font-weight:500;width:32px;text-align:right}
 .chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
 .chart-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem}
 .chart-card h3{font-size:13px;font-weight:500;color:var(--muted);margin-bottom:1rem}
@@ -46,27 +41,22 @@ nav .logo{font-weight:600;font-size:16px}
 .rank-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.5rem;display:grid;grid-template-columns:2.5rem 1fr auto;gap:1rem;align-items:center;cursor:pointer;transition:box-shadow .15s;margin-bottom:.75rem}
 .rank-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
 .rank-num{font-size:18px;font-weight:600;color:var(--muted)}
-.archetype-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:4px;margin-left:8px}
+.archetype-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:4px;margin-left:8px; background:#f1f5f9;color:#475569}
 .arch-monopolist{background:#bbf7d0;color:#166534}
 .arch-rider{background:#dbeafe;color:#1d4ed8}
 .arch-compounder{background:#ede9fe;color:#6d28d9}
-.arch-gem{background:#fef9c3;color:#a16207}
-.arch-cashcow{background:#f0f9ff;color:#0369a1}
-.arch-turnaround{background:#fff7ed;color:#c2410c}
-.arch-trap{background:#fee2e2;color:#b91c1c}
-.arch-cyclical{background:#f1f5f9;color:#475569}
 table{width:100%;border-collapse:collapse;font-size:13px}
-th{text-align:left;padding:8px 12px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
-th:hover{color:var(--text)}
-th.sorted{color:var(--accent)}
+th{text-align:left;padding:8px 12px;font-size:11px;color:var(--muted);text-transform:uppercase;cursor:pointer;border-bottom:1px solid var(--border)}
 td{padding:8px 12px;border-bottom:1px solid var(--border)}
 tr:hover td{background:#f8f8f6}
-.sortable-table th::after{content:" ↕";font-size:10px;color:var(--border)}
-.sortable-table th.asc::after{content:" ↑";color:var(--accent)}
-.sortable-table th.desc::after{content:" ↓";color:var(--accent)}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
 .bullet-list{list-style:none}
 .bullet-list li{font-size:13px;padding:3px 0;color:var(--muted)}
+.score-bar{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem}
+.score-bar .lbl{font-size:12px;color:var(--muted);width:140px;flex-shrink:0}
+.score-bar .track{flex:1;background:#f0f0ee;border-radius:99px;height:8px;overflow:hidden}
+.score-bar .fill{height:100%;border-radius:99px}
+.score-bar .num{font-size:12px;font-weight:500;width:32px;text-align:right}
 .risk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.5rem}
 .risk-item{font-size:12px;padding:6px 10px;border-radius:6px;border:1px solid var(--border)}
 .risk-low{border-color:#bbf7d0;background:#f0fdf4}
@@ -91,43 +81,16 @@ tr:hover td{background:#f8f8f6}
   <div style="margin-bottom:1.5rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap">
     <h1 style="font-size:22px;font-weight:600">S&P 500 Moat Ranking</h1>
     <span style="color:var(--muted);font-size:14px">Ranked by combined score</span>
-    <select id="rankFilter" onchange="buildRanking()" style="margin-left:auto;font-size:13px;padding:4px 8px;border:1px solid var(--border);border-radius:6px;background:var(--surface)">
-      <option value="all">All archetypes</option>
-      <option value="MEGATREND MONOPOLIST">Megatrend Monopolist</option>
-      <option value="MEGATREND RIDER">Megatrend Rider</option>
-      <option value="QUALITY COMPOUNDER">Quality Compounder</option>
-      <option value="HIDDEN GEM">Hidden Gem</option>
-      <option value="CASH COW">Cash Cow</option>
-      <option value="TURNAROUND CANDIDATE">Turnaround</option>
-      <option value="VALUE TRAP">Value Trap</option>
-      <option value="COMMODITY CYCLICAL">Commodity Cyclical</option>
-    </select>
   </div>
   <div id="ranking-list"></div>
 </div>
 
 <div class="page" id="page-table">
-  <div style="margin-bottom:1.5rem">
-    <h1 style="font-size:22px;font-weight:600">Score Table</h1>
-    <p style="color:var(--muted);font-size:14px">Click column headers to sort. All scores 1-10.</p>
-  </div>
   <div style="overflow-x:auto">
-    <table class="sortable-table" id="scoreTable">
+    <table id="scoreTable">
       <thead>
         <tr>
-          <th onclick="sortTable(0)">Ticker</th>
-          <th onclick="sortTable(1)">Company</th>
-          <th onclick="sortTable(2)">Archetype</th>
-          <th onclick="sortTable(3)">Quality ▸</th>
-          <th onclick="sortTable(4)">Structural</th>
-          <th onclick="sortTable(5)">Moat</th>
-          <th onclick="sortTable(6)">Financial</th>
-          <th onclick="sortTable(7)">Opportunity</th>
-          <th onclick="sortTable(8)">Valuation</th>
-          <th onclick="sortTable(9)">Combined</th>
-          <th onclick="sortTable(10)">Verdict</th>
-          <th onclick="sortTable(11)">Strong Buy</th>
-          <th onclick="sortTable(12)">Watchlist</th>
+          <th>Ticker</th><th>Company</th><th>Archetype</th><th>Quality</th><th>Opportunity</th><th>Combined</th><th>Verdict</th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
@@ -142,36 +105,19 @@ tr:hover td{background:#f8f8f6}
 
 <div class="page" id="page-compare">
   <h1 style="font-size:22px;font-weight:600;margin-bottom:1.5rem">Quality vs Opportunity Map</h1>
-  <div class="card" style="margin-bottom:1rem">
-    <p style="font-size:13px;color:var(--muted);margin-bottom:1rem">X axis = Quality Score (structural strength, price-independent) | Y axis = Opportunity Score (current entry point)</p>
-    <div style="position:relative;width:100%;height:400px">
-      <canvas id="scatterChart"></canvas>
-    </div>
-  </div>
-  <div class="card">
-    <div style="position:relative;width:100%;height:280px">
-      <canvas id="compareBar"></canvas>
-    </div>
+  <div class="chart-card" style="margin-bottom:1rem">
+    <div style="position:relative;width:100%;height:400px"><canvas id="scatterChart"></canvas></div>
   </div>
 </div>
-
-
-
-
-......
-
-
 
 <script>
 let RAW = {};
 let TICKERS = [];
-let sortCol = 9, sortDir = -1;
 let charts = {};
 
 function getS(t){return (RAW[t] && RAW[t].investment && RAW[t].investment.scores) || {}}
 function getI(t){return (RAW[t] && RAW[t].investment) || {}}
 function getF(t){return (RAW[t] && RAW[t].financials) || {}}
-function getP(t){return (RAW[t] && RAW[t].porter) || {}}
 function getC(t){return getF(t).current || {}}
 
 function archClass(a){
@@ -183,8 +129,7 @@ function archClass(a){
 }
 
 function verdictClass(v){
-  const m={'strong buy':'verdict-strong-buy','buy':'verdict-buy','hold':'verdict-hold',
-    'avoid':'verdict-avoid','strong avoid':'verdict-strong-avoid'};
+  const m={'strong buy':'verdict-strong-buy','buy':'verdict-buy','hold':'verdict-hold','avoid':'verdict-avoid','strong avoid':'verdict-strong-avoid'};
   return m[(v||'').toLowerCase()]||'verdict-hold';
 }
 
@@ -204,107 +149,46 @@ function tagClass(val,type){
 }
 
 function buildRanking(){
-  const filter = document.getElementById('rankFilter').value;
-  let tickers = TICKERS.filter(t=>{
-    const inv = getI(t);
-    if(filter!=='all' && inv.archetype!==filter) return false;
-    return true;
-  });
-  
-  tickers.sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0));
-
-  const listEl = document.getElementById('ranking-list');
-  if (tickers.length === 0) {
-      listEl.innerHTML = "<p style='padding: 2rem; color: var(--muted);'>No companies match this filter or have valid scoring data.</p>";
-      return;
-  }
-
-  listEl.innerHTML = tickers.map((t,i)=>{
-    const inv=getI(t), s=getS(t), c=getC(t), por=getP(t);
-    const arch=inv.archetype||'N/A';
-    const vs=inv.verdict_split||{};
-    const va=inv.valuation_analysis||{};
+  let tickers = [...TICKERS].sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0));
+  document.getElementById('ranking-list').innerHTML = tickers.map((t,i)=>{
+    const inv=getI(t), s=getS(t), c=getC(t);
     return `<div class="rank-card" onclick="goDetail('${t}')">
       <div class="rank-num">#${i+1}</div>
       <div>
-        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:8px">
           <span style="font-size:18px;font-weight:600">${t}</span>
           <span style="font-size:13px;color:var(--muted)">${inv.company||''}</span>
           <span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span>
-          <span class="archetype-badge ${archClass(arch)}">${arch}</span>
+          <span class="archetype-badge ${archClass(inv.archetype)}">${inv.archetype||'N/A'}</span>
         </div>
         <div style="font-size:12px;color:var(--muted);margin-top:4px">
-          ${c.sector||'Unknown Sector'} · Quality: <b>${s.quality_score||'?'}</b> · Opportunity: <b>${s.opportunity_score||'?'}</b> · ${vs.timing_verdict||''}
-        </div>
-        <div style="font-size:12px;color:var(--muted)">
-          Strong buy: ${va.strong_buy_price||'?'} · Watchlist: ${va.watchlist_price||'?'} · P/E: ${c.pe_ratio?c.pe_ratio.toFixed(1):'?'}x
+          Quality: <b>${s.quality_score||'?'}</b> · Opportunity: <b>${s.opportunity_score||'?'}</b> · P/E: ${c.pe_ratio?c.pe_ratio.toFixed(1):'?'}x
         </div>
       </div>
       <div style="text-align:right">
         <div style="font-size:26px;font-weight:600;color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}<span style="font-size:14px;color:var(--muted)">/10</span></div>
-        <div style="font-size:11px;color:var(--muted)">Combined score</div>
       </div>
     </div>`;
   }).join('');
 }
 
 function buildTable(){
-  const rows = TICKERS.map(t=>{
-    const s=getS(t), inv=getI(t), va=inv.valuation_analysis||{}, c=getC(t);
-    return {t,s,inv,va,c};
-  });
-  
-  rows.sort((a,b)=>{
-    const vals=[
-      [a.t,b.t],[a.inv.company||'',b.inv.company||''],
-      [a.inv.archetype||'',b.inv.archetype||''],
-      [a.s.quality_score||0,b.s.quality_score||0],
-      [a.s.structural_score||0,b.s.structural_score||0],
-      [a.s.moat_score||0,b.s.moat_score||0],
-      [a.s.financial_score||0,b.s.financial_score||0],
-      [a.s.opportunity_score||0,b.s.opportunity_score||0],
-      [a.s.valuation_score||0,b.s.valuation_score||0],
-      [a.s.combined_score||0,b.s.combined_score||0],
-      [a.inv.verdict||'',b.inv.verdict||''],
-      [a.va.strong_buy_price||'',b.va.strong_buy_price||''],
-      [a.va.watchlist_price||'',b.va.watchlist_price||''],
-    ];
-    const [av,bv]=vals[sortCol];
-    if(typeof av==='number')return(bv-av)*sortDir;
-    return String(av).localeCompare(String(bv))*sortDir;
-  });
-
-  document.getElementById('tableBody').innerHTML = rows.map(({t,s,inv,va,c})=>`
-    <tr onclick="goDetail('${t}')" style="cursor:pointer">
-      <td><b>${t}</b></td>
-      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${inv.company||''}</td>
-      <td><span class="archetype-badge ${archClass(inv.archetype||'')}">${(inv.archetype||'').replace(' CANDIDATE','')}</span></td>
-      <td style="font-weight:600;color:${scoreColor(s.quality_score||0)}">${s.quality_score||'?'}</td>
-      <td>${s.structural_score||'?'}</td>
-      <td>${s.moat_score||'?'}</td>
-      <td>${s.financial_score||'?'}</td>
-      <td style="font-weight:600;color:${scoreColor(s.opportunity_score||0)}">${s.opportunity_score||'?'}</td>
-      <td>${s.valuation_score||'?'}</td>
-      <td style="font-weight:600;color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}</td>
+  const rows = [...TICKERS].sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0)).map(t=>{
+    const s=getS(t), inv=getI(t);
+    return `<tr onclick="goDetail('${t}')" style="cursor:pointer">
+      <td><b>${t}</b></td><td>${inv.company||''}</td>
+      <td><span class="archetype-badge ${archClass(inv.archetype)}">${inv.archetype||''}</span></td>
+      <td style="color:${scoreColor(s.quality_score||0)}"><b>${s.quality_score||'?'}</b></td>
+      <td style="color:${scoreColor(s.opportunity_score||0)}"><b>${s.opportunity_score||'?'}</b></td>
+      <td style="color:${scoreColor(s.combined_score||0)}"><b>${s.combined_score||'?'}</b></td>
       <td><span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span></td>
-      <td style="color:var(--green);font-weight:500">${va.strong_buy_price||'?'}</td>
-      <td style="color:var(--amber)">${va.watchlist_price||'?'}</td>
-    </tr>`).join('');
-
-  document.querySelectorAll('#scoreTable th').forEach((th,i)=>{
-    th.classList.remove('asc','desc','sorted');
-    if(i===sortCol){th.classList.add('sorted',sortDir===1?'asc':'desc')}
+    </tr>`;
   });
-}
-
-function sortTable(col){
-  if(sortCol===col)sortDir*=-1;
-  else{sortCol=col;sortDir=-1}
-  buildTable();
+  document.getElementById('tableBody').innerHTML = rows.join('');
 }
 
 function goDetail(t){
-  showPage('detail',document.querySelectorAll('.nav-tab')[2]);
+  showPage('detail', document.querySelectorAll('.nav-tab')[2]);
   renderDetail(t);
 }
 
@@ -317,41 +201,170 @@ function buildTickerTabs(){
 function renderDetail(ticker){
   TICKERS.forEach(t=>{
     const b=document.getElementById('tab-'+t);
-    if(!b)return;
-    b.style.background=t===ticker?'#2563eb':'var(--surface)';
-    b.style.color=t===ticker?'#fff':'var(--text)';
-    b.style.borderColor=t===ticker?'#2563eb':'var(--border)';
+    if(b){ b.style.background=t===ticker?'#2563eb':'var(--surface)'; b.style.color=t===ticker?'#fff':'var(--text)'; }
   });
 
-  const inv=getI(ticker), s=getS(ticker), fin=getF(ticker), por=getP(ticker);
+  const inv=getI(ticker), s=getS(ticker), fin=getF(ticker);
   const c=fin.current||{}, hist=fin.history||[];
   const sa=inv.structural_analysis||{}, ma=inv.moat_analysis||{};
   const fa=inv.financial_analysis||{}, va=inv.valuation_analysis||{};
   const iv=inv.investment_verdict||{}, vs=inv.verdict_split||{};
   const rm=inv.risk_matrix||{}, seca=inv.sector_analysis||{};
-  const years=hist.map(h=>h.year).reverse();
-  const peg=c.pe_ratio&&fin.revenue_cagr&&fin.revenue_cagr>0?(c.pe_ratio/fin.revenue_cagr).toFixed(2):'n/a';
+  
+  const years = hist.map(h => h.year).reverse();
+  const peg = c.pe_ratio && fin.revenue_cagr && fin.revenue_cagr > 0 ? (c.pe_ratio/fin.revenue_cagr).toFixed(2) : 'n/a';
 
   document.getElementById('detail-content').innerHTML = `
     <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap">
       <h1 style="font-size:24px;font-weight:600">${ticker}</h1>
       <span style="font-size:16px;color:var(--muted)">${inv.company||''}</span>
       <span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span>
-      <span class="archetype-badge ${archClass(inv.archetype||'')}">${inv.archetype||''}</span>
+      <span class="archetype-badge ${archClass(inv.archetype)}">${inv.archetype||''}</span>
     </div>
+
+    ${inv.reasoning_scratchpad ? `
+    <div class="card" style="margin-bottom:1.5rem; background: #fdfdf9; border-left: 4px solid #d97706;">
+      <div style="font-size:12px;font-weight:600;color:var(--muted);margin-bottom:.5rem">🧠 AI REALITY CHECK</div>
+      <p style="font-size:13px; margin-bottom:8px;"><b>Bear Case:</b> ${inv.reasoning_scratchpad.bear_case || ''}</p>
+      <p style="font-size:13px; margin-bottom:8px;"><b>Bull Case:</b> ${inv.reasoning_scratchpad.bull_case || ''}</p>
+      <p style="font-size:13px;"><b>Financial Reality:</b> ${inv.reasoning_scratchpad.financial_reality_check || ''}</p>
+    </div>` : ''}
 
     <div class="metric-grid" style="margin-bottom:1.5rem">
       <div class="metric"><div class="label">Quality Score</div><div class="value" style="color:${scoreColor(s.quality_score||0)}">${s.quality_score||'?'}/10</div><div class="sub">${vs.quality_verdict||''}</div></div>
       <div class="metric"><div class="label">Opportunity Score</div><div class="value" style="color:${scoreColor(s.opportunity_score||0)}">${s.opportunity_score||'?'}/10</div><div class="sub">${vs.timing_verdict||''}</div></div>
-      <div class="metric"><div class="label">Combined Score</div><div class="value" style="color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}/10</div><div class="sub">${inv.conviction_level||''}</div></div>
+      <div class="metric"><div class="label">Combined Score</div><div class="value" style="color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}/10</div><div class="sub">${inv.conviction_level||''} conviction</div></div>
       <div class="metric"><div class="label">Price</div><div class="value">$${c.price||'?'}</div><div class="sub">${c.pct_from_52w_high||'?'}% vs 52w high</div></div>
     </div>
 
     <div class="card" style="margin-bottom:1.5rem">
       <div style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:.75rem">INVESTMENT THESIS</div>
-      <div style="font-size:15px;line-height:1.7;margin-bottom:1rem">${iv.key_thesis||'Analysis pending or missing.'}</div>
+      <div style="font-size:15px;line-height:1.7;margin-bottom:1rem">${iv.key_thesis||'Analysis pending...'}</div>
+      <div class="two-col">
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--green);margin-bottom:6px">↑ UPSIDE CATALYSTS</div>
+          <ul class="bullet-list">${(iv.upside_catalysts||[]).map(x=>`<li style="color:var(--text)">↑ ${x}</li>`).join('')}</ul>
+        </div>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--red);margin-bottom:6px">↓ DOWNSIDE RISKS</div>
+          <ul class="bullet-list">${(iv.downside_risks||[]).map(x=>`<li style="color:var(--text)">↓ ${x}</li>`).join('')}</ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Margin Trends (%)</h3>
+        <div class="chart-wrap"><canvas id="marginChart-${ticker}"></canvas></div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;font-size:11px;color:var(--muted)">
+          <span><span style="display:inline-block;width:10px;height:2px;background:#2563eb;vertical-align:middle;margin-right:3px"></span>Gross</span>
+          <span><span style="display:inline-block;width:10px;height:2px;background:#16a34a;vertical-align:middle;margin-right:3px"></span>Operating</span>
+          <span><span style="display:inline-block;width:10px;height:2px;background:#7c3aed;vertical-align:middle;margin-right:3px"></span>Net</span>
+        </div>
+      </div>
+      <div class="chart-card">
+        <h3>Revenue Growth ($B)</h3>
+        <div class="chart-wrap"><canvas id="revenueChart-${ticker}"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:1.5rem">
+      <div style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:.75rem">STRUCTURAL & SECTOR ANALYSIS</div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem">
+        <span class="tag tag-blue">Megatrend: ${sa.megatrend_type||'?'}</span>
+        ${(sa.megatrends_exposed_to||[]).map(m=>`<span class="tag tag-purple">${m}</span>`).join('')}
+      </div>
+      <div class="two-col" style="margin-bottom:1rem">
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--green);margin-bottom:6px">TAILWINDS</div>
+          <ul class="bullet-list">${(seca.structural_tailwinds||[]).map(x=>`<li>↑ ${x}</li>`).join('')}</ul>
+        </div>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--red);margin-bottom:6px">HEADWINDS</div>
+          <ul class="bullet-list">${(seca.structural_headwinds||[]).map(x=>`<li>↓ ${x}</li>`).join('')}</ul>
+        </div>
+      </div>
+      <div style="font-size:14px;line-height:1.7;color:var(--text);margin-bottom:1rem">${sa.structural_summary||''}</div>
+      <div style="font-size:14px;line-height:1.7;color:var(--muted)">${seca.disruption_threats||''}</div>
+    </div>
+
+    <div class="card" style="margin-bottom:1.5rem">
+      <div style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:1rem">PORTER'S FIVE FORCES — Moat Score ${s.moat_score||'?'}/10 | ${ma.moat_durability||''}</div>
+      ${['rivalry','new_entrants','substitutes','buyer_power','supplier_power'].map(k=>{
+        const f=(ma[k]||{}), score=f.score||0, pct=score/5*100;
+        const col=score>=4?'#16a34a':score>=3?'#2563eb':'#d97706';
+        const labels={rivalry:'Rivalry',new_entrants:'New entrants',substitutes:'Substitutes',buyer_power:'Buyer power',supplier_power:'Supplier power'};
+        return `<div style="margin-bottom:1rem">
+          <div class="score-bar">
+            <div class="lbl">${labels[k]}</div>
+            <div class="track"><div class="fill" style="width:${pct}%;background:${col}"></div></div>
+            <div class="num">${score}/5</div>
+            <span class="tag" style="margin-left:8px;font-size:10px;background:${f.trend==='strengthening'?'#dcfce7':f.trend==='weakening'?'#fee2e2':'#f1f5f9'};color:${f.trend==='strengthening'?'#166534':f.trend==='weakening'?'#991b1b':'#475569'}">${f.trend||''}</span>
+          </div>
+          <div style="font-size:12px;color:var(--muted);padding-left:148px;line-height:1.5">${f.analysis||''}</div>
+        </div>`;
+      }).join('')}
+      <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border);font-size:13px;color:var(--text)">${ma.overall_moat_verdict||''}</div>
+    </div>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Valuation Details</h3>
+        <table>
+          <tbody>
+            <tr><td>P/E ratio</td><td>${c.pe_ratio?c.pe_ratio.toFixed(1)+'x':'n/a'}</td><td><span class="tag ${tagClass(c.pe_ratio,'pe')}">${c.pe_ratio<20?'Cheap':c.pe_ratio<30?'Fair':'Expensive'}</span></td></tr>
+            <tr><td>Forward P/E</td><td>${c.forward_pe?c.forward_pe.toFixed(1)+'x':'n/a'}</td><td><span class="tag ${tagClass(c.forward_pe,'pe')}">${c.forward_pe<20?'Cheap':c.forward_pe<28?'Fair':'Expensive'}</span></td></tr>
+            <tr><td>EV/EBITDA</td><td>${c.ev_ebitda?c.ev_ebitda+'x':'n/a'}</td><td><span class="tag ${tagClass(c.ev_ebitda,'ev')}">${c.ev_ebitda<15?'Cheap':c.ev_ebitda<25?'Fair':'Expensive'}</span></td></tr>
+            <tr><td>PEG ratio</td><td>${peg}x</td><td><span class="tag ${tagClass(parseFloat(peg),'peg')}">${parseFloat(peg)<1?'Cheap':parseFloat(peg)<2?'Fair':'Expensive'}</span></td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:1rem;font-size:13px;color:var(--muted)">${va.valuation_deep_analysis||''}</div>
+      </div>
+      <div class="chart-card">
+        <h3>Risk Matrix</h3>
+        <div class="risk-grid">
+          ${['competitive_disruption','regulatory','macro_sensitivity','balance_sheet','management','geopolitical','technology_obsolescence','esg'].map(k=>{
+            const level=(rm[k]||'').toLowerCase();
+            const cls=level==='low'?'risk-low':level==='medium'?'risk-medium':level==='high'?'risk-high':'risk-critical';
+            const labels={competitive_disruption:'Competitive',regulatory:'Regulatory',macro_sensitivity:'Macro',balance_sheet:'Balance sheet',management:'Management',geopolitical:'Geopolitical',technology_obsolescence:'Tech obsolescence',esg:'ESG'};
+            return `<div class="risk-item ${cls}"><b>${labels[k]}</b>: ${rm[k]||'?'}</div>`;
+          }).join('')}
+        </div>
+        <div style="margin-top:1rem">
+          <div style="font-size:12px;font-weight:600;color:var(--muted);margin-bottom:6px">TOP 3 RISKS</div>
+          <ul class="bullet-list">${(rm.top_3_risks||[]).map(r=>`<li>⚠ ${r}</li>`).join('')}</ul>
+        </div>
+      </div>
     </div>
   `;
+
+  // Draw Charts
+  ['margin','revenue'].forEach(k=>{
+    const id=k+'Chart-'+ticker;
+    if(charts[id]){charts[id].destroy();delete charts[id]}
+  });
+
+  const mCanvas=document.getElementById('marginChart-'+ticker);
+  if(mCanvas && hist.length){
+    charts['marginChart-'+ticker]=new Chart(mCanvas,{
+      type:'line',
+      data:{labels:years,datasets:[
+        {label:'Gross Margin',data:hist.map(h=>h.gross_margin).reverse(),borderColor:'#2563eb',tension:.3},
+        {label:'Op Margin',data:hist.map(h=>h.operating_margin).reverse(),borderColor:'#16a34a',tension:.3},
+        {label:'Net Margin',data:hist.map(h=>h.net_margin).reverse(),borderColor:'#7c3aed',tension:.3},
+      ]},
+      options:{responsive:true,maintainAspectRatio:false}
+    });
+  }
+
+  const rCanvas=document.getElementById('revenueChart-'+ticker);
+  if(rCanvas && hist.length){
+    charts['revenueChart-'+ticker]=new Chart(rCanvas,{
+      type:'bar',
+      data:{labels:years,datasets:[{label:'Revenue ($B)',data:hist.map(h=>h.revenue_B).reverse(),backgroundColor:'#16a34a'}]},
+      options:{responsive:true,maintainAspectRatio:false}
+    });
+  }
 }
 
 function buildCompare(){
@@ -369,16 +382,6 @@ function buildCompare(){
     }))},
     options:{responsive:true,maintainAspectRatio:false}
   });
-
-  if(charts.compareBar){charts.compareBar.destroy()}
-  charts.compareBar=new Chart(document.getElementById('compareBar'),{
-    type:'bar',
-    data:{labels:TICKERS,datasets:[
-      {label:'Quality',data:TICKERS.map(t=>getS(t).quality_score||0),backgroundColor:'#7c3aed'},
-      {label:'Opportunity',data:TICKERS.map(t=>getS(t).opportunity_score||0),backgroundColor:'#2563eb'}
-    ]},
-    options:{responsive:true,maintainAspectRatio:false}
-  });
 }
 
 function showPage(name,btn){
@@ -387,52 +390,26 @@ function showPage(name,btn){
   document.getElementById('page-'+name).classList.add('active');
   if(btn)btn.classList.add('active');
   if(name==='compare')buildCompare();
-  if(name==='table')buildTable();
 }
 
 async function init() {
   try {
-    console.log("Iniziando il fetch dei dati dal server...");
     const res = await fetch('/api/data');
     RAW = await res.json();
-    console.log("Dati grezzi ricevuti:", Object.keys(RAW).length, "aziende.");
-    
     let allTickers = Object.keys(RAW);
-    if(allTickers.length === 0) {
-        document.getElementById('ranking-list').innerHTML = "<p style='padding: 2rem;'>Nessun dato trovato. Esegui l'analisi LLM.</p>";
-        return;
-    }
     
     // Filtriamo SOLO le aziende che hanno il nuovo formato con gli "scores"
-    TICKERS = allTickers.filter(t => {
-        const hasScores = RAW[t] && RAW[t].investment && RAW[t].investment.scores && RAW[t].investment.scores.combined_score !== undefined;
-        if (!hasScores) {
-            console.warn(`⚠️ Skippato ${t}: Formato vecchio, mancano i nuovi scores.`);
-        }
-        return hasScores;
-    });
+    TICKERS = allTickers.filter(t => RAW[t] && RAW[t].investment && RAW[t].investment.scores && RAW[t].investment.scores.combined_score !== undefined);
 
-    if(TICKERS.length === 0) {
-        document.getElementById('ranking-list').innerHTML = "<p style='padding: 2rem; color: var(--red);'>Trovati file, ma nessuno usa il nuovo Prompt! Esegui l'analyzer aggiornato su almeno un'azienda.</p>";
-        return;
+    if(TICKERS.length > 0) {
+      buildRanking(); buildTable(); buildTickerTabs();
+      renderDetail(TICKERS.sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0))[0]);
     }
-
-    console.log(`✅ Tickers validi pronti per il render:`, TICKERS);
-    
-    buildRanking();
-    buildTickerTabs();
-    
-    // Mostra la prima azienda in lista nella schermata "Detail"
-    let firstTicker = TICKERS.sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0))[0];
-    renderDetail(firstTicker);
-    
   } catch(e) {
-    console.error("Errore fatale nel caricamento dati:", e);
-    document.getElementById('ranking-list').innerHTML = `<p style='padding: 2rem; color: red;'>Errore: ${e.message}</p>`;
+    console.error("Failed to load data", e);
   }
 }
 
-// Avvia tutto!
 init();
 </script>
 </body>
