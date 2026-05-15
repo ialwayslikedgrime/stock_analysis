@@ -1,0 +1,37 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Alphabet faces intense competition across all business segments from large established companies (Microsoft, Amazon, Meta) and emerging startups. The 10-K explicitly states 'We face formidable competition in every aspect of our business' including search, advertising, cloud services, AI, and hardware, with competitors having substantial resources and established relationships."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Alphabet's massive R&D investments ($200B+ over 5 years), proprietary AI infrastructure (custom TPUs), network effects in search/YouTube, and brand moat. However, AI democratization and cloud computing accessibility lower barriers somewhat, allowing well-funded startups to compete in specific segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including vertical search engines, e-commerce platforms, social networks for discovery, alternative advertising channels, and emerging AI-powered search alternatives. The 10-K identifies users may navigate directly to specialized platforms rather than Google, and AI is reshaping how information discovery occurs."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Advertisers (70%+ of revenue) have moderate-to-high power as they can easily shift spending to competitors and contracts are terminable at-will. However, Google's superior targeting capabilities and reach create switching costs. Enterprise cloud customers have increasing negotiating power as cloud services commoditize, though Google's AI capabilities provide differentiation."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Alphabet faces increasing supplier power from semiconductor manufacturers (NVIDIA, TSMC) for GPUs and custom chip production, and from energy providers for data center operations. The 10-K notes significant dependence on third-party equipment availability and pricing for AI infrastructure, creating vulnerability to supply constraints and price increases."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Alphabet possesses a moderately strong competitive moat anchored by network effects (search, YouTube, Android ecosystem), brand recognition, and proprietary AI capabilities including custom TPUs and frontier models like Gemini. However, the moat is under pressure from intense competition in AI, emerging substitutes in search and advertising, and increasing regulatory scrutiny. The company's scale advantages in data and infrastructure provide defensibility, but rapid technological change and well-funded competitors limit the durability of its competitive advantages.",
+  "key_risks": [
+    "Advertising revenue concentration (70%+ of total) vulnerable to macroeconomic downturns, AI-driven format shifts, and advertiser migration to alternative platforms",
+    "Intense AI competition requiring massive ongoing capital investment in infrastructure (TPUs, data centers, energy) with uncertain ROI and potential supplier constraints on critical components",
+    "Regulatory and legal risks including antitrust investigations, data privacy regulations, content moderation requirements, and evolving AI governance that could limit business practices or require costly compliance",
+    "Substitution threats from vertical search engines, social networks, e-commerce platforms, and alternative AI-powered search solutions that could fragment user traffic",
+    "Dependence on third-party semiconductor and energy suppliers for AI infrastructure, creating cost and availability vulnerabilities in a supply-constrained environment"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-15"
+}

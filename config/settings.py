@@ -3,15 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Switch: "openrouter" o "anthropic"
-PROVIDER = "openrouter"
-
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# Modelli
+PROVIDER = "openrouter"
 ANTHROPIC_MODEL = "claude-sonnet-4-20250514"
-OPENROUTER_MODEL = "meta-llama/llama-3.1-8b-instruct:free"  # gratuito
+OPENROUTER_MODEL = "anthropic/claude-haiku-4.5"
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
