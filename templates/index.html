@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moat Analyzer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f8f8f6;--surface:#ffffff;--border:#e5e5e0;--text:#1a1a18;--muted:#6b6b68;--accent:#2563eb;--green:#16a34a;--red:#dc2626;--amber:#d97706;--purple:#7c3aed;--radius:10px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;gap:2rem;height:56px;position:sticky;top:0;z-index:100}
+nav .logo{font-weight:600;font-size:16px}
+.nav-tab{padding:0 1.25rem;height:56px;display:flex;align-items:center;font-size:14px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;border:none;background:none}
+.nav-tab:hover{color:var(--text)}
+.nav-tab.active{color:var(--accent);border-bottom:2px solid var(--accent);font-weight:500}
+.page{display:none;max-width:1200px;margin:0 auto;padding:2rem 1.5rem}
+.page.active{display:block}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem}
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.75rem;margin-bottom:1.5rem}
+.metric{background:#f8f8f6;border-radius:8px;padding:.875rem 1rem}
+.metric .label{font-size:11px;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+.metric .value{font-size:20px;font-weight:600}
+.metric .sub{font-size:11px;color:var(--muted);margin-top:2px}
+.score-bar{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem}
+.score-bar .lbl{font-size:12px;color:var(--muted);width:140px;flex-shrink:0}
+.score-bar .track{flex:1;background:#f0f0ee;border-radius:99px;height:8px;overflow:hidden}
+.score-bar .fill{height:100%;border-radius:99px}
+.score-bar .num{font-size:12px;font-weight:500;width:32px;text-align:right}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
+.chart-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem}
+.chart-card h3{font-size:13px;font-weight:500;color:var(--muted);margin-bottom:1rem}
+.chart-wrap{position:relative;width:100%;height:220px}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;font-weight:500}
+.tag-green{background:#dcfce7;color:#15803d}
+.tag-amber{background:#fef9c3;color:#a16207}
+.tag-red{background:#fee2e2;color:#b91c1c}
+.tag-blue{background:#dbeafe;color:#1d4ed8}
+.tag-purple{background:#ede9fe;color:#6d28d9}
+.badge{display:inline-block;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px}
+.verdict-buy{background:#dcfce7;color:#15803d}
+.verdict-strong-buy{background:#bbf7d0;color:#166534}
+.verdict-hold{background:#fef9c3;color:#a16207}
+.verdict-avoid{background:#fee2e2;color:#b91c1c}
+.verdict-strong-avoid{background:#fecaca;color:#991b1b}
+.rank-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.5rem;display:grid;grid-template-columns:2.5rem 1fr auto;gap:1rem;align-items:center;cursor:pointer;transition:box-shadow .15s;margin-bottom:.75rem}
+.rank-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.rank-num{font-size:18px;font-weight:600;color:var(--muted)}
+.archetype-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:4px;margin-left:8px}
+.arch-monopolist{background:#bbf7d0;color:#166534}
+.arch-rider{background:#dbeafe;color:#1d4ed8}
+.arch-compounder{background:#ede9fe;color:#6d28d9}
+.arch-gem{background:#fef9c3;color:#a16207}
+.arch-cashcow{background:#f0f9ff;color:#0369a1}
+.arch-turnaround{background:#fff7ed;color:#c2410c}
+.arch-trap{background:#fee2e2;color:#b91c1c}
+.arch-cyclical{background:#f1f5f9;color:#475569}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 12px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{color:var(--text)}
+th.sorted{color:var(--accent)}
+td{padding:8px 12px;border-bottom:1px solid var(--border)}
+tr:hover td{background:#f8f8f6}
+.sortable-table th::after{content:" ↕";font-size:10px;color:var(--border)}
+.sortable-table th.asc::after{content:" ↑";color:var(--accent)}
+.sortable-table th.desc::after{content:" ↓";color:var(--accent)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.bullet-list{list-style:none}
+.bullet-list li{font-size:13px;padding:3px 0;color:var(--muted)}
+.risk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.5rem}
+.risk-item{font-size:12px;padding:6px 10px;border-radius:6px;border:1px solid var(--border)}
+.risk-low{border-color:#bbf7d0;background:#f0fdf4}
+.risk-medium{border-color:#fde68a;background:#fffbeb}
+.risk-high{border-color:#fca5a5;background:#fff1f2}
+.risk-critical{border-color:#dc2626;background:#fee2e2}
+@media(max-width:680px){.chart-grid{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">📊 Moat Analyzer</div>
+  <div style="display:flex;gap:0">
+    <button class="nav-tab active" onclick="showPage('ranking',this)">Ranking</button>
+    <button class="nav-tab" onclick="showPage('table',this)">Score Table</button>
+    <button class="nav-tab" onclick="showPage('detail',this)">Company Detail</button>
+    <button class="nav-tab" onclick="showPage('compare',this)">Compare</button>
+  </div>
+</nav>
+
+<div class="page active" id="page-ranking">
+  <div style="margin-bottom:1.5rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap">
+    <h1 style="font-size:22px;font-weight:600">S&P 500 Moat Ranking</h1>
+    <span style="color:var(--muted);font-size:14px">Ranked by combined score</span>
+    <select id="rankFilter" onchange="buildRanking()" style="margin-left:auto;font-size:13px;padding:4px 8px;border:1px solid var(--border);border-radius:6px;background:var(--surface)">
+      <option value="all">All archetypes</option>
+      <option value="MEGATREND MONOPOLIST">Megatrend Monopolist</option>
+      <option value="MEGATREND RIDER">Megatrend Rider</option>
+      <option value="QUALITY COMPOUNDER">Quality Compounder</option>
+      <option value="HIDDEN GEM">Hidden Gem</option>
+      <option value="CASH COW">Cash Cow</option>
+      <option value="TURNAROUND CANDIDATE">Turnaround</option>
+      <option value="VALUE TRAP">Value Trap</option>
+      <option value="COMMODITY CYCLICAL">Commodity Cyclical</option>
+    </select>
+  </div>
+  <div id="ranking-list"></div>
+</div>
+
+<div class="page" id="page-table">
+  <div style="margin-bottom:1.5rem">
+    <h1 style="font-size:22px;font-weight:600">Score Table</h1>
+    <p style="color:var(--muted);font-size:14px">Click column headers to sort. All scores 1-10.</p>
+  </div>
+  <div style="overflow-x:auto">
+    <table class="sortable-table" id="scoreTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Ticker</th>
+          <th onclick="sortTable(1)">Company</th>
+          <th onclick="sortTable(2)">Archetype</th>
+          <th onclick="sortTable(3)">Quality ▸</th>
+          <th onclick="sortTable(4)">Structural</th>
+          <th onclick="sortTable(5)">Moat</th>
+          <th onclick="sortTable(6)">Financial</th>
+          <th onclick="sortTable(7)">Opportunity</th>
+          <th onclick="sortTable(8)">Valuation</th>
+          <th onclick="sortTable(9)">Combined</th>
+          <th onclick="sortTable(10)">Verdict</th>
+          <th onclick="sortTable(11)">Strong Buy</th>
+          <th onclick="sortTable(12)">Watchlist</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="page" id="page-detail">
+  <div style="display:flex;gap:.5rem;margin-bottom:1.5rem;flex-wrap:wrap" id="ticker-tabs"></div>
+  <div id="detail-content"></div>
+</div>
+
+<div class="page" id="page-compare">
+  <h1 style="font-size:22px;font-weight:600;margin-bottom:1.5rem">Quality vs Opportunity Map</h1>
+  <div class="card" style="margin-bottom:1rem">
+    <p style="font-size:13px;color:var(--muted);margin-bottom:1rem">X axis = Quality Score (structural strength, price-independent) | Y axis = Opportunity Score (current entry point)</p>
+    <div style="position:relative;width:100%;height:400px">
+      <canvas id="scatterChart"></canvas>
+    </div>
+  </div>
+  <div class="card">
+    <div style="position:relative;width:100%;height:280px">
+      <canvas id="compareBar"></canvas>
+    </div>
+  </div>
+</div>
+
+
+
+
+......
+
+
+
+<script>
+let RAW = {};
+let TICKERS = [];
+let sortCol = 9, sortDir = -1;
+let charts = {};
+
+function getS(t){return (RAW[t] && RAW[t].investment && RAW[t].investment.scores) || {}}
+function getI(t){return (RAW[t] && RAW[t].investment) || {}}
+function getF(t){return (RAW[t] && RAW[t].financials) || {}}
+function getP(t){return (RAW[t] && RAW[t].porter) || {}}
+function getC(t){return getF(t).current || {}}
+
+function archClass(a){
+  const m={'MEGATREND MONOPOLIST':'arch-monopolist','MEGATREND RIDER':'arch-rider',
+    'QUALITY COMPOUNDER':'arch-compounder','HIDDEN GEM':'arch-gem',
+    'CASH COW':'arch-cashcow','TURNAROUND CANDIDATE':'arch-turnaround',
+    'VALUE TRAP':'arch-trap','COMMODITY CYCLICAL':'arch-cyclical'};
+  return m[a]||'arch-cyclical';
+}
+
+function verdictClass(v){
+  const m={'strong buy':'verdict-strong-buy','buy':'verdict-buy','hold':'verdict-hold',
+    'avoid':'verdict-avoid','strong avoid':'verdict-strong-avoid'};
+  return m[(v||'').toLowerCase()]||'verdict-hold';
+}
+
+function scoreColor(s){
+  if(s>=8)return'#16a34a';
+  if(s>=6.5)return'#2563eb';
+  if(s>=5)return'#d97706';
+  return'#dc2626';
+}
+
+function tagClass(val,type){
+  if(type==='pe'){return val<20?'tag-green':val<30?'tag-amber':'tag-red'}
+  if(type==='peg'){return val<1?'tag-green':val<2?'tag-amber':'tag-red'}
+  if(type==='ev'){return val<15?'tag-green':val<25?'tag-amber':'tag-red'}
+  if(type==='high'){return val<-15?'tag-green':val<-5?'tag-amber':'tag-red'}
+  return 'tag-amber';
+}
+
+function buildRanking(){
+  const filter = document.getElementById('rankFilter').value;
+  let tickers = TICKERS.filter(t=>{
+    const inv = getI(t);
+    if(filter!=='all' && inv.archetype!==filter) return false;
+    return true;
+  });
+  
+  tickers.sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0));
+
+  const listEl = document.getElementById('ranking-list');
+  if (tickers.length === 0) {
+      listEl.innerHTML = "<p style='padding: 2rem; color: var(--muted);'>No companies match this filter or have valid scoring data.</p>";
+      return;
+  }
+
+  listEl.innerHTML = tickers.map((t,i)=>{
+    const inv=getI(t), s=getS(t), c=getC(t), por=getP(t);
+    const arch=inv.archetype||'N/A';
+    const vs=inv.verdict_split||{};
+    const va=inv.valuation_analysis||{};
+    return `<div class="rank-card" onclick="goDetail('${t}')">
+      <div class="rank-num">#${i+1}</div>
+      <div>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span style="font-size:18px;font-weight:600">${t}</span>
+          <span style="font-size:13px;color:var(--muted)">${inv.company||''}</span>
+          <span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span>
+          <span class="archetype-badge ${archClass(arch)}">${arch}</span>
+        </div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px">
+          ${c.sector||'Unknown Sector'} · Quality: <b>${s.quality_score||'?'}</b> · Opportunity: <b>${s.opportunity_score||'?'}</b> · ${vs.timing_verdict||''}
+        </div>
+        <div style="font-size:12px;color:var(--muted)">
+          Strong buy: ${va.strong_buy_price||'?'} · Watchlist: ${va.watchlist_price||'?'} · P/E: ${c.pe_ratio?c.pe_ratio.toFixed(1):'?'}x
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:26px;font-weight:600;color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}<span style="font-size:14px;color:var(--muted)">/10</span></div>
+        <div style="font-size:11px;color:var(--muted)">Combined score</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function buildTable(){
+  const rows = TICKERS.map(t=>{
+    const s=getS(t), inv=getI(t), va=inv.valuation_analysis||{}, c=getC(t);
+    return {t,s,inv,va,c};
+  });
+  
+  rows.sort((a,b)=>{
+    const vals=[
+      [a.t,b.t],[a.inv.company||'',b.inv.company||''],
+      [a.inv.archetype||'',b.inv.archetype||''],
+      [a.s.quality_score||0,b.s.quality_score||0],
+      [a.s.structural_score||0,b.s.structural_score||0],
+      [a.s.moat_score||0,b.s.moat_score||0],
+      [a.s.financial_score||0,b.s.financial_score||0],
+      [a.s.opportunity_score||0,b.s.opportunity_score||0],
+      [a.s.valuation_score||0,b.s.valuation_score||0],
+      [a.s.combined_score||0,b.s.combined_score||0],
+      [a.inv.verdict||'',b.inv.verdict||''],
+      [a.va.strong_buy_price||'',b.va.strong_buy_price||''],
+      [a.va.watchlist_price||'',b.va.watchlist_price||''],
+    ];
+    const [av,bv]=vals[sortCol];
+    if(typeof av==='number')return(bv-av)*sortDir;
+    return String(av).localeCompare(String(bv))*sortDir;
+  });
+
+  document.getElementById('tableBody').innerHTML = rows.map(({t,s,inv,va,c})=>`
+    <tr onclick="goDetail('${t}')" style="cursor:pointer">
+      <td><b>${t}</b></td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${inv.company||''}</td>
+      <td><span class="archetype-badge ${archClass(inv.archetype||'')}">${(inv.archetype||'').replace(' CANDIDATE','')}</span></td>
+      <td style="font-weight:600;color:${scoreColor(s.quality_score||0)}">${s.quality_score||'?'}</td>
+      <td>${s.structural_score||'?'}</td>
+      <td>${s.moat_score||'?'}</td>
+      <td>${s.financial_score||'?'}</td>
+      <td style="font-weight:600;color:${scoreColor(s.opportunity_score||0)}">${s.opportunity_score||'?'}</td>
+      <td>${s.valuation_score||'?'}</td>
+      <td style="font-weight:600;color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}</td>
+      <td><span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span></td>
+      <td style="color:var(--green);font-weight:500">${va.strong_buy_price||'?'}</td>
+      <td style="color:var(--amber)">${va.watchlist_price||'?'}</td>
+    </tr>`).join('');
+
+  document.querySelectorAll('#scoreTable th').forEach((th,i)=>{
+    th.classList.remove('asc','desc','sorted');
+    if(i===sortCol){th.classList.add('sorted',sortDir===1?'asc':'desc')}
+  });
+}
+
+function sortTable(col){
+  if(sortCol===col)sortDir*=-1;
+  else{sortCol=col;sortDir=-1}
+  buildTable();
+}
+
+function goDetail(t){
+  showPage('detail',document.querySelectorAll('.nav-tab')[2]);
+  renderDetail(t);
+}
+
+function buildTickerTabs(){
+  document.getElementById('ticker-tabs').innerHTML = TICKERS.map(t=>
+    `<button style="padding:6px 14px;border-radius:99px;border:1px solid var(--border);background:var(--surface);font-size:13px;cursor:pointer" onclick="renderDetail('${t}')" id="tab-${t}">${t}</button>`
+  ).join('');
+}
+
+function renderDetail(ticker){
+  TICKERS.forEach(t=>{
+    const b=document.getElementById('tab-'+t);
+    if(!b)return;
+    b.style.background=t===ticker?'#2563eb':'var(--surface)';
+    b.style.color=t===ticker?'#fff':'var(--text)';
+    b.style.borderColor=t===ticker?'#2563eb':'var(--border)';
+  });
+
+  const inv=getI(ticker), s=getS(ticker), fin=getF(ticker), por=getP(ticker);
+  const c=fin.current||{}, hist=fin.history||[];
+  const sa=inv.structural_analysis||{}, ma=inv.moat_analysis||{};
+  const fa=inv.financial_analysis||{}, va=inv.valuation_analysis||{};
+  const iv=inv.investment_verdict||{}, vs=inv.verdict_split||{};
+  const rm=inv.risk_matrix||{}, seca=inv.sector_analysis||{};
+  const years=hist.map(h=>h.year).reverse();
+  const peg=c.pe_ratio&&fin.revenue_cagr&&fin.revenue_cagr>0?(c.pe_ratio/fin.revenue_cagr).toFixed(2):'n/a';
+
+  document.getElementById('detail-content').innerHTML = `
+    <div style="display:flex;align-items:baseline;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap">
+      <h1 style="font-size:24px;font-weight:600">${ticker}</h1>
+      <span style="font-size:16px;color:var(--muted)">${inv.company||''}</span>
+      <span class="badge ${verdictClass(inv.verdict)}">${(inv.verdict||'').toUpperCase()}</span>
+      <span class="archetype-badge ${archClass(inv.archetype||'')}">${inv.archetype||''}</span>
+    </div>
+
+    <div class="metric-grid" style="margin-bottom:1.5rem">
+      <div class="metric"><div class="label">Quality Score</div><div class="value" style="color:${scoreColor(s.quality_score||0)}">${s.quality_score||'?'}/10</div><div class="sub">${vs.quality_verdict||''}</div></div>
+      <div class="metric"><div class="label">Opportunity Score</div><div class="value" style="color:${scoreColor(s.opportunity_score||0)}">${s.opportunity_score||'?'}/10</div><div class="sub">${vs.timing_verdict||''}</div></div>
+      <div class="metric"><div class="label">Combined Score</div><div class="value" style="color:${scoreColor(s.combined_score||0)}">${s.combined_score||'?'}/10</div><div class="sub">${inv.conviction_level||''}</div></div>
+      <div class="metric"><div class="label">Price</div><div class="value">$${c.price||'?'}</div><div class="sub">${c.pct_from_52w_high||'?'}% vs 52w high</div></div>
+    </div>
+
+    <div class="card" style="margin-bottom:1.5rem">
+      <div style="font-size:13px;font-weight:600;color:var(--muted);margin-bottom:.75rem">INVESTMENT THESIS</div>
+      <div style="font-size:15px;line-height:1.7;margin-bottom:1rem">${iv.key_thesis||'Analysis pending or missing.'}</div>
+    </div>
+  `;
+}
+
+function buildCompare(){
+  if(TICKERS.length === 0) return;
+  const colors={'MEGATREND MONOPOLIST':'#166534','MEGATREND RIDER':'#1d4ed8','QUALITY COMPOUNDER':'#6d28d9','HIDDEN GEM':'#a16207','CASH COW':'#0369a1','TURNAROUND CANDIDATE':'#c2410c','VALUE TRAP':'#b91c1c','COMMODITY CYCLICAL':'#475569'};
+
+  if(charts.scatter){charts.scatter.destroy()}
+  charts.scatter=new Chart(document.getElementById('scatterChart'),{
+    type:'scatter',
+    data:{datasets:TICKERS.map(t=>({
+      label:t,
+      data:[{x:getS(t).quality_score||0, y:getS(t).opportunity_score||0}],
+      backgroundColor:colors[getI(t).archetype||'']||'#888',
+      pointRadius:8
+    }))},
+    options:{responsive:true,maintainAspectRatio:false}
+  });
+
+  if(charts.compareBar){charts.compareBar.destroy()}
+  charts.compareBar=new Chart(document.getElementById('compareBar'),{
+    type:'bar',
+    data:{labels:TICKERS,datasets:[
+      {label:'Quality',data:TICKERS.map(t=>getS(t).quality_score||0),backgroundColor:'#7c3aed'},
+      {label:'Opportunity',data:TICKERS.map(t=>getS(t).opportunity_score||0),backgroundColor:'#2563eb'}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false}
+  });
+}
+
+function showPage(name,btn){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('page-'+name).classList.add('active');
+  if(btn)btn.classList.add('active');
+  if(name==='compare')buildCompare();
+  if(name==='table')buildTable();
+}
+
+async function init() {
+  try {
+    console.log("Iniziando il fetch dei dati dal server...");
+    const res = await fetch('/api/data');
+    RAW = await res.json();
+    console.log("Dati grezzi ricevuti:", Object.keys(RAW).length, "aziende.");
+    
+    let allTickers = Object.keys(RAW);
+    if(allTickers.length === 0) {
+        document.getElementById('ranking-list').innerHTML = "<p style='padding: 2rem;'>Nessun dato trovato. Esegui l'analisi LLM.</p>";
+        return;
+    }
+    
+    // Filtriamo SOLO le aziende che hanno il nuovo formato con gli "scores"
+    TICKERS = allTickers.filter(t => {
+        const hasScores = RAW[t] && RAW[t].investment && RAW[t].investment.scores && RAW[t].investment.scores.combined_score !== undefined;
+        if (!hasScores) {
+            console.warn(`⚠️ Skippato ${t}: Formato vecchio, mancano i nuovi scores.`);
+        }
+        return hasScores;
+    });
+
+    if(TICKERS.length === 0) {
+        document.getElementById('ranking-list').innerHTML = "<p style='padding: 2rem; color: var(--red);'>Trovati file, ma nessuno usa il nuovo Prompt! Esegui l'analyzer aggiornato su almeno un'azienda.</p>";
+        return;
+    }
+
+    console.log(`✅ Tickers validi pronti per il render:`, TICKERS);
+    
+    buildRanking();
+    buildTickerTabs();
+    
+    // Mostra la prima azienda in lista nella schermata "Detail"
+    let firstTicker = TICKERS.sort((a,b)=>(getS(b).combined_score||0)-(getS(a).combined_score||0))[0];
+    renderDetail(firstTicker);
+    
+  } catch(e) {
+    console.error("Errore fatale nel caricamento dati:", e);
+    document.getElementById('ranking-list').innerHTML = `<p style='padding: 2rem; color: red;'>Errore: ${e.message}</p>`;
+  }
+}
+
+// Avvia tutto!
+init();
+</script>
+</body>
+</html>

@@ -1,31 +1,181 @@
 {
   "ticker": "AES",
   "company": "AES Corporation",
-  "investment_score": 4,
+  "analysis_date": "2026-05-15",
+  "sector": "Utilities",
+  "industry": "Utilities - Diversified",
+  "scores": {
+    "structural_score": 5.2,
+    "moat_score": 4.1,
+    "financial_score": 3.8,
+    "valuation_score": 6.2,
+    "quality_score": 4.6,
+    "opportunity_score": 5.3,
+    "combined_score": 4.9
+  },
+  "archetype": "COMMODITY CYCLICAL",
+  "archetype_reasoning": "AES exhibits weak structural positioning with a deteriorating moat (3.2/5 per 10-K), no durable competitive advantage, and exposure to commodity-like power markets with merit-order pricing. Financial quality is impaired: negative FCF for 3 consecutive years (-$14.6B to -$37.8B), ROIC collapsed from 5.8% to 2.9%, and net margins are volatile and weak (ranging from -4.3% to 13.7%). The company is a classic commodity cyclical utility with regulatory and commodity price exposure, not a structural compounder.",
   "verdict": "avoid",
-  "moat_confirmed_by_numbers": false,
-  "valuation_assessment": "cheap",
-  "margin_trend": "strongly deteriorating",
-  "roic_assessment": "weak (<10%)",
-  "key_thesis": "AES trades at a significant discount (P/E 7.5, EV/EBITDA 12.9) but the valuation is a value trap, not a bargain. The company exhibits deteriorating fundamentals: negative revenue growth (-1.1% CAGR), collapsing ROIC (2.9% in 2025 vs. 5.8% in 2024), persistent negative free cash flow, and rising leverage (D/E 6.59). The 3.2/5 moat score is not supported by financial performance, and regulatory/commodity risks in emerging markets create structural headwinds.",
-  "moat_vs_numbers": "The Porter analysis correctly identifies a weak moat (3.2/5), but the financial data reveals the moat is even weaker than scored. Operating margins have compressed from 18.6% (2022) to 16.1% (2025), ROIC has deteriorated to 2.9% (well below the 15% Buffett threshold), and the company cannot generate positive free cash flow despite $12B+ in revenue. This suggests limited pricing power, high competitive pressure, and structural profitability challenges that contradict any meaningful competitive advantage.",
-  "upside_catalysts": [
-    "Successful rate case wins in regulated U.S. markets that improve allowed returns and tariff structures",
-    "Long-term power purchase agreements (PPAs) with data centers and large corporates at higher margins, reducing commodity exposure",
-    "Debt reduction and deleveraging improving financial flexibility and reducing refinancing risk in higher-rate environment"
-  ],
-  "downside_risks": [
-    "Regulatory adverse actions in emerging markets (El Salvador, Chile, Argentina) reducing tariff recovery or stranding assets",
-    "Natural gas price spikes compressing margins on 46% of thermal generation capacity; hedging may not fully protect",
-    "Customer concentration risk: loss of major data center or mining customer contracts would materially impact revenue and cash flow",
-    "Refinancing risk: D/E of 6.59 is elevated; rising rates could increase debt service costs and pressure FCF further"
-  ],
-  "valuation_notes": "AES appears cheap on headline metrics (P/E 7.5, EV/EBITDA 12.9), but this reflects justified market skepticism about earnings quality and sustainability. The dividend yield of 487% is a data error or reflects distressed pricing; the stock's 17.9% decline from 52-week high signals deteriorating investor confidence. Negative FCF and weak ROIC suggest the market is correctly pricing in structural challenges, not undervaluing a hidden gem.",
-  "comparable_companies": [
-    "NEE",
-    "DUK",
-    "SO"
-  ],
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "fair entry"
+  },
   "time_horizon": "long-term (3yr+)",
-  "analysis_date": "2026-05-15"
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 5.2,
+    "megatrend_exposure_score": 6.1,£
+    "megatrend_type": "secondary beneficiary",
+    "megatrends_exposed_to": [
+      "Energy transition (renewable generation)",
+      "AI/data center infrastructure (power demand)",
+      "Electrification (long-term demand)"
+    ],
+    "megatrend_analysis": "AES is a secondary beneficiary of the energy transition, with 12 GW of contracted renewable capacity and growing data center customer relationships (Microsoft, Google, Meta). However, the company is not a primary value-chain participant—it is a commodity power provider competing on price and execution, not technology or innovation. As renewable energy scales, margins compress due to commodity pricing dynamics and increased competition from well-capitalized entrants (NextEra, Duke Energy, European utilities). The data center tailwind is real but creates buyer concentration risk: large customers (mining, AI) have significant negotiating leverage and can demand custom solutions at thin margins. AES's position becomes less valuable as the megatrend scales because barriers to entry in renewable generation are falling (modular solar/wind, lower capex per MW) and power markets remain merit-order based.",
+    "necessity_score": 8.1,
+    "necessity_analysis": "Electricity is essential and non-discretionary with inelastic demand in most markets. AES benefits from recession-resistant revenue streams in regulated utility operations and long-term corporate contracts. However, necessity does not translate to pricing power or margin expansion—utilities are rate-regulated and power markets are competitive. The company's exposure to short-term power sales (merit-order pricing) creates cyclicality despite underlying demand resilience.",
+    "moat_trajectory_score": 3.2,
+    "moat_trajectory_analysis": "AES's moat is narrowing, not widening. The 10-K explicitly identifies intense competition in renewable energy markets and significant buyer power from large corporate customers. The company's 12 GW contracted backlog is a near-term advantage but not a durable moat—competitors (NextEra, Duke, Brookfield Renewable) have similar or larger backlogs and superior balance sheets. Switching costs are low in power markets; customers can renegotiate or source from competitors. Regulatory risk in multiple jurisdictions (El Salvador, Chile, Argentina) creates uncertainty around allowed returns and tariff structures, eroding the stability of the moat. The company's track record of on-time/on-budget delivery is table-stakes, not a competitive advantage.",
+    "tam_evolution_score": 6.8,
+    "tam_evolution_analysis": "Global electricity demand is growing 2-3% annually, driven by electrification and AI data centers. However, AES's addressable market is fragmented across 14+ countries with different regulatory regimes, limiting TAM expansion. Renewable energy TAM is expanding but pricing power is declining as capacity additions accelerate and commodity solar/wind costs fall. Data center power demand is a bright spot (5-10% annual growth) but creates concentration risk and buyer power dynamics that compress margins.",
+    "technology_resilience_score": 5.8,
+    "technology_resilience_analysis": "AES faces moderate technology disruption risk. Distributed solar, battery storage, and demand-side management reduce utility-scale generation demand. The company's thermal generation (46% of capacity) is at risk from coal phase-outs and natural gas volatility. However, AES is investing in renewables and storage, mitigating some disruption risk. The bigger threat is not technology obsolescence but commoditization: as renewable costs fall and battery storage scales, power generation becomes a low-margin commodity business.",
+    "structural_summary": "AES will likely be weaker in 10 years, not stronger. The company operates in a structurally declining industry (utility-scale power generation) with falling margins, rising competition, and regulatory uncertainty. The energy transition is a tailwind for renewable capacity but a headwind for pricing power and returns on capital. The single most important structural fact is that AES is a commodity power provider in competitive markets with no durable moat, facing margin compression as renewable energy scales and buyer power increases. The company's exposure to 14+ countries with different regulatory regimes adds complexity without creating competitive advantage. Without a transformative acquisition or strategic pivot, AES will remain a low-return, cyclical utility."
+  },
+  "moat_analysis": {
+    "score": 4.1,
+    "rivalry": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "AES competes in highly fragmented power markets with intense rivalry. The 10-K explicitly states that short-term power sales are merit-order based, meaning pricing is set by marginal cost, not competitive positioning. In renewable energy, AES faces competition from NextEra Energy (largest U.S. renewable operator), Duke Energy, Brookfield Renewable, and European utilities with superior scale and balance sheets. The company's 12 GW contracted backlog is not a moat—competitors have similar or larger backlogs. Rivalry is intensifying as renewable capacity additions accelerate globally and power prices compress. AES's market share in key regions (U.S., Latin America) is modest and declining relative to larger competitors.",
+      "key_competitors": [
+        "NextEra Energy (NEE)",
+        "Duke Energy (DUK)",
+        "Brookfield Renewable (BEP)",
+        "Enel (ENEL)",
+        "EDF (EDF)"
+      ]
+    },
+    "new_entrants": {
+      "score": 3,
+      "trend": "weakening",
+      "analysis": "Barriers to entry in renewable energy are moderate and falling. Capital requirements are high but declining as solar/wind costs fall and financing becomes more accessible. Regulatory barriers exist in some markets (utility monopolies) but are eroding as deregulation spreads. New entrants include infrastructure funds (Brookfield, KKR, Blackstone), tech companies (Google, Microsoft building captive generation), and emerging market utilities. AES's regulatory relationships and operational expertise provide some protection, but these are not durable advantages. The company's presence in 14+ countries creates complexity that deters some entrants but also creates execution risk and regulatory exposure.",
+      "biggest_threat": "Brookfield Renewable and other infrastructure funds with superior capital access and lower cost of capital"
+    },
+    "substitutes": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Electricity has limited direct substitutes but faces growing indirect competition from distributed generation, battery storage, and demand-side management. Rooftop solar and battery systems reduce utility-scale generation demand, particularly in developed markets. Energy efficiency improvements reduce overall electricity demand. Hydrogen and other alternative fuels could displace some power generation in the long term. These substitutes are not direct competitors but reduce AES's addressable market and pricing power. The 10-K acknowledges this risk but does not quantify it.",
+      "key_substitute": "Distributed solar + battery storage reducing utility-scale generation demand"
+    },
+    "buyer_power": {
+      "score": 2,
+      "trend": "strengthening",
+      "analysis": "Large corporate customers (data centers, mining companies) have significant negotiating power. The 10-K explicitly states that AES must offer customized solutions to retain major customers, indicating weak pricing power. Data center customers (Microsoft, Google, Meta) are increasingly building captive generation or negotiating long-term contracts at thin margins. Mining companies in Latin America have similar leverage. Retail customers in regulated markets have limited power due to rate regulation, but this creates a two-tier market: regulated utilities with stable returns and competitive power sales with thin margins. AES's revenue concentration risk is high; loss of a major customer could materially impact earnings."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Fuel suppliers (natural gas, coal, oil) have moderate power. AES mitigates this through long-term supply agreements, hedging, and fuel pass-through contracts. However, 46% of generation capacity relies on thermal fuels, creating exposure to commodity price volatility. Natural gas prices are volatile and geopolitically sensitive (Russia-Ukraine impact on European prices). Coal phase-outs reduce long-term demand but create near-term stranded asset risk. Renewable energy reduces fuel supplier power but increases equipment supplier power (solar panels, wind turbines, batteries). Overall supplier power is stable but shifting from fuel to equipment suppliers."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "AES's moat is weak and narrowing. The company lacks pricing power (merit-order power markets), faces intense competition from larger, better-capitalized rivals, and operates in markets with falling barriers to entry. The 10-K's own assessment (3.2/5 moat score) is accurate. Financial metrics confirm this: ROIC has collapsed from 5.8% (2024) to 2.9% (2025), indicating poor capital allocation and weak competitive positioning. Gross margins are stable but low (18.1%), and operating margins are declining (16.1% in 2025 vs. 18.6% in 2022). The company's track record of on-time/on-budget delivery is table-stakes, not a moat. Without a transformative strategic shift, AES's moat will continue to narrow as renewable energy commoditizes and buyer power increases."
+  },
+  "financial_analysis": {
+    "score": 3.8,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "low",
+    "balance_sheet_health": "stretched",
+    "recession_resilience": "medium",
+    "deep_analysis": "AES's financial quality is poor and deteriorating. Revenue has declined 1.1% CAGR over 4 years ($12.6B to $12.2B), indicating stagnation or contraction. Gross margins have compressed from 20.2% (2022) to 18.1% (2025), a 210 bps decline, reflecting pricing pressure and commodity cost volatility. Operating margins have fallen from 18.6% to 16.1%, a 250 bps decline. Most concerning: ROIC has collapsed from 5.8% (2024) to 2.9% (2025), well below the 10% threshold for acceptable capital returns. This indicates the company is destroying shareholder value on incremental capital deployed. Free cash flow is deeply negative: -$14.6B (2022), -$37.0B (2023), -$37.8B (2024), -$13.3B (2025). The FCF gap vs. net margin is massive (net margin 7.4% but FCF -13.3%), indicating heavy capex requirements and working capital needs. Debt/equity is elevated at 6.59x (2025), up from 6.98x (2024), suggesting the company is financing negative FCF with debt. This is unsustainable. Net income is volatile and weak: -$4.3B (2022), $2.0B (2023), $13.7B (2024), $7.4B (2025). The 2024 spike appears to be a one-time gain or accounting adjustment, not sustainable earnings. Earnings quality is low due to volatility, negative FCF, and reliance on non-cash items."
+  },
+  "valuation_analysis": {
+    "score": 6.2,
+    "overall_assessment": "cheap",
+    "peg_signal": "fair",
+    "ev_ebitda_signal": "fair",
+    "implied_10yr_growth_rate": "2.1%",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "At $14.47 stock price and $10.3B market cap, the market is pricing in minimal growth. Using a 10% discount rate and assuming terminal growth of 2.5%, the implied 10-year CAGR is approximately 2.1%, which is realistic given the company's -1.1% revenue CAGR and weak competitive position. The market is not pricing in any significant upside, which is appropriate given structural headwinds. The valuation is not cheap relative to quality—it reflects the market's accurate assessment of AES as a low-growth, low-return utility.",
+    "estimated_intrinsic_value_conservative": "$12.50",
+    "estimated_intrinsic_value_optimistic": "$16.80",
+    "current_vs_intrinsic": "-13.6% discount (conservative) to +16.2% premium (optimistic)",
+    "strong_buy_price": "$11.00",
+    "watchlist_price": "$13.00",
+    "valuation_deep_analysis": "AES trades at 7.5x P/E and 6.1x forward P/E, which appears cheap on the surface but is appropriate given weak fundamentals. EV/EBITDA of 12.86x is in line with utility sector norms (10-14x) but high relative to the company's growth prospects. PEG is not calculable due to minimal growth, but the implied PEG (P/E / growth rate) would be extremely high (7.5x / 2.1% = 357), indicating the stock is not cheap on a growth-adjusted basis. Reverse DCF analysis: assuming 10% WACC, 2.5% terminal growth, and current market cap of $10.3B, the implied FCF yield is negative, confirming the market is pricing in continued FCF destruction. The company's dividend yield of 4.87% is attractive but unsustainable given negative FCF; the dividend is being funded by debt issuance, not earnings. Margin of safety: at $14.47, there is minimal margin of safety. Conservative intrinsic value ($12.50) implies 13.6% downside; optimistic value ($16.80) implies 16.2% upside. The risk/reward is asymmetric to the downside given deteriorating fundamentals and negative FCF. Strong buy price is $11.00 (24% discount to current), which would provide adequate margin of safety. Watchlist price is $13.00 (10% discount), where the risk/reward becomes more balanced."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "AES faces intense competition from larger, better-capitalized utilities (NextEra, Duke, Brookfield) with superior scale and balance sheets. Renewable energy commoditization is accelerating, compressing margins. The company's 12 GW contracted backlog is not defensible; competitors have similar or larger backlogs. Loss of a major customer (data center, mining) could materially impact earnings.",
+    "regulatory": "High",
+    "regulatory_explanation": "AES operates in 14+ countries with different regulatory regimes (U.S., El Salvador, Chile, Argentina, etc.). Regulatory changes in rate structures, allowed returns, or tariffs could materially impact profitability. The 10-K explicitly identifies regulatory risk as a key concern. Political instability in Latin America (El Salvador, Argentina) creates additional uncertainty.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "AES is exposed to commodity price volatility (natural gas, coal, oil) and interest rate risk (high debt load). Recession would reduce power demand and compress margins. The company's negative FCF makes it vulnerable to credit market disruptions. Rising interest rates increase financing costs for capex-heavy renewable projects.",
+    "balance_sheet": "High",
+    "balance_sheet_explanation": "Debt/equity of 6.59x is elevated and rising. Negative FCF of -$13.3B (2025) is being funded by debt issuance, creating an unsustainable trajectory. The dividend (4.87% yield) is not covered by earnings or FCF, indicating it is being funded by debt. Credit rating downgrades are a risk if FCF does not improve.",
+    "management": "Medium",
+    "management_explanation": "Management has not demonstrated ability to improve returns on capital or reverse negative FCF trends. The company's strategic pivot to renewables and data center customers is appropriate but execution has been poor (negative FCF, declining ROIC). No major management changes or strategic initiatives announced that would change the trajectory.",
+    "geopolitical": "High",
+    "geopolitical_explanation": "AES has significant exposure to Latin America (El Salvador, Chile, Argentina), which faces political instability and currency risk. The Russia-Ukraine war has impacted natural gas prices and European energy markets. China's dominance in solar/wind manufacturing creates supply chain risk.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Distributed solar, battery storage, and demand-side management reduce utility-scale generation demand. However, AES is investing in renewables and storage, mitigating some risk. The bigger threat is commoditization, not obsolescence. Hydrogen and other alternative fuels could displace some power generation in the long term but are not imminent threats.",
+    "esg": "Medium",
+    "esg_explanation": "AES has exposure to coal generation (part of 46% thermal capacity), which faces ESG headwinds and coal phase-outs. The company is transitioning to renewables, which is ESG-positive. However, ESG concerns could accelerate coal retirements and create stranded asset risk. Water usage in thermal generation is an ESG concern in water-stressed regions.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Negative FCF of -$13.3B (2025) funded by debt issuance; unsustainable trajectory could force dividend cut or equity raise",
+      "Competitive margin compression from renewable energy commoditization and buyer power from large customers (data centers, mining); ROIC collapsed to 2.9%",
+      "Regulatory risk in 14+ countries; political instability in Latin America (El Salvador, Argentina) could impact tariffs and allowed returns"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable",
+    "company_competitive_position": "mid-tier",
+    "structural_tailwinds": [
+      "Energy transition: global renewable capacity additions growing 10-15% annually, creating demand for AES's renewable generation",
+      "Data center power demand: AI/cloud computing driving 5-10% annual growth in power demand from hyperscalers",
+      "Electrification: long-term structural growth in electricity demand from transportation, heating, and industrial processes"
+    ],
+    "structural_headwinds": [
+      "Renewable energy commoditization: solar/wind costs falling 5-10% annually, compressing power prices and margins",
+      "Distributed generation: rooftop solar and battery storage reducing utility-scale generation demand by 2-5% annually in developed markets",
+      "Regulatory pressure: coal phase-outs and carbon pricing reducing thermal generation returns; rate regulation limiting pricing power"
+    ],
+    "megatrend_impact": "The energy transition is a mixed blessing for AES. On one hand, renewable capacity additions are accelerating, creating demand for AES's 12 GW contracted backlog and data center customer relationships. On the other hand, renewable energy is commoditizing rapidly as costs fall and competition intensifies. AES is a secondary beneficiary of the energy transition, not a primary value-chain participant. The company's exposure to data center customers (Microsoft, Google, Meta) is a bright spot but creates buyer concentration risk and margin pressure. Overall, the energy transition is a tailwind for capacity additions but a headwind for pricing power and returns on capital.",
+    "recession_history": "During the 2008 financial crisis, utilities were relatively resilient due to essential demand and regulated returns. AES likely performed better than the broader market but faced margin pressure from lower power prices and reduced industrial demand. During the 2020 COVID recession, utilities were again resilient, but AES faced challenges from reduced industrial demand and power price compression. The company's exposure to mining and industrial customers creates cyclicality despite underlying demand resilience. In a severe recession, AES could face 10-20% earnings pressure from lower power demand and prices.",
+    "disruption_threats": "The utility sector faces disruption from distributed solar/battery storage, demand-side management, and alternative fuels (hydrogen). For AES specifically, the biggest threat is not technology disruption but commoditization: as renewable costs fall and power markets remain merit-order based, margins compress and returns on capital decline. The company's exposure to 14+ countries with different regulatory regimes creates execution risk and limits scalability. Larger, better-capitalized competitors (NextEra, Duke, Brookfield) are better positioned to navigate disruption and maintain returns on capital.",
+    "better_sector_alternatives": [
+      "NextEra Energy (NEE): dominant U.S. renewable operator with superior scale, balance sheet, and growth prospects",
+      "Duke Energy (DUK): diversified utility with strong regulated returns and lower leverage than AES",
+      "Brookfield Renewable (BEP): global renewable platform with superior capital access and lower cost of capital"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "AES is a structurally weak utility with deteriorating fundamentals, negative free cash flow, and a narrowing competitive moat. The company scores 4.6/10 on quality (below average) and 5.3/10 on opportunity (fair entry), resulting in a combined score of 4.9/10 (below S&P 500 average). While the stock trades at a 13.6% discount to conservative intrinsic value ($12.50), this discount is justified by poor capital returns (ROIC 2.9%), negative FCF (-$13.3B), and rising leverage (D/E 6.59x). The energy transition is a tailwind for renewable capacity but a headwind for pricing power and returns on capital. AES is a commodity power provider in competitive markets with no durable moat, facing margin compression as renewable energy scales. The dividend (4.87% yield) is unsustainable, funded by debt issuance rather than earnings. Better alternatives exist in the utility sector (NextEra, Duke, Brookfield) with superior competitive positioning and financial quality.",
+    "upside_catalysts": [
+      "Successful execution of 12 GW contracted renewable backlog and conversion to long-term contracts at higher margins (2-3 year timeline; could add $0.50-1.00 to EPS)",
+      "Strategic acquisition or merger with larger utility to improve scale and reduce leverage (1-2 year timeline; could add 15-20% to stock price)",
+      "Data center customer expansion and long-term contract wins at premium pricing (2-3 year timeline; could add $0.30-0.50 to EPS)"
+    ],
+    "downside_risks": [
+      "Dividend cut due to unsustainable FCF; negative FCF of -$13.3B cannot support 4.87% dividend indefinitely (trigger: FCF remains negative for 2+ consecutive years; downside 20-30%)",
+      "Credit rating downgrade due to rising leverage and negative FCF; increased financing costs could compress margins further (trigger: D/E exceeds 7.0x; downside 15-25%)",
+      "Loss of major customer (data center, mining) or margin compression from competitive bidding; ROIC could fall below 2% (trigger: customer loss or power price decline >10%; downside 25-35%)"
+    ],
+    "strong_buy_at": "$11.00",
+    "watchlist_at": "$13.00",
+    "exit_trigger": "Dividend cut, credit rating downgrade, or loss of major customer; stock price above $16.50 (premium to optimistic intrinsic value)",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "NextEra Energy (NEE): larger, better-capitalized renewable operator with superior growth and returns on capital",
+    "Duke Energy (DUK): diversified utility with strong regulated returns and lower leverage",
+    "Brookfield Renewable (BEP): global renewable platform with superior capital access and lower cost of capital",
+    "Enel (ENEL): European utility with similar exposure to renewable transition but stronger balance sheet",
+    "Dominion Energy (D): diversified utility with regulated returns and lower leverage than AES"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 4-year financial history (2022-2025), 10-K risk disclosures, current valuation metrics (P/E 7.5x, EV/EBITDA 12.86x, dividend 4.87%), and sector comparables. Key limitations: (1) FCF data appears to include significant capex for renewable buildout; normalized FCF may be less negative but still concerning; (2) 2024 net income spike ($13.7B) may reflect one-time gains or accounting adjustments; (3) Regulatory environment in 14+ countries creates complexity not fully captured in aggregate metrics; (4) Data center customer concentration not quantified in available data; (5) Analyst target of $15.11 is only 4.4% above current price, suggesting limited upside per consensus."
 }

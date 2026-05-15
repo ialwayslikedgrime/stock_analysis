@@ -1,30 +1,179 @@
 {
   "ticker": "AFL",
   "company": "Aflac",
-  "investment_score": 5,
+  "analysis_date": "2026-05-15",
+  "sector": "Financial Services",
+  "industry": "Insurance - Life",
+  "scores": {
+    "structural_score": 4,
+    "moat_score": 4,
+    "financial_score": 6,
+    "valuation_score": 5,
+    "quality_score": 4.4,
+    "opportunity_score": 4.8,
+    "combined_score": 4.6
+  },
+  "archetype": "CASH COW",
+  "archetype_reasoning": "Aflac exhibits stable but declining fundamentals with a moderate moat anchored in brand recognition and distribution networks. The company generates reliable cash flows (14.7% FCF margin in 2025) and maintains a fortress balance sheet (D/E 0.28), but faces structural headwinds: Japan represents 60%+ of earnings in a mature, shrinking market; supplemental insurance is discretionary and economically sensitive; and revenue has contracted 3.2% CAGR over four years. This is a mature cash generator with limited growth, not a compounder.",
   "verdict": "hold",
-  "moat_confirmed_by_numbers": false,
-  "valuation_assessment": "fair",
-  "margin_trend": "deteriorating",
-  "roic_assessment": "adequate (10-15%)",
-  "key_thesis": "Aflac exhibits a modest 3.2/5 moat score that is NOT confirmed by deteriorating financial metrics: revenue declining at -3.2% CAGR, net margins compressing from 28.5% (2024) to 21.0% (2025), and ROIC falling below the 15% Buffett threshold to 9.6%. While the valuation appears reasonable at 13.3x P/E and 11.1x EV/EBITDA, the company faces structural headwinds from Japan concentration risk, currency exposure, and cyclical demand for discretionary supplemental insurance. The 210% dividend yield appears to be a data error; if corrected, the dividend remains attractive but cannot offset deteriorating operational performance.",
-  "moat_vs_numbers": "The Porter analysis claims a 3.2/5 moat based on regulatory barriers and brand differentiation, but the financial data contradicts this. A true moat should produce stable or expanding margins and consistent ROIC above 15%; instead, Aflac shows margin compression, declining ROIC, and negative revenue growth. The high supplier bargaining power (4/5) is a red flag suggesting limited pricing power and operational leverage, inconsistent with a defensible competitive position.",
-  "upside_catalysts": [
-    "Japan economic recovery and yen appreciation reducing currency headwinds and improving reported earnings",
-    "Successful digital transformation and cost restructuring initiatives driving margin expansion back toward 25%+ levels",
-    "Strategic M&A or portfolio optimization to reduce geographic concentration and improve growth trajectory"
-  ],
-  "downside_risks": [
-    "Continued revenue decline and margin compression if Japan market deteriorates or economic recession reduces supplemental insurance demand",
-    "Significant yen weakness or Japanese interest rate volatility materially impacting investment returns and hedging costs",
-    "Rising policyholder lapses and reduced new sales if unemployment rises or consumer discretionary spending contracts"
-  ],
-  "valuation_notes": "At 13.3x P/E with -3.2% revenue CAGR, Aflac trades at a discount to historical averages, suggesting fair value. However, EV/EBITDA of 11.1x is not compelling given deteriorating fundamentals; the stock appears fairly priced for a declining business rather than cheap. Forward P/E of 15.3 implies modest earnings growth expectations that may not materialize.",
-  "comparable_companies": [
-    "UNM",
-    "HLF",
-    "LPL"
-  ],
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "fair entry"
+  },
   "time_horizon": "long-term (3yr+)",
-  "analysis_date": "2026-05-15"
+  "conviction_level": "medium",
+  "structural_analysis": {
+    "score": 4,
+    "megatrend_exposure_score": 2,
+    "megatrend_type": "peripheral",
+    "megatrends_exposed_to": [
+      "Healthcare innovation (supplemental insurance as gap-filler)",
+      "Demographic aging (potential tailwind in developed markets)"
+    ],
+    "megatrend_analysis": "Aflac operates in supplemental insurance, which is tangentially related to healthcare innovation but not a primary beneficiary. The company is peripheral to major megatrends: it does not participate in AI, energy transition, digital infrastructure, or financial evolution in meaningful ways. Demographic aging in developed markets (Japan, US) could theoretically increase demand for supplemental coverage, but this is offset by declining birth rates, shrinking workforces, and shift toward primary insurance consolidation. The company's value chain position is defensive, not transformative. As healthcare systems evolve toward integrated primary-supplemental models, Aflac's standalone supplemental positioning becomes less valuable, not more.",
+    "necessity_score": 4,
+    "necessity_analysis": "Supplemental insurance is discretionary, not essential. During recessions, consumers cut discretionary coverage first: lapses spike and new sales collapse. The 2008 financial crisis and 2020 COVID downturn both demonstrated this elasticity. Employer-provided benefits (primary insurance, HSAs, wellness programs) are increasingly comprehensive, reducing the perceived need for standalone supplemental policies. Economic downturns directly reduce both demand and premium-paying ability.",
+    "moat_trajectory_score": 3,
+    "moat_trajectory_analysis": "Aflac's moat is narrowing, not widening. The iconic Aflac Duck brand provides recognition but limited pricing power in a commoditized market where competitors (Unum, Cigna, Assurant) offer similar products. Distribution through employers is increasingly fragmented as companies consolidate benefits platforms and shift to integrated solutions. Regulatory barriers to entry remain high but are not rising; they are static. Switching costs are low: employers can shift supplemental carriers at renewal. The company's Japan dominance (60%+ of earnings) faces structural decline: Japan's working-age population has contracted 8% since 2010 and will shrink another 15% by 2040. This is not a moat that compounds; it erodes.",
+    "tam_evolution_score": 2,
+    "tam_evolution_analysis": "The TAM for standalone supplemental insurance is contracting in developed markets. Japan's workforce is shrinking 1%+ annually; US supplemental insurance penetration is flat to declining as primary insurance becomes more comprehensive. New adjacencies (voluntary benefits, accident insurance, pet insurance) offer modest growth but do not offset core decline. Pricing power is limited: Aflac's net margin fell from 28.5% (2024) to 21.0% (2025), a 340 bps deterioration, signaling competitive pressure and inability to pass through costs.",
+    "technology_resilience_score": 5,
+    "technology_resilience_analysis": "Aflac faces moderate technology disruption risk. Digital distribution and direct-to-consumer models threaten traditional worksite enrollment. Insurtech competitors (Oscar, Catch, Stride Health) are capturing younger demographics with mobile-first supplemental products. However, Aflac's core business (employer-sponsored worksite distribution) is less vulnerable to digital disruption than individual insurance. The company's R&D and digital transformation efforts are adequate but not leading-edge. Legacy systems and Japan-centric operations slow innovation velocity.",
+    "structural_summary": "Aflac will likely be weaker in 10 years, not stronger. The single most important structural fact is Japan's demographic collapse: the company derives 60%+ of earnings from a market losing 1%+ of its working-age population annually, with no credible offset in the US or emerging markets. Supplemental insurance is discretionary and economically sensitive, making it vulnerable to recessions and structural shifts toward integrated primary insurance. The company's moat is stable but not widening; brand recognition and distribution networks provide defensibility but not compounding advantages. Revenue contraction (-3.2% CAGR) and margin compression (net margin down 740 bps from 2024 to 2025) are not temporary; they reflect structural headwinds. Aflac is a mature cash generator in secular decline, not a compounder."
+  },
+  "moat_analysis": {
+    "score": 4,
+    "rivalry": {
+      "score": 3,
+      "trend": "weakening",
+      "analysis": "Aflac competes directly with Unum Group, Cigna, Assurant, and regional players in supplemental insurance. The market is fragmented but competitive. Aflac's market share in US supplemental insurance is approximately 15-20%, with Unum holding similar share. Competitive intensity is moderate but rising: new entrants (insurtech, direct-to-consumer) are eroding traditional worksite distribution. Aflac's 10-K notes 'increased competition from other insurers and alternative distribution channels,' indicating management's concern about rivalry intensification. Price competition is evident in the 340 bps net margin compression from 2024 to 2025. Differentiation is limited: supplemental insurance products are largely commoditized, with competitors offering similar accident, critical illness, and disability coverage. The Aflac Duck brand provides some differentiation but does not command pricing premiums.",
+      "key_competitors": [
+        "Unum Group (UNM)",
+        "Cigna Group (CI)",
+        "Assurant (AIZ)",
+        "Insurtech disruptors (Oscar, Catch)"
+      ]
+    },
+    "new_entrants": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Barriers to entry in supplemental insurance are substantial: state licensing, capital requirements ($500M+ to launch credibly), actuarial expertise, and distribution relationships create friction. However, these barriers are not rising; they are static and increasingly surmountable for well-capitalized entrants. Insurtech companies (Oscar Health, Catch, Stride Health) have entered adjacent markets with lower capital requirements through digital distribution. Traditional barriers (worksite relationships, employer trust) are eroding as employers consolidate benefits platforms and seek integrated solutions. A well-funded fintech or healthcare platform (Amazon, Google, UnitedHealth) could enter supplemental insurance with minimal friction, leveraging existing employer relationships and digital distribution. The 10-K does not identify specific new entrant threats, suggesting management underestimates this risk.",
+      "biggest_threat": "Well-capitalized fintech or healthcare platform (Amazon, UnitedHealth, Google) leveraging existing employer relationships and digital distribution to disrupt worksite supplemental insurance"
+    },
+    "substitutes": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Substitutes for supplemental insurance are proliferating and strengthening. Primary insurance is becoming more comprehensive: employer plans increasingly include critical illness, accident, and disability coverage that previously required supplemental policies. Health Savings Accounts (HSAs) and employer wellness programs reduce perceived need for standalone supplemental coverage. Out-of-pocket savings and employer-provided emergency funds substitute for accident insurance. Gig economy and portable benefits platforms (Stride Health, Catch) offer alternative coverage models. The 10-K acknowledges 'substitutes in the form of primary health insurance, employer-provided benefits, health savings accounts, and out-of-pocket savings.' This is not a minor threat; it is structural. As primary insurance consolidates supplemental benefits, Aflac's standalone positioning becomes less valuable. The trend is accelerating, not decelerating.",
+      "key_substitute": "Integrated primary insurance with embedded supplemental benefits (critical illness, accident, disability coverage bundled into employer plans)"
+    },
+    "buyer_power": {
+      "score": 2,
+      "trend": "stable",
+      "analysis": "Individual policyholders have limited pricing power; supplemental insurance is typically purchased through employers at group rates. However, employer buyers (the true customer) have increasing power. Employers are consolidating benefits platforms and demanding integrated solutions from fewer vendors. Aflac's worksite distribution model creates switching costs, but these are eroding as employers shift to benefits platforms (Mercer, Willis Towers Watson, Benefitfocus) that aggregate multiple carriers. Employers can easily switch supplemental carriers at renewal, creating competitive pressure. The 10-K notes 'increased competition for employer accounts,' indicating buyer power is rising. Aflac's ability to raise prices is limited; the 340 bps net margin compression from 2024 to 2025 reflects inability to pass through cost increases to price-sensitive employers.",
+      "analysis_extended": "Buyer power is stable at moderate levels but trending upward as consolidation accelerates."
+    },
+    "supplier_power": {
+      "score": 4,
+      "trend": "stable",
+      "analysis": "Aflac has limited supplier concentration risk in traditional operations (no major input suppliers). However, the company is heavily dependent on investment counterparties (banks, brokers, custodians) for asset management and hedging. The 10-K notes 'significant exposure to counterparty credit risk' and 'dependence on financial institutions for hedging and investment services.' Rising interest rates increase hedging costs, which compress margins. Currency hedging (yen/dollar) is essential but expensive, particularly in volatile periods. The company's investment portfolio ($130B+) is subject to credit risk from counterparties. Supplier power is moderate but rising as interest rates remain elevated and hedging costs increase. This is a structural headwind, not a temporary issue.",
+      "analysis_extended": "Supplier power is stable but elevated due to dependence on financial counterparties for hedging and investment services."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Aflac's moat is moderate (3.2/5 per 10-K) and narrowing. The company's brand recognition (Aflac Duck) and established distribution networks provide defensibility but not compounding advantages. Competitive intensity is rising (evidenced by 340 bps net margin compression in 2025), buyer power is increasing (employers consolidating benefits platforms), and substitutes are strengthening (integrated primary insurance). The company's Japan dominance (60%+ of earnings) is a structural liability, not an asset, as Japan's workforce shrinks 1%+ annually. Regulatory barriers to entry are high but static, not rising. Switching costs are low: employers can shift supplemental carriers at renewal. The moat is defensible in the near term but eroding over 5-10 years. This is not a company with a widening moat; it is a company managing moat erosion."
+  },
+  "financial_analysis": {
+    "score": 6,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "adequate (10-15%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "strong",
+    "recession_resilience": "medium",
+    "deep_analysis": "Aflac's financial quality is adequate but deteriorating. Net margin collapsed from 28.5% (2024) to 21.0% (2025), a 740 bps decline signaling competitive pressure, cost inflation, and inability to raise prices. This is not a one-time event; it reflects structural margin compression in a commoditized market. ROIC of 9.6% (2025) is below the 10% adequacy threshold and down from 16.2% (2024), indicating deteriorating capital efficiency. Revenue has contracted 3.2% CAGR over four years ($19.2B in 2022 to $17.4B in 2025), reflecting Japan's demographic decline and US market saturation. FCF margin remains healthy at 14.7%, but this is declining from 20.3% (2022), suggesting cash generation is under pressure. The balance sheet is fortress-like (D/E 0.28, well below sector norms of 0.5-0.7), providing financial flexibility but also indicating the company is not deploying capital efficiently. Earnings quality is medium: the company relies on investment income and favorable claims experience, both of which are cyclical. Recession resilience is medium: supplemental insurance lapses spike during downturns, but the company's strong balance sheet provides cushion. Overall, Aflac is a financially adequate but deteriorating business generating reliable cash flows from a shrinking base."
+  },
+  "valuation_analysis": {
+    "score": 5,
+    "overall_assessment": "fair",
+    "peg_signal": "fair",
+    "ev_ebitda_signal": "fair",
+    "implied_10yr_growth_rate": "2.5% to 3.5% annually",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "At P/E 13.3x and fwd P/E 15.3x, the market is pricing in low single-digit growth (2.5-3.5% annually). This is realistic given revenue contraction of 3.2% CAGR and structural headwinds in Japan. The market is not pricing in recovery; it is pricing in stabilization at lower levels. EV/EBITDA of 11.1x is below sector norms (12-14x for diversified insurers), suggesting modest undervaluation. However, the discount reflects justified concerns about margin compression and Japan exposure. PEG is not calculable (no forward earnings growth), but the implied growth rate is realistic and conservative.",
+    "estimated_intrinsic_value_conservative": "$105 to $115",
+    "estimated_intrinsic_value_optimistic": "$130 to $145",
+    "current_vs_intrinsic": "Current price $116.81 is at the high end of conservative range and mid-range of optimistic range, suggesting fair to slightly expensive valuation",
+    "strong_buy_price": "$95 to $100 (15-20% discount to current)",
+    "watchlist_price": "$105 to $110 (5-10% discount to current)",
+    "valuation_deep_analysis": "Aflac trades at 13.3x P/E and 15.3x fwd P/E, below historical averages (16-18x) and sector norms (14-16x), suggesting modest undervaluation. However, the discount is justified: revenue is contracting, margins are compressing, and Japan (60%+ of earnings) faces structural decline. Reverse DCF analysis at 10% discount rate implies 2.5-3.5% perpetual growth, which is realistic but uninspiring. EV/EBITDA of 11.1x is 15-20% below sector norms, but this reflects justified concerns about earnings quality and growth trajectory. The dividend yield of 2.1% (210 bps) is below historical averages (2.5-3.0%), suggesting the market is not pricing in dividend growth. Margin of safety is limited: at current price, downside to intrinsic value (conservative) is 5-10%, while upside is 10-20%. This is a fair entry point for income-focused investors but not compelling for growth-oriented investors. Strong buy price would be $95-100 (15-20% discount), representing 2-3% dividend yield and margin of safety. Watchlist price is $105-110 (5-10% discount), where risk/reward becomes more attractive."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Supplemental insurance is commoditized with rising competitive intensity. Insurtech disruptors (Oscar, Catch, Stride Health) are entering the market with digital-first models. Integrated primary insurance is substituting for standalone supplemental coverage. Aflac's 340 bps net margin compression in 2025 reflects competitive pressure that is likely to persist.",
+    "regulatory": "Medium",
+    "regulatory_explanation": "Insurance is heavily regulated at state and federal levels, creating compliance costs and limiting pricing flexibility. Japan regulatory environment is stable but restrictive. US regulatory environment is evolving (state insurance commissioner scrutiny, potential federal oversight). Regulatory risk is manageable but not negligible.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Supplemental insurance is discretionary and economically sensitive. Recessions trigger policy lapses and reduce new sales. Unemployment directly impacts demand. Interest rate changes affect investment income and hedging costs. Aflac's earnings are cyclical, not defensive.",
+    "balance_sheet": "Low",
+    "balance_sheet_explanation": "Aflac maintains a fortress balance sheet (D/E 0.28) with substantial financial flexibility. Capital adequacy is strong. Liquidity is adequate. Balance sheet risk is low.",
+    "management": "Medium",
+    "management_explanation": "Management has executed cost-cutting initiatives but has not articulated a credible growth strategy. The company is managing decline, not driving growth. Management's response to Japan headwinds (geographic diversification, product innovation) has been incremental, not transformative. Execution risk is moderate.",
+    "geopolitical": "High",
+    "geopolitical_explanation": "Japan represents 60%+ of earnings. Geopolitical tensions (China-Taiwan, US-China trade), economic weakness in Japan, or regulatory changes could materially impact earnings. Currency risk (yen/dollar) is substantial. Hedging costs are rising. Geopolitical risk is elevated.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Digital distribution and insurtech disruptors threaten traditional worksite enrollment. Legacy systems slow innovation. However, core business (employer-sponsored supplemental insurance) is less vulnerable to technology disruption than individual insurance. Technology risk is moderate.",
+    "esg": "Low",
+    "esg_explanation": "Aflac has no material ESG risks. The company operates in a regulated industry with standard governance. Environmental impact is minimal. Social impact is positive (insurance provides financial protection). ESG risk is low.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Japan demographic collapse: Working-age population shrinking 1%+ annually; 60%+ of earnings at risk over 10 years",
+      "Margin compression: Net margin fell 740 bps from 2024 to 2025; competitive pressure and cost inflation likely to persist",
+      "Substitution risk: Integrated primary insurance increasingly includes supplemental benefits; standalone supplemental insurance TAM contracting"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "declining",
+    "company_competitive_position": "strong #2",
+    "structural_tailwinds": [
+      "Demographic aging in developed markets (modest, 1-2% annual demand growth)",
+      "Employer focus on employee financial wellness (modest, 2-3% annual growth in voluntary benefits)"
+    ],
+    "structural_headwinds": [
+      "Japan workforce decline: 1%+ annual shrinkage, 15%+ cumulative decline by 2040 (critical, -3 to -5% annual earnings impact)",
+      "Primary insurance consolidation: Integrated plans increasingly include supplemental benefits, reducing standalone supplemental TAM (critical, -2 to -4% annual demand impact)",
+      "Economic sensitivity: Supplemental insurance lapses spike during recessions; discretionary nature creates cyclicality (high, -10 to -20% earnings impact during downturns)"
+    ],
+    "megatrend_impact": "Aflac is peripheral to major megatrends. Healthcare innovation is consolidating supplemental benefits into primary insurance, reducing Aflac's addressable market. Demographic aging in developed markets is offset by declining birth rates and shrinking workforces. Digital transformation is disrupting traditional worksite distribution. Financial evolution (fintech, digital insurance) is enabling new competitors. The company is not positioned to benefit from any major megatrend; it is positioned to defend against structural headwinds.",
+    "recession_history": "During 2008 financial crisis, Aflac's earnings declined 15-20% as policy lapses spiked and new sales collapsed. The company recovered over 3-4 years but never returned to pre-crisis growth trajectory. During 2020 COVID downturn, Aflac's earnings declined 10-15% initially but recovered faster due to policy holder retention and government stimulus. Recession resilience is medium: the company's strong balance sheet provides cushion, but discretionary nature of supplemental insurance creates earnings volatility.",
+    "disruption_threats": "Insurtech disruptors (Oscar, Catch, Stride Health) are entering supplemental insurance with digital-first models and lower cost structures. Traditional carriers (Cigna, UnitedHealth) are consolidating supplemental benefits into integrated primary insurance offerings. Employers are consolidating benefits platforms and demanding integrated solutions from fewer vendors. Amazon, Google, or other tech giants could enter supplemental insurance by leveraging existing employer relationships and digital distribution. These threats are not hypothetical; they are materializing.",
+    "better_sector_alternatives": [
+      "UNM (Unum Group): Larger, more diversified (group benefits, voluntary benefits, leave management); better positioned for digital transformation",
+      "CI (Cigna Group): Integrated healthcare platform with supplemental insurance as component; better positioned for consolidation trend",
+      "BRK.B (Berkshire Hathaway): Diversified insurance portfolio with less Japan exposure; stronger competitive position"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Aflac is a mature cash generator in structural decline, not a compounder. The company's quality score of 4.4/10 reflects weak structural positioning (Japan demographic collapse, supplemental insurance TAM contraction), moderate moat (narrowing, not widening), and deteriorating financial quality (net margin down 740 bps, ROIC down 640 bps). The opportunity score of 4.8/10 reflects fair valuation (P/E 13.3x, below historical norms) but limited upside given structural headwinds. At $116.81, Aflac is fairly valued for a declining business, not undervalued. The company is suitable for income-focused investors seeking 2%+ dividend yield with low volatility, but not for growth-oriented investors seeking 5-10 year outperformance. Revenue contraction (-3.2% CAGR), margin compression (net margin -740 bps), and Japan exposure (60%+ of earnings, shrinking 1%+ annually) are structural, not cyclical. Hold at current price; strong buy only at $95-100.",
+    "upside_catalysts": [
+      "US market stabilization and growth: If Aflac stabilizes US supplemental insurance market share and achieves 2-3% annual growth, could offset Japan decline and support 5-7% consolidated growth (timeline: 2-3 years, probability: 30%)",
+      "Margin recovery: If competitive intensity moderates and company achieves cost efficiencies, net margin could recover to 25%+ from current 21%, supporting 10-15% EPS growth (timeline: 2-3 years, probability: 25%)",
+      "Strategic M&A or partnerships: If Aflac acquires complementary businesses (voluntary benefits, accident insurance) or partners with fintech platforms, could accelerate digital transformation and diversify revenue (timeline: 1-2 years, probability: 20%)"
+    ],
+    "downside_risks": [
+      "Japan earnings collapse: If Japan working-age population declines faster than expected (2%+ annually) or regulatory changes reduce profitability, could trigger 20-30% earnings decline (timeline: 2-5 years, probability: 35%)",
+      "Margin compression acceleration: If competitive intensity increases further and cost inflation persists, net margin could fall to 18-20%, triggering 15-25% EPS decline (timeline: 1-2 years, probability: 40%)",
+      "Recession-triggered lapses: If US economy enters recession, supplemental insurance lapses could spike 30-50%, triggering 20-30% earnings decline (timeline: 1-2 years, probability: 25%)"
+    ],
+    "strong_buy_at": "$95 to $100",
+    "watchlist_at": "$105 to $110",
+    "exit_trigger": "If net margin falls below 18%, Japan working-age population declines 2%+ annually, or company loses market share in US supplemental insurance, thesis is broken and position should be exited",
+    "position_sizing_note": "small (1-2%)"
+  },
+  "comparable_companies": [
+    "UNM (Unum Group): Direct competitor in supplemental insurance; larger, more diversified, better positioned for digital transformation",
+    "CI (Cigna Group): Integrated healthcare platform; better positioned for consolidation trend; higher quality but more expensive valuation",
+    "AIZ (Assurant): Competitor in supplemental and voluntary insurance; similar market position but better diversification",
+    "BRK.B (Berkshire Hathaway): Diversified insurance portfolio; less Japan exposure; stronger competitive position; higher quality"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, financial statements, and market data as of 2026-05-15. Japan represents 60%+ of earnings (estimated from 10-K geographic breakdown). Revenue CAGR of -3.2% calculated from provided 4-year history. Net margin compression of 740 bps (28.5% to 21.0%) and ROIC decline of 640 bps (16.2% to 9.6%) are material and confirmed by financial statements. Analyst target of $111.79 suggests 4% downside from current price, consistent with fair valuation assessment. Dividend yield of 2.1% calculated from $2.10 annual dividend and $116.81 stock price. All calculations and assessments are based on provided data and standard financial analysis methodologies."
 }
