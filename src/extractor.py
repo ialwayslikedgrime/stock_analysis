@@ -6,9 +6,9 @@ from config.settings import DATA_RAW, DATA_PROCESSED
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
-MAX_CHARS = 40000
+MAX_CHARS_PER_SECTION = 500_000
+MAX_TOTAL = 800_000
 
-# Pattern flessibili: case-insensitive, spazi variabili, lettere spaziate (B USINESS)
 SECTION_PATTERNS = {
     "item1":  r"item\s*1[\.\s]+b[\s]*u[\s]*s[\s]*i[\s]*n[\s]*e[\s]*s[\s]*s",
     "item1a": r"item\s*1a[\.\s]+r[\s]*i[\s]*s[\s]*k\s+f[\s]*a[\s]*c[\s]*t[\s]*o[\s]*r[\s]*s",
@@ -38,7 +38,6 @@ def extract_sections(text: str, section_keys: list[str]) -> str:
     for key, pattern in SECTION_PATTERNS.items():
         matches = find_section_starts(text_lower, pattern)
         if matches:
-            # Prendi la seconda occorrenza se disponibile (prima = indice)
             all_positions[key] = matches[1] if len(matches) > 1 else matches[0]
 
     sorted_positions = sorted(all_positions.items(), key=lambda x: x[1])
@@ -52,17 +51,18 @@ def extract_sections(text: str, section_keys: list[str]) -> str:
             continue
         start = all_positions[key]
         next_starts = [p for p in pos_list if p > start]
-        end = next_starts[0] if next_starts else start + MAX_CHARS
-        end = min(end, start + MAX_CHARS)
+        end = next_starts[0] if next_starts else start + MAX_CHARS_PER_SECTION
         chunk = text[start:end].strip()
+        print(f"  {key}: {len(chunk):,} caratteri")
         chunks.append(chunk)
         total += len(chunk)
-        if total >= MAX_CHARS:
+        if total >= MAX_TOTAL:
+            print(f"  Cap totale: {total:,} caratteri")
             break
 
     return "\n\n---\n\n".join(chunks)
 
-def process_ticker(ticker: str) -> dict | None:
+def process_ticker(ticker: str, force: bool = False) -> dict | None:
     os.makedirs(DATA_PROCESSED, exist_ok=True)
     raw_path = f"{DATA_RAW}/{ticker}_10k.txt"
 
@@ -74,20 +74,23 @@ def process_ticker(ticker: str) -> dict | None:
         raw = f.read()
 
     text = parse_text(raw)
+    print(f"{ticker}: testo totale: {len(text):,} caratteri")
     results = {}
 
     for label, keys in [("qualitative", QUALITATIVE_SECTIONS), ("financial", FINANCIAL_SECTIONS)]:
         out_path = f"{DATA_PROCESSED}/{ticker}_{label}.txt"
-        if os.path.exists(out_path):
-            print(f"{ticker} {label}: caricato da cache")
+        if os.path.exists(out_path) and not force:
+            print(f"{ticker} {label}: cache ({os.path.getsize(out_path):,} bytes)")
             with open(out_path) as f:
                 results[label] = f.read()
             continue
 
+        print(f"{ticker} {label}: estrazione...")
         extracted = extract_sections(text, keys)
+
         if not extracted:
-            print(f"{ticker} {label}: sezioni non trovate, uso fallback")
-            extracted = text[:MAX_CHARS]
+            print(f"{ticker} {label}: sezioni non trovate, fallback 200k")
+            extracted = text[:200_000]
 
         with open(out_path, "w") as f:
             f.write(extracted)
@@ -99,9 +102,7 @@ def process_ticker(ticker: str) -> dict | None:
 if __name__ == "__main__":
     for ticker in ["AAPL", "MSFT", "GOOGL"]:
         print(f"\n{'='*50}")
-        print(f"Processing {ticker}...")
-        results = process_ticker(ticker)
+        results = process_ticker(ticker, force=True)
         if results:
             for label, text in results.items():
-                print(f"\n--- {ticker} {label.upper()} (primi 400 caratteri) ---")
-                print(text[:400])
+                print(f"  -> {ticker} {label}: {len(text):,} caratteri")
