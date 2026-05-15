@@ -1,12 +1,13 @@
 {
   "ticker": "AAPL",
+  "data_source": "fmp",
   "revenue_cagr": 3.3,
   "years_analyzed": 5,
   "current": {
-    "price": 302.53,
-    "pe_ratio": 36.625908,
-    "forward_pe": 31.559238,
-    "market_cap_B": 4443.4,
+    "price": 301.0725,
+    "pe_ratio": 36.449455,
+    "forward_pe": 31.407196,
+    "market_cap_B": 4422.0,
     "ev_ebitda": 27.48,
     "price_to_fcf": null,
     "52w_high": 303.2,
@@ -14,12 +15,14 @@
     "dividend_yield": 0.36,
     "sector": "Technology",
     "industry": "Consumer Electronics",
-    "pct_from_52w_high": -0.2
+    "beta": 1.065,
+    "analyst_target": 308.06512,
+    "recommendation": "buy",
+    "pct_from_52w_high": -0.7
   },
   "history": [
     {
       "year": "2025",
-      "date": "2025-09-27",
       "revenue_B": 416.2,
       "gross_margin": 46.9,
       "operating_margin": 32.0,
@@ -30,7 +33,6 @@
     },
     {
       "year": "2024",
-      "date": "2024-09-28",
       "revenue_B": 391.0,
       "gross_margin": 46.2,
       "operating_margin": 31.5,
@@ -41,7 +43,6 @@
     },
     {
       "year": "2023",
-      "date": "2023-09-30",
       "revenue_B": 383.3,
       "gross_margin": 44.1,
       "operating_margin": 29.8,
@@ -52,7 +53,6 @@
     },
     {
       "year": "2022",
-      "date": "2022-09-24",
       "revenue_B": 394.3,
       "gross_margin": 43.3,
       "operating_margin": 30.3,
@@ -63,7 +63,6 @@
     },
     {
       "year": "2021",
-      "date": "2021-09-25",
       "revenue_B": 365.8,
       "gross_margin": 41.8,
       "operating_margin": 29.8,

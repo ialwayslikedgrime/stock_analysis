@@ -1,0 +1,40 @@
+{
+  "ticker": "AFL",
+  "company": "Aflac",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "Aflac operates in supplemental insurance, a competitive but differentiated market. The company faces competition from other insurers but has built strong brand recognition through 25 years of Aflac Duck marketing. However, the supplemental insurance space attracts multiple competitors, and the 10-K explicitly mentions 'competitive environment' as a risk factor, indicating moderate-to-intense rivalry."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are substantial but not insurmountable. New entrants face extensive regulatory requirements (state licensing, capital requirements, cybersecurity compliance), need for distribution networks, and brand-building costs. However, the 10-K identifies regulatory changes and evolving compliance requirements as ongoing risks, suggesting regulatory barriers, while significant, are not absolute. The company's heavy reliance on agent/broker distribution networks creates switching costs but is replicable."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Substitutes exist in the form of primary health insurance, employer-provided benefits, health savings accounts, and out-of-pocket savings. Supplemental insurance addresses gaps in primary coverage, but consumers can theoretically self-insure or rely on primary coverage alone. The 10-K notes that economic downturns reduce demand for 'discretionary insurance products,' indicating substitution risk during adverse conditions."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Individual policyholders have limited pricing power as supplemental insurance is typically purchased through employers or worksite distribution, creating take-it-or-leave-it dynamics. However, large employer groups have negotiating leverage. The 10-K notes that Aflac U.S. experiences higher policy lapses during job turnover, indicating customers can easily switch or drop coverage, giving them some power through exit options rather than price negotiation."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Aflac has limited supplier concentration risk in traditional operations. However, the company is heavily dependent on investment counterparties (for fixed-income securities, derivatives, and hedging), and the 10-K extensively discusses credit risk, defaults, and counterparty creditworthiness. Additionally, the company relies on third-party vendors for critical operations, and cybersecurity incidents (referenced in the 10-K regarding June 2025 unauthorized access) demonstrate operational vulnerability. Distribution partners and agents also represent key suppliers of customer acquisition."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Aflac possesses a moderate competitive moat anchored primarily on brand recognition (the iconic Aflac Duck), regulatory barriers to entry, and established distribution networks in Japan and the U.S. However, the moat is not fortress-like: the company faces significant competitive pressure, regulatory complexity that creates ongoing compliance costs, and vulnerability to economic cycles that reduce demand for discretionary supplemental insurance. The company's heavy concentration in Japan (a mature market with demographic headwinds) and exposure to interest rate and currency risks further limit moat strength. The moat is defensible but requires continuous investment in brand, distribution, and product innovation.",
+  "key_risks": [
+    "Geographic concentration: Japan represents the largest market; geopolitical tensions, economic weakness, or regulatory changes in Japan could materially impact earnings",
+    "Interest rate and currency risk: Significant exposure to yen/dollar exchange rates and Japanese interest rates; hedging costs are substantial and rising",
+    "Economic cyclicality: Supplemental insurance is discretionary; economic downturns, job losses, and reduced consumer spending directly reduce policy sales and increase lapses",
+    "Regulatory and compliance burden: Extensive regulation across multiple jurisdictions (U.S. states, Japan, Bermuda); cybersecurity requirements, privacy laws, and AI regulations create ongoing compliance costs and operational risk",
+    "Investment portfolio risk: Substantial holdings in Japan Government Bonds and commercial real estate; credit deterioration, defaults, and valuation impairments could reduce capital and earnings",
+    "Cybersecurity and data breach risk: June 2025 unauthorized network access incident highlights vulnerability; future breaches could damage brand, trigger regulatory penalties, and erode customer trust",
+    "Talent retention and succession: Reliance on agent/broker networks and key executives; inability to attract and retain qualified sales associates and management could impair growth",
+    "Substitution and demand risk: Primary insurance expansion, employer benefit changes, and consumer preference shifts could reduce demand for supplemental coverage"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-15"
+}

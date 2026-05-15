@@ -1,0 +1,38 @@
+{
+  "ticker": "AES",
+  "company": "AES Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AES operates in highly competitive markets, particularly in short-term power sales where dispatch is merit-order based and pricing is set by marginal cost. While long-term contract sales reduce competition during contract terms, the renewable energy market is increasingly crowded with new entrants. The company faces significant competition in both generation and utility segments across multiple geographies."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Barriers to entry are moderate and mixed. Utility businesses have high barriers due to regulatory monopolies and capital requirements, but renewable generation faces lower barriers with declining technology costs. However, AES's scale, 12 GW contracted backlog, established customer relationships with major tech companies, and project financing expertise create meaningful competitive advantages that deter some entrants."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Electricity has limited direct substitutes, but distributed generation, energy efficiency, and demand-side management represent indirect threats. The shift toward renewable energy and storage reduces reliance on traditional thermal generation. However, for regulated utilities serving defined territories, substitution risk is lower than for merchant generation businesses."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large corporate customers (data centers, mining companies) have significant negotiating power, as evidenced by AES's need to offer customized solutions and long-term contracts to secure business. Regulated utility customers have limited power due to monopoly service territories, but wholesale power buyers in competitive markets can shop among multiple suppliers, reducing AES's pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Fuel suppliers have moderate power; AES mitigates this through long-term supply agreements, hedging, and fuel pass-through contracts. For renewable generation (54% of capacity), fuel costs are negligible. However, for thermal generation (46% of capacity), fuel price volatility and supply concentration in certain regions (LNG imports in Dominican Republic and Panama) create some supplier leverage. Equipment suppliers for renewable projects also have meaningful power given technology specialization."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "AES possesses a moderate competitive moat built on scale, operational expertise, and customer relationships rather than structural advantages. The company's 12 GW contracted backlog, track record of on-time/on-budget delivery, and established relationships with major tech companies provide near-term competitive advantages. However, this moat is partially offset by intense competition in renewable energy markets, significant buyer power from large corporate customers, and regulatory exposure in utility operations. The moat is sustainable but not durable against well-capitalized competitors.",
+  "key_risks": [
+    "Regulatory risk: Utility rate cases and regulatory changes in multiple jurisdictions (U.S., El Salvador, Chile, Argentina, etc.) could impact allowed returns and tariff structures, affecting profitability and capital recovery",
+    "Commodity price volatility: 46% of generation capacity relies on thermal fuels; exposure to natural gas, coal, and oil price fluctuations despite hedging strategies could compress margins in short-term sales",
+    "Customer concentration and buyer power: Heavy reliance on large corporate customers (data centers, mining companies) for long-term contracts creates concentration risk; customers have significant negotiating leverage for customized solutions",
+    "Technology and market disruption: Rapid advancement in distributed solar, battery storage, and energy efficiency could reduce demand for centralized generation; data center growth assumptions may not materialize as expected",
+    "Execution risk: Large backlog (12 GW) requires successful project development, construction, and financing; delays or cost overruns could impact growth targets and returns",
+    "Geopolitical and currency risk: Operations across 10+ countries expose AES to political instability, currency fluctuations, and regulatory changes; recent loss of Alicura concession in Argentina illustrates this risk"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-15"
+}

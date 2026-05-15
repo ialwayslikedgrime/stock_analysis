@@ -1,0 +1,38 @@
+2026-05-15 20:20:08,199 INFO Pipeline starting: 10 companies | dry_run=False | resume=False
+2026-05-15 20:20:08,199 INFO Progress: 0/10 | [ABNB] Airbnb (Consumer Discretionary)
+2026-05-15 20:20:08,301 INFO [ABNB] Starting pipeline...
+2026-05-15 20:20:24,096 WARNING [ABNB] Financials failed
+2026-05-15 20:20:26,102 INFO Progress: 0/10 | [MO] Altria Group (Consumer Staples)
+2026-05-15 20:20:26,102 INFO [MO] Starting pipeline...
+2026-05-15 20:20:42,064 WARNING [MO] Financials failed
+2026-05-15 20:20:44,069 INFO Progress: 0/10 | [APA] APA Corporation (Energy)
+2026-05-15 20:20:44,070 INFO [APA] Starting pipeline...
+2026-05-15 20:20:59,616 WARNING [APA] Financials failed
+2026-05-15 20:21:01,620 INFO Progress: 0/10 | [AFL] Aflac (Financials)
+2026-05-15 20:21:01,620 INFO [AFL] Starting pipeline...
+2026-05-15 20:21:20,197 WARNING [AFL] Financials failed
+2026-05-15 20:21:22,202 INFO Progress: 0/10 | [ABT] Abbott Laboratories (Health Care)
+2026-05-15 20:21:22,202 INFO [ABT] Starting pipeline...
+2026-05-15 20:21:36,980 WARNING [ABT] Financials failed
+2026-05-15 20:21:38,985 INFO Progress: 0/10 | [MMM] 3M (Industrials)
+2026-05-15 20:21:38,986 INFO [MMM] Starting pipeline...
+2026-05-15 20:21:54,664 WARNING [MMM] Financials failed
+2026-05-15 20:21:56,671 INFO Progress: 0/10 | [ACN] Accenture (Information Technology)
+2026-05-15 20:21:56,672 INFO [ACN] Starting pipeline...
+2026-05-15 20:22:12,749 WARNING [ACN] Financials failed
+2026-05-15 20:22:14,757 INFO Progress: 0/10 | [APD] Air Products (Materials)
+2026-05-15 20:22:14,757 INFO [APD] Starting pipeline...
+2026-05-15 20:22:29,003 WARNING [APD] Financials failed
+2026-05-15 20:22:31,006 INFO Progress: 0/10 | [ARE] Alexandria Real Estate (Real Estate)
+2026-05-15 20:22:31,007 INFO [ARE] Starting pipeline...
+2026-05-15 20:22:46,824 WARNING [ARE] Financials failed
+2026-05-15 20:22:48,839 INFO Progress: 0/10 | [AES] AES Corporation (Utilities)
+2026-05-15 20:22:48,840 INFO [AES] Starting pipeline...
+2026-05-15 20:23:05,054 WARNING [AES] Financials failed
+2026-05-15 20:23:07,056 INFO 
+==================================================
+2026-05-15 20:23:07,056 INFO Pipeline complete!
+2026-05-15 20:23:07,056 INFO   Completed: 0
+2026-05-15 20:23:07,056 INFO   Failed:    10
+2026-05-15 20:23:07,056 INFO   Skipped:   0
+2026-05-15 20:23:07,057 INFO   Failed tickers: ['ABNB', 'MO', 'APA', 'AFL', 'ABT', 'MMM', 'ACN', 'APD', 'ARE', 'AES']

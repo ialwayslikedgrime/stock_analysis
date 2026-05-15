@@ -1,0 +1,40 @@
+{
+  "ticker": "ABNB",
+  "company": "Airbnb",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Airbnb operates in a highly competitive environment facing direct competition from major OTAs (Booking Holdings, Expedia Group, Trip.com), hotel chains, property management companies, and emerging AI-powered travel search platforms. The 10-K explicitly states 'We operate in a highly competitive environment' and lists numerous well-capitalized competitors with significant market presence and resources."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While Airbnb has built substantial brand equity and a complex technology platform (recently rebuilt microservices architecture), barriers to entry are moderate. The two-sided marketplace model requires critical mass in both supply and demand, but capital requirements are lower than traditional hospitality. Regulatory fragmentation creates localized barriers, though this also constrains Airbnb's expansion globally."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitute options exist including traditional hotels, OTA platforms (Booking.com, Expedia, VRBO), property management platforms, and emerging AI-powered search engines that aggregate travel options. The 10-K identifies hotels, OTAs, and AI-powered search products as direct competitors, indicating credible substitutes across accommodation and experience categories."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Guests have significant bargaining power given abundant alternatives for accommodations and experiences. The 10-K notes guests 'have a range of options to find and book accommodations, experiences, and services' and compete based on 'value and all-in cost.' Price transparency across platforms enables easy comparison and switching, limiting Airbnb's pricing power."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Hosts possess considerable power as they can multi-list across platforms (Airbnb, VRBO, Booking.com) or operate independently. The 10-K acknowledges hosts 'have a range of options for doing so' and compete for hosts based on 'volume of bookings generated, ease of use, service fees, and host protections.' Host churn risk is material if competitive terms deteriorate."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Airbnb possesses a moderate competitive moat anchored primarily on brand strength, network effects (5M+ hosts, 2.5B+ guest arrivals), and technological infrastructure (rebuilt microservices platform with AI/ML capabilities). However, this moat is significantly constrained by intense competition from well-capitalized rivals, regulatory fragmentation limiting geographic expansion, and the fundamental lack of pricing power with both guests and hosts. The company's competitive advantages are defensible but not durable against sustained competitive pressure or regulatory headwinds.",
+  "key_risks": [
+    "Regulatory restrictions on short-term rentals (e.g., NYC de facto ban) limiting supply and revenue growth in key markets",
+    "Intense competition from OTAs (Booking, Expedia), hotels, and AI-powered search platforms eroding market share and pricing power",
+    "Host and guest churn risk due to multi-platform availability and ability to cross-list, reducing network lock-in",
+    "Reputational and legal liability from user misconduct (safety incidents, discrimination, fraud) undermining trust and brand value",
+    "Dependence on third-party community support providers (13,000 workers) creating operational and quality control risks",
+    "Macroeconomic sensitivity and seasonality affecting demand, particularly in discretionary travel segment",
+    "AI implementation risks including regulatory scrutiny, bias, and customer service quality degradation",
+    "International expansion complexity and regulatory compliance costs across 220+ countries limiting profitability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-15"
+}

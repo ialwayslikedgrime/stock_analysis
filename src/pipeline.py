@@ -6,7 +6,6 @@ import pandas as pd
 from datetime import datetime
 from config.settings import DATA_OUTPUT, DATA_RAW, DATA_PROCESSED
 
-# Setup logging
 os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
@@ -19,7 +18,6 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 def load_progress() -> dict:
-    """Carica lo stato del pipeline per resume automatico."""
     path = f"{DATA_OUTPUT}/pipeline_progress.json"
     if os.path.exists(path):
         with open(path) as f:
@@ -32,7 +30,6 @@ def save_progress(progress: dict):
         json.dump(progress, f, indent=2)
 
 def is_done(ticker: str, stage: str) -> bool:
-    """Controlla se uno stage è già completato per un ticker."""
     paths = {
         "10k":        f"{DATA_RAW}/{ticker}_10k.txt",
         "extract":    f"{DATA_PROCESSED}/{ticker}_qualitative.txt",
@@ -43,10 +40,6 @@ def is_done(ticker: str, stage: str) -> bool:
     return os.path.exists(paths.get(stage, ""))
 
 def run_ticker(ticker: str, company: str, dry_run: bool = False) -> str:
-    """
-    Esegue il pipeline completo per un ticker.
-    Ritorna: 'ok' | 'failed' | 'skipped'
-    """
     from src.edgar import download_10k_text
     from src.extractor import process_ticker
     from src.analyzer import analyze_company
@@ -63,62 +56,66 @@ def run_ticker(ticker: str, company: str, dry_run: bool = False) -> str:
             else:
                 text = download_10k_text(ticker)
                 if not text:
-                    log.warning(f"[{ticker}] 10-K download failed")
+                    log.warning(f"[{ticker}] 10-K download failed — skipping")
                     return "failed"
                 time.sleep(0.5)
         else:
             log.info(f"[{ticker}] 10-K already downloaded")
 
-        # Stage 2: Extract sections
+        # Stage 2: Extract
         if not is_done(ticker, "extract"):
             if dry_run:
-                log.info(f"[{ticker}] DRY RUN: would extract sections")
+                log.info(f"[{ticker}] DRY RUN: would extract")
             else:
                 result = process_ticker(ticker)
                 if not result:
-                    log.warning(f"[{ticker}] Extraction failed")
+                    log.warning(f"[{ticker}] Extraction failed — skipping")
                     return "failed"
         else:
             log.info(f"[{ticker}] Extraction already done")
 
-        # Stage 3: Porter analysis
+        # Stage 3: Porter
         if not is_done(ticker, "porter"):
             if dry_run:
-                log.info(f"[{ticker}] DRY RUN: would run Porter analysis")
+                log.info(f"[{ticker}] DRY RUN: would run Porter")
             else:
                 result = analyze_company(ticker, company)
                 if not result or "error" in result:
-                    log.warning(f"[{ticker}] Porter analysis failed")
+                    log.warning(f"[{ticker}] Porter failed — skipping")
                     return "failed"
                 time.sleep(1)
         else:
-            log.info(f"[{ticker}] Porter analysis already done")
+            log.info(f"[{ticker}] Porter already done")
 
-        # Stage 4: Financials
+        # Stage 4: Financials — NON bloccante
         if not is_done(ticker, "financials"):
             if dry_run:
                 log.info(f"[{ticker}] DRY RUN: would fetch financials")
             else:
-                result = get_financials(ticker, years=5)
-                if not result:
-                    log.warning(f"[{ticker}] Financials failed")
-                    return "failed"
+                try:
+                    result = get_financials(ticker, years=5)
+                    if not result:
+                        log.warning(f"[{ticker}] Financials failed — continuing anyway")
+                except Exception as e:
+                    log.warning(f"[{ticker}] Financials exception: {e} — continuing anyway")
                 time.sleep(0.5)
         else:
             log.info(f"[{ticker}] Financials already done")
 
-        # Stage 5: Investment analysis
+        # Stage 5: Investment — NON bloccante
         if not is_done(ticker, "investment"):
             if dry_run:
                 log.info(f"[{ticker}] DRY RUN: would run investment analysis")
             else:
-                result = investment_analyze(ticker)
-                if not result or "error" in result:
-                    log.warning(f"[{ticker}] Investment analysis failed")
-                    return "failed"
+                try:
+                    result = investment_analyze(ticker)
+                    if not result or "error" in result:
+                        log.warning(f"[{ticker}] Investment analysis failed — continuing anyway")
+                except Exception as e:
+                    log.warning(f"[{ticker}] Investment exception: {e} — continuing anyway")
                 time.sleep(1)
         else:
-            log.info(f"[{ticker}] Investment analysis already done")
+            log.info(f"[{ticker}] Investment already done")
 
         log.info(f"[{ticker}] ✓ Pipeline complete")
         return "ok"
@@ -133,16 +130,7 @@ def run_pipeline(
     max_companies: int | None = None,
     resume: bool = True,
 ):
-    """
-    Esegue il pipeline su una lista di aziende.
-
-    tickers_df: DataFrame con colonne [ticker, company, sector]
-    dry_run: se True, non fa chiamate API reali
-    max_companies: limita il numero di aziende (utile per test)
-    resume: riprende da dove si era fermato
-    """
     progress = load_progress() if resume else {"completed": [], "failed": [], "skipped": []}
-
     df = tickers_df.copy()
     if max_companies:
         df = df.head(max_companies)
@@ -160,7 +148,6 @@ def run_pipeline(
             continue
 
         log.info(f"Progress: {len(progress['completed'])}/{total} | [{ticker}] {company} ({sector})")
-
         status = run_ticker(ticker, company, dry_run=dry_run)
 
         if status == "ok":
@@ -171,8 +158,6 @@ def run_pipeline(
             progress["skipped"].append(ticker)
 
         save_progress(progress)
-
-        # Rate limiting tra aziende
         if not dry_run:
             time.sleep(2)
 
@@ -183,21 +168,10 @@ def run_pipeline(
     log.info(f"  Skipped:   {len(progress['skipped'])}")
     if progress["failed"]:
         log.info(f"  Failed tickers: {progress['failed']}")
-
     return progress
 
 if __name__ == "__main__":
     from src.universe import get_sp500_tickers
-
     df = get_sp500_tickers()
-    log.info(f"Loaded {len(df)} S&P 500 companies")
-
-    # Test su 5 aziende di settori diversi prima di scalare
-    test_sample = df.groupby("sector").first().reset_index()[["ticker","company","sector"]].head(10)
-    log.info(f"Test sample:\n{test_sample.to_string()}")
-
-    run_pipeline(
-        test_sample,
-        dry_run=False,
-        resume=True,
-    )
+    sample = df.groupby("sector").first().reset_index()[["ticker","company","sector"]]
+    run_pipeline(sample, dry_run=False, resume=True)
