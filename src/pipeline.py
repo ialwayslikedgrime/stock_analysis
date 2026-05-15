@@ -168,6 +168,12 @@ def run_pipeline(
     log.info(f"  Skipped:   {len(progress['skipped'])}")
     if progress["failed"]:
         log.info(f"  Failed tickers: {progress['failed']}")
+    # Auto-generate dashboard after pipeline
+    try:
+        import generate_dashboard
+        generate_dashboard.generate()
+    except Exception as e:
+        log.warning(f"Dashboard generation failed: {e}")
     return progress
 
 if __name__ == "__main__":
