@@ -1,0 +1,37 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "Tesla faces intensifying competition from established automakers (Ford, GM, Volkswagen) and new EV entrants (Rivian, Lucid, BYD) who are rapidly scaling EV production. However, Tesla maintains advantages in brand, autonomous driving technology, and manufacturing efficiency that differentiate it from competitors, though the competitive landscape is becoming increasingly crowded."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but declining. While EV manufacturing requires massive capital investment, advanced battery technology, and supply chain expertise, established automakers and well-funded startups are successfully entering the market. Tesla's vertical integration and proprietary AI/FSD technology create some defensibility, but are not insurmountable barriers given sufficient capital and talent."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Traditional internal combustion engine vehicles remain viable substitutes, particularly in markets with limited charging infrastructure or where used ICE vehicles offer lower total cost of ownership. However, regulatory trends globally favor EVs, and Tesla's Robotaxi service introduces a new substitute category (autonomous ride-hailing) that could cannibalize vehicle sales. The 10-K notes regulatory uncertainty around autonomous vehicles."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high due to increasing EV options and price competition in the market. Tesla's direct-to-consumer sales model and brand loyalty provide some pricing power, but the 10-K acknowledges cyclical automotive sales volatility and competitive pricing pressures. Government incentive reductions (OBBBA) also shift pricing dynamics unfavorably for Tesla."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. Tesla relies on thousands of global suppliers for components, with some single-source dependencies acknowledged in the 10-K. However, Tesla's vertical integration strategy (in-house battery manufacturing, lithium refinery, semiconductor partnerships with Samsung) reduces supplier leverage. Raw material price volatility (lithium, nickel, cobalt) remains a structural risk outside Tesla's control."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Tesla possesses a moderate competitive moat built on proprietary AI/autonomous driving technology, vertical integration across batteries and manufacturing, brand strength, and operational efficiency. However, the moat is eroding as competitors scale EV production and regulatory uncertainty around autonomous vehicles increases. The company's transition toward software/services (FSD subscriptions, Robotaxi, insurance) could strengthen the moat long-term, but execution risk is substantial and regulatory headwinds are significant.",
+  "key_risks": [
+    "Regulatory uncertainty around autonomous vehicles and FSD (Supervised) features across jurisdictions could delay or prevent Robotaxi commercialization and limit revenue from software services",
+    "Intensifying EV competition from established automakers and well-funded startups eroding pricing power and market share, particularly as government EV incentives decline (OBBBA impact)",
+    "Supply chain concentration risks including single-source suppliers, raw material price volatility (lithium, nickel), and geopolitical dependencies on China manufacturing and battery supply",
+    "Execution risk on AI/Optimus humanoid robot commercialization and massive capex requirements for Cortex AI training infrastructure with uncertain ROI timeline",
+    "Cyclical automotive sales volatility and exposure to macroeconomic downturns affecting consumer EV demand and financing availability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

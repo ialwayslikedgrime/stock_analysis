@@ -1,0 +1,38 @@
+{
+  "ticker": "ATO",
+  "company": "Atmos Energy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "Atmos operates as a regulated natural gas distributor with non-exclusive franchise agreements in eight states, but faces no direct competition from other distributors within its service areas. The 10-K explicitly states 'our regulated distribution operations are not currently in significant direct competition with any other distributors of natural gas to residential and commercial customers within our service areas.' Regulatory frameworks prevent competitive entry in distribution."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory requirements, capital intensity, and established franchise agreements. New entrants would require state regulatory approval, substantial infrastructure investment, and municipal franchise agreements. The company holds 1,010 franchises with terms of 5-35 years, creating protected service territories that are difficult for competitors to penetrate."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While natural gas competes with alternative energy sources (primarily electricity for heating and cooking), the 10-K notes that 'natural gas historically has maintained its price advantage in the residential, commercial, and industrial markets.' However, long-term electrification trends and renewable energy adoption represent emerging threats. [INFERRED: Energy transition risks are material but not yet dominant in current market dynamics]."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Customers have minimal pricing power in regulated distribution markets. Rates are established by state regulatory authorities and designed to cover costs plus a reasonable return on invested capital. The company has implemented formula rate mechanisms in four states and infrastructure programs in all states, reducing regulatory lag and limiting customer negotiating leverage. Residential and commercial customers cannot switch providers."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Atmos has significant supplier power due to diversified sourcing and competitive procurement processes. The company sources from 10+ major suppliers and uses competitive bidding for natural gas procurement. Purchased gas cost adjustment mechanisms allow dollar-for-dollar pass-through to customers, insulating the company from commodity price volatility. However, pipeline transportation companies (33 used) have some leverage over capacity and terms."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "Atmos Energy possesses an exceptionally strong competitive moat anchored by regulatory protection, high capital barriers, and established franchise territories. The company's natural gas distribution operations are protected from direct competition through state-granted non-exclusive franchises and regulatory frameworks that prevent new entrants. Formula rate mechanisms and infrastructure programs reduce regulatory lag, providing predictable cash flows and returns. The primary vulnerability is long-term energy transition risk and potential substitution from electrification, though this remains a secondary concern relative to the company's entrenched regulatory position.",
+  "key_risks": [
+    "Regulatory lag and unfavorable rate decisions could compress margins despite recent improvements in formula rate mechanisms and infrastructure programs",
+    "Long-term energy transition and electrification trends could reduce natural gas demand, particularly in residential and commercial segments",
+    "Weather volatility impacts demand despite weather normalization adjustment (WNA) mechanisms covering 97% of residential/commercial revenues",
+    "Pipeline safety and environmental compliance requirements could increase capital expenditures and operating costs",
+    "Franchise renewal risk, though historically successful, could result in loss of service territories if municipalities impose unfavorable terms",
+    "Commodity price volatility in natural gas supply, though largely passed through to customers via purchased gas adjustment mechanisms"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

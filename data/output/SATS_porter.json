@@ -1,0 +1,39 @@
+{
+  "ticker": "SATS",
+  "company": "EchoStar",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "EchoStar faces intense and increasing competition from established pay-TV providers, cable companies, telecommunications companies, and streaming services. Industry consolidation has created larger competitors with greater scale and bundled offerings (video, broadband, wireless), significantly intensifying competitive pressure in the pay-TV segment."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Barriers to entry remain moderate-to-high due to spectrum licensing requirements, regulatory approvals, and significant capital requirements for network deployment. However, the 10-K notes that new technologies and internet-based distribution models continue to lower barriers for content delivery competitors, though not for traditional satellite/wireless infrastructure."
+    },
+    "substitutes": {
+      "score": 1,
+      "rationale": "Substitutes pose an extreme threat. The company explicitly identifies streaming services, internet-based video delivery, wireless providers, and piracy-based offerings as direct substitutes. Many of these charge nominal or no fees, creating severe pricing pressure and demand erosion for traditional pay-TV services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (consumers and enterprise customers) have significant power due to abundant alternatives and low switching costs. The maturation of the pay-TV industry and proliferation of streaming options enable customers to easily switch providers or abandon traditional pay-TV entirely, giving them substantial negotiating leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate-to-high. Content programmers and owners can withhold online rights and leverage their position against MVPDs (Multi-channel Video Programming Distributors). The 10-K notes that consolidated competitors may use their leverage to reduce prices paid for programming and impose unfavorable terms, though spectrum is a controlled government resource limiting some supplier leverage."
+    }
+  },
+  "moat_score": 2.2,
+  "moat_summary": "EchoStar's competitive moat is severely eroded and deteriorating. While the company possesses valuable spectrum licenses (a regulated asset with high barriers to entry), its core pay-TV business faces existential threats from superior substitutes and intense rivalry. The pending AT&T and SpaceX transactions—driven by FCC pressure on spectrum underutilization—signal that even the company's spectrum assets are not defensible. The company's transition to a 'Hybrid MNO' model dependent on AT&T partnership further weakens its independent competitive position.",
+  "key_risks": [
+    "Existential threat from streaming and internet-based video substitutes with superior economics and user experience",
+    "Regulatory risk: FCC threatened spectrum license revocation, forcing asset sales to AT&T and SpaceX; transactions remain subject to government approval and could fail or be delayed",
+    "Going concern uncertainty: Company lacks sufficient cash and committed financing for 12+ months; depends entirely on closing AT&T ($22.65B) and SpaceX (~$22B) transactions",
+    "Intense competitive rivalry from consolidated mega-competitors (cable, telecom, streaming) with greater scale, bundled offerings, and pricing power",
+    "Structural industry decline: Traditional pay-TV market maturation with ongoing subscriber churn and cord-cutting trends",
+    "Supplier leverage: Content programmers can withhold rights and impose unfavorable terms; AT&T partnership creates dependency on competitor for network services",
+    "Stock price volatility driven by SpaceX investment speculation rather than business fundamentals; potential material decline if transactions fail"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

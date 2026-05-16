@@ -1,0 +1,38 @@
+{
+  "ticker": "WMB",
+  "company": "Williams Companies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Competition is intensifying across all business segments from major integrated oil companies, independent midstream providers, private equity firms, and some E&P companies developing their own midstream services. The 10-K explicitly states 'Competition for natural gas gathering, processing, treating, transportation, and storage...continues to increase' and notes Williams faces competition from 'companies of varying size and financial capabilities.'"
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Significant barriers to entry exist including substantial capital requirements, regulatory complexity (FERC permitting, environmental approvals), and elevated public opposition to new pipeline construction. The 10-K notes 'Significant entrance barriers to build new pipelines exist, including increased federal and state regulations and elevated public opposition.' However, score is not 5 due to private equity and E&P companies still entering the market."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Natural gas faces competition from alternative energy sources including hydroelectric, solar, wind, coal, fuel oil, and nuclear power for electricity generation. However, natural gas remains critical infrastructure for heating, industrial use, and clean power generation, limiting substitute threat. Regulatory trends favoring natural gas as a bridge fuel to clean energy support demand."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high. While regulated interstate pipelines have FERC-approved rates limiting customer negotiation, the 10-K shows top 10 customers represent 44-55% of revenues in key segments, indicating concentration risk. Long-term contracts provide some protection, but customers can negotiate terms and seek alternative capacity, particularly in competitive gathering markets."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. Natural gas producers (primary suppliers) have alternatives for midstream services and can develop their own infrastructure, creating competitive pressure on gathering fees. However, Williams' critical position at the wellhead and integrated service offerings provide some negotiating leverage. [INFERRED: Commodity suppliers for operations have limited power given industry scale.]"
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Williams possesses a moderate competitive moat anchored by significant infrastructure scale (32,000+ miles of pipelines, 35 processing facilities), regulatory barriers to entry, and long-term contracted revenues providing cash flow stability. However, the moat is eroding due to intensifying competition, customer concentration (top 10 customers = 44-55% of revenues), and regulatory constraints on rate-setting. The company's competitive advantage relies on operational excellence, strategic asset positioning, and established customer relationships rather than structural pricing power.",
+  "key_risks": [
+    "Intensifying competition from major integrated oil companies, private equity, and E&P companies developing competing midstream infrastructure reducing market share and pricing power",
+    "Regulatory risk including FERC rate regulation limiting ability to recover full costs and achieve target returns, plus environmental regulations (Washington Climate Commitment Act, methane emissions rules) increasing operating costs",
+    "Customer concentration with top 10 customers representing 44-55% of revenues in key segments, creating dependency and vulnerability to contract non-renewal or renegotiation",
+    "Commodity price exposure and producer drilling activity volatility impacting gathering volumes and equity NGL margins, particularly in non-fee-based contracts (7% of NGL volumes)",
+    "Energy transition risk from policies mandating renewable energy or restricting natural gas use, plus public opposition to pipeline expansion limiting growth opportunities",
+    "Cybersecurity and operational technology risks that could disrupt critical pipeline operations and safety"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

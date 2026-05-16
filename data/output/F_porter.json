@@ -1,0 +1,37 @@
+{
+  "ticker": "F",
+  "company": "Ford Motor Company",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Ford operates in a highly competitive automotive industry with established rivals (GM, Stellantis, Toyota, VW, Tesla) competing across all segments. The 10-K shows Ford's U.S. market share at 13.2% in 2025, indicating significant fragmentation. Intense competition on pricing, technology, and EV transition creates downward pressure on margins."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry remain moderate-to-high due to massive capital requirements, manufacturing complexity, and regulatory compliance costs (detailed extensively in the 10-K). However, Tesla and Chinese EV makers (BYD, NIO) have successfully entered, and the 10-K notes Ford's declining China market share (1.3% in 2025 vs. 1.8% in 2023), suggesting new entrants are eroding traditional OEM advantages in key markets."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Traditional substitutes (public transit, ride-sharing, bicycles) remain limited in most markets. However, the 10-K acknowledges EV adoption barriers and regulatory uncertainty around ZEV mandates, indicating consumer acceptance of alternatives is growing. Autonomous vehicle technology and mobility-as-a-service represent emerging substitutes not fully addressed in the filing."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyers have moderate power through dealer networks and financing options (Ford Credit), but face limited differentiation among mass-market vehicles. The 10-K reveals Ford uses incentive programs and financing discounts to drive sales, indicating price sensitivity. Commercial customers (Ford Pro segment) likely have higher negotiating power due to fleet volumes."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate-to-high, particularly for battery materials and semiconductors. The 10-K explicitly mentions risks from 'shortage of components or raw materials, supplier disruptions, and inflationary pressures' and notes $1.6 billion in outstanding compliance credit purchase obligations. Battery supply concentration and EV transition dependency increase supplier leverage."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Ford possesses a weakening competitive moat based primarily on brand recognition (Ford/Lincoln), established dealer networks, and manufacturing scale. However, the 10-K reveals significant structural challenges: declining market share in China (1.3%), regulatory compliance complexity creating cost burdens, and heavy dependence on EV transition amid uncertain demand. The company's three-segment strategy (Blue/Model e/Pro) attempts to address market fragmentation, but execution risk is high given capital intensity and competitive pressure from both traditional OEMs and new entrants.",
+  "key_risks": [
+    "Regulatory misalignment and uncertainty: The 10-K details conflicting EPA, NHTSA, and CARB standards with pending legal challenges, creating compliance cost volatility and potential product-led restrictions that could reduce sales volumes.",
+    "EV transition execution risk: Ford faces $1.6 billion in compliance credit obligations and declining EV sales (84,113 units in 2025 vs. 97,865 in 2024), while competing against Tesla and Chinese EV makers with superior technology and cost structures.",
+    "Supplier concentration and raw material costs: The 10-K acknowledges battery material availability, semiconductor shortages, and inflationary pressures as material risks; battery supply chain concentration gives suppliers significant pricing power.",
+    "Market share erosion in key markets: China market share declined from 1.8% (2023) to 1.3% (2025); U.S. market share growth (13.2% in 2025) masks weakness in Europe and emerging markets.",
+    "Capital intensity and profitability pressure: Massive investments required for EV manufacturing, software development, and regulatory compliance while managing legacy ICE production create margin compression risk."
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

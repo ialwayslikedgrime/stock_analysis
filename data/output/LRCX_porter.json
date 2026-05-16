@@ -1,0 +1,38 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Lam faces intense competition from well-established, well-capitalized competitors including Applied Materials (primary competitor in deposition/metals), ASM International, Hitachi, Tokyo Electron, and Screen Holding. The 10-K explicitly states 'We face significant competition with all of our products and services' and notes competitors continue to improve designs, introduce new products, and provide comprehensive offerings. Competitive intensity is high across deposition, etch, and clean markets."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry protect Lam's position. Semiconductor manufacturers must make substantial investments to qualify and integrate new equipment, creating switching costs and lock-in effects. The 10-K notes that once qualified, manufacturers maintain supplier selection for specific applications. Significant R&D investment, technical expertise in nanoscale manufacturing, and global service infrastructure are required. However, government initiatives encouraging local manufacturing in countries like China could enable new domestic competitors (INFERRED: based on 10-K risk discussion)."
+    },
+    "substitutes": {
+      "score": 5,
+      "rationale": "No credible substitutes exist for semiconductor wafer fabrication equipment. The 10-K describes Lam's products as essential to semiconductor manufacturing processes (deposition, etch, clean) with no alternative technologies mentioned. Semiconductor manufacturers cannot bypass these process steps, making substitution risk negligible."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate-to-high despite switching costs. The 10-K identifies customer concentration risk, with Samsung and TSMC as most significant customers, suggesting limited buyer base. However, customers evaluate suppliers on multiple criteria (process performance, productivity, defect control, cost of ownership) and can threaten to qualify competitors' equipment. The 10-K notes 'A material reduction in orders from our customers could adversely affect our results' and mentions third-party spare parts competition, indicating some pricing pressure."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists. The 10-K explicitly states 'Certain components and sub-assemblies that we include in our products may only be obtained from a single supplier' and notes efforts to qualify alternative sources. Lam carries excess inventory to mitigate supply risks. However, as a large, established buyer with multiple suppliers across geographies, Lam has negotiating leverage. Supply chain vulnerabilities exist but are being actively managed."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Lam Research possesses a moderately strong competitive moat built on high switching costs (customer qualification requirements), significant R&D capabilities, technical expertise in nanoscale manufacturing (deposition, etch, clean), and an extensive installed base that generates recurring service revenue. The company's integrated hardware-process-materials-software approach and close customer relationships create differentiation. However, intense rivalry from well-capitalized competitors (Applied Materials, ASM, Tokyo Electron) and customer concentration risk limit moat strength. Regulatory risks (export controls to China, tariffs) and supply chain dependencies present material vulnerabilities.",
+  "key_risks": [
+    "Intense competition from Applied Materials, ASM International, Hitachi, and Tokyo Electron with comparable R&D resources and market presence",
+    "Customer concentration: Samsung and TSMC represent material portion of revenue; material reduction in orders could significantly impact results",
+    "Export control restrictions to China customers and government initiatives encouraging local semiconductor manufacturing could reduce addressable market and enable new competitors",
+    "Single-source supplier dependencies for certain critical components could disrupt manufacturing and customer relationships",
+    "Rapid technological change requires sustained R&D investment; failure to innovate timely could result in loss of competitive position",
+    "Geopolitical and trade risks including tariffs, export restrictions, and currency fluctuations affecting international operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

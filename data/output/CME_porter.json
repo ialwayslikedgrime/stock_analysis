@@ -1,0 +1,38 @@
+{
+  "ticker": "CME",
+  "company": "CME Group",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "CME faces intense competition from well-capitalized global exchanges (ICE, Cboe, Euronext, HKEX, Deutsche Börse) and new entrants (FMX Futures Exchange, digital asset platforms). The 10-K explicitly states 'competition in our industry continues to be dynamic' and competition is expected to 'intensify and become more global,' with competitors offering alternative execution models and products."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While regulatory barriers and capital requirements create some protection, the 10-K acknowledges 'multiple new entrants over time' and 'several new derivatives clearing operators have gained approval in the U.S. in the last decade.' Emerging technologies and alternative platforms continue to lower barriers for specialized competitors targeting specific segments or asset classes."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including cash markets, OTC trading, ETFs, options, warrants, contracts for differences, and structured products. The 10-K notes competitors can offer 'alternative instruments' and 'alternative means of developing exposures,' and internalization of trade flows by large customers represents a growing threat to exchange-based trading."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large institutional buyers and clearing firms have substantial negotiating power; one clearing firm represented 12% of clearing and transaction fees revenue in 2025. The 10-K indicates customers can internalize trade flows, switch to alternative venues, and negotiate fees, though the diversity of CME's product offerings and liquidity provide some countervailing power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "CME has limited supplier power concerns as a marketplace operator. However, the company is dependent on index license agreements (S&P, Nasdaq, Russell, Dow Jones) with renewal risks; the 10-K states 'we cannot guarantee we will be able to maintain the exclusivity of our licensing agreements' and notes potential non-renewal or unfavorable terms. Technology partners (Google Cloud) represent moderate dependency."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "CME Group possesses a moderate competitive moat anchored by network effects (deep liquidity, diverse product ecosystem, 85% member volume), switching costs (integrated clearing, margin efficiencies, established distribution), and brand/regulatory positioning as a systemically important infrastructure provider. However, the moat is eroding due to intensifying competition from well-capitalized rivals, emerging alternative venues, internalization trends, and substitute products. The company's dependence on index licensing agreements and vulnerability to regulatory changes further constrain moat durability.",
+  "key_risks": [
+    "Intensifying competition from ICE, Cboe, and new entrants fragmenting market share and compressing transaction fees",
+    "Customer internalization of trade flows and migration to alternative venues (single-dealer platforms, OTC, ETFs) reducing exchange volumes",
+    "Loss or non-renewal of exclusive index licensing agreements (S&P 500, Nasdaq, Russell) at unfavorable terms, reducing product differentiation",
+    "Regulatory changes (Dodd-Frank, EMIR 3.0, MiFID II, Basel III) creating compliance costs and potentially favoring competitors or alternative clearing models",
+    "Dependence on Google Cloud migration for operational efficiency and innovation; execution risks could impact competitive positioning",
+    "Concentration risk: one clearing firm represents 12% of clearing revenue; customer concentration in institutional segment limits pricing power"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

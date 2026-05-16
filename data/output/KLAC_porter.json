@@ -1,0 +1,37 @@
+{
+  "ticker": "KLAC",
+  "company": "KLA Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "KLA operates in a highly competitive market with significant competitors including Applied Materials, ASML, Hitachi High-Technologies, Onto Innovation, and Lasertec. The 10-K explicitly states the market is 'highly competitive' with competitors having comparable or greater financial and R&D resources, creating intense rivalry over market share and pricing."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to KLA's 8,500+ active patents, extensive R&D requirements, established customer relationships, and need for significant capital investment and technical expertise. The 10-K notes the company maintains competitive position through long-term customer relationships and continuous innovation, making it difficult for new entrants to establish market presence."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for KLA's specialized process control and inspection solutions in semiconductor manufacturing. These tools are integral to yield optimization and production efficiency, with no viable alternative technologies mentioned in the 10-K, though process innovations could theoretically reduce demand."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high due to customer concentration (TSMC and Samsung each represent >10% of revenue) and the cyclical nature of semiconductor capex spending. However, customers depend on KLA's solutions for yield improvement and competitive advantage, limiting their ability to negotiate aggressively on critical products."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate; while KLA uses multiple vendors for most components, the 10-K acknowledges that 'certain parts and raw materials...may be obtained only from a single supplier or a limited group of suppliers.' Supply chain disruptions and sole-source dependencies create vulnerability, though KLA actively manages this through inventory and vendor relationships."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "KLA possesses a strong competitive moat built on high barriers to entry through extensive patent protection (8,500+ active patents), deep customer relationships with leading semiconductor manufacturers, and significant R&D investments that enable continuous product innovation. The company's comprehensive portfolio of specialized process control solutions creates switching costs and lock-in effects. However, the moat is partially offset by intense rivalry from well-capitalized competitors and concentration risk from major customers, which limits pricing power despite the technical superiority of KLA's offerings.",
+  "key_risks": [
+    "Customer concentration risk: TSMC and Samsung represent significant revenue portions, creating vulnerability to their capex cycles and negotiating power",
+    "Geopolitical and regulatory headwinds: Export restrictions to China and U.S. Entity List designations limit addressable market and growth opportunities in a key region",
+    "Cyclical industry exposure: Semiconductor capex spending is highly cyclical; downturns directly impact KLA's revenues and profitability",
+    "Supply chain dependencies: Reliance on single or limited-source suppliers for critical components could disrupt production and customer deliveries",
+    "Intense competitive pressure: Well-funded competitors like Applied Materials and ASML continuously invest in R&D to improve products and pricing, threatening market share"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Broadcom operates in highly competitive semiconductor and software markets with numerous large international competitors (IDMs, fabless companies, and internal OEM resources). The 10-K explicitly states 'The markets in which we participate are highly competitive' with ongoing consolidation and competitors continuously expanding product offerings and entering new markets."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Broadcom's extensive IP portfolio (19,000+ patents), significant R&D requirements, established customer relationships built over years, specialized engineering talent, and capital-intensive manufacturing partnerships. However, the software segment (VMware, Symantec) faces lower barriers than semiconductors, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While Broadcom's semiconductor solutions (Ethernet, RF, storage controllers) have limited direct substitutes due to technical specificity, alternative architectures and competing standards exist. Software solutions face moderate substitution risk from open-source alternatives and competing cloud platforms, though Broadcom's integrated offerings provide some differentiation."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is significant due to high customer concentration: top 5 customers represent ~40% of revenue, and distributor sales account for 48% of revenue. The 10-K warns that loss of major customers could have 'material adverse effect.' However, long-standing relationships and customized ASIC solutions create some switching costs that moderate buyer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists as Broadcom depends heavily on TSMC for wafer manufacturing and multiple CMs for assembly/test, with limited alternate sources for specialized components. However, Broadcom maintains internal III-V fabrication for proprietary processes and relationships with multiple suppliers, providing some negotiating leverage and diversification."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Broadcom possesses a moderate-to-strong competitive moat built on extensive IP (19,000+ patents), deep engineering expertise, established customer relationships with high switching costs (particularly for custom ASICs), and scale advantages in R&D and manufacturing partnerships. The company's diversified portfolio across semiconductors and infrastructure software, combined with category-leading positions in key markets (AI networking, storage, wireless), provides resilience. However, the moat is constrained by high customer concentration, intense competitive rivalry, dependence on foundry partners (particularly TSMC), and exposure to rapidly evolving technology markets where innovation leadership must be continuously maintained.",
+  "key_risks": [
+    "Customer concentration risk: Top 5 customers represent ~40% of revenue; loss of major hyperscaler or OEM customer could materially impact financial performance",
+    "Supply chain dependency: Heavy reliance on TSMC for wafer manufacturing and multiple CMs for assembly creates vulnerability to geopolitical disruptions, capacity constraints, or partner financial distress",
+    "Intense competitive rivalry and technology obsolescence: Rapid innovation cycles in semiconductors and software require continuous R&D investment; competitors may develop superior technologies or capture market share through consolidation",
+    "Execution risk on large acquisitions: History of major acquisitions (VMware, CA, Symantec, Brocade) requires successful integration to realize synergies and maintain competitive positioning",
+    "Software segment integration challenges: VMware and Symantec face competition from larger cloud vendors (AWS, Microsoft, Google) and open-source alternatives; subscription model transition may face adoption headwinds"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

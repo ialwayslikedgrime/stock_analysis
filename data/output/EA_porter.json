@@ -1,0 +1,37 @@
+{
+  "ticker": "EA",
+  "company": "Electronic Arts",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "EA explicitly states 'competition in our business is intense' with competitors ranging from established companies to startups, including large diversified firms with greater resources. Competitors can shift player engagement away from EA's products, and EA faces talent retention challenges as a prime recruitment target, indicating fierce competitive dynamics in the gaming industry."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While barriers exist through established IP portfolios, distribution relationships, and large development budgets, the document notes competitors include 'emerging start-ups,' suggesting moderate barriers. However, the shift to digital distribution and free-to-play models has lowered some traditional barriers, though EA's scale and franchise portfolio provide some protection."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Gaming faces substitution from other entertainment forms (streaming, social media, mobile apps), and within gaming, players can shift between titles and platforms. The document's emphasis on player engagement and retention suggests significant substitute threats. [INFERRED: Broader entertainment competition not detailed in 10-K]"
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Players have significant power through discretionary spending on games and live services, with ability to shift to competitors' titles. The concentration of revenue in few franchises (FC Ultimate Team, Madden NFL, Apex Legends) indicates players can withhold spending if dissatisfied, though switching costs exist through progression and cosmetics."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "EA depends on platform holders (Microsoft, Sony, Apple, Google) who retain 20-30% of digital sales and control distribution. Sports licensing agreements with leagues are critical but appear negotiated at scale. Data center and hosting providers have moderate leverage, though EA's scale provides some negotiating power."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "EA possesses moderate competitive advantages primarily through established IP franchises (sports titles, Apex Legends, The Sims) and a large installed player base generating recurring live services revenue. However, these moats are under pressure from intense competition, player concentration risk in few titles, and dependence on platform holders. The shift to digital distribution and free-to-play models has eroded some traditional barriers, and the company's reliance on annual sports franchise releases creates vulnerability to competitive disruption.",
+  "key_risks": [
+    "Revenue concentration: Material portion of revenue derived from few franchises (EA SPORTS FC, Madden NFL, Apex Legends); loss of player engagement in any title significantly impacts results",
+    "Intense competition and talent retention: Competitors with larger budgets and resources can shift player engagement; EA is prime recruitment target for key talent, increasing retention costs",
+    "Platform dependency: Significant reliance on Microsoft, Sony, Apple, and Google storefronts; these platforms retain 20-30% of digital sales and control distribution terms",
+    "Live services volatility: Live services revenue declined 1% YoY; growth is non-linear due to competitive landscape and consumer buying patterns, creating forecast uncertainty",
+    "Regulatory and licensing risks: Sports licensing agreements require ongoing negotiation; regulatory changes in loot boxes, gambling mechanics, or data privacy could impact monetization [INFERRED from industry context]"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

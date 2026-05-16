@@ -1,0 +1,38 @@
+{
+  "ticker": "NDAQ",
+  "company": "Nasdaq, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Nasdaq faces intense competition from established rivals including NYSE, CME Group, and regional exchanges globally. The exchange and market technology sectors are highly competitive with multiple players offering similar trading, clearing, and data services across asset classes and geographies."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to regulatory requirements, significant capital investment, network effects, and established relationships with market participants. However, technology-enabled entrants in specific niches (fintech compliance, cloud-based solutions) pose emerging threats, particularly in non-core segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Alternative trading systems (ATS), decentralized finance platforms, and direct bilateral trading reduce reliance on traditional exchanges. Cloud-based SaaS solutions from tech companies could substitute for some market technology and compliance offerings, though core exchange functions remain difficult to replace."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large institutional clients (G-SIBs, major asset managers) and exchanges have significant negotiating leverage, particularly for technology and data services. However, Nasdaq's diversified client base and mission-critical nature of some services (regulatory compliance, market infrastructure) limit individual buyer power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Nasdaq has limited supplier concentration risk with AWS as a key cloud partner, but this relationship is manageable and non-exclusive. Technology talent and specialized expertise in financial markets represent moderate supplier power, though Nasdaq's scale and brand mitigate this constraint."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Nasdaq possesses a moderate-to-strong competitive moat anchored by network effects (liquidity concentration, listing ecosystem), regulatory barriers, and switching costs embedded in mission-critical market infrastructure. Its diversified portfolio spanning exchanges, data, compliance technology, and market analytics creates cross-selling opportunities and customer lock-in. However, competitive pressures from NYSE, CME, and emerging fintech solutions, combined with buyer concentration among large financial institutions, constrain moat strength. The company's recent acquisitions (Verafin, Adenza) and cloud migration strategy strengthen its technology moat but require sustained execution.",
+  "key_risks": [
+    "Intense competition from NYSE, CME Group, and regional exchanges eroding market share and pricing power in core trading and listing services",
+    "Regulatory and compliance risks including potential antitrust scrutiny, changing market structure regulations, and evolving cybersecurity/data privacy requirements",
+    "Technology disruption from decentralized finance, alternative trading systems, and cloud-native fintech competitors offering lower-cost substitutes for specific services",
+    "Customer concentration risk with large institutional clients and G-SIBs having significant negotiating leverage over pricing and contract terms",
+    "Integration execution risk from recent major acquisitions (Verafin, Adenza/AxiomSL/Calypso) and cloud migration complexity with AWS partnership dependency",
+    "Cyclical revenue exposure to IPO activity, trading volumes, and market volatility affecting listing and transaction-based revenues"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

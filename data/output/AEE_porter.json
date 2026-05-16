@@ -1,0 +1,38 @@
+{
+  "ticker": "AEE",
+  "company": "Ameren",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "Ameren operates as a regulated monopoly utility in Missouri and Illinois with exclusive service territories. There is no direct competition for retail electric and natural gas distribution services within its service areas, as rate-regulated utilities do not compete on price or service offerings in their jurisdictions."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory licensing requirements, massive capital requirements for infrastructure, and exclusive territorial franchises granted by state regulators (MoPSC, ICC, FERC). New entrants would need regulatory approval and cannot economically duplicate existing transmission/distribution networks."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While distributed generation, rooftop solar, and energy efficiency programs represent emerging substitutes for traditional utility services, Ameren remains the provider of last resort and maintains control over transmission/distribution infrastructure. However, long-term electrification and distributed resources pose moderate substitution risk to traditional generation revenue."
+    },
+    "buyer_power": {
+      "score": 1,
+      "rationale": "Individual customers have minimal pricing power as rates are set by regulatory commissions (MoPSC, ICC, FERC) based on cost-of-service models, not market competition. Customers cannot switch providers for distribution services, though some Illinois customers can purchase power from alternative suppliers. Regulatory lag and rate reconciliation mechanisms further limit customer leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Ameren has moderate supplier concentration risk, particularly for coal (96% from Powder River Basin with limited suppliers) and uranium fuel. However, fuel costs are largely passed through to customers via regulatory mechanisms, limiting supplier pricing power over Ameren's profitability. Transmission and distribution equipment suppliers face less concentration risk."
+    }
+  },
+  "moat_score": 4.4,
+  "moat_summary": "Ameren possesses an exceptionally strong competitive moat anchored by regulatory monopoly status, exclusive service territories, and high capital barriers to entry. The company's rate-regulated business model with cost-of-service recovery mechanisms provides stable, predictable cash flows insulated from competitive pricing pressure. Regulatory oversight, while constraining returns, simultaneously protects the company from new entrants and ensures cost recovery, creating a durable competitive advantage that is difficult to replicate.",
+  "key_risks": [
+    "Regulatory lag and unfavorable rate decisions by MoPSC, ICC, or FERC could materially impact profitability and cash flows",
+    "Coal supply chain disruptions from Powder River Basin (96% of supply) due to rail congestion, equipment issues, or supplier financial hardship could increase generation costs",
+    "Accelerating distributed generation, rooftop solar adoption, and energy efficiency programs could reduce load growth and stranded asset risk, particularly as Illinois mandates renewable energy and storage investments",
+    "Transition risk from coal retirement requirements (all coal plants by 2042 in Missouri) and need for substantial capital investment in natural gas, renewable, nuclear, and storage infrastructure",
+    "Regulatory uncertainty around Illinois RTO membership study (due December 2026) and potential changes to integrated resource planning could affect transmission business economics",
+    "Environmental compliance costs for air emissions (NOx, SO2, CO2), wastewater discharge, and coal combustion residual management could increase significantly"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,182 @@
+{
+  "ticker": "VTR",
+  "company": "Ventas, Inc.",
+  "analysis_date": "2026-05-16",
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
+  "scores": {
+    "structural_score": 4,
+    "moat_score": 3,
+    "financial_score": 4,
+    "valuation_score": 2,
+    "quality_score": 3.6,
+    "opportunity_score": 2.6,
+    "combined_score": 3.2
+  },
+  "archetype": "VALUE TRAP",
+  "archetype_reasoning": "Ventas exhibits superficially attractive characteristics (12.3% revenue CAGR, dividend yield, analyst consensus 'buy') masking severe structural deterioration. The company operates in a fragmented, low-moat industry with extreme tenant concentration (Atria 17.7% of SHOP NOI), negative ROIC (-0.2% in 2023-2024), and deteriorating financial quality despite revenue growth. Current valuation (159x P/E, 24.3x EV/EBITDA) prices in unrealistic perpetual growth assumptions that ignore demographic headwinds in senior housing and reimbursement pressure.",
+  "verdict": "strong avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "very expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 4,
+    "megatrend_exposure_score": 5,
+    "megatrend_type": "secondary beneficiary with headwind components",
+    "megatrends_exposed_to": [
+      "Aging demographics (positive TAM expansion)",
+      "Healthcare cost containment (negative reimbursement pressure)",
+      "Real estate consolidation (neutral to negative for fragmented operators)"
+    ],
+    "megatrend_analysis": "Ventas benefits from aging demographics: U.S. 65+ population growing 3.2% annually through 2035, expanding senior housing TAM. However, this is a secondary position—Ventas owns real estate but does not control care delivery, clinical outcomes, or pricing. The company is exposed to structural headwinds: Medicare/Medicaid reimbursement rates have compressed 2-3% annually in skilled nursing, and private pay senior housing faces affordability pressure as healthcare costs consume 18% of household income for 65+ cohort. The TAM expands but pricing power erodes, leaving Ventas as a passive landlord capturing minimal value creation. Regulatory changes (CMS reimbursement cuts, state licensure tightening) directly impair tenant profitability and thus Ventas' lease renewal leverage.",
+    "necessity_score": 7,
+    "necessity_analysis": "Senior housing and medical facilities are essential services with inelastic demand—patients cannot defer care. However, necessity accrues to the care provider (Atria, Brookdale), not the landlord. Ventas' real estate is necessary but substitutable: operators can relocate, consolidate, or negotiate aggressively. Recession resilience is moderate: senior housing occupancy declined 8-12% in 2020-2021 COVID downturn, and skilled nursing faced severe reimbursement pressure. Demand is sticky but not recession-proof.",
+    "moat_trajectory_score": 2,
+    "moat_trajectory_analysis": "Ventas' moat is narrowing, not widening. Scale and geographic diversification (claimed competitive advantages) provide no pricing power in a market where 39 third-party managers control operations and tenant concentration is extreme. The Ventas OI™ platform is not a defensible technology—it is operational consulting that competitors can replicate. Switching costs are low: operators can relocate to competing REIT properties or consolidate internally. Compounding advantages are absent: higher scale does not improve lease terms with concentrated tenants like Atria (17.7% of SHOP NOI) who have significant negotiating leverage. The REIT structure constrains operational control, preventing Ventas from capturing upside from operational improvements. Moat is deteriorating as consolidation among operators (Brookdale, Kindred, Ardent) increases their bargaining power.",
+    "tam_evolution_score": 6,
+    "tam_evolution_analysis": "Senior housing TAM expands 3-4% annually through 2035 as 65+ population grows. However, pricing power is constrained: private pay rates face affordability pressure, and Medicare/Medicaid reimbursement declines 2-3% annually. Ventas captures TAM growth only through occupancy expansion, not pricing. New adjacencies (outpatient medical, research centers) are modest and face similar competitive dynamics. TAM expansion does not translate to margin expansion for Ventas.",
+    "technology_resilience_score": 5,
+    "technology_resilience_analysis": "Ventas faces moderate technology disruption risk. Telehealth and home-based care reduce demand for facility-based senior housing, though this is gradual (5-10 year horizon). Regulatory changes mandating higher staffing ratios or infection control standards increase operator costs, reducing lease renewal leverage for Ventas. The Ventas OI™ platform is not defensible against AI-driven operational optimization or data analytics competitors. No material R&D investment evident; Ventas is a passive real estate holder, not a technology innovator.",
+    "structural_summary": "Ventas will likely be weaker in 10 years. The company operates in a structurally declining competitive position: tenant concentration increases operator bargaining power, reimbursement pressure erodes operator profitability (reducing lease renewal rates), and demographic tailwinds accrue to care providers, not landlords. The REIT structure prevents operational control and value capture. The single most important structural fact is tenant concentration: Atria (17.7%), Brookdale, Kindred, and Ardent represent disproportionate revenue exposure with significant negotiating leverage. As these operators consolidate, Ventas' leverage deteriorates. The company is a passive real estate holder in a commoditized market with no durable competitive advantage."
+  },
+  "moat_analysis": {
+    "score": 3,
+    "rivalry": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Ventas competes with numerous publicly traded REITs (Welltower, LTC Properties, Medical Properties Trust), private REITs, and institutional investors for acquisitions and lease renewals. The 10-K explicitly states 'numerous publicly traded REITs' compete directly, indicating no differentiation. Rivalry is intense and price-based: REITs compete on cap rates and lease terms, not service quality or operational excellence. Ventas' claimed competitive advantages (scale, geographic diversification, Ventas OI™) do not translate to pricing power—competitors offer identical terms. Rivalry is strengthening as consolidation among operators (Brookdale, Kindred mergers) increases their bargaining power against fragmented REITs.",
+      "key_competitors": [
+        "Welltower Inc. (WELL)",
+        "LTC Properties Inc. (LTC)",
+        "Medical Properties Trust (MPW)",
+        "Sabra Health Care REIT (SBRA)"
+      ]
+    },
+    "new_entrants": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Barriers to entry are moderate but not high. Capital requirements are significant ($5B+ to build scale), but institutional investors, private equity, and banks can access capital. REIT regulatory compliance creates modest friction but is not a durable barrier—competitors navigate it routinely. The 10-K acknowledges 'banks, insurance companies, and other institutional investors' can enter. No proprietary technology, brand, or operational expertise prevents entry. New entrants can acquire portfolios and hire experienced management. Barriers are eroding as consolidation reduces the number of acquisition targets and increases competition for remaining assets.",
+      "biggest_threat": "Private equity-backed healthcare operators acquiring real estate directly (vertical integration) or institutional investors with lower cost of capital entering the market"
+    },
+    "substitutes": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Limited direct substitutes exist for senior housing and medical facilities as specialized real estate assets. However, substitutes are emerging: home-based care, telehealth, and outpatient clinics reduce demand for facility-based senior housing. The 10-K notes 'alternative care models' but minimizes the threat. In reality, telehealth adoption accelerated post-COVID (40% of Medicare beneficiaries used telehealth in 2021 vs. 1% in 2019), and home-based care is expanding. Operators can shift to lower-cost delivery models, reducing facility utilization and lease renewal rates. Substitutes are not direct (you cannot replace a nursing home with telehealth), but they reduce demand for Ventas' core assets.",
+      "key_substitute": "Home-based care, telehealth, and outpatient clinics reducing facility-based senior housing demand"
+    },
+    "buyer_power": {
+      "score": 2,
+      "trend": "strengthening",
+      "analysis": "Buyer power is significant and concentrated. The 10-K reveals extreme tenant concentration: Atria represents 17.7% of SHOP NOI, Brookdale and Kindred are major tenants, and top three managers control ~30% of segment NOI. Concentrated buyers have significant negotiating leverage: they can threaten to relocate, consolidate, or renegotiate lease terms. Ventas has limited ability to replace concentrated tenants—the cost and time to find new operators is high. Tenant consolidation (Brookdale-Kindred merger discussions) increases buyer power further. Ventas' ability to raise rents is constrained by operator profitability and competitive REIT offerings.",
+      "analysis_extended": "Atria's 17.7% concentration means Ventas cannot afford to lose this tenant; lease renewal negotiations are heavily skewed toward Atria. Brookdale and Kindred have similar leverage. Ventas' FCF is highly dependent on these concentrated counterparties' financial health and willingness to renew leases. This is not a sustainable competitive advantage—it is a structural vulnerability."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Supplier power is moderate. Ventas relies on 39 third-party managers for SHOP operations, with top three managers controlling ~30% of segment NOI. This creates operational dependency and execution risk. Managers can threaten to exit, reduce service quality, or demand better terms. However, Ventas has some leverage: it can replace underperforming managers or consolidate operations. Supplier power is not as acute as buyer power but is material. Construction and maintenance suppliers have low power—Ventas can source these competitively. The key supplier risk is operational manager concentration, which limits Ventas' control and creates execution risk.",
+      "analysis_extended": "The reliance on 39 third-party managers means Ventas does not control operations, clinical outcomes, or tenant satisfaction. This is a structural weakness, not a strength. Managers can exit, reducing Ventas' ability to execute its strategy."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Ventas' moat is narrow and deteriorating. The company claims competitive advantages in scale, geographic diversification, and operational expertise (Ventas OI™), but these do not translate to pricing power or durable competitive advantage. Tenant concentration (Atria 17.7%, Brookdale, Kindred, Ardent) gives concentrated buyers significant negotiating leverage, constraining Ventas' ability to raise rents or renew leases on favorable terms. Rivalry is intense and price-based; new entrants face moderate barriers but can enter with sufficient capital; substitutes (home-based care, telehealth) are emerging and reducing facility-based demand. The REIT structure prevents operational control and value capture. Ventas is a passive real estate holder in a commoditized market with no durable competitive advantage. The moat is narrowing as operator consolidation increases buyer power and reimbursement pressure erodes operator profitability."
+  },
+  "financial_analysis": {
+    "score": 4,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "low",
+    "balance_sheet_health": "stretched",
+    "recession_resilience": "low",
+    "deep_analysis": "Ventas exhibits deteriorating financial quality despite 12.3% revenue CAGR. Gross margins compressed from 44.7% (2022) to 41.4% (2025), indicating pricing pressure and rising operating costs. Operating margins are volatile (11.7% in 2022, 9.2% in 2023, 13.8% in 2024, 14.7% in 2025), suggesting earnings quality is low and driven by one-time items or accounting adjustments rather than operational improvement. Net margins are deeply negative: -1.1% (2022), -0.9% (2023), 1.6% (2024), 4.3% (2025). ROIC is critically weak: -0.2% (2023-2024), 0.3% (2024), 1.0% (2025). This indicates Ventas is destroying shareholder value—the company generates minimal returns on invested capital. FCF as % of revenue is 17.2% (2025), but this is misleading: FCF is inflated by non-cash charges (depreciation, amortization) typical of REITs. Adjusted for REIT accounting, true economic returns are much lower. Debt/Equity is 1.04x (2025), elevated for a REIT and indicating stretched balance sheet. The company is highly leveraged and dependent on refinancing at favorable rates. Recession resilience is low: senior housing occupancy declined 8-12% in COVID downturn, and reimbursement pressure is structural. Ventas' ability to service debt during a recession is questionable."
+  },
+  "valuation_analysis": {
+    "score": 2,
+    "overall_assessment": "very expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "very expensive",
+    "implied_10yr_growth_rate": "8.2% per year",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "Current valuation (P/E 159x, EV/EBITDA 24.3x) implies 8.2% perpetual growth at 10% discount rate. This is unrealistic given: (1) senior housing TAM grows 3-4% annually, (2) pricing power is constrained by reimbursement pressure and operator consolidation, (3) ROIC is negative (1.0% in 2025), indicating value destruction, (4) tenant concentration limits lease renewal leverage, (5) substitutes (home-based care, telehealth) are emerging. The market is pricing in perpetual 8%+ growth in a commoditized, low-moat industry with structural headwinds. This is a classic value trap: high growth expectations embedded in price despite weak fundamentals.",
+    "estimated_intrinsic_value_conservative": "$42",
+    "estimated_intrinsic_value_optimistic": "$58",
+    "current_vs_intrinsic": "-34% to -51% discount (current price $87.45 is 51-108% premium to intrinsic value)",
+    "strong_buy_price": "$35",
+    "watchlist_price": "$50",
+    "valuation_deep_analysis": "PEG of 12.93x is extremely elevated (fair value ~1.0x), indicating severe overvaluation. EV/EBITDA of 24.3x is 2-3x sector norms (Welltower 18x, LTC Properties 16x), suggesting Ventas is priced at a significant premium despite weaker fundamentals. Reverse DCF at 10% discount rate implies 8.2% perpetual growth, which is unrealistic. Conservative intrinsic value ($42) assumes 3% perpetual growth (TAM growth rate) and 5% ROIC, yielding $42 per share. Optimistic case ($58) assumes 5% growth and 7% ROIC, still well below current price. Current price of $87.45 implies market expects 8%+ perpetual growth despite negative ROIC, tenant concentration, and reimbursement headwinds. Margin of safety is negative: current price offers no margin of safety and significant downside risk. Analyst target of $95.4 is also overvalued, implying continued unrealistic growth assumptions. Strong buy price is $35 (60% discount), reflecting true intrinsic value with margin of safety. Watchlist price is $50 (43% discount), where valuation becomes more reasonable."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Ventas faces intense competition from well-capitalized REITs (Welltower, LTC Properties, MPW) and institutional investors. Tenant consolidation (Brookdale-Kindred) increases buyer power and reduces Ventas' lease renewal leverage. No proprietary competitive advantage prevents rivals from offering identical terms. Pricing power is eroding as competition intensifies.",
+    "regulatory": "High",
+    "regulatory_explanation": "Medicare/Medicaid reimbursement changes directly impact tenant profitability and lease renewal rates. CMS has reduced skilled nursing reimbursement 2-3% annually. State licensure requirements and infection control mandates increase operator costs, reducing lease renewal leverage. Regulatory changes are structural headwinds, not temporary.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Senior housing occupancy is cyclical: declined 8-12% in COVID downturn. Recession reduces private pay demand and increases operator defaults. Interest rate sensitivity is high: Ventas is leveraged (D/E 1.04x) and dependent on refinancing at favorable rates. Rising rates increase debt service costs and reduce asset valuations.",
+    "balance_sheet": "High",
+    "balance_sheet_explanation": "Debt/Equity of 1.04x is elevated for a REIT. Negative ROIC (1.0% in 2025) indicates value destruction and limited debt service capacity. Refinancing risk is material: if rates remain elevated, debt service costs will increase significantly. Balance sheet is stretched and vulnerable to recession or rate shock.",
+    "management": "Medium",
+    "management_explanation": "Management has not demonstrated ability to improve ROIC or competitive positioning. Revenue growth (12.3% CAGR) masks deteriorating profitability and value destruction. No evidence of strategic innovation or operational excellence. Management appears to be executing a passive real estate strategy without differentiation.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "Ventas operates primarily in the U.S. with minimal international exposure. Geopolitical risks are low. However, healthcare policy changes (Medicare/Medicaid reform) are a form of political risk that could impact reimbursement rates.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Telehealth and home-based care are emerging substitutes for facility-based senior housing. Adoption is accelerating post-COVID. Ventas OI™ platform is not defensible against AI-driven operational optimization. Technology obsolescence risk is moderate but growing.",
+    "esg": "Medium",
+    "esg_explanation": "Senior housing facilities face ESG scrutiny: infection control, staffing ratios, resident safety. COVID-related deaths in nursing homes increased regulatory and reputational pressure. ESG risks are material but manageable with proper compliance. No existential ESG threat.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Tenant concentration risk: Atria (17.7% of SHOP NOI) and Brookdale/Kindred consolidation increase buyer power and reduce lease renewal leverage. If Atria defaults or renegotiates aggressively, Ventas' cash flow is materially impaired.",
+      "Reimbursement pressure: Medicare/Medicaid reimbursement declines 2-3% annually, eroding operator profitability and reducing lease renewal rates. Structural headwind with no offset.",
+      "Valuation collapse: Current price (P/E 159x, EV/EBITDA 24.3x) is unsustainable. If growth expectations reset to realistic 3-4% (TAM growth), stock could decline 40-60% to intrinsic value of $35-50."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable with structural headwinds",
+    "company_competitive_position": "mid-tier with deteriorating leverage",
+    "structural_tailwinds": [
+      "Aging demographics: U.S. 65+ population growing 3.2% annually through 2035, expanding senior housing TAM by 3-4% annually",
+      "Essential services: Senior housing and medical facilities are necessary services with inelastic demand",
+      "Real estate consolidation: Fragmented operator market consolidating, potentially improving lease terms for large REITs"
+    ],
+    "structural_headwinds": [
+      "Reimbursement pressure: Medicare/Medicaid reimbursement declining 2-3% annually, eroding operator profitability and lease renewal leverage",
+      "Operator consolidation: Brookdale-Kindred and other mergers increase buyer power and reduce Ventas' negotiating leverage",
+      "Emerging substitutes: Telehealth and home-based care reducing facility-based senior housing demand, estimated 5-10% TAM erosion over 10 years",
+      "Affordability pressure: Private pay senior housing faces headwinds as healthcare costs consume 18% of household income for 65+ cohort"
+    ],
+    "megatrend_impact": "Ventas is a secondary beneficiary of aging demographics with significant headwind exposure. The 65+ population grows 3.2% annually, expanding senior housing TAM. However, this TAM expansion accrues primarily to care providers (Atria, Brookdale), not landlords. Ventas captures TAM growth only through occupancy expansion, not pricing. Simultaneously, Ventas faces structural headwinds: reimbursement pressure erodes operator profitability, reducing lease renewal leverage; operator consolidation increases buyer power; emerging substitutes (telehealth, home-based care) reduce facility-based demand. Net effect: TAM tailwind is offset by structural headwinds, leaving Ventas in a stable but not growing competitive position.",
+    "recession_history": "Senior housing REITs experienced significant stress in 2008 and 2020. In 2008, occupancy declined and operators defaulted on leases; REITs took significant write-downs. In 2020, COVID caused occupancy declines of 8-12%, operator defaults, and reimbursement pressure. Ventas' net margin turned negative (-0.9% in 2023) during this period. Recession resilience is low: senior housing demand is sticky but not recession-proof. Operators face margin pressure during recessions, reducing lease renewal rates and increasing default risk.",
+    "disruption_threats": "Telehealth and home-based care are emerging disruption threats. Telehealth adoption accelerated post-COVID (40% of Medicare beneficiaries in 2021 vs. 1% in 2019). Home-based care is expanding as operators seek lower-cost delivery models. These substitutes reduce demand for facility-based senior housing, estimated 5-10% TAM erosion over 10 years. Additionally, AI-driven operational optimization and data analytics could reduce the value of Ventas OI™ platform. Regulatory changes (higher staffing ratios, infection control mandates) increase operator costs, reducing lease renewal leverage.",
+    "better_sector_alternatives": [
+      "Welltower Inc. (WELL): Larger scale, more diversified portfolio (senior housing, medical office, life sciences), stronger competitive position, better ROIC",
+      "LTC Properties Inc. (LTC): Smaller but more focused on skilled nursing, better lease terms with operators, lower valuation (EV/EBITDA 16x vs. VTR 24x)",
+      "Medical Properties Trust (MPW): Diversified into hospitals and medical office, different risk profile, lower valuation"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Ventas is a value trap priced at 159x P/E and 24.3x EV/EBITDA, implying 8%+ perpetual growth in a commoditized, low-moat industry with structural headwinds. Quality Score of 3.6/10 reflects weak structural positioning (4/10), narrow moat (3/10), and deteriorating financials (4/10). ROIC is critically weak (1.0% in 2025), indicating value destruction. Tenant concentration (Atria 17.7% of SHOP NOI) gives concentrated buyers significant negotiating leverage, constraining lease renewal rates. Reimbursement pressure (2-3% annual declines) erodes operator profitability and reduces Ventas' leverage. Emerging substitutes (telehealth, home-based care) reduce facility-based demand. Opportunity Score of 2.6/10 reflects severe overvaluation: current price of $87.45 is 51-108% premium to conservative intrinsic value of $42-58. Analyst consensus 'buy' and target of $95.4 are both overvalued, pricing in unrealistic growth assumptions. Ventas offers no margin of safety and significant downside risk.",
+    "upside_catalysts": [
+      "Operator consolidation (Brookdale-Kindred merger) improves lease terms and reduces tenant concentration risk. If top 3 operators decline from 30% to 20% of NOI, lease renewal leverage improves. Timeline: 2-3 years. Upside: +15-20% if consolidation benefits Ventas.",
+      "Reimbursement stabilization: If CMS stabilizes Medicare/Medicaid reimbursement rates (currently declining 2-3% annually), operator profitability improves and lease renewal rates increase. Timeline: 3-5 years (unlikely given political environment). Upside: +20-25%.",
+      "Acquisition by larger REIT: Welltower or other large REIT acquires Ventas at 15-20% premium to current price. Timeline: 1-3 years. Upside: +15-20%."
+    ],
+    "downside_risks": [
+      "Valuation reset: If growth expectations reset to realistic 3-4% (TAM growth), stock declines 40-60% to intrinsic value of $35-50. Trigger: Earnings miss, guidance cut, or analyst downgrade. Timeline: 6-12 months. Downside: -40-60%.",
+      "Tenant default: If Atria (17.7% of SHOP NOI) or Brookdale defaults or renegotiates aggressively, Ventas' cash flow is materially impaired. Trigger: Operator financial stress, reimbursement cut, or occupancy decline. Timeline: 1-2 years. Downside: -30-50%.",
+      "Recession: Senior housing occupancy declines 8-12% in recession, operator defaults increase, and reimbursement pressure intensifies. Ventas' leverage (D/E 1.04x) limits debt service capacity. Trigger: Economic slowdown, yield curve inversion. Timeline: 1-3 years. Downside: -40-60%."
+    ],
+    "strong_buy_at": "$35",
+    "watchlist_at": "$50",
+    "exit_trigger": "If stock reaches $95-100 (analyst target), exit position. Valuation becomes unjustifiable. Alternatively, if tenant concentration increases (Atria >20% of NOI) or reimbursement pressure accelerates (>3% annual decline), exit due to deteriorating competitive position.",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "Welltower Inc. (WELL): Larger scale ($40B market cap), more diversified portfolio (senior housing, medical office, life sciences), stronger competitive position, better ROIC (8-10%), lower valuation (EV/EBITDA 18x). WELL is a better quality compounder.",
+    "LTC Properties Inc. (LTC): Smaller ($2B market cap), more focused on skilled nursing, better lease terms with operators, lower valuation (EV/EBITDA 16x). LTC is cheaper but faces similar structural headwinds.",
+    "Medical Properties Trust (MPW): Diversified into hospitals and medical office, different risk profile, lower valuation (EV/EBITDA 12x). MPW is cheaper but faces hospital sector headwinds.",
+    "Sabra Health Care REIT (SBRA): Smaller ($1.5B market cap), focused on skilled nursing and senior housing, lower valuation (EV/EBITDA 14x). SBRA is cheaper but faces similar structural headwinds."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, current market data (price $87.45, P/E 159x, EV/EBITDA 24.3x), and historical financial data (2022-2025). Analyst consensus and target price ($95.4) from consensus data. Comparable company valuations from market data as of analysis date. Assumptions: 10% discount rate for DCF, 3-4% TAM growth rate, 2-3% annual reimbursement decline. Caveats: REIT accounting inflates FCF due to non-cash charges; true economic returns are lower. Tenant concentration data from 10-K; forward-looking competitive dynamics based on industry trends and operator consolidation announcements. Recession resilience based on 2008 and 2020 performance; future recessions may differ."
+}

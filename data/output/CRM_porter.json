@@ -1,0 +1,38 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The CRM market is highly competitive and fragmented with numerous competitors including packaged software vendors, cloud application providers, AI-native startups, and traditional enterprise software companies. Salesforce explicitly acknowledges that competitors range from established vendors to emerging AI-native companies offering specialized solutions that may displace traditional workflows."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The market has low barriers to entry with rapidly evolving technology and frequent new product introductions. AI-native startups and emerging companies can leverage generative AI and LLMs to create competitive offerings without traditional sales infrastructure, making it relatively easy for new competitors to enter and gain traction."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitute solutions exist including productivity tools, email providers, unified communications platforms, consumer applications entering business software, and internal custom-built applications. The document notes that would-be customers may develop enterprise applications for internal use, and traditional development platforms enable customers to build competing solutions."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "While Salesforce serves businesses of all sizes with no single customer exceeding 10% of revenue (reducing dependency), enterprise customers have significant negotiating power given competitive alternatives and the ability to build internal solutions. However, the multi-tenant SaaS model and switching costs provide some pricing protection for Salesforce."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Salesforce relies on cloud infrastructure partners (IaaS providers) and data center facilities, but operates a multi-tenant architecture that spreads costs efficiently. The company has diversified infrastructure through Hyperforce and owns some infrastructure, reducing dependency on any single supplier, though cloud providers maintain some leverage over pricing."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "Salesforce possesses a moderate competitive moat built on brand recognition, customer switching costs through deep platform integration, an extensive partner ecosystem (AppExchange with thousands of applications), and significant R&D investment in AI/Agentforce. However, this moat is increasingly challenged by intense competition from AI-native startups, low barriers to entry in cloud software, abundant substitutes, and strong buyer power among enterprise customers. The company's scale and installed base provide some defensibility, but continuous innovation is required to maintain competitive position.",
+  "key_risks": [
+    "Intense competition from AI-native startups and emerging companies leveraging generative AI with specialized solutions that may bypass traditional workflows",
+    "Low barriers to entry enabling new competitors to rapidly enter the market with innovative offerings",
+    "Significant buyer power among enterprise customers with access to alternative solutions and ability to build internal applications",
+    "Rapid technology evolution and shifting customer needs requiring continuous innovation investment",
+    "Customer concentration risk in specific industries or geographies despite no single customer exceeding 10% of revenue",
+    "Integration execution risk from recent major acquisitions (Informatica) requiring successful product integration and customer adoption"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

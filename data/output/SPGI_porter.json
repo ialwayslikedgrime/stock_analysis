@@ -1,0 +1,38 @@
+{
+  "ticker": "SPGI",
+  "company": "S&P Global Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "SPGI operates in highly competitive markets with established competitors in ratings (Moody's, Fitch), indices (MSCI, FTSE Russell), and data/analytics (Bloomberg, Refinitiv). The 10-K explicitly states 'we operate in highly competitive markets that continuously change' and acknowledges material threats from new or existing competitors. Differentiation through data, analytics, and workflow solutions provides some competitive advantage but does not eliminate intense rivalry."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to significant capital requirements, regulatory licensing (especially for ratings), established customer relationships, and network effects in indices and benchmarks. However, the 10-K warns that 'increased availability of free or relatively inexpensive information sources' and advances in cloud computing and open-source software lower barriers. AI and emerging technologies could enable new competitors to challenge traditional offerings, particularly in data and analytics segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from free or low-cost public information sources, open-source software, and emerging AI-driven alternatives. The 10-K explicitly identifies this risk: 'continued growth of publicly available free or relatively inexpensive information could materially reduce demand for our products and services.' Competitors deploying AI could make data collection and processing inexpensive or free, directly substituting for SPGI's premium offerings."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyers have moderate power due to SPGI's diversified customer base across capital markets, energy/commodities, and automotive sectors, reducing dependence on any single customer. However, large institutional customers (investment banks, asset managers, exchanges) and regulatory mandates create some stickiness. Subscription-based recurring revenue models provide pricing stability, but customers can increasingly access alternative data sources, giving them negotiating leverage on pricing and terms."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "SPGI faces moderate-to-high supplier power risks, particularly regarding third-party data partners, cloud infrastructure providers, and AI model providers. The 10-K warns that reliance on third-party AI providers creates vulnerability: 'if any such providers were to limit, discontinue or materially alter the terms of our access, we may be unable to obtain comparable data.' Dependence on cloud services and third-party vendors for critical operations increases supplier leverage, though SPGI's scale provides some negotiating power."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "S&P Global possesses a moderate competitive moat built on brand reputation (150+ years in ratings), regulatory positioning (especially in credit ratings), network effects in indices and benchmarks, and switching costs embedded in enterprise workflow solutions. However, the moat is eroding due to democratization of data through free/low-cost alternatives, rapid AI disruption, and increasing competition from technology-native entrants. The planned Mobility spin-off and ongoing digital transformation create execution risks that could further weaken competitive positioning if not managed effectively.",
+  "key_risks": [
+    "Cybersecurity and data breach risks given access to material non-public information and critical role in global financial infrastructure; unauthorized disclosure could cause customer loss of confidence",
+    "Disruption from free or low-cost public information sources and AI-enabled competitors that could materially reduce demand for premium products and services",
+    "Inability to innovate and compete effectively with new AI-driven products and services; talent competition for AI/data science expertise could impair development of AI initiatives",
+    "Dependence on third-party suppliers for critical AI models, cloud infrastructure, and data partnerships; discontinuation or adverse terms changes could materially impact operations",
+    "Regulatory and compliance risks across multiple jurisdictions; changes in capital markets regulation, energy trading rules, or automotive standards could affect business models",
+    "Technology implementation risks from cloud migration and legacy system modernization; disruptions could impair service delivery and customer relationships"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

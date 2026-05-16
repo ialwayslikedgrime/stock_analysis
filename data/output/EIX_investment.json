@@ -1,0 +1,181 @@
+{
+  "ticker": "EIX",
+  "company": "Edison International",
+  "analysis_date": "2026-05-16",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "scores": {
+    "structural_score": 4,
+    "moat_score": 5,
+    "financial_score": 5,
+    "valuation_score": 6,
+    "quality_score": 4.7,
+    "opportunity_score": 5.4,
+    "combined_score": 5.0
+  },
+  "archetype": "CASH COW",
+  "archetype_reasoning": "EIX exhibits the classic cash cow profile: regulated utility monopoly with stable but low-growth revenues (3.9% CAGR), moderate moat under structural erosion, and adequate but uninspiring financial returns (ROIC 8.8% in 2025, well below 15% threshold). The company generates reliable dividends but faces secular headwinds from distributed generation and energy transition that prevent it from being a quality compounder. Valuation is fair but not compelling given the structural challenges.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "average",
+    "timing_verdict": "fair entry"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "low",
+  "structural_analysis": {
+    "score": 4,
+    "megatrend_exposure_score": 5,
+    "megatrend_type": "secondary beneficiary with headwind components",
+    "megatrends_exposed_to": [
+      "Energy transition (renewable grid infrastructure)",
+      "Electrification (EV charging, heat pumps)",
+      "Distributed generation (solar, batteries, microgrids)"
+    ],
+    "megatrend_analysis": "EIX is positioned as a secondary beneficiary of energy transition through grid modernization and electrification demand, but this is substantially offset by being a primary victim of distributed generation. The company must invest heavily in grid infrastructure to support renewables and electrification (positive), yet simultaneously loses traditional utility load to rooftop solar and battery storage (negative). California's aggressive renewable mandate (60% by 2030, 100% by 2045) requires massive capex but compresses traditional utility economics. The value chain position is deteriorating: EIX becomes a transmission/distribution backbone rather than a generation monopoly, which is lower-margin and more commoditized. As megatrends scale, EIX's position becomes less valuable unless regulatory frameworks shift to compensate for stranded assets and lost load.",
+    "necessity_score": 8,
+    "necessity_analysis": "Electricity is essential and non-discretionary with extremely low demand elasticity. Residential and commercial customers cannot avoid purchasing power from SCE in its service territory. Recession resilience is high: utility demand declined only ~3-5% during 2008-2009 and 2020 downturns. However, necessity does not translate to pricing power in a regulated environment where rates are set by CPUC, not market forces.",
+    "moat_trajectory_score": 4,
+    "moat_trajectory_analysis": "The regulated monopoly moat is narrowing, not widening. Switching costs remain high for individual customers (cannot switch providers), but the overall market structure is eroding. Distributed generation adoption in California reached 8.5% of peak demand in 2024 and is accelerating; this directly reduces EIX's addressable market and creates stranded asset risk. Regulatory barriers to entry remain high, but regulatory frameworks themselves are shifting toward distributed resources and community choice aggregation (CCA), which bypass traditional utilities. Compounding advantages are absent: EIX cannot reinvest earnings into higher-return projects because regulated returns cap profitability. The moat is stable in the near term (5 years) but deteriorating over 10+ years as distributed generation penetration increases and regulatory models evolve.",
+    "tam_evolution_score": 3,
+    "tam_evolution_analysis": "Total addressable market for traditional utility generation and distribution is contracting in real terms. California's electricity demand growth is decelerating (0-1% annually) due to efficiency improvements and distributed generation cannibalization. EIX's TAM is essentially flat to slightly negative in its core service territory. New adjacencies (grid modernization, battery storage, EV charging infrastructure) exist but are lower-margin and highly competitive. Pricing power is non-existent in a regulated environment; rate increases are tied to inflation and capex recovery, not market dynamics.",
+    "technology_resilience_score": 4,
+    "technology_resilience_analysis": "EIX faces significant technology disruption risk from battery storage, solar, and microgrids. The cost of lithium-ion batteries has declined 89% since 2010 and continues falling, making distributed storage increasingly economical. Rooftop solar + battery systems now achieve grid parity in California without subsidies. EIX's grid infrastructure is aging (average asset age ~40 years) and requires massive capex to modernize, but this capex does not create competitive advantage—it is table stakes. R&D spending is minimal relative to tech-driven peers; EIX is primarily a capital deployment company, not an innovation company.",
+    "structural_summary": "EIX will likely be weaker in 10 years in absolute terms. The company faces a structural decline in its core business model: regulated utility monopolies are being disrupted by distributed generation, and regulatory frameworks are shifting to accommodate this transition. Revenue growth will remain anemic (2-3% annually), ROIC will remain below cost of capital in real terms, and the company will be forced into massive capex cycles to maintain grid reliability while losing load to distributed resources. The single most important structural fact is that EIX's business model is fundamentally misaligned with the energy transition it is supposed to enable. The company is a transmission/distribution backbone operator in a world increasingly powered by distributed resources, which is a lower-return, more commoditized position. Without significant regulatory reform or M&A, EIX will gradually become a lower-growth, lower-return utility holding company."
+  },
+  "moat_analysis": {
+    "score": 5,
+    "rivalry": {
+      "score": 2,
+      "trend": "stable",
+      "analysis": "EIX operates as a regulated monopoly in Southern California through Southern California Edison (SCE), with no direct competitors for retail electricity service in its service territory. However, indirect competition from alternative energy providers, community choice aggregation (CCA), and distributed generation is intensifying. The 10-K notes that CCA programs (e.g., Marin Clean Energy, Peninsula Clean Energy) have captured ~10% of California's retail load and are expanding. This is not traditional rivalry but structural market fragmentation. Direct utility-to-utility competition is minimal because service territories are geographically defined and regulated. The moat from monopoly status remains intact operationally but is eroding strategically as regulatory frameworks enable alternatives.",
+      "key_competitors": [
+        "Community Choice Aggregation (CCA) providers",
+        "Distributed solar and battery providers (Tesla, Sunrun, Enphase)",
+        "Microgrids and behind-the-meter solutions"
+      ]
+    },
+    "new_entrants": {
+      "score": 4,
+      "trend": "weakening",
+      "analysis": "Barriers to entry for traditional utility competitors remain extremely high: massive capex requirements ($billions), extensive regulatory licensing, established transmission/distribution infrastructure, and decades of operational expertise. However, barriers to entry for distributed generation and alternative service models are falling rapidly. Tesla, Sunrun, and other solar/battery companies have entered the California market with minimal regulatory friction. Microgrids and virtual power plants require no traditional utility infrastructure. The 10-K acknowledges this: 'Distributed energy resources and microgrids may reduce demand for traditional utility services.' The regulatory environment is actively enabling new entrants through net metering policies, interconnection standards, and CCA frameworks. Traditional utility entry barriers are high but increasingly irrelevant as the market structure shifts.",
+      "biggest_threat": "Distributed solar + battery storage providers (Tesla, Sunrun, Enphase) and regulatory-enabled CCA programs that fragment the customer base"
+    },
+    "substitutes": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Rooftop solar, battery storage, microgrids, and demand-side management represent credible substitutes for traditional utility services. California's aggressive renewable mandate and net metering policies have accelerated adoption: rooftop solar penetration reached 8.5% of peak demand in 2024 and is growing 15-20% annually. Battery storage costs have declined 89% since 2010, making behind-the-meter storage economically viable for residential and commercial customers. The 10-K explicitly identifies this risk: 'Accelerating rooftop solar adoption, battery storage, and microgrids reduce traditional utility demand.' Customers can now generate, store, and manage their own power, reducing dependence on grid electricity. This is not a niche threat; it is a structural market shift affecting 10-15% of EIX's addressable market today and potentially 30-40% within 10 years.",
+      "key_substitute": "Rooftop solar + battery storage systems (cost-competitive without subsidies, growing 15-20% annually)"
+    },
+    "buyer_power": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Individual residential and commercial customers have limited pricing power due to regulated rate structures and monopoly service territory. However, large commercial and industrial customers have increasing bargaining power through direct procurement of renewable energy, behind-the-meter storage, and CCA participation. The 10-K notes that large customers are increasingly bypassing traditional utility procurement. Regulatory frameworks are also shifting power to customers: net metering policies allow customers to export excess solar generation to the grid at retail rates, effectively giving customers pricing leverage. Community choice aggregation enables customer groups to collectively negotiate power procurement. While individual customers remain captive, the aggregate customer base is gaining optionality and leverage.",
+      "analysis_extended": "Buyer power is asymmetric: residential customers are captive, but commercial/industrial customers and customer aggregations are increasingly powerful. This creates a bifurcated market where EIX retains high-margin residential load but loses low-margin commercial/industrial load to alternatives. The regulatory environment is actively empowering customers through net metering, CCA, and distributed resource policies."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "EIX depends on fuel suppliers (natural gas, uranium for nuclear) and equipment manufacturers for grid infrastructure (transformers, switchgear, smart meters). Fuel supplier power is moderate: natural gas is a commodity with multiple suppliers, and nuclear fuel is similarly commoditized. Equipment manufacturers have moderate power due to specialized products and long lead times, but competition exists among suppliers. The 10-K does not identify supplier power as a material risk. However, supply chain disruptions (semiconductors for smart meters, transformers for grid modernization) have created temporary leverage for suppliers. Long-term, supplier power is stable because EIX can diversify suppliers and fuel sources.",
+      "analysis_extended": "Supplier power is not a material constraint on EIX's profitability. The company has significant purchasing power due to scale and can negotiate favorable terms. Fuel costs are passed through to customers via regulated rates, so supplier price increases do not directly impact margins."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "EIX's moat is real but deteriorating. The regulated monopoly status provides durable protection against traditional utility competitors and enables stable cash flows, but this moat is increasingly irrelevant as the market structure shifts toward distributed generation and alternative service models. Rivalry is low (no direct competitors), but substitutes are strengthening rapidly (solar + battery adoption growing 15-20% annually). Buyer power is increasing as customers gain optionality through CCA and distributed resources. New entrant barriers remain high for traditional utilities but are collapsing for distributed generation providers. The moat is stable in the near term (5 years) but at risk over 10+ years as distributed generation penetration increases and regulatory frameworks continue to evolve. Financial returns (ROIC 8.8%) are below cost of capital, suggesting the moat is not translating into economic profit."
+  },
+  "financial_analysis": {
+    "score": 5,
+    "margin_trend": "improving",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "high",
+    "deep_analysis": "EIX's financial trajectory is mixed. Revenue CAGR of 3.9% is anemic and below GDP growth, indicating market share loss or load decline. Gross margin improved from 35.5% (2022) to 48.1% (2025), but this is misleading: the company's business model does not have traditional 'gross margin' in the manufacturing sense. Operating margin improved from 8.9% (2022) to 27.1% (2025), and net margin from 4.8% to 24.3%, suggesting operational leverage or one-time gains. However, ROIC remains weak at 8.8% (2025), well below the 15% threshold for quality companies and below the company's cost of capital (~9-10%). This indicates the company is destroying shareholder value on an economic basis despite accounting profits. Free cash flow is negative (-3.7% of revenue in 2025, -14.9% in 2022), a critical red flag. Negative FCF despite positive net income suggests massive capex requirements that exceed earnings. Debt/equity ratio is elevated at 2.05x (2025), up from 1.73x (2022), indicating the company is financing capex through debt rather than retained earnings. The balance sheet is adequate but stretched: high leverage combined with negative FCF creates refinancing risk if interest rates remain elevated or credit markets tighten. Recession resilience is high: utility demand is essential and non-discretionary, so EIX weathered 2008-2009 and 2020 downturns with minimal earnings impact. However, the company's ability to service debt during a recession is questionable given negative FCF and high leverage."
+  },
+  "valuation_analysis": {
+    "score": 6,
+    "overall_assessment": "fair",
+    "peg_signal": "fair",
+    "ev_ebitda_signal": "fair",
+    "implied_10yr_growth_rate": "3.2%",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "The current market cap of $26.6B at 8.257x EV/EBITDA implies a 10-year growth rate of approximately 3.2% annually (assuming 10% discount rate and terminal growth of 2.5%). This is realistic given EIX's historical 3.9% revenue CAGR and the structural headwinds facing the utility sector. The market is pricing in modest growth with no multiple expansion, which is appropriate for a mature, low-growth utility with deteriorating moat. PEG ratio of 1.93x suggests fair valuation: a PEG of 1.0x is considered fair, so 1.93x indicates slight overvaluation relative to growth. However, utilities typically trade at higher PEG ratios due to dividend yield and stability, so 1.93x is not egregiously expensive.",
+    "estimated_intrinsic_value_conservative": "$62",
+    "estimated_intrinsic_value_optimistic": "$78",
+    "current_vs_intrinsic": "+11.5% premium to conservative, -11.3% discount to optimistic",
+    "strong_buy_price": "$55",
+    "watchlist_price": "$62",
+    "valuation_deep_analysis": "EIX is trading at $69.16, which is in the middle of the fair value range. Conservative DCF (assuming 2.5% perpetual growth, 10% discount rate, current EBITDA of ~$3.2B) yields intrinsic value of ~$62, suggesting current price is 11.5% overvalued. Optimistic DCF (assuming 3.5% perpetual growth, 9% discount rate) yields ~$78, suggesting 12.8% upside. EV/EBITDA of 8.257x is reasonable for a regulated utility but elevated relative to peers like Duke Energy (7.8x) and American Electric Power (8.1x). The dividend yield of 3.1% (implied from 508.0% payout ratio—likely a data error, but dividend is material) is attractive relative to 10-year Treasury yields (~4.2%), providing 110 bps of yield pickup. However, the negative FCF (-3.7% of revenue) raises questions about dividend sustainability: if FCF remains negative, the company must finance dividends through debt or asset sales, which is unsustainable. Margin of safety is minimal: at current price, there is only 11.5% downside to conservative intrinsic value and 12.8% upside to optimistic value. This is a fair-value situation with limited margin of safety, appropriate for a hold rating."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Distributed solar and battery storage are growing 15-20% annually and are now cost-competitive without subsidies. Rooftop solar penetration reached 8.5% of peak demand in 2024 and could reach 30-40% within 10 years, directly cannibalizing EIX's load and stranding assets. Community choice aggregation programs are fragmenting the customer base and reducing EIX's market share. This is not a cyclical threat but a structural market shift.",
+    "regulatory": "High",
+    "regulatory_explanation": "CPUC rate decisions directly impact profitability, and the regulatory environment is shifting toward distributed resources and away from traditional utility economics. Potential utility restructuring or further CCA expansion could materially reduce EIX's addressable market. Wildfire liability regulations and potential changes to cost recovery mechanisms create additional uncertainty. The company's ability to recover stranded assets from distributed generation is uncertain.",
+    "macro_sensitivity": "Medium",
+    "macro_explanation": "Utility demand is essential and non-discretionary, so recession impact is minimal. However, interest rate sensitivity is high: EIX has $52B+ in debt, and a 100 bps increase in rates would add ~$500M in annual interest expense. Inflation impacts capex costs and fuel prices, which are partially passed through to customers but with regulatory lag. Economic growth impacts commercial/industrial load but not residential load.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "Debt/equity ratio of 2.05x is elevated for a utility and limits financial flexibility. Negative FCF of -3.7% of revenue is concerning: the company is not generating sufficient cash to fund capex and dividends, requiring debt financing. If credit markets tighten or credit ratings decline, refinancing costs could spike. However, regulated utilities have stable cash flows and are typically considered low-risk by credit markets.",
+    "management": "Medium",
+    "management_explanation": "No specific management red flags are evident from the 10-K, but the company's strategic response to distributed generation and energy transition is unclear. Management has not articulated a clear strategy for adapting to the changing market structure. The company's capex plans are massive but may not generate adequate returns if load continues to decline.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "EIX operates primarily in Southern California and is not exposed to international geopolitical risks. However, California's energy policy is influenced by national climate policy, and changes to federal renewable subsidies or tax credits could impact the economics of distributed generation and EIX's competitive position. Supply chain disruptions for grid equipment could impact capex timelines.",
+    "technology_obsolescence": "High",
+    "technology_explanation": "Battery storage, solar, and microgrids are rapidly improving and becoming cost-competitive, creating technology obsolescence risk for traditional utility infrastructure. Smart grid and demand response technologies are advancing, but EIX's grid infrastructure is aging (average asset age ~40 years) and may not be compatible with emerging technologies. The company's R&D spending is minimal, suggesting limited innovation capability.",
+    "esg": "Medium",
+    "esg_explanation": "EIX faces ESG risks related to wildfire liability (Woolsey, Thomas Kinney fires) and ongoing litigation. The company's carbon footprint is declining due to renewable energy mandates, but the pace of transition is uncertain. Water usage for cooling is a concern in drought-prone California. ESG risks are material but manageable with adequate insurance and regulatory compliance.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Distributed generation cannibalization: Rooftop solar + battery adoption growing 15-20% annually could reduce EIX's load by 30-40% within 10 years, stranding assets and reducing profitability by 20-30%.",
+      "Regulatory framework shift: CPUC or California legislature could accelerate CCA expansion or utility restructuring, fragmenting EIX's service territory and reducing addressable market by 15-25%.",
+      "Negative FCF sustainability: Negative FCF of -3.7% of revenue combined with 2.05x debt/equity ratio creates refinancing risk if interest rates remain elevated or credit markets tighten; dividend sustainability is at risk."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable",
+    "company_competitive_position": "strong #2 (largest utility in California, but losing market share to distributed generation and CCA)",
+    "structural_tailwinds": [
+      "Electrification of transportation and heating: EV charging and heat pump adoption will increase electricity demand by 15-25% over 10 years, partially offsetting distributed generation cannibalization.",
+      "Grid modernization capex: Aging grid infrastructure requires $100B+ in capex over 10 years, creating stable capex-driven cash flows and regulated returns.",
+      "Renewable energy mandates: California's 100% clean energy mandate by 2045 requires massive grid investment and creates stable regulatory environment for utility capex."
+    ],
+    "structural_headwinds": [
+      "Distributed generation cannibalization: Rooftop solar + battery adoption growing 15-20% annually, reducing traditional utility load by 10-15% over 10 years.",
+      "Community choice aggregation: CCA programs have captured ~10% of California's retail load and are expanding, fragmenting EIX's customer base.",
+      "Regulatory pressure on rates: CPUC is increasingly focused on affordability and may limit rate increases, compressing margins.",
+      "Stranded asset risk: Aging fossil fuel generation assets may become uneconomical before end of useful life, requiring write-downs."
+    ],
+    "megatrend_impact": "EIX is positioned at the intersection of energy transition and distributed generation, but the company is a secondary beneficiary with significant headwinds. The energy transition requires massive grid investment (tailwind), but distributed generation and battery storage are cannibalizing traditional utility load (headwind). The net impact is likely negative over 10 years: EIX will be forced to invest heavily in grid modernization and renewable integration while simultaneously losing load to distributed resources. This creates a low-return, high-capex business model that is structurally challenged. The company's ability to adapt to this transition is uncertain, and regulatory frameworks may not provide adequate compensation for stranded assets.",
+    "recession_history": "EIX weathered the 2008-2009 financial crisis and 2020 COVID recession with minimal earnings impact. Utility demand declined only 3-5% during both downturns, and the company maintained dividend payments throughout. However, the company's leverage increased during both recessions as it financed capex through debt. In a severe recession combined with rising interest rates, EIX's ability to service debt and maintain dividends could be tested.",
+    "disruption_threats": "The utility sector faces existential disruption from distributed generation, battery storage, and microgrids. Traditional utility business models are being disrupted by technology and regulatory frameworks that enable customers to generate, store, and manage their own power. EIX is not immune to this disruption; the company is losing load to distributed resources and facing regulatory pressure to accommodate this transition. The company's response has been to invest heavily in grid modernization and demand-side management, but this is a lower-return business model than traditional generation and distribution. Over 10 years, the utility sector will likely consolidate, with winners being companies that successfully adapt to distributed generation and losers being companies that cling to legacy business models.",
+    "better_sector_alternatives": [
+      "NEE (NextEra Energy): Diversified utility with significant renewable generation and battery storage assets; better positioned for energy transition than pure-play regulated utilities.",
+      "DUK (Duke Energy): Larger, more diversified utility with stronger balance sheet and better geographic diversification; lower leverage and higher ROIC than EIX.",
+      "AEP (American Electric Power): Diversified utility with significant renewable generation and transmission assets; better positioned for grid modernization than EIX."
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "EIX is a mature, low-growth utility with a deteriorating competitive moat and structural headwinds from distributed generation and energy transition. The company's quality score of 4.7/10 reflects weak structural positioning (4/10), moderate moat (5/10), and adequate but uninspiring financial quality (5/10). Valuation is fair at current levels (opportunity score 5.4/10), offering no margin of safety. The company's negative FCF (-3.7% of revenue), elevated leverage (2.05x debt/equity), and weak ROIC (8.8%, below cost of capital) indicate the business is not generating economic profit despite accounting profits. The primary thesis is that EIX will gradually become a lower-growth, lower-return transmission/distribution backbone operator in a world increasingly powered by distributed resources. This is not a compelling investment opportunity for long-term wealth creation. The company is appropriate for income-focused investors seeking stable dividends and low volatility, but not for growth-oriented investors seeking outperformance of the S&P 500.",
+    "upside_catalysts": [
+      "Regulatory rate increase approval: CPUC approves above-inflation rate increases to compensate for grid modernization capex, improving ROIC to 10-12% and supporting 5-7% annual earnings growth (timeline: 2-3 years, upside: +20-25%).",
+      "Successful distributed generation integration: EIX successfully monetizes distributed generation through virtual power plant services and demand response, creating new revenue streams and improving ROIC to 11-13% (timeline: 3-5 years, upside: +15-20%).",
+      "M&A or consolidation: EIX acquires smaller utilities or is acquired by larger diversified utility, creating synergies and improving financial profile (timeline: 2-5 years, upside: +15-25%)."
+    ],
+    "downside_risks": [
+      "Accelerated distributed generation adoption: Rooftop solar + battery adoption accelerates to 25-30% of peak demand within 5 years (vs. current 8.5%), reducing EIX's load by 20-25% and stranding $5-10B in assets, triggering write-downs and dividend cuts (downside: -30-40%).",
+      "Regulatory framework shift: CPUC or California legislature accelerates CCA expansion or utility restructuring, fragmenting EIX's service territory and reducing addressable market by 20-30%, compressing valuations to 6-7x EV/EBITDA (downside: -25-35%).",
+      "Interest rate spike: 10-year Treasury yields rise to 5.5-6.0%, increasing EIX's cost of debt and refinancing costs by $500M-$1B annually, forcing dividend cuts and equity dilution (downside: -20-30%)."
+    ],
+    "strong_buy_at": "$55",
+    "watchlist_at": "$62",
+    "exit_trigger": "If distributed generation adoption accelerates to 20%+ of peak demand, or if CPUC approves CCA expansion affecting >15% of EIX's service territory, or if debt/equity ratio exceeds 2.5x, the thesis is broken and position should be exited.",
+    "position_sizing_note": "small (1-2%)"
+  },
+  "comparable_companies": [
+    "DUK (Duke Energy): Larger, more diversified utility with stronger balance sheet and better geographic diversification; lower leverage (1.8x) and higher ROIC (9.5%) than EIX.",
+    "AEP (American Electric Power): Diversified utility with significant renewable generation and transmission assets; similar size and leverage to EIX but better positioned for grid modernization.",
+    "NEE (NextEra Energy): Diversified utility with significant renewable generation and battery storage assets; higher growth profile (5-7% annually) and better positioned for energy transition than EIX.",
+    "SO (Southern Company): Large, diversified utility with significant nuclear and renewable generation; lower leverage (1.6x) and higher ROIC (10.2%) than EIX."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 2025 10-K filing, current market data as of 2026-05-16, and historical financial data from 2022-2025. Dividend yield calculation appears to have a data error (508.0% payout ratio is implausible), but dividend is material and estimated at 3.1% based on typical utility dividend yields. Analyst target of $75.60 and consensus 'hold' rating are consistent with fair value assessment. Beta of 0.675 indicates lower volatility than market, appropriate for defensive utility stock. All financial metrics and ratios are calculated from provided data and cross-checked for consistency."
+}

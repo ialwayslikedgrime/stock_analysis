@@ -1,0 +1,38 @@
+{
+  "ticker": "NI",
+  "company": "NiSource Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "NiSource faces significant competitive pressure in gas distribution where 34.9% of residential and 41.1% of commercial customers can purchase gas from third-party suppliers, competing with investor-owned, municipal, and cooperative utilities. However, electric operations benefit from exclusive service territories in Indiana with minimal retail competition, creating a bifurcated competitive landscape."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Barriers to entry are very high due to extensive regulated utility infrastructure (37,300+ miles of gas distribution mains, 3,000+ circuit miles of transmission), significant capital requirements, and comprehensive state/federal regulatory frameworks requiring certificates and approvals. The regulated utility model creates substantial moats against new competitors."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including propane, fuel oil, self-generation by industrial customers, distributed energy resources, and electrification trends (heat pumps replacing gas furnaces). Maryland's climate policies explicitly target gas-to-electric conversion, and data center customers can source power from alternative providers across the U.S., creating material substitution risk."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Residential and small commercial customers have limited direct pricing power due to regulated rate structures and exclusive service territories (especially for electric). However, large commercial/industrial customers and data center customers have significant negotiating leverage, as evidenced by customized ADS Contract negotiations. Gas customers can also switch suppliers for commodity purchases."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate; NiSource sources power through PPAs (1,200 MW capacity), MISO market purchases, and owns generation assets, providing diversification. However, dependence on natural gas commodity markets, coal fuel supply, and renewable energy PPAs creates some supplier leverage. Labor unions represent 32% of workforce with agreements expiring 2026-2027, presenting negotiation risk."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "NiSource possesses a durable but moderating competitive moat anchored by regulated utility monopolies in exclusive service territories, particularly for electric distribution in Indiana, and extensive infrastructure assets (37,300+ miles of gas mains, 3,000+ circuit miles of transmission). However, the moat is significantly eroded by deregulated gas supply markets where 35-41% of customers can switch suppliers, growing electrification and renewable energy substitution threats, and regulatory headwinds (Maryland's climate policies targeting gas elimination). The company's transition to data center generation creates new growth but introduces competition from national utilities and alternative energy providers.",
+  "key_risks": [
+    "Regulatory and climate policy risk: Maryland's aggressive decarbonization targets (60% GHG reduction by 2031, net zero by 2045) and proposed regulations eliminating gas main extension subsidies threaten long-term gas distribution viability and stranded asset risk",
+    "Energy transition and substitution: Electrification trends, heat pump adoption, distributed generation, and customer self-generation reduce natural gas demand and electric utility relevance, particularly as EPA GHG regulations evolve",
+    "Data center customer concentration and competition: Heavy reliance on data center growth (ADS Contract, GenCo subsidiary) creates customer concentration risk and exposes company to national utility competition and alternative power providers",
+    "Gas commodity market exposure: 34.9-41.1% of gas customers can purchase from third-party suppliers, creating revenue volatility and competitive pressure in deregulated segments",
+    "Labor cost inflation: 32% of workforce unionized with collective bargaining agreements expiring March 2026-June 2027, presenting wage and benefit cost escalation risk",
+    "Regulatory rate recovery uncertainty: Recent rate cases show significant gaps between requested and approved revenue increases (e.g., Columbia Ohio: $221.4M requested vs. $68.3M approved), limiting earnings growth"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

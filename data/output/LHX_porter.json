@@ -1,0 +1,37 @@
+{
+  "ticker": "LHX",
+  "company": "L3Harris Technologies, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "L3Harris operates in highly competitive defense markets against large, well-capitalized competitors including BAE Systems, Boeing, General Dynamics, Lockheed Martin, Northrop Grumman, and RTX. The 10-K explicitly states the company competes in 'highly-competitive markets' with competitors that are sometimes larger and have greater R&D expenditures. Competitive factors include quality, technology, service, past performance, and cost-effectiveness, indicating intense rivalry."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While traditional barriers exist (security clearances, technical expertise, capital requirements, customer relationships), the 10-K notes that DoW acquisition reform and Other Transaction Authority (OTA) agreements are reducing barriers to entry and enabling non-traditional defense contractors like Anduril, Ursa Major, and Silvus Technologies to compete. However, the complexity of integrated solutions and established customer relationships still provide meaningful protection against new entrants."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "L3Harris provides mission-critical, specialized defense and aerospace capabilities (communications systems, ISR, propulsion, space systems) with limited direct substitutes. The company's integrated solutions across space, air, land, sea, and cyber domains create switching costs. However, emerging technologies and non-traditional approaches could eventually provide alternative solutions in specific domains."
+    },
+    "buyer_power": {
+      "score": 1,
+      "rationale": "The U.S. Government represents 75% of revenue with no single customer exceeding 5%, creating significant buyer concentration and power. The 10-K emphasizes that the government conducts competitive bidding, can terminate contracts for convenience, has audit rights, and increasingly uses multi-award IDIQ contracts that intensify pricing pressure. The buyer can unilaterally modify terms and has substantial leverage over contract economics."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "L3Harris depends on numerous suppliers for electronic components, printed circuit boards, and specialized materials, with reliance on a limited number of certified microelectronics suppliers. The 10-K acknowledges supply chain disruptions from global events and shifting regulations. However, the company's scale, diversified supplier base across geographies, and ability to integrate vertically (evidenced by Aerojet Rocketdyne acquisition) provide some mitigation against supplier power."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "L3Harris possesses a moderate competitive moat anchored by high barriers to entry (security clearances, technical expertise, customer relationships, integrated capabilities), specialized technology in mission-critical defense systems, and scale advantages. However, this moat is significantly constrained by intense rivalry from large competitors, substantial buyer power from the concentrated U.S. Government customer base, and ongoing acquisition reform that is deliberately lowering barriers to entry. The company's competitive position is defensible but faces structural headwinds from government procurement policies designed to increase competition and pricing pressure.",
+  "key_risks": [
+    "Extreme buyer concentration: 75% of revenue from U.S. Government with ability to terminate contracts for convenience, conduct unilateral audits, and reduce funding or shift priorities, creating revenue and margin volatility",
+    "Intensifying competition from both traditional large primes and non-traditional entrants enabled by DoW acquisition reform and OTA agreements that reduce barriers to entry and increase pricing pressure",
+    "Fixed-price contract exposure: 75% of revenue from fixed-price contracts subject to cost overruns, inflation risk, and potential losses if estimates prove incorrect or sustained inflation occurs",
+    "Supply chain vulnerability: Dependence on limited certified microelectronics suppliers and exposure to global disruptions (pandemic, natural disasters, regulatory changes) that could impact delivery schedules and costs",
+    "Government budget uncertainty: Revenue dependent on Congressional appropriations, budget priorities, and continuing resolutions; procurement reform could increase frequency of program modifications, terminations, or delays"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

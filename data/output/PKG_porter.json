@@ -1,0 +1,38 @@
+{
+  "ticker": "PKG",
+  "company": "Packaging Corporation of America",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "PKG operates in highly fragmented markets with ~370 U.S. corrugated producers and ~1,080 plants competing regionally. As the third-largest containerboard producer, PKG faces intense competition from larger rivals (International Paper, Smurfit WestRock, Georgia-Pacific) and numerous smaller regional competitors, with competition primarily on price, quality, service, and design rather than differentiation."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for mills and corrugated plants, established customer relationships, geographic distribution networks, and economies of scale. The 2025 Greif acquisition ($1.8B) demonstrates the capital intensity required to expand capacity, deterring new competitors from entering the market."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Corrugated packaging faces competition from alternative materials (plastics, wood, metal), and the Paper segment faces structural decline from digital alternatives and e-commerce shifts to plastic packaging. The 10-K explicitly notes that increasing shifts to electronic data transmission have had and will continue to have adverse effects on paper demand."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant power due to commodity-like pricing in containerboard and UFS paper, with prices driven by published trade surveys. The Paper segment shows extreme concentration risk with ODP representing 58% of segment sales and 4% of consolidated revenue, giving that customer substantial negotiating leverage. Regional corrugated customers have alternatives within their 150-mile radius."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists for fiber and chemicals. While PKG has diversified fiber sourcing (virgin wood, recycled fiber, long-term agreements), recycled fiber prices are volatile with a $10/ton increase equaling ~$20M in costs. Natural gas represents 76% of purchased fuels with price sensitivity ($0.10/MMBTU = ~$3M impact), though PKG self-generates 62% of energy from biogenic by-products, reducing dependency."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "PKG possesses a narrow moat based primarily on scale, geographic distribution of corrugated plants, and operational efficiency rather than brand or product differentiation. The company's third-place position in containerboard, integrated mill-to-corrugated operations, and regional customer relationships provide some competitive advantages, but commodity pricing dynamics, intense rivalry, and customer concentration (especially in Paper segment) significantly limit pricing power and competitive defensibility. The recent Greif acquisition expands capacity but does not fundamentally strengthen competitive positioning in a fragmented, price-sensitive industry.",
+  "key_risks": [
+    "Customer concentration risk: ODP represents 58% of Paper segment sales with contract expiring December 31, 2026, creating material revenue cliff risk if renewal fails or volumes decline",
+    "Commodity pricing pressure: Containerboard and UFS paper prices driven by published surveys and industry capacity decisions beyond PKG's control, limiting pricing power and creating earnings volatility",
+    "Structural paper demand decline: Ongoing shift to digital alternatives and electronic document storage continues to erode UFS paper demand with no reversal expected",
+    "Input cost volatility: Recycled fiber ($20M sensitivity per $10/ton), natural gas ($3M per $0.10/MMBTU), and chemical costs create margin pressure with limited pass-through to customers",
+    "Economic cyclicality: Corrugated packaging demand highly sensitive to consumer spending and manufacturing activity; recession would materially reduce volumes and pricing",
+    "Integration execution risk: $1.8B Greif acquisition adds complexity and requires successful integration of two mills and eight plants to realize synergies"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

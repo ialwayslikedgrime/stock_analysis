@@ -1,0 +1,39 @@
+{
+  "ticker": "CVNA",
+  "company": "Carvana",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The used car retail market is highly fragmented with tens of thousands of competitors, but the top 10 retailers control less than 10% of the market. Carvana faces intense competition from traditional dealerships (CarMax), online platforms (Amazon, AutoTrader, CarGurus), and private sales, with competition intensifying as e-commerce adoption accelerates in automotive retail."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but significant capital requirements exist for logistics networks, reconditioning infrastructure, and technology development. However, the fragmented market and relatively low market concentration (Carvana ~1.6% share) suggest entry is possible; major tech companies (Amazon, Google) and traditional OEMs (Ford, GM, Tesla) could leverage existing capabilities to compete, creating ongoing threat of well-capitalized entrants."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist including private party sales, traditional dealerships, manufacturer direct sales programs, and membership-based services (Costco Auto Program). The document explicitly lists these as competitive alternatives, and the fragmented nature of the market means customers have numerous purchasing channels available."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant power due to market fragmentation, abundant alternatives, and price transparency enabled by online platforms. The document acknowledges that transparency, convenience, price, and selection are primary competitive factors, indicating customers can easily compare offerings and switch providers with minimal switching costs."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate; Carvana sources vehicles from multiple channels (direct customer sales, auctions, wholesale suppliers) reducing dependence on any single supplier. However, the company relies on third-party logistics vendors, parts suppliers, and financing partners, though vertical integration of key operations (reconditioning, logistics) mitigates some supplier leverage. [INFERRED: Tight used vehicle supply markets could increase acquisition costs]"
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Carvana possesses a narrow moat based primarily on proprietary technology, scale-driven network effects, and vertical integration of its supply chain. The company's 51 patents, proprietary logistics software, AI-powered systems, and distinctive fulfillment experience (vending machines) create differentiation. However, the moat is vulnerable due to intense rivalry, low barriers to entry for well-capitalized competitors, abundant substitutes, and strong buyer power in a fragmented market where Carvana holds only ~1.6% market share.",
+  "key_risks": [
+    "Intense competition from well-capitalized entrants including tech giants (Amazon, Google) and traditional OEMs (Tesla, Ford, GM) who could leverage existing infrastructure and customer bases",
+    "High capital intensity and operational complexity of logistics network, reconditioning infrastructure, and technology development create execution risk and potential for margin compression",
+    "Dependence on used vehicle supply acquisition; tight supply markets or shifts in consumer trade-in behavior could constrain inventory and profitability",
+    "Regulatory fragmentation across 40+ states with varying dealer licensing and financing requirements creates compliance complexity and operational constraints",
+    "Macroeconomic sensitivity; used vehicle sales and pricing are cyclical, and consumer credit conditions directly impact financing origination and profitability",
+    "Technology disruption risk; competitors could develop superior AI, logistics optimization, or customer experience capabilities that erode Carvana's differentiation",
+    "Customer acquisition cost inflation as e-commerce adoption increases and competitive marketing intensifies in the automotive retail space"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

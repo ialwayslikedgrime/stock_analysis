@@ -1,0 +1,38 @@
+{
+  "ticker": "GPN",
+  "company": "Global Payments",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The payments technology industry is highly fragmented and competitive with numerous large competitors (Fiserv, Chase, Stripe, Block, Adyen, Worldline, Nexi) possessing comparable or greater financial resources. GPN explicitly states competition is increasing internationally as new entrants emerge and existing competitors expand, with some competitors having greater sales and marketing resources."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate and declining. GPN acknowledges that advances in technology enable new entrants, barriers to entry are falling, and fintech companies like Stripe and Block have successfully disrupted the market. However, regulatory compliance, network relationships, and scale requirements still present some obstacles for new competitors."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Alternative payment methods and platforms pose moderate substitution risk. Digital wallets, cryptocurrency, buy-now-pay-later services, and direct bank transfers represent emerging substitutes. The 10-K notes industry growth from migration to ecommerce and contactless solutions, but doesn't address substitution threats comprehensively [INFERRED from industry knowledge]."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Merchants and financial institutions have significant negotiating power, particularly large enterprises. GPN notes discount rates vary based on merchant negotiations and economic characteristics, and merchants can switch providers. However, switching costs and integration complexity provide some protection for established relationships."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Payment networks (Visa, Mastercard, American Express, Discover) hold moderate-to-high power through fee structures and regulatory standards that GPN must adhere to. However, GPN's direct membership model in some networks and relationships with multiple financial institutions provide some negotiating leverage and reduce dependency on any single supplier."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Global Payments possesses a narrow moat based on scale, distribution channels, and established customer relationships, but faces significant competitive pressures. The company's global footprint, technology infrastructure, and direct sales force provide operational advantages, yet these are increasingly replicable by well-capitalized competitors. Regulatory compliance and network relationships create some switching costs, but the company's recent transformation initiatives and portfolio restructuring suggest management recognizes the need to strengthen competitive positioning in an increasingly commoditized market.",
+  "key_risks": [
+    "Intense competitive rivalry from established players (Fiserv, Chase, Stripe, Block) and new fintech entrants with potentially superior technology or lower cost structures",
+    "Declining barriers to entry enabling disruption; technology advances and regulatory changes could further erode competitive advantages",
+    "High buyer power from large merchants and financial institutions enabling price compression and margin erosion",
+    "Dependence on payment network standards and fees set by Visa, Mastercard, and other card brands limiting pricing flexibility",
+    "Integration execution risk from major Worldpay acquisition ($6.2B cash + stock) and ongoing business transformation through 2027",
+    "Cybersecurity and data breach risks given processing of sensitive payment and personal information across global operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

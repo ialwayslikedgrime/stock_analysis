@@ -1,0 +1,38 @@
+{
+  "ticker": "QCOM",
+  "company": "Qualcomm",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Qualcomm faces intense competition from multinational semiconductor companies and specialized competitors across handsets, automotive, and IoT markets. The 10-K explicitly states 'The industries in which QCT operates are intensely competitive' with competitors ranging from large integrated firms to focused single-application players, creating significant pricing and market share pressures."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Qualcomm's substantial patent portfolio, 40 years of R&D investment, essential IP in cellular standards (4G/5G), and significant capital requirements for chip design and manufacturing relationships. However, the fabless model and reliance on third-party foundries reduce some barriers compared to vertically integrated competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While no direct substitutes exist for cellular connectivity and on-device AI processing in smartphones and IoT, alternative architectures (cloud-only processing, satellite communications, alternative wireless standards) present moderate substitution risk. The 10-K mentions 5G Advanced integrating satellite communications, indicating emerging alternatives in specific use cases."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Device manufacturers (Apple, Samsung, etc.) and automotive OEMs represent highly concentrated buyer bases with significant leverage over pricing and terms. The 10-K notes 'device manufacturer concentrations' as a competitive factor, and customers can reschedule or cancel orders, giving buyers substantial negotiating power despite Qualcomm's technological leadership."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Qualcomm depends heavily on a limited set of foundry suppliers (TSMC, Samsung, Global Foundries) and assembly/test providers concentrated in Asia-Pacific, creating moderate supplier power. [INFERRED: Recent semiconductor supply constraints and TSMC's dominance in advanced nodes have historically given suppliers pricing leverage, though the 10-K does not explicitly address current supply negotiations.]"
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Qualcomm possesses a strong but moderately eroding competitive moat anchored on essential cellular patents, 40 years of R&D leadership, and deep ecosystem relationships across standards bodies. Its intellectual property portfolio in 4G/5G/6G and on-device AI creates significant barriers to entry and switching costs. However, intense rivalry from well-capitalized competitors, concentrated buyer power from major OEMs, and dependence on third-party foundries limit the moat's durability and pricing power.",
+  "key_risks": [
+    "Concentrated customer base (major smartphone and automotive OEMs) with significant pricing leverage and ability to vertically integrate or switch suppliers",
+    "Dependence on limited foundry suppliers (TSMC, Samsung) for advanced node manufacturing, creating supply chain vulnerability and supplier power",
+    "Intense competitive pressure from rivals including Apple (custom chips), MediaTek, and others eroding market share and margins in key segments",
+    "Regulatory and geopolitical risks around semiconductor exports, particularly to China, affecting revenue and market access",
+    "Smartphone market maturity and flat demand growth limiting revenue expansion in core handset business despite AI adoption",
+    "Transition risks in automotive and IoT markets where Qualcomm must compete against entrenched players and new entrants with alternative architectures"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

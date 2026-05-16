@@ -1,0 +1,38 @@
+{
+  "ticker": "FTV",
+  "company": "Fortive Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Fortive operates in highly competitive markets with numerous competitors ranging from larger diversified companies to specialized regional players. The company explicitly states it encounters 'a wide variety of competitors, including larger companies or divisions of larger companies with substantial sales, marketing, research, and financial capabilities' and faces 'increased competition from low-cost manufacturing locations and consolidation.' While Fortive claims market leadership in most served markets, the intensity of competition across its diverse product portfolio is substantial."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Barriers to entry are moderate. The company's strong brand portfolio (FLUKE, ASP, SERVICECHANNEL, GORDIAN, ACCRUENT, INTELEX, LANDAUER, PROVATION), extensive R&D capabilities (10,000+ employees), and regulatory requirements (FDA clearances, medical device regulations, GDPR compliance) create meaningful obstacles. However, the 10-K notes 'entry of competitors based in low-cost manufacturing locations,' suggesting barriers are not insurmountable, particularly for specialized segments or emerging markets."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Substitution risk is moderate. In healthcare solutions, alternative sterilization methods or competing software platforms could emerge. In intelligent operating solutions, digital alternatives and cloud-based monitoring systems present substitution threats. However, mission-critical applications in safety, healthcare, and industrial workflows create switching costs and regulatory lock-in that limit immediate substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have moderate-to-high power. Fortive serves diverse customer bases including large OEMs, healthcare systems, and industrial enterprises that can negotiate pricing. The company notes sales to government entities and large institutional customers. However, the mission-critical nature of products, switching costs, regulatory compliance requirements, and strong brand recognition provide some pricing protection, particularly in healthcare where regulatory approval creates switching friction."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. While Fortive states 'no single supplier is material' based on annual spend allocation, it acknowledges that 'some components requiring particular specifications are dependent on a single supplier or limited number of suppliers.' Supply chain vulnerabilities are evident from the company's discussion of tariffs, geopolitical tensions (Ukraine/Russia), and recent material/shipping cost volatility, requiring active mitigation through safety stock and supplier qualification."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Fortive possesses a moderate competitive moat built on strong brand recognition (iconic inventor brands with leading market positions), extensive intellectual property portfolio, regulatory barriers in healthcare (FDA/MDR/CE certifications), and operational excellence through the Fortive Business System. However, the moat is constrained by intense competition from larger diversified competitors and low-cost entrants, moderate supplier concentration risks, and exposure to buyer power from large institutional customers. The company's diversified portfolio across industrial and healthcare markets provides some stability but also exposes it to multiple competitive pressures.",
+  "key_risks": [
+    "Intense competition from larger diversified corporations and low-cost manufacturers eroding market share and pricing power",
+    "Supply chain concentration risks for specialized components and exposure to tariffs, geopolitical tensions, and commodity price volatility",
+    "Regulatory compliance burden and evolving requirements (FDA, GDPR, HIPAA, FCPA, export controls) creating operational complexity and potential violations",
+    "Customer concentration among large OEMs and healthcare systems providing significant buyer leverage",
+    "Substitution threats from digital alternatives, cloud-based solutions, and emerging technologies in both industrial and healthcare segments",
+    "Integration and execution risks from recent separation of Precision Technologies segment (Ralliant spin-off) and ongoing M&A activity"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

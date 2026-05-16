@@ -1,0 +1,37 @@
+{
+  "ticker": "UAL",
+  "company": "United Airlines Holdings",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The domestic airline industry is highly competitive with multiple carriers competing on identical routes and pricing. The 10-K explicitly states 'intense competitive pressure' forces United to match competitors' discounted fares, and any U.S. carrier deemed fit by DOT can operate between any two points domestically, creating constant direct and indirect competition."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive capital requirements for aircraft, infrastructure, and regulatory approvals. However, the 10-K notes that regulatory barriers are relatively low (DOT fitness standard), and the industry has seen successful low-cost carriers emerge, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Ground transportation (rail, car, bus) provides limited substitution for long-distance travel, particularly international routes. However, for regional and business travel, alternatives exist but are less convenient, and the 10-K acknowledges 'other forms of transportation' as competitors without emphasizing their threat."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Individual passengers have significant pricing power due to abundant distribution channels (OTAs, direct booking, travel agencies) and transparent price comparison tools. The 10-K emphasizes intense price competition and the need to match competitor fares, indicating customers can easily switch carriers based on price."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Aircraft fuel represents 21% of operating expenses with volatile pricing that United cannot fully control through hedging (current strategy is not to hedge). Regional carriers operate under capacity purchase agreements with limited negotiating power, but aircraft manufacturers (Boeing, Airbus) have significant pricing power for new aircraft orders like United's 630+ aircraft commitment."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "United Airlines possesses a moderate competitive moat primarily derived from its extensive hub-and-spoke network across seven major U.S. hubs and Star Alliance membership, which create switching costs and network effects. However, this moat is substantially eroded by intense domestic competition, commodity-like pricing dynamics, high fuel cost exposure (21% of operating expenses), and significant capital intensity. The company's scale and route network provide some defensibility, but competitive advantages are difficult to sustain in the highly commoditized airline industry.",
+  "key_risks": [
+    "Fuel price volatility: Fuel represents 21% of operating expenses with limited hedging protection; SAF adoption remains <1% of supply with price premiums",
+    "Intense price competition: Domestic market forces constant fare matching with competitors, limiting pricing power and margin expansion",
+    "High capital requirements: United Next plan commits to 630+ aircraft deliveries by 2034, creating significant financial leverage and refinancing risk",
+    "Regional carrier dependency: 6.1% of capacity relies on regional carriers under CPAs; labor cost inflation and carrier availability could impact operations",
+    "Cyclical demand and seasonality: Air travel demand fluctuates with economic cycles and seasons, creating revenue volatility and operational inefficiency"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

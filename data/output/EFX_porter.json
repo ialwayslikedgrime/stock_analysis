@@ -1,0 +1,37 @@
+{
+  "ticker": "EFX",
+  "company": "Equifax",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Equifax faces intense competition across all business segments from global credit reporting agencies (Experian, TransUnion), specialized fraud/risk providers, and hundreds of smaller competitors. The 10-K explicitly states 'highly competitive' markets with 'strong competition in every category,' and competitors may have larger shares in specific geographies or products."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are explicitly described as 'low' in Verification Services and Employer Services segments. However, the credit information and analytics businesses have moderate barriers due to data asset requirements, regulatory compliance complexity, and established customer relationships, partially offsetting low barriers in some segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist: employers can manage verifications in-house, lenders can obtain data directly from employers, free credit score providers compete with consumer products, and alternative identity verification/fraud solutions proliferate. Digital identity platforms and blockchain-based alternatives represent emerging substitutes [INFERRED from industry trends]."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant power: the largest client represents only 3% of revenue (indicating customer concentration risk), employers can bypass The Work Number by managing verifications internally, and financial institutions can source data from multiple competitors. Customers can also integrate third-party data with Equifax offerings, reducing switching costs."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. Equifax relies on data from 4+ million employer contributors to The Work Number, but these contributors have minimal bargaining power as Equifax charges them nothing to participate. However, Equifax licenses credit-scoring algorithms and other IP from third parties, creating some dependency on specialized suppliers [INFERRED: regulatory and data licensing dependencies]."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Equifax possesses a moderate competitive moat anchored primarily on proprietary data assets (209M+ employment records, comprehensive credit databases), established customer relationships across diversified verticals, and switching costs embedded in integrated decisioning platforms. However, this moat is significantly weakened by low barriers to entry in key segments, intense competition from well-capitalized rivals, high buyer power due to customer concentration and alternative sourcing options, and regulatory/reputational vulnerabilities. The company's cloud transformation and AI/ML capabilities provide temporary competitive advantages but are increasingly replicable.",
+  "key_risks": [
+    "Regulatory and compliance risk: Subject to evolving U.S. federal, state, local and foreign laws on data protection, privacy, AI, and consumer reporting; failure to comply could significantly impact operations and financial condition",
+    "Data security and breach risk: As a data custodian holding sensitive consumer/commercial information, Equifax faces existential reputational and financial risk from security breaches (historical 2017 breach context) [INFERRED from business model]",
+    "Intense competitive pressure and commoditization: Low barriers to entry in verification/employer services, numerous competitors in credit solutions, and ability of customers to source data directly or from alternatives erodes pricing power and margins",
+    "Customer concentration and buyer power: Largest client represents only 3% of revenue, but loss of major financial institution or government contracts could materially impact segments; customers can bypass services through in-house solutions",
+    "Regulatory headwinds on data usage: Increasing restrictions on data collection, AI model transparency, and consumer privacy (GDPR, CCPA, emerging regulations) could limit product innovation and market expansion, particularly internationally"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

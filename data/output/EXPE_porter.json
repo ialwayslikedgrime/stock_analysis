@@ -1,0 +1,37 @@
+{
+  "ticker": "EXPE",
+  "company": "Expedia Group",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Expedia faces intense competition from multiple OTA competitors, travel supplier direct websites, airlines, hotels, and emerging AI-powered travel platforms. The 10-K explicitly states 'strong and increasing' competition in 'rapidly evolving and intensely competitive markets,' with competitors offering more favorable terms and improved technology, making competition 'increasingly difficult.'"
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While Expedia has built significant scale advantages through its platform, brand portfolio, and technology infrastructure, barriers to entry remain moderate. Large tech companies (search, social media, Gen AI, ride-sharing businesses) and well-capitalized startups can enter the market. The 10-K notes the business is 'sensitive to changes in the competitive landscape, including the emergence of new competitors or business models.'"
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including travel supplier direct websites and booking channels, which the 10-K identifies as increasing competition. Additionally, emerging AI agents and generative AI platforms represent evolving substitutes. The company's single-digit percentage of global travel spending indicates substantial unmet demand through alternative channels."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Travelers have substantial bargaining power with multiple booking options available (direct supplier sites, competitors, metasearch platforms). The 10-K acknowledges competition from supplier direct channels offering loyalty programs, better pricing, and complimentary services. However, Expedia's brand strength, loyalty program (One Key), and breadth of supply provide some differentiation and pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Suppliers (hotels, airlines, alternative accommodations) have moderate power given Expedia's scale and the importance of distribution through its platform. However, large hotel chains and airlines can leverage direct booking channels and their own loyalty programs. The 10-K notes the company must 'maintain existing, as well as build new, relationships with travel suppliers,' indicating supplier relationships require ongoing management and investment."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Expedia possesses a moderate competitive moat built on scale, brand portfolio, proprietary technology platform, and first-party data capabilities. The unified technology platform, One Key loyalty program, and 3.6 million lodging properties create switching costs and network effects. However, the moat is significantly eroded by intense competition from direct supplier channels, emerging AI platforms, and well-capitalized tech competitors, combined with relatively low buyer switching costs and moderate supplier power.",
+  "key_risks": [
+    "Intense and increasing competition from OTAs, supplier direct websites, AI-powered travel platforms, and large tech companies (Google, Meta, ride-sharing) eroding market share and pricing power",
+    "Dependence on maintaining relationships with travel suppliers who increasingly bypass OTAs through direct booking channels and loyalty programs",
+    "Regulatory complexity and expansion (EU Digital Services Act, DAC7, AI Act, short-term rental laws, GDPR, CCPA) increasing compliance costs and operational constraints across international markets",
+    "Technology disruption risk from generative AI agents and alternative distribution models that could disintermediate traditional OTA business models",
+    "Customer acquisition cost inflation driven by competition for search engine and metasearch traffic, impacting profitability despite scale advantages"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

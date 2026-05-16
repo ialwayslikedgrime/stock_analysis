@@ -1,0 +1,39 @@
+{
+  "ticker": "KEY",
+  "company": "KeyCorp",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "KeyCorp operates in a highly competitive banking industry with numerous regional and national competitors. The 10-K explicitly states 'We operate in a highly competitive industry' and notes that maintaining market share depends on adapting products and services to evolving standards. Commercial banking is a commoditized business with intense price competition on deposits and loans."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant regulatory requirements, capital adequacy standards, and compliance infrastructure. The 10-K emphasizes extensive government regulation and supervision, complex licensing requirements, and substantial capital requirements that protect incumbent banks from new competitors. However, fintech and non-bank lenders present emerging threats."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitutes exist including fintech platforms, peer-to-peer lending, capital markets alternatives, and non-bank financial services. The 10-K notes risks from evolving industry standards and consumer preferences, indicating customers have alternative options for credit, payments, and wealth management services outside traditional banking."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Customers (both depositors and borrowers) have substantial bargaining power, particularly large commercial clients and institutional depositors. The 10-K identifies deposit mix changes and customer concentration risks, and notes that maintaining competitive products is essential. Depositors can easily move funds to competitors or alternative investments."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "KeyCorp relies on third-party service providers for significant operational functions, creating moderate supplier power. The 10-K states 'We rely on third parties to perform significant operational services for us, and their failure to perform to our standards or other issues of concern with them could harm us.' However, most suppliers are replaceable and not highly concentrated."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "KeyCorp possesses a narrow competitive moat primarily derived from regulatory barriers to entry and established customer relationships, but this is substantially offset by intense competitive pressures in commercial banking. The company's geographic footprint and deposit base provide some stability, but commoditized products, high buyer power, and emerging substitutes limit pricing power and competitive advantage. The 10-K's emphasis on competitive challenges and the need to continuously adapt suggests a structurally weak industry position.",
+  "key_risks": [
+    "Concentrated credit exposure in commercial and industrial loans (72% of portfolio) with elevated commercial real estate risk, particularly multifamily oversupply in certain urban markets",
+    "Intense competitive pressure in banking industry with need to continuously adapt products and services to maintain market share",
+    "Significant reliance on third-party service providers and technology infrastructure, creating operational and cybersecurity vulnerabilities",
+    "Interest rate risk and sensitivity to macroeconomic conditions, including recession risk and volatile capital markets",
+    "Regulatory and compliance burden with evolving privacy, cybersecurity, and capital requirements that increase operational costs",
+    "Scotiabank's significant equity stake (noted in strategic risks) providing external influence over strategic decisions",
+    "Deposit volatility and funding cost pressures in competitive deposit markets"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

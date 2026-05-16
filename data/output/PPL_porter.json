@@ -1,0 +1,39 @@
+{
+  "ticker": "PPL",
+  "company": "PPL Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "PPL operates in regulated utility markets with limited direct competition in generation and distribution within its service territories. However, transmission assets face competition under FERC Order 1000, and the company competes for transmission projects with non-incumbent developers, creating moderate competitive pressure in this segment."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry exist due to regulatory requirements, massive capital requirements, long-term licensing and permitting processes, and established infrastructure monopolies in service territories. New entrants would need regulatory approval and face prohibitive capital expenditure requirements, making entry virtually impossible in core regulated segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While distributed generation, energy efficiency, and self-generation pose moderate threats to electricity demand, PPL's regulated utility model provides some protection through cost recovery mechanisms. However, the 10-K explicitly identifies risks from conservation policies, renewable energy promotion, and customer self-generation that could reduce electricity demand."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Individual residential and small commercial customers have minimal pricing power as rates are regulated by state and federal commissions. However, large industrial customers (particularly data centers) have significant negotiating power and can negotiate contracts with early termination provisions, minimum bills, and financial security requirements, creating concentrated customer risk."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "PPL faces moderate supplier power from coal producers, natural gas suppliers, and equipment manufacturers. Labor unions represent 36% of the workforce (65% at PPL Electric), with recent five-year agreements and upcoming negotiations in 2026, creating some wage pressure. Supply chain disruptions and commodity price volatility are identified as material risks."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "PPL possesses a strong regulatory moat with high barriers to entry, established infrastructure monopolies in its service territories, and cost-recovery rate mechanisms that provide revenue stability. However, the moat is moderating due to transmission competition under FERC Order 1000, concentrated large customer exposure (data centers), regulatory risks around environmental compliance and rate recovery, and emerging threats from distributed generation and energy efficiency policies. The company's ability to recover capital investments depends on regulatory approval, creating regulatory risk that partially offsets its structural advantages.",
+  "key_risks": [
+    "Regulatory risk: Inability to recover prudently incurred costs or achieve adequate returns on capital investments; rate cases may face resistance and regulators may not approve requested rate increases",
+    "Data center concentration risk: Significant capital expenditure and revenue concentration in data center and large load customers; demand may not materialize as projected, or customers may experience business downturns or technology changes reducing electricity demand",
+    "Environmental and compliance costs: Extensive environmental regulations for coal-fired generation, natural gas pipeline integrity, and potential future climate regulations could require material capital expenditures or operational changes; costs may not be fully recoverable",
+    "Cybersecurity and critical infrastructure risk: Complex IT and operational technology systems are subject to ransomware, nation-state attacks, and supply chain compromises; failures could interrupt operations, damage equipment, and result in significant revenue losses",
+    "Capital intensity and financing risk: Substantial ongoing capital requirements for infrastructure, environmental compliance, and data center service expansion create dependence on capital markets; rising interest rates, credit rating downgrades, or reduced investor appetite for fossil fuel companies could increase costs or limit access to capital",
+    "Labor and union risk: 36% of workforce unionized with upcoming contract negotiations in 2026; wage inflation and labor disputes could increase operating costs",
+    "Demand substitution risk: Energy efficiency policies, conservation mandates (Act 129 in Pennsylvania), distributed generation, and self-generation could reduce electricity demand and revenue"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

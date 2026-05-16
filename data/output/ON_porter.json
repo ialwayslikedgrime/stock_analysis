@@ -1,0 +1,38 @@
+{
+  "ticker": "ON",
+  "company": "ON Semiconductor",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "ON faces intense competition from well-capitalized global semiconductor giants including Infineon, STMicroelectronics, Texas Instruments, Analog Devices, and NXP across all three segments. The 10-K explicitly states competitors have 'greater financial and other resources' and are 'better situated to withstand adverse economic conditions,' indicating ON competes from a position of relative weakness in scale and resources."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial capital requirements for fabrication facilities, advanced process technology, long design cycles, and deep customer relationships. ON's vertical integration in SiC manufacturing and global fab footprint create significant competitive moats, though the company's recent $667M in restructuring charges and asset impairments suggest these assets may not be optimally deployed."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists as customers can develop proprietary ICs and ASICs internally, and some functionality can be integrated into more complex chips. However, ON's specialized focus on intelligent power and sensing for automotive/industrial applications with long product lifecycles reduces substitution risk in core markets."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant power given the concentration of large OEM customers and the presence of one distributor representing 11% of revenue. The 10-K notes 'loss of one large customer would have material adverse effect' and customers can cancel orders 45-120 days in advance, indicating limited pricing power and high customer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists as ON depends on specialized raw materials (silicon wafers, SiC wafers, substrates) and uses third-party contractors for 34% of manufacturing. However, ON's vertical integration in SiC crystal boule and wafer manufacturing and diversified global supplier base mitigate some dependency risks."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "ON Semiconductor possesses moderate competitive moats centered on specialized technology (SiC/GaN power, CMOS imaging), vertical integration in critical manufacturing steps, and established customer relationships in automotive and industrial markets. However, these advantages are offset by intense rivalry with better-capitalized competitors, significant customer concentration, and recent operational challenges evidenced by $667M in restructuring charges. The company's moat is narrower than larger peers and vulnerable to technological disruption and customer consolidation.",
+  "key_risks": [
+    "Intense competition from larger, better-capitalized rivals (Infineon, STMicroelectronics, TI, Analog Devices) with greater R&D and marketing resources",
+    "High customer concentration with one distributor at 11% of revenue and material dependence on large OEM customers who can cancel orders with 45-120 days notice",
+    "Significant operational restructuring ($667M in charges in 2025) indicating manufacturing footprint misalignment and potential execution risks in realignment strategy",
+    "Exposure to cyclical semiconductor industry and macroeconomic conditions affecting automotive and industrial end-markets",
+    "Dependence on third-party manufacturers for 34% of manufacturing input costs and specialized raw material suppliers with potential supply chain constraints",
+    "Technology transition risks in power semiconductors as competitors advance SiC/GaN capabilities and customers develop proprietary solutions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

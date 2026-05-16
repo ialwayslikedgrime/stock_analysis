@@ -1,0 +1,37 @@
+{
+  "ticker": "BK",
+  "company": "BNY Mellon",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "BNY Mellon faces intense competition from domestic and international financial services firms, hedge funds, investment banks, and technology providers across all business segments. The 10-K explicitly states 'Competition in the financial services industry continues to be intense' with competition based on service quality, execution, capital access, product range, technology, price, and reputation."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While regulatory barriers and capital requirements create moderate entry barriers for traditional banking, the 10-K highlights significant threat from fintech firms that face less extensive regulation. The company notes competitive position may be 'adversely affected by institutions that are not similarly subject to extensive regulation, such as financial technology firms,' indicating erosion of traditional moats."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Technological advancement is enabling alternative providers to offer financial services traditionally dominated by custodians and asset servicers. The 10-K acknowledges that 'technological advances enable more companies, such as financial technology firms, to provide financial services,' creating substitute threats from blockchain, decentralized finance, and alternative custody solutions."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large institutional clients (asset managers, pension funds, corporations) have significant bargaining power given the commoditized nature of custody and clearing services and availability of alternative providers. BNY's $59.3 trillion in AUC/A suggests concentration among large clients who can negotiate pricing and terms aggressively."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "BNY has moderate supplier power advantages due to its scale and global infrastructure. However, the company is dependent on technology vendors, cloud providers, and specialized talent (noted as critical to competitive position). The 10-K emphasizes ability to 'attract and retain employees' as essential to competition, indicating labor market constraints."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "BNY Mellon possesses a weakening competitive moat based primarily on scale, regulatory relationships, and established client networks in custody and asset servicing. However, this moat is increasingly vulnerable to fintech disruption, regulatory arbitrage by less-regulated competitors, and commoditization of core services. The company's $59.3 trillion in AUC/A and 240-year history provide network effects and switching costs, but technological innovation and new entrants are eroding traditional advantages. Sustained competitive advantage depends heavily on technology investment and talent retention rather than structural barriers.",
+  "key_risks": [
+    "Fintech disruption and competition from less-regulated technology providers offering alternative custody, clearing, and asset management solutions",
+    "Commoditization of core securities services and custody businesses leading to margin compression and pricing pressure from large institutional clients",
+    "Talent retention and attraction challenges in competitive technology and financial services labor markets, critical to maintaining technological innovation capabilities",
+    "Regulatory changes that could either increase compliance costs or level the playing field with less-regulated competitors",
+    "Technology execution risk and cybersecurity threats given critical role of technology infrastructure in competitive positioning"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

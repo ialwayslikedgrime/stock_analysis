@@ -1,0 +1,38 @@
+{
+  "ticker": "GM",
+  "company": "General Motors",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "GM operates in a highly competitive automotive industry with established competitors (Ford, Stellantis, Tesla, Toyota, Honda) and emerging Chinese EV manufacturers. The 10-K notes GM holds 17.2% U.S. market share but only 6.8% globally, indicating intense competition. Price competition through incentives and promotional activities is explicitly mentioned as dependent on competitive market levels."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry remain moderate-to-high due to massive capital requirements ($4B+ annual investments mentioned), established dealer networks (10,842 dealerships), and complex supply chains. However, Tesla and Chinese EV makers have successfully entered, and the 10-K acknowledges evolving competitive dynamics in EVs. Regulatory complexity and manufacturing scale requirements provide some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Traditional substitutes (public transit, ride-sharing, bicycles) exist but remain limited in developed markets. The 10-K does not address autonomous ride-sharing as a material threat, though GM's pivot away from Cruise robotaxi suggests internal recognition of this risk. EV adoption and changing mobility preferences represent emerging substitution threats not fully quantified in the document."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Individual consumers have significant power through brand choice, price sensitivity, and incentive-driven purchasing. Fleet sales (17.7% of volume) are noted as less profitable, indicating buyer leverage in bulk purchases. The 10-K emphasizes consumer preference factors (design, price, quality, safety, fuel economy) that require continuous competitive investment, limiting GM's pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate-to-high, particularly for critical inputs. The top two suppliers represent 12% of purchases, indicating some concentration risk. The 10-K explicitly highlights semiconductor supply disruptions, battery material concentration in China, and single-source dependencies as material risks. However, GM's scale and vertical integration (Ultium battery JV) provide some countervailing power."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "GM possesses a narrow moat based on brand equity (Chevrolet, Cadillac, GMC), manufacturing scale, and dealer network infrastructure, but this moat is eroding. The company's 17.2% U.S. market share and strong truck/SUV portfolio provide near-term competitive advantages, yet global market share of only 6.8% and declining China presence (7.1% share, down from 8.4%) indicate vulnerability. The transition to EVs and software-defined vehicles creates uncertainty about moat sustainability, as evidenced by the Cruise robotaxi pivot and EV capacity realignment. Intense rivalry, moderate supplier power, and significant buyer leverage constrain pricing power and profitability.",
+  "key_risks": [
+    "EV transition execution risk: Slowing consumer EV demand and policy uncertainty (EPA Tier 4 reconsideration, tariff environment) threaten profitability of massive EV investments ($4B+ capex announced)",
+    "Supply chain concentration: Battery materials (lithium, cobalt, nickel) concentrated in China; semiconductor dependencies; single-source component suppliers create production vulnerability",
+    "Competitive intensity and market share erosion: Global market share of 6.8% with declining presence in China (7.1%) and South America (9.2%); intense rivalry from Tesla, Chinese EV makers, and traditional OEMs",
+    "Regulatory and tariff volatility: Dynamic tariff environment, evolving emission standards (Tier 4, China 6b/7, Euro 7), and CAFE/GHG credit mechanisms create compliance and cost uncertainty",
+    "Technology disruption: Autonomous vehicle strategy pivot away from Cruise robotaxi; software-defined vehicle transition requires sustained R&D ($8.5B in 2025) with uncertain ROI",
+    "Dealer network dependency: Reliance on 10,842 independent dealerships for sales and service; franchise regulations limit control over customer experience and pricing"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

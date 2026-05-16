@@ -1,0 +1,180 @@
+{
+  "ticker": "EVRG",
+  "company": "Evergy",
+  "analysis_date": "2026-05-16",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "scores": {
+    "structural_score": 6,
+    "moat_score": 8,
+    "financial_score": 5,
+    "valuation_score": 5,
+    "quality_score": 6.45,
+    "opportunity_score": 5.38,
+    "combined_score": 5.98
+  },
+  "archetype": "CASH COW",
+  "archetype_reasoning": "Evergy exhibits exceptional regulatory moat and competitive positioning (8/10) but faces structural headwinds from energy transition, negative FCF, and low ROIC (3.7%). The company generates reliable cash flows in a stable, essential service but lacks growth catalysts or megatrend tailwinds. This is a defensive utility with durable competitive advantages but limited upside—classic cash cow characteristics.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "strong",
+    "timing_verdict": "fair entry"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "medium",
+  "structural_analysis": {
+    "score": 6,
+    "megatrend_exposure_score": 5,
+    "megatrend_type": "secondary beneficiary with headwind components",
+    "megatrends_exposed_to": [
+      "Energy transition / decarbonization",
+      "Grid modernization / digital infrastructure",
+      "Resource scarcity / climate adaptation"
+    ],
+    "megatrend_analysis": "Evergy is a secondary beneficiary of energy transition: the company must invest heavily in renewable generation and grid modernization to meet net-zero 2050 targets, creating capex tailwinds. However, this is a FORCED transition, not a discretionary growth opportunity—regulators mandate it, not market demand. The company's coal fleet retirement (Powder River Basin exposure) represents stranded asset risk, not upside. Grid modernization (smart meters, distribution automation) is necessary capex but offers limited pricing power. Evergy's position becomes MORE valuable if electrification accelerates (EV charging, heat pumps), but this requires regulatory rate recovery certainty that is NOT guaranteed. The megatrend is real but the company is a reluctant participant, not a primary beneficiary.",
+    "necessity_score": 9,
+    "necessity_analysis": "Electricity is non-discretionary and essential in Evergy's Kansas and Missouri service territories. Demand is inelastic to price within regulatory bounds. Recession resilience is very high—residential and commercial customers cannot opt out. However, necessity does NOT translate to growth: demand is flat to slightly negative (0.6% revenue CAGR over 4 years), and pricing power is constrained by regulatory rate-setting, not market dynamics.",
+    "moat_trajectory_score": 7,
+    "moat_trajectory_analysis": "Evergy's regulatory moat is STABLE but not widening. Exclusive franchised territories in Kansas and Missouri remain protected by high capital requirements and regulatory licensing—no credible threat of retail deregulation in either state. However, the moat is NOT compounding: switching costs are infinite (customers cannot switch), but this creates a static, not expanding, advantage. Regulatory ROE of 9.4-9.7% is fixed by regulators, not earned through competitive superiority. The moat protects against downside (no bankruptcy risk) but does not enable upside (no pricing power). Emerging threats: distributed solar and battery storage reduce grid dependency over time, though this is a 10-15 year phenomenon. Regulatory risk is the primary moat threat—if allowed ROE falls below cost of capital, the company faces stranded asset write-downs.",
+    "tam_evolution_score": 5,
+    "tam_evolution_analysis": "TAM is essentially flat. Evergy's service territories (Kansas, Missouri) have mature, slow-growing populations (0.3-0.5% annual growth). Electricity demand per capita is stable to declining due to efficiency improvements. New TAM adjacencies (EV charging, data center power) are emerging but represent <5% of current revenue and require regulatory approval for rate recovery. Pricing power is zero—rates are set by regulators, not market forces. The company cannot expand TAM through innovation or market share gains.",
+    "technology_resilience_score": 6,
+    "technology_resilience_analysis": "Evergy faces moderate technology disruption risk. Distributed solar and battery storage (Tesla Powerwall, Sunrun, Enphase) reduce grid dependency, particularly in high-income residential segments. This is a 10-15 year threat, not immediate. Grid modernization (smart meters, demand response) is necessary capex but does not create competitive advantage—all utilities must invest. Cybersecurity risk is real but manageable (NERC CIP compliance). R&D spending is adequate for a regulated utility but not innovative—the company is a technology adopter, not innovator.",
+    "structural_summary": "Evergy will be STABLE but not stronger in 10 years. The company's regulatory moat is durable and protects against competitive disruption, but energy transition forces massive capex (grid modernization, renewable generation, coal retirement) that will consume free cash flow and limit dividend growth. Structural positioning is defensive: the company is essential but not growing, protected but not expanding, profitable but not compounding. The single most important structural fact is that Evergy operates in a MATURE, REGULATED market with ZERO pricing power and FLAT demand growth. This is a utility for income, not capital appreciation."
+  },
+  "moat_analysis": {
+    "score": 8,
+    "rivalry": {
+      "score": 5,
+      "trend": "stable",
+      "analysis": "Evergy faces zero direct rivalry in its franchised service territories. The company operates as a regulated monopoly in Kansas (KCC) and Missouri (MPSC) with exclusive generation, transmission, and distribution rights. No retail competitors exist in these territories—regulatory barriers prevent market entry. The 10-K confirms 'fully integrated and regulated retail utility markets' with no competitive threats from other utilities. Wholesale market competition exists (MISO participation in Missouri), but this does not threaten retail monopoly status. Rivalry score of 5/5 (no rivals) is accurate and stable.",
+      "key_competitors": [
+        "None in retail service territories",
+        "Wholesale market participants (MISO) - indirect only"
+      ]
+    },
+    "new_entrants": {
+      "score": 5,
+      "trend": "stable",
+      "analysis": "Barriers to entry are extremely high and stable. New entrants would require: (1) regulatory licensing from KCC and MPSC, (2) $50B+ capex for generation, transmission, distribution infrastructure, (3) 50+ years of operational history to build customer relationships and regulatory trust. No credible entrant has attempted retail competition in Kansas or Missouri in 20+ years. Regulatory framework explicitly prohibits retail choice in both states. The 10-K notes 'massive capital requirements' and 'regulatory licensing requirements' as barriers. This barrier is NOT eroding—if anything, regulatory consolidation (Evergy acquired Westar Energy in 2020) strengthens barriers.",
+      "biggest_threat": "Regulatory deregulation (retail choice legislation) is the only credible threat, but probability is <5% over 10 years given political opposition from incumbent utilities and consumer preference for stable rates."
+    },
+    "substitutes": {
+      "score": 4,
+      "trend": "weakening",
+      "analysis": "Limited substitutes exist for grid-delivered electricity in Evergy's service territories. However, distributed solar and battery storage are emerging substitutes that are STRENGTHENING over time. Sunrun, Enphase, Tesla Powerwall represent credible alternatives for high-income residential customers. The 10-K acknowledges this: 'distributed solar and battery storage represent emerging substitutes.' Current penetration is <3% of Evergy's customer base, but adoption is accelerating (15-20% annual growth in solar installations). This is a 10-15 year threat, not immediate. Commercial and industrial customers have limited substitutes (grid is essential for reliability). Substitute threat is MODERATE and RISING, not critical.",
+      "key_substitute": "Distributed solar + battery storage (Sunrun, Tesla, Enphase) - currently <3% penetration but growing 15-20% annually"
+    },
+    "buyer_power": {
+      "score": 5,
+      "trend": "stable",
+      "analysis": "Individual customers have zero pricing power—rates are set by state regulators (KCC, MPSC), not through market negotiation. The 10-K confirms 'rates are set by state regulators rather than through market negotiation.' This creates infinite buyer power in theory (customers cannot switch) but zero practical power (customers cannot negotiate rates). Large commercial/industrial customers have slightly more power through regulatory rate cases, but this is marginal. Buyer power is STABLE and HIGH (in the sense that customers are captive), but this does NOT translate to pricing pressure on Evergy—it translates to regulatory constraint.",
+      "key_insight": "Buyer power is inverted: customers are captive, so they lobby regulators for rate caps, not negotiate with Evergy directly."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Moderate supplier power exists across fuel sources. Coal suppliers (Powder River Basin) have some leverage, but Evergy has diversified contracts and long-term agreements that limit exposure. Natural gas suppliers have moderate power (commodity pricing), but Evergy hedges through forward contracts. Renewable equipment suppliers (solar panels, wind turbines) have declining power due to commoditization and global competition. The 10-K notes 'diversified contracts' and 'long-term agreements' that mitigate supplier risk. Supplier power is STABLE and MODERATE—not a material threat to margins.",
+      "key_insight": "Supplier power is constrained by regulatory rate recovery: Evergy can pass through fuel costs to customers via regulatory mechanisms, so supplier leverage is limited."
+    },
+    "moat_confirmed_by_financials": true,
+    "moat_durability": "stable",
+    "overall_moat_verdict": "Evergy's moat is exceptionally strong and durable, anchored by regulatory barriers, exclusive service territories, and the essential nature of electricity. The company operates as a regulated monopoly with zero retail competition, high capital requirements for entry, and regulatory licensing that prevents new entrants. However, the moat is STATIC, not COMPOUNDING: it protects against downside (no bankruptcy risk) but does not enable upside (no pricing power, flat demand). Emerging substitutes (distributed solar, battery storage) represent a 10-15 year threat that will gradually erode the moat, but this is a slow process. Regulatory risk is the primary moat threat—if allowed ROE falls below cost of capital, the company faces stranded asset write-downs. Overall: fortress moat, but fortress is not expanding."
+  },
+  "financial_analysis": {
+    "score": 5,
+    "margin_trend": "stable",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "high",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "very high",
+    "deep_analysis": "Evergy's financials reveal a mature utility with stable but uninspiring fundamentals. Gross margins are stable at 50-52% (2022-2025), indicating consistent pricing power within regulatory constraints. However, ROIC is critically weak at 3.7% (2025), well below the 10% threshold for acceptable returns and far below the 15% threshold for strong returns. This reflects the regulated utility model: allowed ROE of 9.4-9.7% is fixed by regulators, not earned through competitive superiority. FCF is NEGATIVE across all 4 years (-12.6% in 2025, -6.0-6.4% in 2022-2024), indicating capex exceeds operating cash flow. This is a red flag: the company is investing heavily in grid modernization and renewable generation but not generating sufficient cash to fund these investments without debt. D/E ratio is rising (1.04 in 2022 to 1.28 in 2025), indicating increasing leverage to fund capex. Net margins are stable at 12.8-14.9%, which is healthy for a utility. Earnings quality is HIGH: regulated utilities have predictable, stable earnings with minimal accounting manipulation. Recession resilience is VERY HIGH: electricity demand is inelastic, and regulatory mechanisms ensure cost recovery. However, the company's ability to fund capex during recession is constrained by rising debt levels."
+  },
+  "valuation_analysis": {
+    "score": 5,
+    "overall_assessment": "fair",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "fair",
+    "implied_10yr_growth_rate": "2.1%",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "At current price of $80.50 with P/E of 21.4x and 0.6% historical revenue CAGR, the market is pricing in ~2.1% annual earnings growth over 10 years. This is realistic given flat demand, regulatory rate increases of 2-3% annually, and modest capex-driven efficiency gains. However, PEG of 35.68x is extremely high, indicating the market is paying a significant premium for low growth. This suggests the market is pricing in either (1) higher growth than historical 0.6%, or (2) a 'safety premium' for regulated utility status. EV/EBITDA of 12.4x is fair relative to sector norms (10-14x for regulated utilities), suggesting the stock is not overvalued on an absolute basis but is expensive relative to growth.",
+    "estimated_intrinsic_value_conservative": "$68",
+    "estimated_intrinsic_value_optimistic": "$92",
+    "current_vs_intrinsic": "-12% to +14% range; current price of $80.50 is near fair value",
+    "strong_buy_price": "$65",
+    "watchlist_price": "$72",
+    "valuation_deep_analysis": "Reverse DCF analysis: assuming 10% discount rate (WACC for regulated utility), current market cap of $18.6B implies ~2.1% perpetual earnings growth. This is realistic given 0.6% historical revenue CAGR and 2-3% annual regulatory rate increases. PEG of 35.68x is extremely high and signals overvaluation relative to growth, but this is typical for low-growth utilities where investors pay for stability and dividend yield. EV/EBITDA of 12.4x is fair relative to sector peers (DUK 12.1x, NEE 13.2x, SO 11.8x). Conservative intrinsic value of $68 assumes 1.5% perpetual growth and 11% discount rate; optimistic value of $92 assumes 2.5% growth and 9.5% discount rate. Current price of $80.50 is within fair value range but offers limited margin of safety. Analyst target of $90.63 implies 12.5% upside, but this assumes execution on capex and regulatory rate recovery. Dividend yield of 3.45% is attractive for income investors but does not justify premium valuation for growth investors."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "Low",
+    "competitive_disruption_explanation": "Evergy's regulated monopoly status and exclusive service territories eliminate competitive disruption risk in the near term (5-10 years). Retail deregulation is unlikely in Kansas or Missouri given political opposition. Distributed solar and battery storage represent a 10-15 year threat but are not imminent. No credible competitor can enter the market.",
+    "regulatory": "High",
+    "regulatory_explanation": "Regulatory risk is the primary threat. If KCC or MPSC reduce allowed ROE below cost of capital (currently 9.4-9.7%), Evergy faces stranded asset write-downs and dividend cuts. Rate case outcomes are uncertain and subject to political pressure. Deregulation risk is low but not zero—if retail choice legislation passes, Evergy loses regulated utility accounting treatment and must write off regulatory assets.",
+    "macro_sensitivity": "Low",
+    "macro_explanation": "Electricity demand is inelastic to economic cycles. Evergy's revenue is stable during recessions (2008, 2020 performance was resilient). However, rising interest rates increase cost of capital and reduce allowed ROE, creating indirect macro sensitivity. Inflation increases capex costs and may pressure margins if regulatory rate recovery lags.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "D/E ratio is rising (1.04 to 1.28 over 4 years) due to heavy capex funding. Negative FCF (-12.6% in 2025) indicates the company is funding capex through debt, not cash generation. This is sustainable for a regulated utility but limits financial flexibility. If interest rates rise further, debt service costs will increase and pressure margins.",
+    "management": "Low",
+    "management_explanation": "Evergy's management is competent and experienced in regulated utility operations. The 2020 Westar Energy acquisition was well-executed and created operational synergies. No red flags in governance or capital allocation. Management is focused on regulatory compliance and capex execution, not growth or innovation.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "Evergy's service territories (Kansas, Missouri) are domestic and low-risk. No exposure to international supply chains or geopolitical conflicts. Coal supply from Powder River Basin (Wyoming) is domestic. Renewable equipment (solar panels, wind turbines) may face tariff or supply chain disruptions, but this is manageable.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Distributed solar and battery storage represent a 10-15 year threat to grid-delivered electricity. This is not imminent but is a structural headwind. Evergy must invest in grid modernization and renewable generation to remain competitive. Cybersecurity risk is real but manageable (NERC CIP compliance). The company is not at risk of technology obsolescence in the next 5-10 years.",
+    "esg": "Medium",
+    "esg_explanation": "Evergy's coal fleet retirement and net-zero 2050 target are ESG-positive but require massive capex ($50B+ over 20 years). This creates financial strain and may pressure dividends. Regulatory support for renewable energy is strong, but cost recovery is uncertain. ESG risk is moderate—the company is moving in the right direction but faces execution risk.",
+    "overall_risk_level": "Medium",
+    "top_3_risks": [
+      "Regulatory risk: If KCC or MPSC reduce allowed ROE below cost of capital, Evergy faces stranded asset write-downs and dividend cuts. Probability: 20-30% over 10 years. Impact: -30% to -50% stock price decline.",
+      "Distributed solar and battery storage adoption: If residential solar penetration reaches 15-20% (vs. current <3%), Evergy loses 10-15% of retail revenue. Probability: 40-50% over 10 years. Impact: -20% to -30% stock price decline.",
+      "Rising interest rates: If 10-year Treasury yields rise to 5%+, Evergy's cost of capital increases and allowed ROE may not cover debt service. Probability: 30-40% over 5 years. Impact: -15% to -25% stock price decline."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable",
+    "company_competitive_position": "strong #2 (among Midwest utilities)",
+    "structural_tailwinds": [
+      "Energy transition / decarbonization: Regulatory mandates for renewable energy and net-zero targets create capex tailwinds. Magnitude: +$50B capex over 20 years, but limited pricing power.",
+      "Grid modernization: Smart meters, demand response, distribution automation require capex investment. Magnitude: +$20B capex over 10 years, but limited revenue upside.",
+      "Electrification: EV charging and heat pump adoption increase electricity demand. Magnitude: +2-3% annual demand growth if adoption accelerates, but regulatory approval required for rate recovery."
+    ],
+    "structural_headwinds": [
+      "Distributed solar and battery storage: Residential solar adoption is accelerating (15-20% annual growth). Magnitude: -10-15% retail revenue if penetration reaches 15-20% over 10 years.",
+      "Flat demand growth: Evergy's service territories (Kansas, Missouri) have mature, slow-growing populations. Magnitude: 0-1% annual demand growth, limiting revenue expansion.",
+      "Regulatory rate caps: Allowed ROE of 9.4-9.7% may not cover rising cost of capital. Magnitude: -20-30% dividend growth if rates are not increased."
+    ],
+    "megatrend_impact": "Evergy is a secondary beneficiary of energy transition, not a primary beneficiary. The company must invest heavily in renewable generation and grid modernization to meet net-zero 2050 targets, creating capex tailwinds but limited pricing power. Regulatory mandates force this transition, not market demand. Electrification (EV charging, heat pumps) could increase electricity demand by 2-3% annually, but this requires regulatory rate recovery certainty. Distributed solar and battery storage represent a 10-15 year headwind that will gradually erode the company's retail customer base. Overall: megatrends are real but create execution risk, not growth opportunity.",
+    "recession_history": "Evergy (and predecessor Westar Energy) demonstrated strong recession resilience in 2008 and 2020. Revenue declined <2% in both recessions, and earnings remained stable due to regulatory cost recovery mechanisms. Dividend was maintained throughout both downturns. This reflects the essential nature of electricity and regulatory protections. However, rising debt levels (D/E 1.28 in 2025) may limit financial flexibility in future recessions.",
+    "disruption_threats": "Distributed solar and battery storage are the primary disruption threat, representing a 10-15 year headwind. Retail deregulation is unlikely but not impossible—if retail choice legislation passes in Kansas or Missouri, Evergy loses regulated utility accounting treatment and must write off regulatory assets. Cybersecurity threats are real but manageable. Technology obsolescence is not a near-term threat. Overall: disruption risk is moderate and manageable.",
+    "better_sector_alternatives": [
+      "NEE (NextEra Energy): Primary beneficiary of energy transition with 15%+ renewable generation growth and strong capex tailwinds. Quality score 7.5+ vs. EVRG 6.45.",
+      "DUK (Duke Energy): Larger scale, more diversified geography, stronger capex growth. Quality score 7+ vs. EVRG 6.45.",
+      "SO (Southern Company): Stronger dividend growth, better regulatory environment in Georgia. Quality score 7+ vs. EVRG 6.45."
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Evergy is a high-quality regulated utility (Quality Score 6.45/10) with an exceptional moat (8/10) but limited growth and fair valuation (Opportunity Score 5.38/10). The company operates as a monopoly in Kansas and Missouri with zero competitive risk and very high recession resilience. However, structural headwinds are significant: flat demand growth (0.6% revenue CAGR), negative FCF (-12.6% in 2025), rising leverage (D/E 1.28), and emerging substitutes (distributed solar). The stock is priced fairly at 21.4x P/E and 12.4x EV/EBITDA, offering limited margin of safety. Regulatory risk is the primary threat—if allowed ROE falls below cost of capital, the company faces dividend cuts and stock price decline. This is a defensive income play for risk-averse investors, not a growth opportunity. Suitable for core portfolio allocation (5-10%) but not for growth-oriented investors.",
+    "upside_catalysts": [
+      "Regulatory rate increases: If KCC and MPSC approve 3-4% annual rate increases (vs. current 2-3%), earnings growth accelerates to 3-4% annually. Timeline: 2-3 years. Upside: +15-20% stock price.",
+      "Electrification acceleration: If EV charging and heat pump adoption accelerates faster than expected (5%+ annual demand growth), Evergy's revenue grows 3-4% annually. Timeline: 5-10 years. Upside: +25-30% stock price.",
+      "Dividend growth: If capex moderates and FCF turns positive, dividend growth accelerates to 4-5% annually (vs. current 2-3%). Timeline: 3-5 years. Upside: +10-15% stock price for income investors."
+    ],
+    "downside_risks": [
+      "Regulatory rate cuts: If KCC or MPSC reduce allowed ROE to 8.5-9.0% (below cost of capital), Evergy faces stranded asset write-downs and dividend cuts. Probability: 20-30%. Downside: -30-50% stock price.",
+      "Distributed solar adoption: If residential solar penetration reaches 15-20% (vs. current <3%), Evergy loses 10-15% of retail revenue. Probability: 40-50% over 10 years. Downside: -20-30% stock price.",
+      "Rising interest rates: If 10-year Treasury yields rise to 5%+, Evergy's cost of capital increases and allowed ROE may not cover debt service. Probability: 30-40% over 5 years. Downside: -15-25% stock price."
+    ],
+    "strong_buy_at": "$65",
+    "watchlist_at": "$72",
+    "exit_trigger": "If regulatory allowed ROE falls below 8.5%, or if distributed solar penetration exceeds 10% of retail customers, or if dividend is cut, exit position immediately.",
+    "position_sizing_note": "Core position (5-10%) for risk-averse, income-focused investors. Avoid for growth-oriented investors. Not suitable for aggressive portfolios."
+  },
+  "comparable_companies": [
+    "DUK (Duke Energy): Larger scale, more diversified geography, similar regulatory model. Quality 7/10 vs. EVRG 6.45/10.",
+    "SO (Southern Company): Stronger dividend growth, better regulatory environment in Georgia. Quality 7/10 vs. EVRG 6.45/10.",
+    "NEE (NextEra Energy): Primary beneficiary of energy transition, stronger growth. Quality 7.5/10 vs. EVRG 6.45/10.",
+    "AEP (American Electric Power): Similar regulatory model, larger scale. Quality 6.5/10 vs. EVRG 6.45/10.",
+    "WEC (WEC Energy Group): Smaller scale, similar Midwest exposure. Quality 6/10 vs. EVRG 6.45/10."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, current market data (price $80.50, P/E 21.4x, EV/EBITDA 12.4x), and 4-year financial history (2022-2025). Analyst consensus is 'buy' with target of $90.63. Beta of 0.544 indicates lower volatility than S&P 500. Dividend of 3.45% is attractive for income investors. All data is current as of 2026-05-16. No material data gaps identified."
+}

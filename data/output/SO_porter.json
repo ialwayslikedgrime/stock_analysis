@@ -1,0 +1,38 @@
+{
+  "ticker": "SO",
+  "company": "Southern Company",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Southern Company operates in a regulated utility market with limited direct competitors in its core service territories (Alabama, Georgia, Mississippi). However, Southern Power faces wholesale market competition from other independent power producers and utilities. The regulated nature of traditional electric operations limits rivalry intensity, but deregulated wholesale markets create competitive pressures."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry exist for traditional electric utilities due to regulatory requirements, massive capital requirements ($15.9B construction program in 2026), established transmission/distribution infrastructure, and state-granted service territories. Southern Power's wholesale business has lower barriers but requires significant capital and operational expertise. Regulatory approval and franchise agreements create durable competitive moats."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Electricity has limited substitutes for most customers, but distributed energy resources, microgrids (which Southern Company itself develops through PowerSecure), rooftop solar, and energy efficiency reduce demand. Natural gas distribution faces competition from alternative heating sources and renewable energy. The company acknowledges demand from data centers and large industrial customers, suggesting some customer optionality."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Retail customers in regulated territories have minimal pricing power due to rate regulation by state PSCs. However, large commercial/industrial customers (data centers, 9 GWs contracted) negotiate favorable terms including minimum bill provisions and termination payments, indicating moderate buyer power. Wholesale customers of Southern Power have significant alternatives, reducing their switching costs."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Natural gas suppliers have moderate power given commodity price volatility and LNG export growth; however, Southern Company has long-term contracts (up to 9 years) and diversified supply sources. Coal suppliers have limited power due to long-term agreements (1-5 years) and environmental transition reducing coal demand. Nuclear fuel suppliers are constrained by limited production capacity, creating some supplier leverage."
+    }
+  },
+  "moat_score": 4.0,
+  "moat_summary": "Southern Company possesses a strong competitive moat anchored by regulatory barriers, capital intensity, and established infrastructure in its core regulated utility markets. The company's vertically integrated operations, long-term PPAs (97% investment coverage through 2030), and state-granted service territories create durable competitive advantages. However, the moat is moderately challenged by energy transition dynamics, distributed generation alternatives, and wholesale market competition in Southern Power's business. The company's diversification across regulated utilities, wholesale generation, and natural gas distribution provides resilience but also exposes it to multiple competitive dynamics.",
+  "key_risks": [
+    "Regulatory risk: Changes in state PSC decisions on rate recovery, environmental compliance costs, and capital investment approval could materially impact earnings and returns on invested capital",
+    "Energy transition risk: Accelerating renewable adoption, distributed energy resources, and customer-owned generation reduce traditional utility demand and stranded asset risk from coal/nuclear retirements",
+    "Wholesale market competition: Southern Power faces intense competition from other IPPs and utilities; PPA expiration without successful remarketing could materially impact earnings if replacement contracts are unavailable at current rates",
+    "Fuel price volatility: Natural gas price exposure (despite long-term contracts) and coal market dynamics create earnings volatility; forward curves show mid-to-high $3/mmBtu pricing with geopolitical risks",
+    "Large customer concentration: Nine GWs of data center contracts represent significant customer concentration risk; contract termination provisions and minimum bill requirements provide some protection but create execution risk",
+    "Capital intensity and financing risk: $15.9B annual construction program requires sustained access to capital markets; rising interest rates increase financing costs and could constrain growth investments"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

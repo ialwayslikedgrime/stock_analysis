@@ -1,0 +1,37 @@
+{
+  "ticker": "LDOS",
+  "company": "Leidos Holdings, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Leidos faces intense competition from well-established defense contractors and systems integrators including Lockheed Martin, Northrop Grumman, RTX, General Dynamics, BAE Systems, Booz Allen Hamilton, CACI, and others. The 10-K explicitly states 'Competition for contracts is significant' and notes competition from both traditional large contractors and smaller specialized firms, with increasing competition from non-traditional and non-U.S. competitors."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive regulatory requirements, security clearance requirements (53% of Leidos workforce holds clearances), complex government contracting processes, and substantial capital requirements for R&D and infrastructure. However, the 10-K notes 'increasingly' expanded competition from non-traditional competitors and startups, suggesting barriers are moderately eroding in certain technology areas like AI and autonomy."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for mission-critical government services in defense, intelligence, and national security domains. However, the 10-K notes the U.S. government's own capabilities and federal non-profit contract research centers as competitive alternatives, and commercial cloud/IT providers could substitute for some digital modernization services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "U.S. government customers (87% of revenues) possess significant pricing power through competitive procurement processes, multiple-award IDIQ contracts, and the ability to terminate contracts for convenience. The 10-K details how government uses multiple contracting methods including competitive task order bidding, GSA schedules, and OTA agreements that limit contractor pricing discretion."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists as Leidos depends on specialized technology suppliers, subcontractors, and talent with security clearances. The company frequently collaborates with other contractors as subcontractors or teammates, creating interdependencies. However, the 10-K provides limited detail on supplier concentration or dependencies, suggesting diversified sourcing [INFERRED from industry norms]."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Leidos possesses a moderate competitive moat built primarily on high barriers to entry (security clearances, regulatory compliance, government relationships) and limited substitutes for mission-critical services. However, this moat is partially offset by intense rivalry from well-capitalized competitors, significant buyer power from the concentrated U.S. government customer base, and the government's ability to terminate contracts and shift work to competitors through multiple-award contracting. The company's differentiation relies on technical expertise, mission understanding, and execution track record rather than proprietary technology or switching costs.",
+  "key_risks": [
+    "Concentrated customer base: 87% of revenues from U.S. government contracts creates dependency on federal budgets, policy changes, and procurement decisions; government can terminate contracts for convenience",
+    "Intense competitive pressure: Multiple well-capitalized competitors (Lockheed Martin, Northrop Grumman, RTX, General Dynamics) compete for same contracts; increasing competition from non-traditional and non-U.S. contractors",
+    "Regulatory and compliance burden: Heavy regulation of government contracting, security clearance requirements, FAR compliance, and evolving procurement reform create operational complexity and cost; IP rights limitations as government retains rights to inventions developed under contracts",
+    "Talent acquisition and retention: Requires 47,000 employees with specialized skills; 53% security clearance requirement limits labor pool; competition for cleared talent from other defense contractors",
+    "Technology disruption: Rapid advancement in AI, autonomy, and robotics may require continuous R&D investment; non-traditional competitors may innovate faster in emerging technology areas"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

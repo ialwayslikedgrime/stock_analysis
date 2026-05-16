@@ -1,0 +1,182 @@
+{
+  "ticker": "SMCI",
+  "company": "Supermicro",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "scores": {
+    "structural_score": 5.5,
+    "moat_score": 2.8,
+    "financial_score": 5.2,
+    "valuation_score": 6.1,
+    "quality_score": 4.6,
+    "opportunity_score": 5.4,
+    "combined_score": 4.9
+  },
+  "archetype": "COMMODITY CYCLICAL",
+  "archetype_reasoning": "Supermicro operates in a structurally commoditized market with minimal durable competitive advantages. Despite exposure to the AI megatrend, the company faces intense rivalry from larger, better-capitalized competitors (Dell, HPE, Cisco) and low-cost ODMs. The moat score of 2.4/5 confirms weak structural positioning. High customer concentration (4 customers = 10%+ of revenue each) and deteriorating margins (gross margin fell from 18.0% in 2023 to 11.1% in 2025) indicate pricing power erosion typical of commodity hardware vendors.",
+  "verdict": "avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "fair entry"
+  },
+  "time_horizon": "medium-term (1-3yr)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 5.5,
+    "megatrend_exposure_score": 7.2,
+    "megatrend_type": "secondary beneficiary",
+    "megatrends_exposed_to": [
+      "AI infrastructure buildout",
+      "Data center expansion",
+      "Cloud computing growth"
+    ],
+    "megatrend_analysis": "Supermicro is a secondary beneficiary of the AI infrastructure megatrend, not a primary value chain participant. The company manufactures custom server hardware for hyperscalers deploying AI workloads, but it is a supplier to the suppliers (NVIDIA, AMD, Intel) who capture the majority of AI value creation. As AI infrastructure scales, Supermicro benefits from increased data center capex, but this benefit is commoditized—any capable ODM or large systems integrator can capture this work. The company's position becomes less valuable as hyperscalers (Google, Meta, Microsoft, Amazon) increasingly design and manufacture their own custom silicon and systems, reducing dependence on third-party ODMs. Supermicro's TAM grows with AI, but market share is likely to compress as competition intensifies.",
+    "necessity_score": 6.8,
+    "necessity_analysis": "Server hardware is operationally necessary for data center operations, making demand relatively inelastic in the short term. However, the necessity is to the hyperscaler customer, not to Supermicro specifically—customers can easily switch to Dell, HPE, or internal manufacturing. In a recession, data center capex would decline sharply, as evidenced by 2022-2023 cycles. Supermicro's revenue fell from $7.1B (2023) to $5.2B (2022), indicating high cyclicality.",
+    "moat_trajectory_score": 2.5,
+    "moat_trajectory_analysis": "Supermicro's moat is narrowing, not widening. The company's claimed advantages—modular design, in-house R&D (3,200 engineers), manufacturing flexibility—are increasingly replicable by larger competitors with superior resources. Dell and HPE have invested heavily in custom server design and can match Supermicro's time-to-market. ODMs like Foxconn, Quanta, and Wiwynn have achieved manufacturing scale and cost advantages that Supermicro cannot match. Switching costs are low; hyperscalers evaluate vendors on price, performance, and delivery, not lock-in. The 10-K explicitly states that four customers represent 10%+ of revenue each, indicating zero switching costs and maximum buyer leverage. As hyperscalers grow larger and more sophisticated, they will increasingly design systems in-house or negotiate directly with ODMs, further eroding Supermicro's position.",
+    "tam_evolution_score": 7.1,
+    "tam_evolution_analysis": "The TAM for AI infrastructure and data center hardware is expanding rapidly, driven by AI model training, inference, and enterprise adoption. IDC estimates the global server market will grow 8-12% CAGR through 2028. However, Supermicro's addressable TAM within this market is shrinking due to competitive pressure and customer vertical integration. Pricing power is deteriorating; gross margins fell 690 basis points in two years (18.0% to 11.1%), indicating that Supermicro is losing pricing leverage to larger customers and competitors. New adjacencies (edge computing, AI accelerators) exist but are equally commoditized.",
+    "technology_resilience_score": 5.8,
+    "technology_resilience_analysis": "Supermicro's technology is not at risk of disruption in the near term—server hardware will remain essential for AI infrastructure. However, the company faces disruption from hyperscaler vertical integration (Google TPUs, Amazon Trainium, Meta custom silicon) and from ODM competitors who can match Supermicro's design capabilities at lower cost. The company's R&D spending (3,200 engineers) is substantial but not differentiated; competitors have similar or larger engineering teams. Geopolitical export controls on advanced chips (NVIDIA H100/H200, AMD MI300) create regulatory uncertainty that could disadvantage Supermicro if competitors gain better allocations or if the company loses access to key markets (China).",
+    "structural_summary": "Supermicro will likely be weaker in 10 years, not stronger. The company operates in a structurally declining competitive position within a growing but commoditizing market. The single most important structural fact is that Supermicro has zero pricing power and high customer concentration—four customers control the company's revenue destiny. As hyperscalers grow larger and more vertically integrated, they will either design systems in-house, negotiate directly with ODMs at lower prices, or shift to alternative architectures (custom silicon, edge computing). Supermicro's margins will continue to compress, and market share will erode to larger, better-capitalized competitors (Dell, HPE) and lower-cost ODMs (Foxconn, Quanta). The company is a commodity supplier in a commodity market, not a structural winner."
+  },
+  "moat_analysis": {
+    "score": 2.8,
+    "rivalry": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Supermicro faces intense rivalry from Dell, HPE, Cisco, and increasingly from ODMs (Foxconn, Quanta, Wiwynn). The 10-K acknowledges 'intense competition from large, well-resourced vendors' and notes that ODMs have 'superior scale and manufacturing efficiency.' Dell and HPE have invested heavily in custom server design and have superior distribution, brand recognition, and customer relationships. Supermicro's revenue CAGR of 61.7% over 4 years masks the fact that this growth is cyclical and driven by AI capex cycles, not sustainable competitive advantage. As AI capex normalizes, Supermicro will face margin compression and share loss. The company's gross margin fell 690 basis points in two years, indicating that competitors are winning on price.",
+      "key_competitors": [
+        "Dell Technologies",
+        "Hewlett Packard Enterprise",
+        "Cisco Systems",
+        "Foxconn",
+        "Quanta Services",
+        "Wiwynn"
+      ]
+    },
+    "new_entrants": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are moderate but declining. While R&D investment, manufacturing expertise, and customer relationships are required, these are increasingly accessible to well-capitalized competitors and ODMs. Foxconn, Quanta, and Wiwynn have already entered the market and are gaining share. Hyperscalers themselves (Google, Meta, Amazon) are becoming new entrants by designing and manufacturing custom systems in-house. The 10-K notes that 'barriers to entry are moderate but declining,' indicating that new competitors will continue to emerge. Capital requirements are high but not prohibitive for large technology companies or ODMs with existing manufacturing infrastructure.",
+      "biggest_threat": "Hyperscaler vertical integration (Google, Meta, Amazon designing custom silicon and systems in-house)"
+    },
+    "substitutes": {
+      "score": 3,
+      "trend": "weakening",
+      "analysis": "Direct substitutes for physical server infrastructure are limited in the near term, but alternatives are emerging. Hyperscalers are developing custom silicon (Google TPUs, Amazon Trainium, Meta custom processors) that reduce dependence on standard server architectures. Edge computing and distributed inference models could reduce demand for centralized data center hardware. Cloud-native architectures and containerization reduce the need for custom hardware optimization. The 10-K notes that 'customers can develop internal solutions or shift to alternative architecture,' indicating that substitutes are a credible threat. As AI workloads become more specialized, demand for generic server hardware may decline in favor of custom silicon.",
+      "key_substitute": "Hyperscaler custom silicon and in-house system design"
+    },
+    "buyer_power": {
+      "score": 2,
+      "trend": "strengthening",
+      "analysis": "Buyer power is extremely high and strengthening. The 10-K explicitly discloses that 'four customers each accounted for 10%+ of FY2025 sales,' indicating that Supermicro has zero negotiating leverage. These four customers (likely Google, Meta, Microsoft, Amazon) are hyperscalers with enormous purchasing power and the ability to design systems in-house or negotiate directly with ODMs. As these customers grow larger and more sophisticated, their bargaining power will increase further. Supermicro cannot afford to lose any of these four customers, giving them complete pricing control. The company's gross margin compression (18.0% to 11.1% in two years) is direct evidence of buyer power erosion."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Supplier power is moderate but strengthening. Supermicro depends on NVIDIA, Intel, and AMD for processors and GPUs, which are critical components in AI servers. The 10-K notes that 'Supermicro depends on coordination with critical component vendors' and that 'export control exposure' creates regulatory uncertainty. NVIDIA's dominance in AI accelerators (H100, H200) gives it significant pricing power; Supermicro cannot design competitive AI servers without NVIDIA GPUs. As NVIDIA's market power increases, it can demand higher prices or favorable terms, compressing Supermicro's margins further. Intel and AMD have less power but still control processor roadmaps and allocation. Geopolitical export controls (U.S. restrictions on advanced chips to China) create additional supplier leverage and regulatory uncertainty."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Supermicro's moat is narrow, fragile, and narrowing. The company's claimed advantages—modular design, in-house R&D, manufacturing flexibility—are not reflected in sustainable financial returns. ROIC fell from 30.6% (2023) to 9.5% (2025), indicating that competitive advantages are eroding rapidly. Gross margins compressed 690 basis points in two years, confirming loss of pricing power. The company's high customer concentration (4 customers = 10%+ of revenue) and dependence on NVIDIA/Intel/AMD for critical components create structural vulnerabilities. Supermicro is a commodity supplier in a commodity market, not a structural winner. The moat is at risk of complete erosion within 3-5 years as hyperscalers vertically integrate and ODMs gain scale."
+  },
+  "financial_analysis": {
+    "score": 5.2,
+    "margin_trend": "strongly deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "low",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "low",
+    "deep_analysis": "Supermicro's financial quality is deteriorating rapidly, masking underlying structural weakness. Gross margin fell from 18.0% (2023) to 11.1% (2025)—a 690 basis point compression in two years—indicating severe pricing power loss to customers and suppliers. Operating margin fell from 10.7% (2023) to 5.7% (2025), and net margin fell from 9.0% to 4.8%. ROIC collapsed from 30.6% (2023) to 9.5% (2025), well below the 15% threshold for acceptable returns. Free cash flow is volatile and negative in 2024 (-17.4% of revenue), indicating that the company is burning cash despite revenue growth. The company's debt-to-equity ratio increased from 0.06 (2023) to 0.74 (2025), suggesting increased financial leverage to fund growth. Revenue CAGR of 61.7% is impressive but unsustainable and masks margin deterioration. In a recession, data center capex would decline sharply, and Supermicro's high fixed costs would result in significant losses. The company has no pricing power and cannot maintain margins as competition intensifies."
+  },
+  "valuation_analysis": {
+    "score": 6.1,
+    "overall_assessment": "fair",
+    "peg_signal": "cheap",
+    "ev_ebitda_signal": "expensive",
+    "implied_10yr_growth_rate": "8.5%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "The PEG ratio of 0.26x suggests the market is pricing in very low growth expectations relative to historical CAGR of 61.7%. However, this is misleading. The market is correctly pricing in mean reversion and margin compression. A forward P/E of 9.6x implies earnings growth of ~8-10% annually, which is realistic given the cyclical nature of data center capex and competitive pressure. However, the EV/EBITDA of 16.8x is expensive relative to the sector (Dell trades at 8-10x, HPE at 6-8x), indicating that the market is still pricing in some AI upside despite deteriorating fundamentals. Reverse DCF at 10% discount rate implies the market is pricing in ~8-10% perpetual growth, which is optimistic given margin compression and competitive intensity.",
+    "estimated_intrinsic_value_conservative": "$18.50",
+    "estimated_intrinsic_value_optimistic": "$28.00",
+    "current_vs_intrinsic": "-40% discount (conservative) to -10% discount (optimistic)",
+    "strong_buy_price": "$16.00",
+    "watchlist_price": "$22.00",
+    "valuation_deep_analysis": "Supermicro's valuation is deceptive. The PEG of 0.26x appears cheap, but this reflects the market's correct assessment that historical 61.7% CAGR is unsustainable. Forward P/E of 9.6x is reasonable for a cyclical hardware vendor, but EV/EBITDA of 16.8x is expensive relative to Dell (8-10x) and HPE (6-8x), indicating the market is still pricing in AI upside. Conservative DCF (assuming 5% perpetual growth, 10% discount rate, 4.8% net margin) yields intrinsic value of ~$18.50, implying 40% downside from current price of $31.04. Optimistic DCF (assuming 10% perpetual growth, 10% discount rate, 6% net margin) yields ~$28.00, implying 10% downside. The analyst target of $36.75 is optimistic and assumes margin stabilization that is unlikely given competitive pressure. Margin of safety is negative at current price; the stock should trade at 12-15x forward earnings (vs. current 9.6x) given cyclicality and competitive intensity, implying fair value of $22-26. Current price of $31.04 offers no margin of safety."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "Critical",
+    "competitive_disruption_explanation": "Supermicro faces existential competitive threats from Dell, HPE, Cisco, and ODMs who have superior scale, resources, and customer relationships. Hyperscaler vertical integration (Google, Meta, Amazon designing custom systems in-house) is a direct threat to Supermicro's core business. The company's gross margin compression (690 bps in 2 years) is evidence that competitive pressure is intensifying and will continue to erode profitability.",
+    "regulatory": "High",
+    "regulatory_explanation": "U.S. export controls on advanced chips (NVIDIA H100/H200, AMD MI300) to China and other regions create regulatory uncertainty and competitive disadvantage. The 10-K explicitly cites 'geopolitical and export control exposure' as a key risk. If competitors gain better allocations of restricted chips or if Supermicro loses access to key markets, revenue and profitability could decline sharply.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Supermicro is highly cyclical and dependent on data center capex cycles. In a recession, hyperscalers would cut capex sharply, and Supermicro's revenue would decline 30-50% (as evidenced by 2022-2023 cycle). The company's high fixed costs would result in significant losses. Current valuation assumes continued AI capex growth, which is not guaranteed.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "Debt-to-equity increased from 0.06 (2023) to 0.74 (2025), indicating increased financial leverage. Free cash flow was negative in 2024 (-17.4% of revenue), suggesting the company is burning cash despite revenue growth. If revenue declines in a recession, the company could face liquidity stress.",
+    "management": "Medium",
+    "management_explanation": "Management has executed well on revenue growth (61.7% CAGR) but has failed to maintain profitability and return on capital. ROIC fell from 30.6% (2023) to 9.5% (2025), indicating poor capital allocation. Management's guidance and analyst targets appear optimistic relative to competitive reality and margin trends.",
+    "geopolitical": "Critical",
+    "geopolitical_explanation": "U.S.-China trade tensions and export controls on advanced chips create significant regulatory uncertainty. Supermicro has exposure to China (both as a market and as a manufacturing location), and geopolitical escalation could disrupt supply chains or market access. The 10-K cites 'geopolitical and export control exposure' as a key risk.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Server hardware is not at immediate risk of obsolescence, but hyperscaler custom silicon (Google TPUs, Amazon Trainium) and edge computing could reduce demand for standard server architectures. Supermicro's R&D spending (3,200 engineers) is substantial but not differentiated from competitors.",
+    "esg": "Low",
+    "esg_explanation": "Supermicro has no material ESG risks relative to peers. The company manufactures hardware in the U.S. and Asia, with standard labor and environmental practices. ESG is not a material driver of valuation or risk.",
+    "overall_risk_level": "Critical",
+    "top_3_risks": [
+      "Hyperscaler vertical integration: Google, Meta, Amazon design and manufacture custom systems in-house, reducing demand for Supermicro's products. Revenue could decline 20-40% if hyperscalers shift 30-50% of capex in-house.",
+      "Margin compression from buyer power: Four customers control 40%+ of revenue and have complete pricing leverage. Gross margins could fall to 8-10% within 2-3 years, resulting in operating margins of 2-3% and ROIC below 5%.",
+      "Geopolitical export controls: U.S. restrictions on advanced chips to China and other regions could disrupt supply chains, reduce market access, or disadvantage Supermicro relative to competitors with better allocations. Revenue could decline 10-20% if key markets are lost."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "moderate growth",
+    "company_competitive_position": "weak",
+    "structural_tailwinds": [
+      "AI infrastructure buildout: Global AI capex expected to grow 25-30% CAGR through 2028, driving data center hardware demand",
+      "Cloud computing growth: Enterprise cloud adoption continues to drive data center capex, with 15-20% CAGR expected",
+      "Data center expansion: Hyperscalers (Google, Meta, Microsoft, Amazon) investing $50B+ annually in data center capex"
+    ],
+    "structural_headwinds": [
+      "Hyperscaler vertical integration: Google, Meta, Amazon designing custom systems in-house, reducing ODM demand by 20-30%",
+      "Commoditization: Server hardware is increasingly commoditized, with pricing power shifting to hyperscalers and component suppliers",
+      "Geopolitical fragmentation: U.S.-China trade tensions and export controls fragmenting global markets and creating regulatory uncertainty"
+    ],
+    "megatrend_impact": "Supermicro is a secondary beneficiary of the AI infrastructure megatrend, not a primary value chain participant. The company manufactures custom server hardware for hyperscalers deploying AI workloads, but it is a supplier to the suppliers (NVIDIA, AMD, Intel) who capture the majority of AI value creation. As AI infrastructure scales, Supermicro benefits from increased data center capex, but this benefit is commoditized and subject to intense competition. The company's position becomes less valuable as hyperscalers increasingly design and manufacture their own custom silicon and systems, reducing dependence on third-party ODMs. Supermicro's TAM grows with AI, but market share is likely to compress as competition intensifies and hyperscalers vertically integrate.",
+    "recession_history": "Supermicro is highly cyclical and vulnerable to data center capex cycles. In 2022-2023, revenue fell from $7.1B to $5.2B (-27%) as data center capex declined post-pandemic. The company's high fixed costs resulted in margin compression (gross margin fell from 18.0% to 15.4%). In a severe recession, data center capex could decline 30-50%, and Supermicro's revenue could fall to $10-12B with operating margins of 2-3%. The company has limited pricing power and cannot maintain margins in a downturn.",
+    "disruption_threats": "Hyperscaler vertical integration is the primary disruption threat. Google, Meta, Amazon, and Microsoft are increasingly designing and manufacturing custom systems in-house, reducing dependence on third-party ODMs like Supermicro. Custom silicon (Google TPUs, Amazon Trainium, Meta custom processors) is reducing demand for standard server architectures. Edge computing and distributed inference models could reduce demand for centralized data center hardware. ODMs like Foxconn and Quanta are gaining market share through superior scale and cost advantages. These disruption threats are credible and likely to materialize within 3-5 years.",
+    "better_sector_alternatives": [
+      "NVDA (NVIDIA): Primary beneficiary of AI infrastructure megatrend with strong moat, pricing power, and 40%+ gross margins. Quality score 8.5+, opportunity score 6.5+.",
+      "MSFT (Microsoft): Diversified technology company with strong cloud infrastructure business (Azure), AI integration, and 70%+ gross margins. Quality score 8+, opportunity score 6+.",
+      "GOOGL (Alphabet): Hyperscaler with in-house custom silicon design, data center infrastructure, and AI capabilities. Quality score 8+, opportunity score 5.5+.",
+      "META (Meta): Hyperscaler with in-house custom silicon design and massive data center capex. Quality score 7.5+, opportunity score 5.5+."
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Supermicro is a commodity hardware supplier in a commoditizing market with deteriorating competitive positioning and no durable moat. While the company benefits from the AI infrastructure megatrend, this benefit is secondary and subject to intense competition from larger, better-capitalized rivals (Dell, HPE, Cisco) and low-cost ODMs (Foxconn, Quanta). The company's quality score of 4.6/10 reflects weak structural positioning, minimal moat (2.8/10), and deteriorating financial quality. Gross margins fell 690 basis points in two years (18.0% to 11.1%), ROIC collapsed from 30.6% to 9.5%, and the company has zero pricing power with four customers controlling 40%+ of revenue. At current price of $31.04, the stock offers no margin of safety and is fairly valued to expensive relative to intrinsic value of $18.50-$28.00. The company is a value trap, not a value opportunity.",
+    "upside_catalysts": [
+      "AI capex acceleration: If hyperscalers accelerate data center capex beyond current expectations (>30% CAGR), Supermicro could benefit from increased demand and potentially stabilize margins at 12-13%. Timeline: 2-3 years. Upside to $40-45.",
+      "Market share gains: If Supermicro wins significant market share from competitors (Dell, HPE) through superior design or pricing, revenue could grow 20%+ annually and margins could stabilize. Timeline: 2-3 years. Upside to $38-42.",
+      "Margin stabilization: If the company successfully negotiates with customers and suppliers to stabilize gross margins at 13-14% (vs. current 11.1%), operating margins could improve to 7-8% and ROIC could recover to 12-15%. Timeline: 1-2 years. Upside to $35-40."
+    ],
+    "downside_risks": [
+      "Hyperscaler vertical integration accelerates: If Google, Meta, Amazon, Microsoft shift 40-50% of data center capex in-house (vs. current 20-30%), Supermicro's revenue could decline 25-35% to $14-16B. Timeline: 2-3 years. Downside to $15-18.",
+      "Margin compression continues: If gross margins fall to 9-10% (vs. current 11.1%) due to buyer power and supplier leverage, operating margins could fall to 2-3% and ROIC could fall below 5%. Timeline: 1-2 years. Downside to $18-22.",
+      "Recession and data center capex decline: If data center capex declines 30-40% in a recession, Supermicro's revenue could fall to $12-14B and the company could post operating losses. Timeline: 1-2 years. Downside to $10-15."
+    ],
+    "strong_buy_at": "$16.00",
+    "watchlist_at": "$22.00",
+    "exit_trigger": "If gross margins fall below 10%, if any of the four major customers is lost, if hyperscaler vertical integration accelerates beyond current expectations, or if data center capex growth slows below 10% annually.",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "DELL (Dell Technologies): Larger, more diversified systems integrator with superior scale, brand, and customer relationships. Dell trades at 8-10x EV/EBITDA vs. Supermicro at 16.8x, indicating Supermicro is overvalued relative to peers.",
+    "HPE (Hewlett Packard Enterprise): Competitor in enterprise servers and data center infrastructure. HPE trades at 6-8x EV/EBITDA, indicating Supermicro is significantly overvalued.",
+    "NVDA (NVIDIA): Primary beneficiary of AI infrastructure megatrend with strong moat and pricing power. NVIDIA trades at 40-50x forward earnings vs. Supermicro at 9.6x, reflecting NVIDIA's superior competitive positioning and growth prospects.",
+    "QCOM (Qualcomm): Semiconductor company with exposure to AI and data center markets. QCOM trades at 12-15x forward earnings, indicating Supermicro is fairly valued to slightly cheap on a P/E basis but expensive on EV/EBITDA."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on Supermicro 10-K filing, financial statements (2022-2025), and current market data as of 2026-05-16. Customer concentration data (four customers = 10%+ of revenue) is from 10-K. Competitive landscape assessment based on public information about Dell, HPE, Cisco, Foxconn, Quanta, and Wiwynn. Margin trends and ROIC calculations are from audited financial statements. Valuation multiples (P/E, EV/EBITDA, PEG) are current market data. Analyst target of $36.75 is consensus estimate. All financial metrics are audited or from official company guidance."
+}

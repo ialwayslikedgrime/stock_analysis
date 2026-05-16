@@ -1,0 +1,38 @@
+{
+  "ticker": "CSCO",
+  "company": "Cisco",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Cisco faces intense competition from numerous well-resourced competitors across multiple product categories including AWS, Microsoft, Arista, Broadcom, Palo Alto Networks, and others. The 10-K explicitly states competitors may have greater resources and that price-focused competition from Asia (especially China) is anticipated to continue, indicating a highly fragmented and competitive market."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K explicitly states 'barriers to entry are relatively low, and new ventures to create products that do or could compete with our products are regularly formed.' While Cisco has scale advantages and established relationships, the low barriers enable continuous new competition, particularly in specialized product areas and emerging technologies like AI infrastructure."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from cloud-native solutions (AWS, Microsoft Azure), software-defined networking alternatives, and emerging AI-driven infrastructure approaches. The convergence of computing, networking, and storage creates alternative architectures that can bypass traditional networking equipment, and webscale providers increasingly build proprietary solutions."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large enterprise and service provider customers have substantial negotiating power given the availability of alternative vendors and the ability to build proprietary solutions. The 10-K notes customers include 'large webscale providers' who are increasingly developing in-house alternatives, and the company offers financing arrangements suggesting price sensitivity among customers."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Cisco relies on contract manufacturers without long-term commitments and has flexibility in supplier relationships, reducing supplier leverage. However, dependence on specialized semiconductor suppliers (particularly for Silicon One and advanced optics) and the concentration of manufacturing capabilities create moderate supplier power, partially offset by Cisco's scale and ability to switch providers."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Cisco maintains a moderate competitive moat primarily through brand reputation, installed base, and integrated product portfolio (One Cisco strategy), but this moat is significantly eroding. The company faces intense rivalry from well-capitalized competitors, low barriers to entry in emerging areas, and substantial substitution threats from cloud-native and AI-driven alternatives. While scale and customer relationships provide some defensibility, the rapid technological change and increasing competition from both traditional vendors and new entrants limit the durability of Cisco's competitive advantages.",
+  "key_risks": [
+    "Intense competition from established players (AWS, Microsoft, Arista, Palo Alto Networks) and new entrants with potentially greater resources in key growth areas like AI infrastructure and cloud security",
+    "Rapid technological disruption and shifting customer preferences toward cloud-native, software-defined, and proprietary solutions that bypass traditional networking equipment",
+    "Price-focused competition from Asian competitors (particularly China) eroding margins and market share in price-sensitive segments",
+    "Dependence on successful integration of major acquisitions (Splunk) and ability to execute 'One Cisco' strategy amid organizational complexity",
+    "Webscale provider customers developing proprietary alternatives and reducing reliance on Cisco products, particularly in high-growth AI infrastructure segment",
+    "Geopolitical risks and trade restrictions impacting international operations and supply chain, particularly regarding China exposure"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

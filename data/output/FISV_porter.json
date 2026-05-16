@@ -1,0 +1,38 @@
+{
+  "ticker": "FISV",
+  "company": "Fiserv",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Fiserv operates in a highly fragmented and competitive market with numerous large integrated providers, regional competitors, and emerging fintech companies. The 10-K explicitly states the market is 'highly competitive' with competitors including large software companies, payment networks, ISOs, ISVs, and new technology/media entrants increasingly offering competing solutions."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While Fiserv has significant scale and proprietary technology, barriers to entry are moderate. The company acknowledges 'new companies enter our markets' regularly, and large technology companies (Google, Amazon, Apple) can leverage existing infrastructure. However, regulatory requirements, switching costs, and integration complexity do create some protection."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from in-house systems, custom solutions, and alternative payment methods. The 10-K notes that 'existing and potential financial institution and other corporate clients could also develop and use their own in-house systems.' Emerging technologies like blockchain, embedded finance, and alternative payment networks pose ongoing substitution risks."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "While Fiserv has multi-year contracts with high renewal rates, large enterprise clients and financial institutions have substantial negotiating power given the availability of alternative providers. The company's reliance on a relatively concentrated customer base (large banks, payment networks) and the critical nature of services provide some leverage, but clients can threaten to develop alternatives or switch providers."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Fiserv has moderate supplier power concerns. The company relies on third-party resources including hardware vendors (for Clover devices), cloud infrastructure providers, payment networks (Visa, Mastercard), and telecommunications networks. However, the 10-K indicates they have 'access to resources necessary' and employ 'global sourcing efforts and alternate supplier resourcing,' suggesting some mitigation of supplier concentration risk."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "Fiserv possesses a moderate competitive moat built on scale, proprietary technology platforms, switching costs from multi-year contracts, and regulatory/compliance expertise. However, the moat is being eroded by intense competition from large technology companies, emerging fintech disruptors, and the ability of sophisticated clients to develop in-house solutions. The company's strength lies in its integrated ecosystem and customer relationships rather than defensible technological advantages, making continuous innovation critical to maintaining market position.",
+  "key_risks": [
+    "Intense competition from large technology companies (Google, Amazon, Apple) and emerging fintech providers entering payments and financial services",
+    "Customer concentration risk with large financial institutions and payment networks having significant bargaining power and ability to develop alternative solutions",
+    "Regulatory and compliance burden, including examination by Federal Banking Agencies and complex international regulations that could increase costs or limit revenue",
+    "Technology disruption and substitution threats from blockchain, embedded finance, alternative payment networks, and in-house client systems",
+    "Integration and execution risks from aggressive M&A strategy and platform consolidation (One Fiserv initiative)",
+    "Cybersecurity and data breach risks given handling of sensitive financial and payment data across global operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

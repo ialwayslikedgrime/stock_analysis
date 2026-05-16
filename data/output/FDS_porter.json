@@ -1,0 +1,38 @@
+{
+  "ticker": "FDS",
+  "company": "FactSet",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "FactSet operates in a highly competitive environment against well-capitalized competitors including Bloomberg L.P., S&P Market Intelligence, and LSEG Data & Analytics. Additional competitors include BlackRock Aladdin, MSCI, and Morningstar, creating intense competition across multiple product segments and geographies."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers to entry exist due to significant capital requirements, complex data infrastructure, established client relationships, and regulatory compliance needs (SEC registration, broker-dealer requirements). However, cloud computing and API-based models have lowered some traditional barriers, allowing niche competitors to emerge in specific workflows."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist including in-house solutions, alternative data providers, open-source analytics tools, and emerging AI-powered platforms. Large clients like asset managers increasingly build proprietary systems, and cloud providers offer competing analytics capabilities, creating meaningful substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large institutional clients (asset managers, hedge funds, investment banks) represent significant revenue concentration and can negotiate pricing or threaten to develop internal alternatives. However, high switching costs, workflow integration, and multi-asset class dependencies provide some pricing protection for FactSet."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "FactSet relies on third-party content providers, with two suppliers each representing over 10% of data costs. While the company maintains multiple suppliers for most data types, certain datasets have limited sources. Cloud computing dependency on one primary provider creates additional supplier concentration risk."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "FactSet possesses a moderate competitive moat built on switching costs, network effects through embedded workflows, and proprietary data integration capabilities. However, the moat is under pressure from intense competition, client ability to build alternatives, and supplier dependencies. The company's scale (237,000 users, 9,000 clients) and AI investments provide defensibility, but this is offset by the commoditization of data and analytics in financial services.",
+  "key_risks": [
+    "Intense competition from Bloomberg, S&P, and LSEG with superior brand recognition and integrated ecosystems could erode market share and pricing power",
+    "Large institutional clients have bargaining power and increasing capability to develop proprietary solutions, threatening revenue concentration and ASV retention",
+    "Dependency on third-party data suppliers (two representing >10% of costs) and single primary cloud provider creates operational and cost vulnerabilities",
+    "Rapid AI commoditization and emergence of open-source alternatives could disrupt pricing models and reduce differentiation of AI-embedded workflows",
+    "Regulatory changes in financial services, data privacy (GDPR, etc.), and cybersecurity requirements increase compliance costs and operational complexity",
+    "Geographic concentration with 65% of revenues from Americas creates exposure to regional economic downturns and regulatory changes"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

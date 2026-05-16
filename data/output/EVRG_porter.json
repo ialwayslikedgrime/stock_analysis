@@ -1,0 +1,38 @@
+{
+  "ticker": "EVRG",
+  "company": "Evergy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "Evergy operates in fully integrated and regulated retail utility markets in Kansas and Missouri with exclusive franchised service territories. The company explicitly states it 'does not compete with others to supply and deliver electricity in their franchised service territories' in exchange for regulatory oversight. Competition is limited to wholesale power sales in the SPP Integrated Marketplace, a non-core revenue stream (5% of total revenues)."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory licensing requirements, massive capital requirements for generation/transmission/distribution infrastructure, and exclusive service territory franchises granted by state regulators. New entrants would require state legislative action to deregulate markets, which is explicitly noted as unlikely in the near term. The company's 1.7 million customer base and integrated utility model create insurmountable competitive moats."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for grid-delivered electricity in Evergy's service territories. While distributed solar and battery storage represent emerging alternatives (INFERRED from industry trends, not in document), they remain marginal and complementary rather than substitutive. Evergy actively invests in renewable integration and energy efficiency programs, mitigating substitute threats. The essential nature of electricity limits substitution risk."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Individual customers have minimal pricing power as rates are set by state regulators (KCC in Kansas, MPSC in Missouri) rather than through market negotiation. Large industrial customers benefit from Large Load Power Service (LLPS) rate plans but remain within the regulated framework. Residential (37% of revenues) and commercial (33%) customers cannot switch providers or negotiate rates independently."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists across fuel sources. Coal suppliers (Powder River Basin) have some leverage, though Evergy has diversified contracts covering 75% of 2026 needs with spot market flexibility. Natural gas is purchased primarily on spot markets, reducing supplier concentration. Nuclear fuel is secured through 2030 for uranium and 2045 for fabrication. Transportation via railroads shows moderate concentration risk with contract rates adjusting for railroad cost changes."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "Evergy possesses an exceptionally strong competitive moat anchored by regulatory barriers, exclusive service territories, and the essential nature of electricity. The company operates in a fully regulated utility model with no retail competition in its franchised Kansas and Missouri territories, supported by high capital requirements and regulatory licensing. While wholesale market competition and emerging energy substitutes present modest headwinds, the regulated utility framework and integrated generation-transmission-distribution model create durable competitive advantages that protect long-term cash flows and returns.",
+  "key_risks": [
+    "Regulatory risk: Rate orders may not provide sufficient returns to recover costs or fund capital investments; allowed ROE of 9.4-9.7% may be insufficient if cost of capital rises",
+    "Deregulation risk: If Missouri or Kansas implement retail choice legislation, Evergy may lose regulated utility accounting treatment, requiring surcharges or write-offs of regulatory assets",
+    "Energy transition risk: Long-term net-zero emissions goal by 2050 requires significant capital investment in renewable generation and grid modernization; coal fleet retirement may strand assets or require accelerated depreciation",
+    "Fuel and commodity price risk: Coal, natural gas, and uranium price volatility affects operating costs; spot market natural gas purchases expose company to price spikes during high-demand periods",
+    "Climate and weather risk: Extreme weather events may increase infrastructure damage costs and operational disruptions; climate change could increase cooling/heating demand volatility and water availability constraints at generation facilities",
+    "Environmental compliance risk: Evolving federal and state environmental regulations (Clean Air Act, Clean Water Act, GHG emissions standards) may require costly infrastructure upgrades or generation retirements"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

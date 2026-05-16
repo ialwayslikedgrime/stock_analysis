@@ -1,0 +1,40 @@
+{
+  "ticker": "TMUS",
+  "company": "T-Mobile US",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "T-Mobile operates in a highly competitive wireless industry dominated by AT&T and Verizon, who have invested heavily in spectrum, networks, and device promotions. The 10-K explicitly states 'intense competition in all market segments' with regional MNOs, MVNOs, and cable providers (Comcast, Charter, Cox) also competing, creating significant pricing and margin pressure."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive capital requirements for spectrum acquisition and network infrastructure, regulatory licensing requirements, and established customer bases. However, MVNOs and cable providers can enter with lower capital by leveraging existing infrastructure, and satellite providers represent emerging non-traditional competition, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Traditional wireless substitutes are limited, but emerging alternatives include satellite connectivity providers and fixed wireless broadband from cable/fiber competitors. The 10-K notes competition from 'non-traditional competitors outside the wireless communications services industry, including satellite providers,' and acknowledges broadband market competition from cable, AT&T, Verizon, and fiber providers."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Customers have significant power due to industry saturation, low switching costs, and commoditized service offerings. The 10-K emphasizes that 'as the industry reaches saturation, competition...will likely further intensify, putting pressure on pricing and/or margins,' and notes customers can easily switch between carriers offering similar services."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists due to dependence on equipment manufacturers, handset suppliers, and spectrum availability. The 10-K highlights risks from 'supplier failures or delays' and notes that spectrum scarcity and FCC conditions on spectrum use create constraints. However, T-Mobile has some negotiating leverage as a large buyer, and multiple suppliers exist for most components."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "T-Mobile possesses a moderate competitive moat built primarily on its 5G network infrastructure, brand differentiation through the 'Un-carrier' strategy, and spectrum holdings. However, this moat is under pressure from intense competition with AT&T and Verizon, industry saturation limiting growth, and the commoditized nature of wireless services. The company's differentiation through customer experience and network quality provides some defensibility, but pricing power remains limited in a highly competitive market.",
+  "key_risks": [
+    "Intense rivalry with AT&T and Verizon creating sustained pricing and margin pressure in a saturating market",
+    "Cybersecurity threats and data breaches (history of August 2021 and January 2023 incidents) exposing customer data and creating regulatory/litigation costs",
+    "Spectrum scarcity and regulatory constraints limiting network expansion capabilities and increasing acquisition costs",
+    "Rapid technology evolution (6G, AI-RAN) requiring continuous capital investment to maintain competitive network position",
+    "Digital transformation execution risks including technology integration, employee adoption, and cybersecurity vulnerabilities in new systems",
+    "Supply chain disruptions and tariff impacts increasing device and network equipment costs",
+    "UScellular acquisition integration risks including network integration, customer migration, and potential service disruptions",
+    "Dependence on third-party providers for critical systems creating indirect cybersecurity and operational risks"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

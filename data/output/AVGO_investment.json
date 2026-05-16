@@ -1,0 +1,182 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "scores": {
+    "structural_score": 7.2,
+    "moat_score": 6.8,
+    "financial_score": 7.4,
+    "valuation_score": 3.1,
+    "quality_score": 7.1,
+    "opportunity_score": 4.8,
+    "combined_score": 6.2
+  },
+  "archetype": "MEGATREND RIDER",
+  "archetype_reasoning": "Broadcom is a strong secondary beneficiary of AI infrastructure and data center buildout, with category-leading positions in AI networking and storage controllers. However, it operates in a highly competitive semiconductor market with significant customer concentration (top 5 = 40% of revenue) and foundry dependency on TSMC, preventing monopoly-like positioning. The company has genuine competitive advantages through IP and switching costs, but faces continuous technology disruption risk and intense rivalry from AMD, Nvidia, Marvell, and others.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "strong",
+    "timing_verdict": "expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "medium",
+  "structural_analysis": {
+    "score": 7.2,
+    "megatrend_exposure_score": 7.8,
+    "megatrend_type": "secondary beneficiary",
+    "megatrends_exposed_to": [
+      "AI infrastructure buildout (data center networking, accelerator interconnect)",
+      "Cloud computing and hyperscaler capex expansion",
+      "5G/6G wireless infrastructure",
+      "Data center storage and virtualization"
+    ],
+    "megatrend_analysis": "Broadcom is positioned as a critical infrastructure enabler for AI, not the primary beneficiary. The company supplies Ethernet switching (25G-800G), custom ASICs for hyperscalers, and storage controllers that are essential to AI cluster buildout. As AI capex accelerates (hyperscalers spending $50B+ annually on infrastructure), Broadcom captures value through high-margin custom silicon and switching fabric. However, this is secondary to GPU/accelerator makers (Nvidia, AMD) who capture the primary value. The TAM for Broadcom's AI-related revenue is estimated at $15-20B by 2030 (vs. $64B total revenue today), representing meaningful but not transformational growth. Switching costs are high (custom ASICs take 18-24 months to design and integrate), creating stickiness, but hyperscalers increasingly design their own silicon (Google TPU, Amazon Trainium), which is a structural headwind.",
+    "necessity_score": 8.1,
+    "necessity_analysis": "Broadcom's products are mission-critical infrastructure components with high switching costs and no easy substitutes in the short term. Ethernet switching, storage controllers, and custom ASICs are essential to data center operations. However, necessity is constrained by: (1) hyperscalers' increasing vertical integration and custom silicon design, reducing dependency on Broadcom; (2) cyclical capex patterns in data centers (boom-bust cycles); (3) customer concentration risk where loss of a single hyperscaler (e.g., Meta, Microsoft) could materially impact revenue. Recession resilience is moderate—data center capex is discretionary and typically cut in downturns, though less severely than consumer electronics.",
+    "moat_trajectory_score": 6.5,
+    "moat_trajectory_analysis": "Broadcom's moat is stable but under pressure. The company's 19,000+ patents and deep engineering expertise create real switching costs, particularly for custom ASICs where integration timelines are 18-24 months. However, the moat is eroding in three ways: (1) Hyperscalers are increasingly designing their own silicon (Google, Amazon, Meta), reducing dependency on Broadcom's custom designs; (2) Competitive intensity is rising as AMD, Marvell, and others invest heavily in data center networking and storage; (3) Foundry dependency on TSMC creates vulnerability—if TSMC faces capacity constraints or geopolitical disruption, Broadcom cannot easily switch. The company's ability to maintain pricing power is declining as customers gain leverage and alternative designs emerge. Over 10 years, the moat is likely to narrow unless Broadcom successfully transitions to higher-value software and platform services.",
+    "tam_evolution_score": 7.3,
+    "tam_evolution_analysis": "Broadcom's TAM is expanding due to AI infrastructure buildout, but growth is not as explosive as consensus suggests. The global data center networking market is estimated at $25-30B today and growing 15-20% annually, reaching $50-60B by 2030. Storage controllers and custom ASICs represent another $15-20B TAM. However, pricing power is declining as competition intensifies and hyperscalers design alternatives. Broadcom's ability to grow faster than TAM growth depends on market share gains, which are difficult given entrenched competitors and customer vertical integration. New adjacencies (software, security, AI optimization) offer modest upside but are not core competencies.",
+    "technology_resilience_score": 6.8,
+    "technology_resilience_analysis": "Broadcom faces moderate-to-high technology disruption risk. The semiconductor industry is characterized by rapid innovation cycles (2-3 year product generations), and Broadcom must continuously invest in R&D to maintain competitiveness. Specific threats include: (1) Chiplet architectures and advanced packaging (3D interconnect) where competitors like Marvell and AMD are investing heavily; (2) Optical interconnect replacing electrical Ethernet at scale (10+ years out but a real threat); (3) Custom silicon from hyperscalers reducing demand for Broadcom's standard products. The company's R&D spending is adequate (~$8-10B annually, ~13-15% of revenue), but not exceptional relative to peers. Technology risk is elevated but manageable given Broadcom's scale and customer relationships.",
+    "structural_summary": "Broadcom will likely be stronger in 10 years due to secular AI infrastructure growth, but the company's structural position is not improving—it is stabilizing at a lower level of competitive advantage. The single most important structural fact is that hyperscalers are increasingly designing their own silicon, which directly reduces Broadcom's pricing power and TAM. The company will remain a critical infrastructure supplier, but as a commodity-like provider rather than a monopolist. Revenue growth will likely decelerate from current 24% CAGR to 8-12% by 2030 as AI capex normalizes and competition intensifies. Broadcom's future depends on successfully transitioning to higher-margin software and platform services, which is not yet evident in financial results."
+  },
+  "moat_analysis": {
+    "score": 6.8,
+    "rivalry": {
+      "score": 2.2,
+      "trend": "weakening",
+      "analysis": "Broadcom faces intense rivalry from well-capitalized competitors including AMD (Ryzen, EPYC, data center networking), Marvell Technology (storage controllers, networking), Nvidia (custom ASICs for hyperscalers), and Intel (legacy but still relevant in networking). The 10-K acknowledges 'numerous large international competitors' and 'intense competitive rivalry.' AMD's acquisition of Pensando (2023) and Xilinx (2024) directly targets Broadcom's networking and custom ASIC markets. Marvell is aggressively gaining share in storage controllers and data center networking. Competitive intensity is rising, not falling, as hyperscalers' capex growth attracts new entrants and incentivizes existing competitors to invest. Price competition is evident in Broadcom's gross margin compression from 68.9% (2023) to 67.8% (2025), suggesting pricing pressure despite strong demand.",
+      "key_competitors": [
+        "AMD (networking, custom ASICs, storage)",
+        "Marvell Technology (storage controllers, networking)",
+        "Nvidia (custom ASICs for hyperscalers)",
+        "Intel (legacy networking, storage)"
+      ]
+    },
+    "new_entrants": {
+      "score": 4.1,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are high due to Broadcom's 19,000+ patents, $8-10B annual R&D investment, and established customer relationships. However, barriers are eroding. Hyperscalers (Google, Amazon, Meta, Microsoft) are effectively becoming 'new entrants' by designing their own silicon, leveraging their scale and capital to bypass traditional semiconductor suppliers. This is a structural threat that the 10-K does not adequately address. New fabless startups face high barriers (design complexity, manufacturing access, customer qualification timelines of 18-24 months), but well-funded competitors like Marvell and AMD can enter adjacent markets. The threat of new entrants is moderate today but rising as AI infrastructure becomes more strategic to hyperscalers.",
+      "biggest_threat": "Hyperscaler vertical integration (Google TPU, Amazon Trainium, Meta custom silicon) represents the most credible 'new entrant' threat, as these companies have capital, engineering talent, and customer lock-in to design alternatives to Broadcom's products."
+    },
+    "substitutes": {
+      "score": 3.2,
+      "trend": "strengthening",
+      "analysis": "Direct substitutes for Broadcom's products are limited in the short term due to technical specificity and switching costs. However, substitutes are emerging: (1) Hyperscaler custom silicon (Google TPU, Amazon Trainium) substitutes for Broadcom's custom ASICs; (2) Optical interconnect (10+ years out) could substitute for electrical Ethernet switching; (3) Alternative networking architectures (e.g., in-network computing) could reduce demand for traditional switching fabric. The 10-K acknowledges 'alternative technologies' but downplays the threat. Over 10 years, the threat of substitutes is rising as hyperscalers invest in custom silicon and as optical interconnect matures. Broadcom's ability to maintain pricing power depends on staying ahead of these substitutes through continuous innovation.",
+      "key_substitute": "Hyperscaler custom silicon (Google TPU, Amazon Trainium, Meta custom ASICs) is the most credible substitute, as it directly replaces Broadcom's custom ASIC business and is backed by companies with $100B+ capex budgets."
+    },
+    "buyer_power": {
+      "score": 4.3,
+      "trend": "strengthening",
+      "analysis": "Buyer power is significant and rising. The 10-K explicitly states that 'top 5 customers represent ~40% of revenue,' indicating extreme customer concentration. These customers (hyperscalers: Meta, Microsoft, Google, Amazon, Apple) have enormous leverage to negotiate pricing, demand custom designs, and threaten to design alternatives. Distributor sales account for 48% of revenue, which provides some diversification, but the underlying end-customers are still hyperscalers. As hyperscalers grow in scale and sophistication, their bargaining power increases. They can credibly threaten to design their own silicon or switch to competitors, forcing Broadcom to accept lower margins or invest in custom designs at their direction. This is evident in Broadcom's gross margin compression and the company's increasing dependence on custom ASIC revenue (higher margin but lower volume).",
+      "analysis_continued": "Buyer power is a structural headwind that will persist and likely intensify over the next 5-10 years."
+    },
+    "supplier_power": {
+      "score": 3.1,
+      "trend": "stable",
+      "analysis": "Broadcom depends heavily on TSMC for wafer manufacturing and multiple contract manufacturers (CMs) for assembly and test. The 10-K acknowledges this dependency but notes that 'multiple CMs' provide some diversification. However, TSMC is the only viable supplier for advanced nodes (5nm, 3nm), giving TSMC significant leverage. TSMC's capacity constraints in 2021-2023 directly impacted Broadcom's ability to meet demand, demonstrating supplier power. Going forward, TSMC's pricing power is likely to remain elevated due to geopolitical tensions (Taiwan risk) and limited alternative foundries (Samsung, Intel are not competitive at advanced nodes). Supplier power is moderate today but could become critical if geopolitical disruption occurs. Broadcom has limited ability to diversify away from TSMC without significant capex and time investment.",
+      "analysis_continued": "Supplier power is a structural risk that constrains Broadcom's upside and creates downside vulnerability to geopolitical shocks."
+    },
+    "moat_confirmed_by_financials": true,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Broadcom possesses a genuine but narrowing competitive moat. The company's 19,000+ patents, deep engineering expertise, and established customer relationships create real switching costs and barriers to entry. However, the moat is under pressure from three structural forces: (1) Hyperscaler vertical integration, which directly substitutes for Broadcom's products; (2) Intense competitive rivalry from AMD, Marvell, and others, which is eroding pricing power; (3) Rising buyer power from hyperscalers, which are using their scale to negotiate lower prices and demand custom designs. The moat is stable today but narrowing over a 5-10 year horizon. Broadcom's ability to maintain competitive advantage depends on successfully transitioning to higher-margin software and platform services, which is not yet evident. The company is at risk of becoming a commodity-like supplier of infrastructure components, with declining pricing power and margin compression."
+  },
+  "financial_analysis": {
+    "score": 7.4,
+    "margin_trend": "improving",
+    "roic_assessment": "strong (15-25%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "medium",
+    "deep_analysis": "Broadcom's financial quality is strong but deteriorating. Gross margins improved from 63.0% (2024) to 67.8% (2025), suggesting pricing power recovery post-AI capex surge. However, operating margins are volatile: 29.1% (2024) to 40.8% (2025), indicating earnings quality concerns. The 2024 operating margin collapse (from 45.9% in 2023 to 29.1% in 2024) was driven by integration costs from the VMware acquisition ($61B deal closed in 2023), which is now being digested. ROIC improved dramatically from 4.4% (2024) to 16.1% (2025), but this is partially due to the VMware integration and may not be sustainable. FCF as % of net income is healthy at 116% (2025), indicating strong cash generation, but debt/equity of 0.76 is elevated for a semiconductor company. The company carries ~$50B in debt (post-VMware acquisition), which constrains financial flexibility. Recession resilience is moderate—data center capex is discretionary and typically cut in downturns, which would directly impact Broadcom's revenue and margins. The company's ability to maintain current profitability in a recession is questionable."
+  },
+  "valuation_analysis": {
+    "score": 3.1,
+    "overall_assessment": "very expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "very expensive",
+    "implied_10yr_growth_rate": "14.2%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "The current market cap of $2,013B implies a 10-year CAGR of ~14.2% (assuming 10% discount rate, terminal growth of 3%, and current EBITDA of ~$26B). This is unrealistic for several reasons: (1) Broadcom's historical 4-year revenue CAGR is 24.4%, but this is inflated by the VMware acquisition and AI capex surge; (2) Organic growth (excluding VMware) is likely 12-15%, which will decelerate as AI capex normalizes; (3) Competitive intensity and hyperscaler vertical integration will pressure margins and growth rates; (4) The semiconductor industry typically grows 8-12% long-term, and Broadcom is unlikely to outgrow the industry by 2-3% indefinitely. A more realistic 10-year CAGR for Broadcom is 8-10%, which implies a fair value of $280-320 per share (vs. current $425).",
+    "estimated_intrinsic_value_conservative": "$280",
+    "estimated_intrinsic_value_optimistic": "$340",
+    "current_vs_intrinsic": "+25% to +52% premium",
+    "strong_buy_price": "$280",
+    "watchlist_price": "$340",
+    "valuation_deep_analysis": "Broadcom is trading at a significant premium to intrinsic value. The P/E of 82.6x (trailing) is extreme, though the forward P/E of 23.2x is more reasonable. The PEG of 3.38x indicates the stock is expensive relative to growth expectations. The EV/EBITDA of 55.5x is very high for a semiconductor company (sector median ~15-20x), suggesting the market is pricing in perpetual high growth. A reverse DCF analysis (assuming 10% discount rate, 3% terminal growth, current EBITDA of $26B) implies the market is pricing in 14.2% annual EBITDA growth for 10 years, which is unrealistic given competitive pressures and margin compression. A more conservative scenario (8% EBITDA growth, 2.5% terminal growth) implies fair value of $280-300 per share. The stock offers a margin of safety of only 34-40% downside to fair value, which is insufficient given execution risks and competitive threats. Broadcom is a quality company at an expensive price."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Broadcom faces rising competitive intensity from AMD, Marvell, and Nvidia in core markets (networking, storage, custom ASICs). Hyperscaler vertical integration (Google TPU, Amazon Trainium) directly substitutes for Broadcom's products and is backed by companies with $100B+ capex budgets. Loss of market share to competitors or hyperscaler custom silicon could reduce revenue growth from 15-20% to 5-10% within 3-5 years.",
+    "regulatory": "Medium",
+    "regulatory_explanation": "Broadcom faces geopolitical risks related to semiconductor manufacturing in Taiwan and export controls on advanced chips to China. The company's dependence on TSMC creates vulnerability to Taiwan-related disruptions. U.S. export controls on advanced semiconductors could impact Broadcom's ability to serve certain customers, though the company is primarily focused on data center and infrastructure (less restricted than AI accelerators).",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Broadcom's revenue is highly dependent on hyperscaler capex, which is discretionary and cyclical. A recession or slowdown in cloud computing capex would directly impact Broadcom's revenue and margins. Historical data shows semiconductor companies typically see 20-30% revenue declines in recessions. Broadcom's data center exposure (estimated 60-70% of revenue) makes it highly sensitive to macro cycles.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "Broadcom carries ~$50B in debt (D/E of 0.76), which is elevated for a semiconductor company. The company's debt was incurred to fund the VMware acquisition ($61B), which is now being integrated. If integration is unsuccessful or revenue growth disappoints, debt service could become constrained. However, strong FCF generation ($26B in 2025) provides adequate coverage.",
+    "management": "Low",
+    "management_explanation": "Broadcom's management team (CEO Hock Tan) has a strong track record of M&A integration and operational execution. The VMware integration is progressing on track, and the company has successfully navigated multiple technology cycles. However, management's ability to navigate hyperscaler vertical integration and competitive disruption is unproven.",
+    "geopolitical": "High",
+    "geopolitical_explanation": "Broadcom's dependence on TSMC for wafer manufacturing creates vulnerability to Taiwan-related disruptions. Escalation of U.S.-China tensions or military conflict in Taiwan could disrupt Broadcom's supply chain and force costly diversification to alternative foundries. The company has limited ability to mitigate this risk in the short term.",
+    "technology_obsolescence": "Medium",
+    "technology_obsolescence_explanation": "Broadcom operates in rapidly evolving markets (AI networking, storage, custom ASICs) where technology disruption is a constant threat. Optical interconnect, chiplet architectures, and advanced packaging could disrupt Broadcom's current product portfolio. However, the company's R&D spending and customer relationships provide some protection against obsolescence.",
+    "esg": "Low",
+    "esg_explanation": "Broadcom faces typical semiconductor industry ESG risks (energy consumption, supply chain labor practices, conflict minerals). However, these are not material to the investment thesis. The company has adequate ESG disclosures and is not a significant ESG outlier.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Hyperscaler vertical integration reduces demand for Broadcom's custom ASICs and networking products, causing revenue growth to decelerate from 15-20% to 5-10% within 3-5 years",
+      "Competitive intensity from AMD, Marvell, and Nvidia erodes Broadcom's pricing power and market share, causing gross margins to compress from 68% to 62-64% by 2030",
+      "Geopolitical disruption (Taiwan conflict, U.S.-China escalation) disrupts TSMC supply chain, forcing costly diversification and creating 6-12 month supply constraints"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "moderate growth",
+    "company_competitive_position": "strong #2",
+    "structural_tailwinds": [
+      "AI infrastructure buildout: $50B+ annual hyperscaler capex on data centers, networking, and custom silicon through 2030",
+      "Data center consolidation and cloud migration: 15-20% annual growth in data center networking and storage through 2030",
+      "5G/6G infrastructure deployment: $10-15B annual capex on wireless infrastructure through 2030"
+    ],
+    "structural_headwinds": [
+      "Hyperscaler vertical integration: Google, Amazon, Meta, Microsoft designing custom silicon, reducing demand for Broadcom's products by estimated 10-15% by 2030",
+      "Competitive intensity: AMD, Marvell, Nvidia investing heavily in data center networking and storage, eroding Broadcom's market share and pricing power",
+      "Margin compression: Buyer power from hyperscalers forcing lower prices and higher custom design costs, compressing gross margins from 68% to 62-64% by 2030"
+    ],
+    "megatrend_impact": "Broadcom is a secondary beneficiary of AI infrastructure buildout, capturing value through Ethernet switching, custom ASICs, and storage controllers. However, the company is not the primary beneficiary—that role belongs to GPU/accelerator makers (Nvidia, AMD) and hyperscalers themselves. As AI capex accelerates, Broadcom's revenue will grow faster than GDP, but slower than the semiconductor industry average due to competitive pressures and hyperscaler vertical integration. The company's TAM is expanding, but pricing power is declining, resulting in moderate revenue growth (8-12% by 2030) and margin compression.",
+    "recession_history": "Broadcom's semiconductor business is cyclical and highly sensitive to macro downturns. During the 2008 financial crisis, semiconductor companies saw 30-40% revenue declines. During the 2020 COVID recession, Broadcom's revenue declined 5-10% but recovered quickly due to cloud computing tailwinds. In a severe recession (2-3 year duration), Broadcom would likely see 20-30% revenue declines as hyperscaler capex is cut. The company's high fixed cost base (R&D, manufacturing commitments) would result in significant margin compression.",
+    "disruption_threats": "Broadcom faces three major disruption threats: (1) Hyperscaler vertical integration, which directly substitutes for Broadcom's products; (2) Optical interconnect, which could replace electrical Ethernet switching at scale (10+ years out); (3) Chiplet architectures and advanced packaging, which could reduce demand for Broadcom's custom ASICs. The company's ability to navigate these threats depends on continuous innovation and successful transition to higher-margin software and platform services.",
+    "better_sector_alternatives": [
+      "NVDA (Nvidia): Primary beneficiary of AI infrastructure buildout with stronger pricing power and higher margins; however, also expensive at 50+ P/E",
+      "AMD (Advanced Micro Devices): Competitive with Broadcom in data center networking and storage; lower valuation (25-30 P/E) with similar growth prospects",
+      "MRVL (Marvell Technology): Focused on storage controllers and networking; lower valuation (20-25 P/E) with faster growth in AI-related markets"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Broadcom is a structurally strong company (Quality Score 7.1) with genuine competitive advantages in AI infrastructure, but it is trading at a significant premium to intrinsic value (Opportunity Score 4.8). The company's 24% revenue CAGR is inflated by the VMware acquisition and AI capex surge; organic growth is likely 12-15% and will decelerate to 8-10% by 2030 as AI capex normalizes and hyperscalers design their own silicon. At $425, the stock implies 14% annual EBITDA growth for 10 years, which is unrealistic given competitive pressures, hyperscaler vertical integration, and margin compression. Fair value is estimated at $280-340 (34-40% downside), offering insufficient margin of safety. Broadcom is a quality company at an expensive price—suitable for long-term holders with high conviction in AI infrastructure, but not attractive for new investors at current valuations.",
+    "upside_catalysts": [
+      "AI capex acceleration: If hyperscaler capex exceeds consensus expectations ($60B+ annually by 2027), Broadcom could see 20%+ revenue growth through 2028, supporting current valuation",
+      "Successful VMware integration: If Broadcom successfully integrates VMware and achieves $5B+ in synergies by 2027, operating margins could expand to 45%+, supporting 15-20% EPS growth",
+      "Market share gains in custom ASICs: If Broadcom wins significant custom ASIC design wins from hyperscalers (e.g., Google, Amazon), revenue could grow 15-20% through 2028"
+    ],
+    "downside_risks": [
+      "Hyperscaler capex slowdown: If hyperscaler capex decelerates to $40B annually by 2027 (vs. consensus $60B+), Broadcom's revenue growth could fall to 5-8%, causing stock to decline 30-40% to $280-300",
+      "Competitive share loss: If AMD or Marvell gain 5-10% market share in networking or storage by 2027, Broadcom's revenue growth could decelerate to 8-10%, causing stock to decline 25-35% to $300-320",
+      "Hyperscaler vertical integration accelerates: If Google, Amazon, Meta successfully design custom silicon that substitutes for 20%+ of Broadcom's products by 2028, revenue could decline 10-15%, causing stock to decline 40-50% to $220-260"
+    ],
+    "strong_buy_at": "$280",
+    "watchlist_at": "$340",
+    "exit_trigger": "If Broadcom's revenue growth decelerates below 8% annually or gross margins compress below 65%, the thesis is broken and the stock should be exited. Alternatively, if hyperscaler capex declines 20%+ year-over-year, indicating AI capex cycle peak, the stock should be exited.",
+    "position_sizing_note": "small (1-2%)"
+  },
+  "comparable_companies": [
+    "NVDA (Nvidia): Primary AI infrastructure beneficiary; higher valuation (50+ P/E) but stronger pricing power and margins",
+    "AMD (Advanced Micro Devices): Competitive in data center networking and storage; lower valuation (25-30 P/E) with similar growth prospects",
+    "MRVL (Marvell Technology): Focused on storage controllers and networking; lower valuation (20-25 P/E) with faster growth in AI-related markets",
+    "QCOM (Qualcomm): Diversified semiconductor company; lower valuation (15-20 P/E) but lower growth and different end-markets"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on Broadcom's 2025 10-K filing, historical financial data (2022-2025), and current market data as of 2026-05-16. Key assumptions: (1) AI capex remains elevated at $50-60B annually through 2028, then normalizes to $40-50B by 2030; (2) Broadcom's organic revenue growth (excluding VMware) is 12-15% through 2027, then decelerates to 8-10% by 2030; (3) Gross margins compress from 68% to 62-64% by 2030 due to competitive pressures; (4) ROIC remains 15-20% through 2030. Valuation analysis assumes 10% discount rate and 3% terminal growth rate. Reverse DCF implies market is pricing in 14.2% annual EBITDA growth, which is unrealistic. Data quality is high, but forward-looking assumptions carry significant uncertainty."
+}

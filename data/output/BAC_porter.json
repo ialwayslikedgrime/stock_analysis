@@ -1,0 +1,39 @@
+{
+  "ticker": "BAC",
+  "company": "Bank of America",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "BAC operates in highly competitive banking markets with numerous large competitors (JPMorgan Chase, Wells Fargo, Citigroup, Goldman Sachs, Morgan Stanley). The 10-K emphasizes competitive pressures across consumer banking, wealth management, and capital markets, with competitors offering similar products and services, creating intense price and service competition."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial regulatory capital requirements, complex compliance frameworks (CCAR, resolution planning, Volcker Rule), and the need for extensive infrastructure and technology systems. The 10-K details stringent regulatory oversight by Federal Reserve, OCC, and FDIC, plus deposit insurance requirements and systemic importance designations that create significant competitive moats against new entrants."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from fintech companies, non-bank financial institutions, peer-to-peer lending platforms, and alternative investment vehicles that bypass traditional banking services. The 10-K acknowledges emerging technology impacts and changing customer preferences, though traditional banking services remain core to financial intermediation."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Institutional and corporate clients have substantial negotiating power over pricing and terms, particularly in capital markets and wealth management segments. Consumer depositors have moderate power through deposit rate competition and ability to switch banks, though switching costs and convenience create some stickiness. The 10-K notes competitive pressures on deposit pricing and margin compression."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "BAC has moderate supplier power dynamics. Technology vendors, data providers, and service providers have some leverage, but BAC's scale allows negotiation. However, dependence on critical infrastructure providers (exchanges, clearing houses, payment systems) and regulatory bodies creates some supplier constraints. The 10-K references extensive third-party dependencies including financial market utilities and service providers."
+    }
+  },
+  "moat_score": 3.4,
+  "moat_summary": "Bank of America possesses a moderate competitive moat anchored by substantial regulatory barriers to entry, significant scale advantages, and an extensive customer base across consumer and institutional segments. However, this moat is partially offset by intense competitive rivalry from other large banks, emerging fintech substitutes, and strong buyer power from institutional clients. The company's systemic importance designation and regulatory capital requirements create defensibility but also impose operational constraints and costs that limit profitability relative to less-regulated competitors.",
+  "key_risks": [
+    "Intense competitive rivalry from large integrated financial institutions and emerging fintech disruptors eroding market share and margins",
+    "Macroeconomic sensitivity including interest rate volatility, recession risk, and credit quality deterioration impacting net interest income and loan losses",
+    "Regulatory and compliance burden including evolving capital requirements, resolution planning, Volcker Rule restrictions, and AI/cybersecurity regulations increasing operational costs",
+    "Systemic importance constraints limiting growth through deposit concentration caps and acquisition restrictions under Riegle-Neal Act",
+    "Cybersecurity and data breach risks given extensive customer information holdings and evolving privacy regulations (GDPR, CCPA)",
+    "Technology disruption and substitution from non-bank financial services, digital assets, and alternative lending platforms",
+    "Geopolitical and trade policy uncertainty affecting capital markets activity, client demand, and international operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,38 @@
+{
+  "ticker": "DOW",
+  "company": "Dow Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Dow operates in highly competitive global chemical markets with intense price competition. The 10-K explicitly states 'increased levels of competition have resulted in lower prices and lower sales volume' and notes excess capacity in regions like EMEAI and Asia Pacific creating 'downward pressure on prices and decreased operating rates.' Competition is based on price, quality, technology and service across commodity and specialty chemicals."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for manufacturing facilities, integrated asset infrastructure, global scale advantages, and established customer relationships. Dow's 29 manufacturing sites globally and integrated supply chain create substantial competitive moats. However, score is not 5 due to potential new entrants in specialty segments and emerging market competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists, particularly as customers seek sustainable alternatives and the company faces pressure to develop lower-emission products. The 10-K notes concerns about 'adapting products to customer preferences and customer acceptance of sustainable supply chain solutions.' Bio-based and alternative materials pose emerging threats, though Dow's diversified portfolio across packaging, infrastructure, and mobility applications provides some protection."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant pricing power in commodity chemical segments where products are undifferentiated and excess capacity exists. The 10-K indicates customers can negotiate aggressively given competitive pressures and supply-demand imbalances. However, specialty products and integrated solutions provide some pricing power, preventing a score of 1."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Supplier power is moderate to high for raw materials and energy inputs. The 10-K notes 'inflationary pressures on and availability of raw materials and energy, most notably in Europe' and supply chain constraints affecting input costs. However, Dow's scale and integrated operations provide some negotiating leverage, and diversified sourcing reduces dependency on single suppliers."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "Dow possesses moderate competitive moats primarily based on scale, asset integration, and established customer relationships, but these are significantly eroded by intense commodity competition and excess industry capacity. The company's global manufacturing footprint (29 countries, 34,600 employees, $40B revenue) and integrated supply chain provide operational advantages, yet the 10-K reveals persistent pricing pressure and declining volumes. Innovation and sustainability commitments (net-zero facility in Alberta) offer differentiation potential, but execution risks and capital intensity limit moat durability. The company operates in structurally challenged markets with limited pricing power and high competitive intensity.",
+  "key_risks": [
+    "Intense global competition with excess capacity driving persistent downward price pressure and lower sales volumes",
+    "Climate change commitments and capital-intensive transition to net-zero emissions (Alberta facility) with execution and funding risks",
+    "Macroeconomic sensitivity including tariff impacts, trade policy uncertainty, and geopolitical disruptions (Russia-Ukraine, Middle East conflicts)",
+    "Supply chain vulnerabilities and inflationary pressures on raw materials and energy costs, particularly in Europe",
+    "Regulatory and environmental compliance costs that could increase significantly with evolving climate and chemical safety regulations",
+    "Cyclical industry dynamics with supply-demand imbalances reducing operating rates and profitability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

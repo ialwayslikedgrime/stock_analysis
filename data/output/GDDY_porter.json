@@ -1,0 +1,38 @@
+{
+  "ticker": "GDDY",
+  "company": "GoDaddy",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "GoDaddy operates in highly competitive markets across domain registration, web hosting, website builders, and e-commerce solutions. Major competitors include Namecheap, Bluehost, Wix, Squarespace, and Shopify, each with significant market share in overlapping segments. The 10-K does not claim market leadership in all categories, only noting GoDaddy as 'global leader' in domain registration with 21% market share, indicating substantial remaining competition."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate. While domain registry operations require ICANN approval and technical infrastructure, website builders and hosting can be launched with lower capital requirements. The 10-K highlights GoDaddy's scale advantages (20.4 million customers, 5,700 support staff) and integrated platform, but these are not insurmountable. Cloud infrastructure commoditization and open-source tools lower technical barriers for new competitors."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitutes exist across GoDaddy's product portfolio. DIY alternatives (Wix, Squarespace, WordPress.com), alternative payment processors (Stripe, Square), and marketplace-native solutions (Shopify, Amazon seller tools) provide viable alternatives. The 10-K acknowledges customers can use third-party CMSs like WordPress, Drupal, and Joomla, indicating limited lock-in for certain segments."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyer power is moderate to high. GoDaddy's customer base consists primarily of price-sensitive microbusinesses and freelancers with limited switching costs, particularly for domain registration and hosting. However, integrated platform usage and personalized guidance (GoDaddy Guides) create some stickiness. The 10-K notes competitive pricing pressure, claiming 'lowest card transaction fees in the industry,' suggesting price competition is active."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. GoDaddy operates its own data centers and infrastructure, reducing dependency on external hosting providers. However, the company relies on ICANN for domain registry operations, Microsoft for email/productivity solutions, and payment networks (Visa, Mastercard). These relationships are largely standardized with limited alternative sources, giving suppliers moderate leverage. [INFERRED: 10-K does not detail supplier relationships extensively]"
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "GoDaddy's competitive moat is narrow and eroding. While the company maintains scale advantages (21% domain market share, 20.4M customers) and an integrated platform with AI-powered tools (Airo), these do not constitute durable competitive advantages. The domain registration business faces commoditization, the website builder market is crowded with well-funded competitors, and customer switching costs remain low. The emerging Agent Name Service (ANS) represents a potential future moat if it becomes an industry standard, but this is speculative and early-stage.",
+  "key_risks": [
+    "Intense competition from specialized players (Wix, Squarespace for websites; Stripe, Square for payments; Namecheap for domains) eroding market share and pricing power",
+    "Customer concentration in price-sensitive microbusiness segment with low switching costs and high churn risk, particularly if competitors offer lower pricing",
+    "Dependence on ICANN for domain registry operations and potential regulatory changes affecting domain business model or pricing",
+    "AI commoditization risk as generative AI tools become widely available, reducing differentiation of Airo platform and increasing customer expectations for free/low-cost AI features",
+    "Execution risk on platform integration strategy; customers may prefer best-of-breed solutions over integrated offering, limiting cross-sell opportunities",
+    "Reliance on third-party partnerships (Microsoft 365, payment networks) creates vulnerability to partner strategy changes or competitive offerings"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

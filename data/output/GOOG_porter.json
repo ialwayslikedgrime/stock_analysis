@@ -1,0 +1,38 @@
+{
+  "ticker": "GOOG",
+  "company": "Alphabet Inc. (Class C)",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Alphabet faces intense competition across all business segments from large established companies and emerging startups. The 10-K explicitly states 'We face formidable competition in every aspect of our business' including search engines, e-commerce providers, cloud services, AI developers, and social networks. Competitors are well-funded, investing heavily in R&D, and can innovate faster or more cost-effectively in rapidly evolving markets."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While significant barriers exist (massive R&D investment, proprietary AI infrastructure like custom TPUs, network effects, brand recognition), the 10-K acknowledges competition from 'emerging start-ups' and notes that 'discrepancies in enforcement of existing laws may enable our lesser known competitors to aggressively interpret those laws.' AI advancement is democratizing, lowering some traditional barriers, though capital requirements remain substantial."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes threaten core businesses: vertical search engines and e-commerce platforms replace Google Search for specific queries; social networks serve as alternative discovery mechanisms; alternative advertising channels (billboards, TV, radio) compete for advertiser budgets; and emerging AI chatbots/agents could displace search functionality. The 10-K identifies these as direct competitive threats."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Advertisers (70%+ of revenue) have significant power—the 10-K states 'Many of our advertisers...can terminate their contracts with us at any time' and that they choose based on ROI and available alternatives. Cloud customers have pricing power in a competitive market. However, consumer users have limited direct pricing power as services are free, though they can switch to competitors easily."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Alphabet has moderate supplier power concerns. The 10-K highlights dependence on 'third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs' and notes 'significant leasing arrangements with third party operators.' However, Alphabet's scale and custom TPU development reduce dependency on any single supplier, though energy and semiconductor supply chains present vulnerabilities."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Alphabet possesses meaningful but increasingly challenged competitive advantages centered on its AI-optimized infrastructure (custom TPUs), massive R&D investment ($200B+ over five years), network effects across 15 half-billion-user products, and brand strength. However, the moat is eroding as AI capabilities democratize, competitors invest heavily in competing models, and regulatory scrutiny intensifies. The company's dominance in search and advertising remains defensible but faces substitution threats from AI-powered alternatives and vertical search competitors.",
+  "key_risks": [
+    "Advertising revenue concentration (70%+ of total) vulnerable to economic downturns, advertiser defection, and AI-driven shifts in advertising delivery models",
+    "Intense competition in AI from well-funded rivals (Microsoft/OpenAI, Meta, Amazon, Chinese competitors) requiring massive ongoing infrastructure investment with uncertain ROI",
+    "Regulatory and antitrust risks across multiple jurisdictions threatening business model viability, pricing power, and ability to offer certain products/services",
+    "Substitution threats from vertical search engines, social networks, AI chatbots, and alternative discovery mechanisms eroding core search and advertising moat",
+    "Dependence on third-party suppliers for critical infrastructure (semiconductors, energy, data center capacity) with increasing costs and operational complexity",
+    "Execution risk on moonshot investments (Waymo, Isomorphic Labs) with uncertain commercialization timelines and profitability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

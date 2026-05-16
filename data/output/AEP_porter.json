@@ -1,0 +1,37 @@
+{
+  "ticker": "AEP",
+  "company": "American Electric Power",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "AEP's vertically integrated utilities operate in exclusive service territories with franchises that grant exclusive rights to provide electric service in specific municipalities and regions. The 10-K explicitly states retail rates are 'not subject to competition from other vertically integrated public utilities,' creating a monopoly-like structure in regulated markets."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to: (1) exclusive franchises and territorial rights granted by state commissions, (2) massive capital requirements for transmission and generation infrastructure, (3) comprehensive regulatory approval requirements from FERC and state utility commissions, and (4) established RTOs (PJM, SPP, ERCOT) that control market access. New competitors cannot realistically enter AEP's core service territories."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While AEP faces competition from alternative energy sources (natural gas, renewables, fuel oil) and customer self-generation within its service areas, electricity remains essential with limited practical substitutes for most customers. However, distributed generation, rooftop solar, and battery storage represent emerging threats [INFERRED from industry trends, not explicitly detailed in 10-K]."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Retail customers in AEP's regulated service territories have minimal pricing power as rates are set by state utility commissions on a cost-of-service basis. Wholesale customers benefit from FERC-regulated open access transmission, but AEP's transmission assets are essential infrastructure with limited alternatives, constraining buyer leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "AEP has moderate supplier power due to its vertically integrated structure and ability to self-generate. However, fuel costs (coal, natural gas) are subject to commodity market volatility, and the company relies on fuel adjustment clauses for cost recovery. Transmission equipment suppliers have some leverage given specialized infrastructure needs [INFERRED from industry structure]."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "AEP possesses an exceptionally strong competitive moat anchored by regulatory-granted exclusive franchises, high capital barriers to entry, and cost-of-service rate regulation that ensures cost recovery and reasonable returns. The company's vertically integrated structure, control of essential transmission infrastructure across multiple RTOs, and established relationships with state and federal regulators create durable competitive advantages. Regulatory protection effectively eliminates direct competition in core service territories, though emerging energy alternatives and regulatory changes present long-term structural risks.",
+  "key_risks": [
+    "Regulatory lag and inability to recover capital investments if state utility commissions deny or delay rate adjustments, particularly for substantial planned transmission and generation investments",
+    "Dependence on data center and large load customer interconnections for growth; if this demand materializes slower than projected or customers develop alternative supply arrangements, capital plans could be impaired",
+    "Transition risks from energy policy shifts toward renewables and decarbonization, including potential stranded assets in coal generation and changing regulatory frameworks that could compress allowed returns on equity",
+    "Counterparty credit risk in Generation & Marketing wholesale trading operations, with $133 million in margin posted to counterparties as of December 31, 2025",
+    "Cybersecurity and physical security threats to bulk power system operations, with mandatory NERC reliability standards compliance required across all segments"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

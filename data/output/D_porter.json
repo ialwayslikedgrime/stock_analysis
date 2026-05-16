@@ -1,0 +1,39 @@
+{
+  "ticker": "D",
+  "company": "Dominion Energy",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Dominion operates primarily in regulated utility markets with limited direct competition in core electric and gas distribution. However, the 10-K explicitly identifies 'additional competition in industries in which the Companies operate' including nonregulated generation facilities competing in electric markets and potential competition from alternative energy sources and distributed generation technologies. PJM participation introduces competitive transmission development pressures under FERC Order 1000."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to regulatory requirements, massive capital requirements, established infrastructure, and long-term rate regulation frameworks. The 10-K notes that regulated operations are 'subject to changing regulatory structures' and require 'timing and receipt of regulatory approvals,' creating significant hurdles. However, distributed generation and alternative energy technologies present emerging competitive threats in certain segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist from 'self-generation and distributed generation technologies' and 'alternative energy sources' explicitly mentioned in the 10-K. The company faces risks from 'changes in demand for the Companies' services' including 'energy conservation programs' and 'energy efficient devices.' Emerging technologies like battery storage, hydrogen, and small modular reactors pose long-term substitution risks."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Residential and small commercial customers have limited pricing power due to regulated rate structures and geographic monopolies in distribution. However, 'large commercial and industrial customers' have 'market alternatives' and can pursue self-generation, giving them meaningful negotiating leverage. Regulatory commissions effectively represent customer interests in rate-setting, constraining price increases."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists. The 10-K identifies risks from 'availability of nuclear fuel, natural gas, purchased power or other materials' and notes 'ability of key suppliers and contractors to timely satisfy their obligations.' Tariff impacts on equipment ($0.6 billion mentioned for CVOW project) and supply chain disruptions demonstrate supplier leverage. However, diversified sourcing and long-term contracts mitigate some power."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Dominion Energy possesses a moderate-to-strong competitive moat anchored by regulatory barriers, established infrastructure, and geographic monopolies in core utility operations. The regulated utility business model provides stable, predictable cash flows and high barriers to entry through capital requirements and regulatory approval processes. However, the moat is eroding due to distributed generation, energy efficiency alternatives, and emerging clean energy technologies that reduce dependence on traditional utility services. The company's exposure to competitive nonregulated generation markets and transmission development competition further weakens its overall competitive position.",
+  "key_risks": [
+    "Distributed generation and alternative energy technologies reducing customer demand and creating substitution pressure",
+    "Regulatory changes and cost disallowances, particularly evidenced by $258 million CVOW project charge in 2025 and ongoing cost recovery uncertainties",
+    "Supply chain disruptions and tariff impacts, with $0.6 billion in tariff costs identified for offshore wind project and potential Supreme Court tariff ruling impacts",
+    "Extreme weather events and climate-related operational hazards affecting infrastructure and financial performance",
+    "Competition in nonregulated generation markets and transmission development under FERC Order 1000",
+    "Cybersecurity threats and terrorism risks to physical and intangible assets",
+    "Nuclear facility operational and decommissioning risks with $2.6 billion in ARO liabilities"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

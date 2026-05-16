@@ -1,0 +1,178 @@
+{
+  "ticker": "ANET",
+  "company": "Arista Networks",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "scores": {
+    "structural_score": 6.2,
+    "moat_score": 5.1,
+    "financial_score": 8.2,
+    "valuation_score": 3.8,
+    "quality_score": 6.2,
+    "opportunity_score": 4.7,
+    "combined_score": 5.6
+  },
+  "archetype": "MEGATREND RIDER",
+  "archetype_reasoning": "Arista benefits from genuine AI infrastructure megatrend (primary exposure) with strong financial execution (28.4% ROIC, 64% gross margins, 47% FCF conversion). However, the moat is moderate and deteriorating: supplier concentration (Broadcom dependency), customer concentration (42% from 2 customers), and credible substitutes (InfiniBand, NVLink) limit pricing power and durability. At 48.8x P/E and 41x EV/EBITDA, valuation assumes perfect execution with no margin compression—a risky assumption given competitive intensity.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "strong",
+    "timing_verdict": "expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "medium",
+  "structural_analysis": {
+    "score": 6.2,
+    "megatrend_exposure_score": 7.8,
+    "megatrend_type": "primary beneficiary",
+    "megatrends_exposed_to": [
+      "AI infrastructure buildout (data center networking)",
+      "Cloud computing scale-out",
+      "High-performance computing (HPC) cluster interconnect"
+    ],
+    "megatrend_analysis": "Arista is a PRIMARY beneficiary of the AI infrastructure megatrend, positioned in the critical data center switching layer that connects GPUs and CPUs in AI clusters. The company's 26.9% revenue CAGR (2022-2025) is directly driven by hyperscaler capex on AI training infrastructure. However, positioning is not monopolistic: Arista competes for share with Cisco (dominant in enterprise, growing in cloud), Juniper (strong in service provider), and increasingly with Nvidia's bundled networking (NVLink, InfiniBand). As the megatrend scales, Arista's value depends on maintaining share against better-capitalized rivals and proprietary alternatives. The TAM for AI cluster networking is expanding rapidly (estimated $15-20B by 2030), but Arista's share is not guaranteed.",
+    "necessity_score": 7.1,
+    "necessity_analysis": "Data center switching is operationally essential—hyperscalers cannot run AI clusters without it. Demand is inelastic in the short term (capex budgets are committed). However, necessity is conditional: if Nvidia's bundled networking (NVLink) captures 30-40% of AI cluster interconnect (plausible given GPU bundling power), Arista's addressable market shrinks materially. Switching is also a commodity-like category where price competition can intensify rapidly once multiple vendors achieve feature parity.",
+    "moat_trajectory_score": 4.8,
+    "moat_trajectory_analysis": "Arista's moat is NARROWING, not widening. The company's differentiation rests on EOS (proprietary OS) and CloudVision (management platform), but these are increasingly replicable as competitors invest in software. Cisco's NOS, Juniper's Junos, and even open-source alternatives (ONF, OpenDaylight) are closing the gap. More critically, Broadcom's merchant silicon commoditizes the hardware layer—Arista has no exclusive access. The 10-K explicitly states 'no written supply agreements' with Broadcom, meaning Arista faces pricing pressure and supply risk. Customer concentration (42% from 2 customers) creates switching cost asymmetry: hyperscalers can demand price concessions or threaten to shift to Cisco/Juniper. Switching costs for customers are moderate (software migration is non-trivial but not prohibitive). The moat is deteriorating.",
+    "tam_evolution_score": 7.2,
+    "tam_evolution_analysis": "The TAM for data center networking is expanding due to AI capex, but Arista's addressable TAM is at risk of compression. If Nvidia captures 30-40% of AI cluster interconnect through bundled NVLink/InfiniBand, Arista's serviceable TAM shrinks by $5-8B. Conversely, if Arista maintains 25-30% share of the broader data center switching market (vs. Cisco's 40%+), TAM growth could support 15-20% revenue growth through 2030. Pricing power is moderate: gross margins have held at 61-64% but are vulnerable to competitive intensity. New adjacencies (storage networking, edge computing) offer modest upside but are not material to the thesis.",
+    "technology_resilience_score": 5.4,
+    "technology_resilience_analysis": "Arista faces specific technology disruption risk from Nvidia's bundled networking strategy. NVLink and InfiniBand are not theoretical threats—they are shipping today in Nvidia's H100/H200 GPUs and are gaining adoption among hyperscalers (Meta, Google, OpenAI). If Nvidia achieves 40% penetration of AI cluster interconnect by 2028, Arista's TAM shrinks by $6-8B. Arista's R&D spending is adequate (embedded in opex, not separately disclosed) but the company is reactive, not leading, in AI networking innovation. The risk is not obsolescence but market share compression in a high-growth category.",
+    "structural_summary": "Arista will likely be WEAKER in 10 years relative to its current market position, despite absolute revenue growth. The company is riding a genuine megatrend (AI infrastructure) but lacks the structural advantages to maintain share as the market matures and consolidates. The single most important structural fact is supplier concentration: Arista's dependence on Broadcom for merchant silicon, combined with no exclusive supply agreements, means the company has limited pricing power and faces supply risk. As Nvidia integrates networking into GPUs and Cisco leverages its enterprise relationships, Arista's share of the data center switching market will likely compress from ~15-20% today to 10-12% by 2030. The company will remain profitable and cash-generative but will underperform the S&P 500 due to margin compression and slower growth."
+  },
+  "moat_analysis": {
+    "score": 5.1,
+    "rivalry": {
+      "score": 2.2,
+      "trend": "weakening",
+      "analysis": "Arista competes in an intensely competitive market dominated by well-capitalized rivals with superior resources. Cisco (market cap $280B) has 40%+ share of enterprise data center switching and is aggressively expanding in cloud/AI networking. Juniper (market cap $50B) is strong in service provider and has launched competitive AI networking products. Nvidia (market cap $3.3T) is bundling networking into GPUs, creating a structural competitive advantage. The 10-K acknowledges 'intense competition' and notes that competitors have 'greater financial resources.' Arista's 26.9% revenue CAGR masks the reality that the company is gaining share in a rapidly expanding AI market, not defending against rivals. As the market matures, Cisco and Juniper will leverage their installed bases and relationships to recapture share. Arista's competitive position is strong TODAY but structurally vulnerable TOMORROW.",
+      "key_competitors": [
+        "Cisco Systems (dominant, 40%+ enterprise share, expanding in cloud)",
+        "Juniper Networks (strong in service provider, competitive AI products)",
+        "Nvidia (bundling NVLink/InfiniBand into GPUs, structural advantage)"
+      ]
+    },
+    "new_entrants": {
+      "score": 2.1,
+      "trend": "stable",
+      "analysis": "Barriers to entry are moderate. Capital requirements are high ($500M+ to build a credible switching platform), but not prohibitive for well-funded startups or existing semiconductor companies. Technical expertise is required but available (many ex-Arista/Cisco engineers). The biggest threat is not a new entrant but an existing player (Nvidia, AMD, Intel) bundling networking into chips. White-box vendors using open-source operating systems (ONF, OpenDaylight) pose a low-to-moderate threat in price-sensitive segments but lack the software sophistication for premium customers. The 10-K does not identify specific new entrants as material threats, suggesting barriers are adequate but not exceptional. New entrants are unlikely to displace Arista but could capture share in specific segments (e.g., open-source networking for hyperscalers).",
+      "biggest_threat": "Nvidia bundling NVLink/InfiniBand into GPUs (not a traditional new entrant but a structural competitive threat)"
+    },
+    "substitutes": {
+      "score": 2.8,
+      "trend": "strengthening",
+      "analysis": "Substitutes are a MATERIAL and GROWING threat. InfiniBand (Mellanox, now Nvidia) and Nvidia's NVLink are direct substitutes for Arista's switching products in AI cluster interconnect. The 10-K explicitly identifies these as risks: 'InfiniBand and NVLink alternatives bundled with Nvidia GPUs could capture significant share of high-margin AI Scale Out workloads.' Hyperscalers are increasingly adopting Nvidia's bundled networking to reduce complexity and cost. Meta, Google, and OpenAI are all deploying InfiniBand-based clusters. If Nvidia achieves 30-40% penetration of AI cluster interconnect (plausible given GPU bundling power), Arista's addressable market shrinks by $5-8B. Ethernet-based switching (Arista's core) remains the standard for general-purpose data center networking, but AI clusters are moving toward specialized interconnects. This is not a theoretical risk—it is happening NOW.",
+      "key_substitute": "Nvidia NVLink and InfiniBand (bundled with GPUs, gaining adoption among hyperscalers)"
+    },
+    "buyer_power": {
+      "score": 3.8,
+      "trend": "strengthening",
+      "analysis": "Buyer power is HIGH and STRENGTHENING. Two customers represent 42% of revenue (26% and 16%), creating extreme concentration risk. These customers (likely Meta and Google) have significant leverage to demand price concessions, extended payment terms, or custom product development. Large hyperscalers can credibly threaten to shift to Cisco, Juniper, or Nvidia's bundled networking, forcing Arista to compete on price. The 10-K warns: 'Loss of either customer or reduced spending would significantly impact financial performance.' Switching costs for hyperscalers are moderate—while software migration is non-trivial, the financial incentive to switch (10-20% cost savings) is compelling. Arista's gross margins (64%) are high, suggesting room for price concessions. As hyperscalers consolidate purchasing power and Nvidia's bundled networking becomes viable, buyer power will continue to strengthen. This is a structural headwind to profitability."
+    },
+    "supplier_power": {
+      "score": 4.2,
+      "trend": "strengthening",
+      "analysis": "Supplier power is HIGH and STRENGTHENING. Arista is 'primarily reliant upon Broadcom' for merchant silicon (switching chips) with 'no written supply agreements' and 'no exclusive rights.' This is a critical vulnerability. Broadcom can raise prices, reduce supply, or prioritize other customers (e.g., Cisco, Juniper). The 10-K explicitly identifies this: 'Supplier concentration risk: Heavy reliance on Broadcom for merchant silicon with no guaranteed supply agreements or exclusive rights; potential supply disruptions or unfavorable pricing could materially impact margins and product availability.' Broadcom has significant pricing power—Arista cannot easily switch to alternative suppliers (Marvell, Innovium) due to software integration costs and qualification timelines. As Broadcom faces its own margin pressures and supply constraints, Arista will likely face price increases and supply tightness. This is not a theoretical risk—it is a structural constraint on profitability. Arista's 64% gross margins assume stable Broadcom pricing; a 10-15% price increase would compress margins to 58-60%, materially impacting profitability."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Arista's moat is MODERATE and DETERIORATING. The company's differentiation through EOS software and CloudVision management is real but increasingly replicable. More critically, the moat is constrained by three structural factors: (1) Supplier concentration—Broadcom dependency with no exclusive agreements limits pricing power and creates supply risk; (2) Customer concentration—42% of revenue from 2 customers creates asymmetric bargaining power; (3) Emerging substitutes—Nvidia's bundled NVLink/InfiniBand is gaining adoption and could capture 30-40% of AI cluster interconnect by 2028. The company's 28.4% ROIC and 64% gross margins are strong TODAY but vulnerable to compression as competitive intensity increases and buyer power strengthens. Arista's moat is not widening; it is narrowing. The company will remain profitable but will face margin pressure and slower growth as the market matures."
+  },
+  "financial_analysis": {
+    "score": 8.2,
+    "margin_trend": "stable",
+    "roic_assessment": "exceptional (>25%)",
+    "earnings_quality": "high",
+    "balance_sheet_health": "strong",
+    "recession_resilience": "medium",
+    "deep_analysis": "Arista's financial quality is genuinely strong. Gross margins have held steady at 61-64% over 4 years, indicating pricing power and operational efficiency. Operating margins expanded from 34.9% (2022) to 42.8% (2025), driven by operating leverage as revenue scaled. ROIC of 28.4% (2025) is exceptional and well above the 15% threshold for high-quality businesses. FCF conversion is strong at 47.2% of revenue (2025), though it declined from 52.5% (2024), suggesting some working capital pressure or capex acceleration. The company is debt-free (D/E not disclosed but implied to be minimal), providing financial flexibility. However, financial quality masks structural vulnerabilities: (1) Margin expansion is slowing (42.8% operating margin in 2025 vs. 42.0% in 2024), suggesting operating leverage is plateauing; (2) FCF conversion declined 5.3 percentage points year-over-year, indicating potential working capital stress or capex needs; (3) Recession resilience is MEDIUM—data center capex is cyclical and vulnerable to macro downturns. In a recession, hyperscaler capex could decline 30-40%, compressing Arista's revenue and margins significantly. The company's financial quality is high TODAY but faces headwinds from competitive intensity and macro sensitivity."
+  },
+  "valuation_analysis": {
+    "score": 3.8,
+    "overall_assessment": "very expensive",
+    "peg_signal": "expensive",
+    "ev_ebitda_signal": "very expensive",
+    "implied_10yr_growth_rate": "18.2%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "The current valuation (48.8x P/E, 41x EV/EBITDA) implies 18.2% annual earnings growth over 10 years (reverse DCF at 10% discount rate). This is UNREALISTIC given: (1) Arista's 26.9% revenue CAGR (2022-2025) is inflated by AI capex cycle and will likely decelerate to 12-15% by 2028-2030 as the market matures; (2) Margin compression is likely as competitive intensity increases and buyer power strengthens—operating margins could compress from 42.8% to 35-38% by 2030; (3) Customer concentration (42% from 2 customers) creates earnings volatility and downside risk; (4) Supplier concentration (Broadcom dependency) creates margin risk. For Arista to justify current valuation, the company would need to: (a) maintain 20%+ revenue growth through 2030, (b) expand operating margins to 45%+, and (c) avoid significant customer/supplier disruptions. None of these are probable.",
+    "estimated_intrinsic_value_conservative": "$115",
+    "estimated_intrinsic_value_optimistic": "$165",
+    "current_vs_intrinsic": "-13% to +16% vs. current price of $141.97",
+    "strong_buy_price": "$95",
+    "watchlist_price": "$120",
+    "valuation_deep_analysis": "Arista is trading at a significant premium to intrinsic value. The PEG ratio of 1.81x suggests the stock is expensive relative to growth—a PEG of 1.0-1.2x is typical for fairly valued growth stocks. The EV/EBITDA of 41x is extreme; even high-growth SaaS companies trade at 20-30x EV/EBITDA. Reverse DCF analysis (assuming 10% discount rate, 3% terminal growth) implies the market is pricing in 18.2% annual earnings growth through 2035. This is unrealistic given: (1) Arista's revenue growth will likely decelerate from 26.9% (2022-2025) to 12-15% by 2028-2030; (2) Operating margins will likely compress from 42.8% to 35-38% as competitive intensity increases; (3) Customer concentration creates downside risk. Conservative intrinsic value (assuming 12% revenue growth, 38% operating margins, 10% discount rate) is ~$115. Optimistic intrinsic value (assuming 18% revenue growth, 42% operating margins) is ~$165. Current price of $141.97 is at the high end of the optimistic range, leaving minimal margin of safety. Strong buy price is $95 (33% discount to conservative intrinsic value). Watchlist price is $120 (15% discount to conservative intrinsic value)."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Nvidia's bundled NVLink/InfiniBand is gaining adoption among hyperscalers and could capture 30-40% of AI cluster interconnect by 2028, compressing Arista's addressable market by $5-8B. Cisco and Juniper are aggressively competing for share in cloud/AI networking, leveraging superior resources and installed bases. Arista's market share in data center switching could compress from 15-20% to 10-12% by 2030.",
+    "regulatory": "Low",
+    "regulatory_explanation": "Arista operates in a lightly regulated industry (computer hardware/networking). No material regulatory risks are identified in the 10-K. Geopolitical tensions (US-China) could impact supply chain but are not specific to Arista.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Arista's revenue is highly dependent on hyperscaler capex, which is cyclical and vulnerable to macro downturns. In a recession, data center capex could decline 30-40%, compressing Arista's revenue and margins significantly. The company's 26.9% revenue CAGR is inflated by AI capex cycle and will likely decelerate in a downturn.",
+    "balance_sheet": "Low",
+    "balance_sheet_explanation": "Arista is debt-free with strong cash generation (47.2% FCF conversion in 2025). The balance sheet is fortress-like and provides financial flexibility. No material balance sheet risks are identified.",
+    "management": "Medium",
+    "management_explanation": "Arista's management team is experienced and has executed well on growth. However, the company faces structural challenges (supplier concentration, customer concentration, competitive threats) that management cannot fully control. Management's ability to navigate these challenges is uncertain.",
+    "geopolitical": "Medium",
+    "geopolitical_explanation": "Arista's supply chain is dependent on Broadcom (US-based) and other semiconductor suppliers. US-China tensions could impact supply chain and create tariff/export control risks. However, Arista is not directly exposed to China operations or sales.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Arista faces technology disruption risk from Nvidia's bundled networking strategy and open-source alternatives. However, Ethernet-based switching (Arista's core) remains the standard for general-purpose data center networking. Technology obsolescence is a medium-term risk (3-5 years), not an immediate threat.",
+    "esg": "Low",
+    "esg_explanation": "Arista has no material ESG risks. The company is not exposed to environmental liabilities, labor issues, or governance controversies. ESG is not a material factor in the investment thesis.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Nvidia bundled networking (NVLink/InfiniBand) captures 30-40% of AI cluster interconnect by 2028, compressing Arista's TAM by $5-8B and forcing margin compression",
+      "Customer concentration: Loss of either of the top 2 customers (42% of revenue) or significant spending reduction would materially impact financial performance and create operational volatility",
+      "Supplier concentration: Broadcom price increase of 10-15% or supply disruption would compress gross margins from 64% to 58-60%, materially impacting profitability"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "strong growth",
+    "company_competitive_position": "strong #2",
+    "structural_tailwinds": [
+      "AI infrastructure buildout: Hyperscaler capex on AI training clusters driving 20%+ annual growth in data center networking through 2028",
+      "Cloud computing scale-out: Continued migration to cloud driving demand for high-performance data center switching",
+      "High-performance computing (HPC): Scientific computing and AI research driving demand for specialized interconnects"
+    ],
+    "structural_headwinds": [
+      "Nvidia bundled networking: NVLink/InfiniBand integration into GPUs could capture 30-40% of AI cluster interconnect, compressing Arista's addressable market",
+      "Competitive intensity: Cisco, Juniper, and other well-capitalized rivals are aggressively competing for share in cloud/AI networking",
+      "Supplier concentration: Broadcom dependency limits pricing power and creates supply risk"
+    ],
+    "megatrend_impact": "Arista is a primary beneficiary of the AI infrastructure megatrend, which is driving 20%+ annual growth in data center networking through 2028. However, the company's share of this growth is not guaranteed. Nvidia's bundled networking strategy poses a structural threat to Arista's addressable market. If Nvidia captures 30-40% of AI cluster interconnect (plausible given GPU bundling power), Arista's TAM shrinks by $5-8B. Cisco and Juniper are also aggressively competing for share, leveraging superior resources and installed bases. Arista's competitive position is strong TODAY but structurally vulnerable TOMORROW. The company will likely maintain 12-15% revenue growth through 2030 but will face margin compression as competitive intensity increases.",
+    "recession_history": "Arista was founded in 2008 (during the financial crisis) and went public in 2014. The company has limited recession history. During the 2020 COVID recession, data center capex remained resilient due to cloud/streaming demand, and Arista likely benefited. However, a severe recession (similar to 2008) could compress hyperscaler capex by 30-40%, materially impacting Arista's revenue and margins. The company's high operating leverage (42.8% operating margins) means earnings would decline faster than revenue in a downturn.",
+    "disruption_threats": "Nvidia's bundled NVLink/InfiniBand is the primary disruption threat. If Nvidia achieves 30-40% penetration of AI cluster interconnect by 2028, Arista's addressable market shrinks by $5-8B. Open-source networking (ONF, OpenDaylight) poses a lower-tier threat in price-sensitive segments. Cisco and Juniper are also investing heavily in AI networking and could recapture share as the market matures. The risk is not that Arista becomes obsolete but that the company's share of a high-growth market compresses due to competitive intensity and emerging substitutes.",
+    "better_sector_alternatives": [
+      "Broadcom (AVGO): Supplier to Arista with higher margins and more diversified revenue streams; benefits from AI infrastructure buildout without customer concentration risk",
+      "Cisco Systems (CSCO): Dominant player in data center switching with 40%+ market share, superior resources, and enterprise relationships; lower growth but more defensible market position",
+      "Nvidia (NVDA): Primary beneficiary of AI infrastructure megatrend with bundled networking strategy; higher growth but already priced for perfection"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Arista is a high-quality company (Quality Score 6.2/10) riding a genuine AI infrastructure megatrend with exceptional financial metrics (28.4% ROIC, 64% gross margins, 47% FCF conversion). However, the company is VERY EXPENSIVE at 48.8x P/E and 41x EV/EBITDA, implying 18.2% annual earnings growth through 2035—unrealistic given: (1) Revenue growth will likely decelerate from 26.9% (2022-2025) to 12-15% by 2028-2030; (2) Operating margins will compress from 42.8% to 35-38% as competitive intensity increases and buyer power strengthens; (3) Nvidia's bundled NVLink/InfiniBand could capture 30-40% of AI cluster interconnect, compressing Arista's TAM by $5-8B; (4) Customer concentration (42% from 2 customers) creates earnings volatility and downside risk. The Opportunity Score is 4.7/10 (expensive), while the Quality Score is 6.2/10 (strong). This is a HIGH QUALITY / LOW OPPORTUNITY situation: the company is structurally sound but priced for perfection. Investors should WAIT for a better entry point rather than chase the stock at current levels.",
+    "upside_catalysts": [
+      "AI capex acceleration: If hyperscaler capex on AI training clusters exceeds expectations (e.g., $200B+ annually by 2027 vs. $150B consensus), Arista could maintain 20%+ revenue growth and justify higher multiples",
+      "Market share gains: If Arista captures 25%+ of the AI cluster interconnect market (vs. 15-20% today) and successfully defends against Nvidia's bundled networking, the company could expand operating margins to 45%+ and support higher valuation",
+      "Margin expansion: If Arista successfully negotiates long-term supply agreements with Broadcom and reduces customer concentration risk, gross margins could expand to 66-68% and support higher multiples"
+    ],
+    "downside_risks": [
+      "Nvidia bundled networking adoption: If Nvidia captures 35-40% of AI cluster interconnect by 2027 (vs. 20-25% consensus), Arista's TAM shrinks by $6-8B and revenue growth decelerates to 8-10%, compressing stock by 30-40%",
+      "Customer concentration materialization: If either of the top 2 customers (42% of revenue) reduces spending by 20%+ or switches to Cisco/Juniper, Arista's revenue could decline 8-10% and operating margins compress to 35-38%, compressing stock by 25-35%",
+      "Margin compression: If Broadcom raises prices by 15% or Arista faces competitive pricing pressure, gross margins could compress from 64% to 58-60%, reducing operating margins to 38-40% and compressing stock by 20-30%"
+    ],
+    "strong_buy_at": "$95",
+    "watchlist_at": "$120",
+    "exit_trigger": "If Nvidia's bundled networking captures >35% of AI cluster interconnect market share by 2027, or if either of the top 2 customers reduces spending by >20%, or if gross margins compress below 60%, the thesis is broken and the stock should be exited.",
+    "position_sizing_note": "small (1-2%)"
+  },
+  "comparable_companies": [
+    "Broadcom (AVGO): Supplier to Arista with higher margins and more diversified revenue streams; benefits from AI infrastructure buildout without customer concentration risk; trades at 25x P/E",
+    "Cisco Systems (CSCO): Dominant player in data center switching with 40%+ market share, superior resources, and enterprise relationships; lower growth but more defensible market position; trades at 18x P/E",
+    "Juniper Networks (JNPR): Competitor in data center switching and AI networking; similar market position to Arista but with more diversified revenue streams; trades at 22x P/E",
+    "Nvidia (NVDA): Primary beneficiary of AI infrastructure megatrend with bundled networking strategy; higher growth but already priced for perfection; trades at 65x P/E"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis is based on 2025 10-K filing, current market data (price $141.97, P/E 48.8x, EV/EBITDA 41x), and analyst consensus (strong buy, target $188.90). Key assumptions: (1) Broadcom pricing remains stable; (2) Customer concentration does not materially worsen; (3) Nvidia's bundled networking captures 20-25% of AI cluster interconnect by 2028 (vs. 0% today). Sensitivity to these assumptions is high. Data quality is high; no material gaps identified."
+}

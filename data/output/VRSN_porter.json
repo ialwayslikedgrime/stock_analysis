@@ -1,0 +1,38 @@
+{
+  "ticker": "VRSN",
+  "company": "Verisign",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "Verisign operates in a duopoly-like position for .com and .net domains, which represent the majority of global e-commerce. While competitors exist (CentralNic, GoDaddy, Google, Identity Digital, etc.), Verisign's dominance in .com/.net creates limited direct rivalry. However, the 10-K acknowledges competitive pressure from alternative namespaces, social media platforms, and e-commerce consolidation, preventing a perfect score."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Barriers to entry are extremely high due to ICANN's controlled allocation of TLDs, regulatory requirements (DOC Cooperative Agreement for .com), and the critical infrastructure nature of DNS operations requiring massive capital investment and technical expertise. The 10-K notes that new gTLDs exist but Verisign's .com/.net contracts are protected through 2030 with presumptive renewal rights."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from social media platforms (Facebook, Instagram, TikTok), e-commerce platforms (Amazon, Etsy, Taobao), and emerging technologies including AI-based alternatives. The 10-K explicitly states demand could be negatively impacted by these alternatives, representing a material competitive risk to traditional domain name registrations."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "End-users have limited direct power as they purchase through ICANN-accredited registrars, not directly from Verisign. However, registrars collectively have moderate negotiating power. The 10-K's pricing restrictions on .com (7% annual increase cap) and .net (10% annual increase) demonstrate regulatory constraints that limit Verisign's pricing power, though this protects rather than reflects buyer power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Verisign has minimal supplier dependency for its core business. The company operates proprietary infrastructure and systems (Shared Registration System, ATLAS lookup system) with in-house expertise. Primary dependencies are on ICANN (regulatory/contractual) and the U.S. DOC (for .com), which are institutional relationships rather than traditional suppliers. Infrastructure providers have limited leverage."
+    }
+  },
+  "moat_score": 4.2,
+  "moat_summary": "Verisign possesses an exceptionally strong competitive moat anchored by regulatory barriers, network effects, and switching costs. The company's control of .com and .net domains—representing the majority of global e-commerce—is protected by long-term ICANN agreements (through 2030) and a U.S. DOC Cooperative Agreement with presumptive renewal rights. The critical infrastructure nature of DNS operations, massive capital requirements, and technical complexity create near-insurmountable barriers to entry. However, the moat is partially eroded by substitution threats from social media and e-commerce platforms, regulatory pricing restrictions that limit pricing power, and the potential for policy changes at ICANN or the DOC.",
+  "key_risks": [
+    "Loss or non-renewal of .com or .net registry agreements with ICANN or DOC, which would eliminate the majority of revenue and competitive advantage",
+    "Substitution by alternative platforms: social media (Facebook, Instagram, TikTok), e-commerce consolidation (Amazon, Etsy), and emerging AI-based technologies reducing demand for traditional domain registrations",
+    "Regulatory and policy changes: ICANN policy development, DOC intervention, international data privacy regulations (GDPR, China licensing requirements), and cybersecurity mandates could materially impact operations and costs",
+    "Pricing restrictions limiting revenue growth: .com pricing capped at 7% annual increases and .net at 10%, constraining ability to pass through cost inflation or capture market value",
+    "Cybersecurity and infrastructure risks: As critical internet infrastructure, Verisign faces elevated DDoS attack risks, zero-day vulnerabilities, and operational disruption threats that could damage reputation and service availability",
+    "Competitive consolidation: Competitors consolidating or vertically integrating (e.g., GoDaddy, Google) could create more formidable rivals with integrated business models"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

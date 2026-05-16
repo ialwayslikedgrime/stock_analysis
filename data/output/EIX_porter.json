@@ -1,0 +1,37 @@
+{
+  "ticker": "EIX",
+  "company": "Edison International",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "EIX operates as a regulated utility monopoly in Southern California through SCE, but faces indirect competition from alternative energy providers and distributed generation. The regulated nature provides some protection, but increasing renewable energy mandates and grid modernization create competitive pressures from new market entrants and technologies."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive regulatory requirements, massive capital requirements for infrastructure, and established transmission/distribution networks. However, distributed solar and microgrids represent emerging competitive threats that bypass traditional utility infrastructure, creating some vulnerability."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Rooftop solar, battery storage, microgrids, and demand-side management represent credible substitutes for traditional utility services. California's aggressive renewable targets and declining solar costs increase substitution risk, though the grid remains essential for most customers. [INFERRED: Based on industry knowledge of California energy market]"
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Individual residential and commercial customers have limited pricing power due to regulated rate structures and monopoly service territory. However, large industrial customers and the state regulatory commission (CPUC) exercise significant influence over rates and service terms, constraining EIX's pricing flexibility."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "EIX depends on fuel suppliers (natural gas, uranium) and equipment manufacturers for grid infrastructure, creating moderate supplier leverage. The company's power purchase agreements and long-term contracts provide some mitigation, but commodity price volatility and supply chain constraints present ongoing risks. [INFERRED: Based on 10-K references to power purchase agreements and commodity contracts]"
+    }
+  },
+  "moat_score": 3.4,
+  "moat_summary": "Edison International maintains a moderate competitive moat anchored by its regulated utility monopoly status in Southern California, extensive infrastructure assets, and regulatory barriers to entry. However, the moat is eroding due to distributed generation, renewable energy mandates, and evolving regulatory frameworks that reduce traditional utility economics. The company's significant wildfire liabilities, regulatory risks, and exposure to energy transition create structural headwinds that partially offset its protected market position.",
+  "key_risks": [
+    "Regulatory and political risk: CPUC rate decisions, California energy policy shifts, and potential utility restructuring could materially impact revenues and profitability",
+    "Wildfire and catastrophic liability exposure: Ongoing litigation (Woolsey, Thomas Kinney fires) and potential future wildfire liabilities threaten financial stability despite insurance mechanisms",
+    "Energy transition and distributed generation: Accelerating rooftop solar adoption, battery storage, and microgrids reduce traditional utility demand and create stranded asset risks",
+    "Commodity and fuel price volatility: Exposure to natural gas and electricity price fluctuations through power purchase agreements and generation operations",
+    "Capital intensity and financing risk: Massive infrastructure investment requirements amid rising interest rates and potential credit rating pressures from liabilities"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

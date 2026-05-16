@@ -1,0 +1,40 @@
+{
+  "ticker": "T",
+  "company": "AT&T",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AT&T faces intense competition from multiple wireless competitors in each service area, competing on price, network quality, coverage, and customer service. The 10-K explicitly states 'Increasing competition could materially adversely affect our operating results' and notes market saturation leading to aggressive pricing strategies and margin pressure from competitors."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for spectrum acquisition, network infrastructure deployment, and regulatory licensing. The 10-K emphasizes substantial ongoing capital spending for 5G and fiber networks, and notes that 'we participate in spectrum auctions' requiring major financial commitments that deter new competitors."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Growing substitution threats from IP-based services, cable competitors, and alternative wireless technologies are evident. The 10-K notes 'growing competition from providers offering services using advanced wireless technologies and IP-based networks' and mentions losing broadband customers to cable competitors, requiring expansion of fiber and fixed wireless access offerings."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Customers have significant pricing power in a saturated market with multiple competitors. The 10-K states 'Consumers may be less willing to pay a price differential for our products and services and may increasingly purchase lower-priced offerings' and notes that price increases may result in 'reductions in sales volume or increases in subscriber churn.'"
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists due to dependence on specialized suppliers for network equipment, handsets, and components. The 10-K highlights inflationary pressures on device costs, network components, and labor, noting that 'recent spending by hyperscalers...is beginning to pressure supply chains for goods such as semiconductors' and that AT&T depends on suppliers for critical equipment with limited alternatives."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "AT&T possesses a narrow moat based primarily on high barriers to entry (spectrum licenses, infrastructure capital requirements) and established scale, but this is significantly eroded by intense competitive rivalry, customer price sensitivity, and substitution threats. The company's competitive advantages are defensive rather than offensive, with the 10-K emphasizing ongoing margin pressure, the need for continuous capital investment to remain competitive, and vulnerability to technological disruption. Regulatory constraints on wireline operations and the capital-intensive nature of network deployment provide some protection, but are insufficient to offset structural industry headwinds.",
+  "key_risks": [
+    "Intense competitive rivalry with aggressive pricing strategies eroding margins and market share, particularly from cable and wireless competitors",
+    "Significant capital requirements for spectrum acquisition and 5G/fiber deployment may constrain financial flexibility and returns on investment",
+    "Substitution threats from IP-based services, cable broadband, and alternative wireless technologies reducing addressable market",
+    "Inflationary pressures on device costs, network components, semiconductors, and labor increasing operating costs faster than pricing power allows",
+    "Customer churn risk if price increases are implemented to offset cost inflation, particularly during economic downturns",
+    "Regulatory uncertainty and compliance costs related to broadband deployment, privacy laws, and government data requests",
+    "Cybersecurity and data breach risks damaging brand reputation and customer trust",
+    "Lead-clad cable litigation and potential regulatory changes creating financial and reputational exposure"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

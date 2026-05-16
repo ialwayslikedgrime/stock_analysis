@@ -1,0 +1,40 @@
+{
+  "ticker": "VEEV",
+  "company": "Veeva Systems",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Veeva faces intense competition across multiple product lines. In CRM, Salesforce is a direct competitor with greater resources. IQVIA competes in data analytics and certain development cloud applications. Multiple vendors (Oracle, Microsoft, OpenText, Dassault Systèmes) offer competing solutions in specific segments, though no single competitor matches Veeva's full portfolio in life sciences."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to deep domain expertise requirements in life sciences, complex regulatory compliance (21 CFR 11, EU Annex 11, HIPAA, GDPR), established customer relationships, and significant R&D investment. However, well-capitalized tech giants (AWS, Microsoft, Salesforce) could potentially enter with resources and existing customer bases, creating some vulnerability."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Customers could theoretically use non-life-sciences-specific platforms (Salesforce, Box, AWS, Microsoft) for certain functions, creating moderate substitution risk. However, Veeva's specialized regulatory compliance, industry-specific workflows, and integrated solutions reduce substitution threat. Legacy on-premise solutions remain alternatives but are declining."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Revenue is concentrated in a small number of key customers (1,552 total customers as of Jan 31, 2026), with major pharma companies like Eli Lilly, Merck, Novartis representing significant portions of revenue. Large customers have negotiating leverage, but switching costs are high due to integration complexity and regulatory validation requirements. Mid-market and smaller biotech customers have less power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Veeva depends on third-party infrastructure providers (Amazon Web Services, Salesforce for legacy CRM hosting, Anthropic/Amazon for AI models, Zoom for certain features). While these are large, established vendors with multiple customers, Veeva's reliance on AWS and Salesforce creates moderate supplier power. Migration costs and integration complexity provide some mitigation."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Veeva possesses a moderately strong competitive moat built on specialized domain expertise in life sciences, high switching costs due to regulatory compliance requirements and system integration complexity, and a comprehensive integrated platform (Veeva Vault) that competitors struggle to replicate. The company's deep customer relationships, industry-specific data assets (OpenData, Link, Compass), and rapid innovation cycle create defensibility. However, the moat is challenged by well-resourced competitors (Salesforce, IQVIA, large tech platforms) and customer concentration risk that limits pricing power with key accounts.",
+  "key_risks": [
+    "Intense competition from Salesforce in CRM and IQVIA across multiple segments, with risk of losing market share during Vault CRM migration",
+    "Customer concentration: revenues heavily dependent on small number of large pharma customers; loss of major customer could materially impact revenue",
+    "Cybersecurity and data breach risk: solutions store sensitive patient data, clinical trial information, and proprietary customer data; breach could trigger regulatory liability, customer loss, and reputational damage",
+    "Third-party infrastructure dependency: reliance on AWS, Salesforce, and other providers creates operational risk and potential cost increases outside Veeva's control",
+    "Regulatory and compliance complexity: changes in FDA, GDPR, HIPAA, and other regulations could increase compliance costs and reduce demand; failure to maintain compliance certifications could impair product viability",
+    "Life sciences industry concentration: nearly all revenues from life sciences sector; industry downturns, drug pricing regulation, or reduced R&D spending could materially impact business",
+    "Vault CRM migration execution risk: transition from legacy Salesforce-based CRM to proprietary Vault CRM could cause customer disruptions and competitive vulnerability during transition period",
+    "Intellectual property litigation: company faces patent infringement claims from non-practicing entities and competitors; litigation costs and potential damages could be significant"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

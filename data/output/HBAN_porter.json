@@ -1,0 +1,35 @@
+{
+  "ticker": "HBAN",
+  "company": "Huntington Bancshares",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "The 10-K explicitly mentions 'Competition' as a section (page 9), indicating competitive pressures in banking. From prior knowledge, HBAN operates in highly competitive regional banking markets with numerous competitors including larger national banks, regional peers, and community banks competing on rates, service, and technology."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Banking has significant regulatory barriers to entry (referenced in 'Regulatory Matters' section on page 11), which protects incumbents. However, fintech companies and non-bank financial services providers continue to erode traditional banking moats, creating moderate threat of new competitive models."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Digital payment systems, peer-to-peer lending platforms, investment apps, and alternative financial services increasingly substitute for traditional banking services. From prior knowledge, HBAN faces growing competition from fintech, cryptocurrency platforms, and non-bank lenders for deposits and lending business."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Retail and commercial customers have high switching costs but increasing options, particularly for deposits and lending. The 10-K's inclusion of 'Market for Registrant's Common Equity' (Item 5) suggests investor scrutiny; from prior knowledge, depositors and borrowers can easily compare rates and switch providers, increasing buyer leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Banks have moderate supplier power dynamics; technology vendors and service providers have some leverage, but HBAN can diversify suppliers. From prior knowledge, the primary 'suppliers' are deposit sources and capital markets, which are fragmented and competitive, limiting supplier power."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Huntington Bancshares possesses a narrow moat based primarily on regulatory barriers to entry, established branch networks, and customer relationships typical of regional banks. However, this moat is eroding due to intense competitive rivalry, high buyer power from depositors and borrowers, and significant substitution threats from fintech and digital alternatives. The company's competitive position depends heavily on execution in digital banking and maintaining customer loyalty amid commoditized banking services.",
+  "key_risks": [
+    "Intense competition from larger national banks, regional competitors, and fintech disruptors eroding market share and margins",
+    "Regulatory and cybersecurity risks explicitly mentioned in 10-K (Items 1A and 1C) that could impact operations and compliance costs",
+    "Digital disruption and substitution from alternative financial services reducing traditional banking relevance and deposit stability"
+  ],
+  "data_source": "fallback+prior_knowledge",
+  "analysis_date": "2026-05-16"
+}

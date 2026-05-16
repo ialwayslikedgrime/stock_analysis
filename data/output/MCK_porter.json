@@ -1,0 +1,39 @@
+{
+  "ticker": "MCK",
+  "company": "McKesson Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "MCK operates in highly competitive markets with two primary competitors (Cencora and Cardinal Health) dominating pharmaceutical distribution. The 10-K explicitly states 'we operate in highly competitive markets' with competition from international, national, regional distributors, manufacturers, and third-party logistics companies. Price competition is intense across all segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to MCK's scale (43,000+ employees, 27 distribution centers), extensive regulatory requirements (DEA, FDA, state pharmacy boards), significant capital investments in automation and technology, and established customer relationships. The 10-K notes extensive compliance requirements and operational licenses that create substantial friction for new competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists. Direct manufacturer distribution, self-warehousing by large chains, and vertical integration by healthcare providers present alternatives. However, MCK's integrated services (technology, consulting, specialty services) reduce pure substitution risk. The 10-K notes customers may 'build internal supply management capabilities' but this is limited to large players."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have significant pricing power. Large retail chains, hospital systems, and national accounts represent concentrated customer bases that can negotiate aggressively. The 10-K identifies 'retail national accounts' and 'institutional healthcare providers' as major customer channels, and healthcare consolidation has strengthened buyer leverage. Generic drug pricing pressure is also evident."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Pharmaceutical manufacturers and medical-surgical product suppliers have moderate-to-high power. MCK depends on manufacturers for product access and exclusive distribution arrangements exist for specialty products. However, MCK's scale and the ClarusONE joint venture with Walmart provide some sourcing leverage. [INFERRED: Manufacturer consolidation and branded drug pricing power create supplier leverage]."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "MCK possesses a moderate competitive moat built primarily on scale, distribution network infrastructure, regulatory barriers, and integrated technology/service capabilities. The company's 27 distribution centers, 43,000+ employees, and diversified service portfolio (specialty pharmacy, oncology networks, technology solutions) create switching costs and operational advantages. However, intense price competition from Cencora and Cardinal Health, significant buyer power from consolidated healthcare customers, and regulatory complexity limit moat strength. The planned separation of Medical-Surgical Solutions may further reduce competitive positioning.",
+  "key_risks": [
+    "Intense price competition from Cencora and Cardinal Health eroding margins across pharmaceutical distribution",
+    "Consolidation of healthcare buyers (hospital systems, retail chains) increasing negotiating leverage and pricing pressure",
+    "Regulatory changes affecting reimbursement, controlled substance handling, and healthcare fraud/abuse compliance increasing costs",
+    "Manufacturer direct distribution and vertical integration by large healthcare systems reducing MCK's intermediary role",
+    "Separation of Medical-Surgical Solutions segment potentially weakening scale advantages and cross-selling opportunities",
+    "Technology disruption and AI adoption requirements requiring significant capital investment",
+    "Government healthcare program changes (Medicare/Medicaid) impacting customer demand and reimbursement rates"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

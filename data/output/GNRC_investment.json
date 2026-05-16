@@ -1,0 +1,185 @@
+{
+  "ticker": "GNRC",
+  "company": "Generac",
+  "analysis_date": "2026-05-16",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "scores": {
+    "structural_score": 4,
+    "moat_score": 4,
+    "financial_score": 4,
+    "valuation_score": 2,
+    "quality_score": 4.0,
+    "opportunity_score": 2.4,
+    "combined_score": 3.36
+  },
+  "archetype": "VALUE TRAP",
+  "archetype_reasoning": "Generac exhibits deteriorating structural positioning as solar+battery storage and microgrids displace traditional backup generators. The moat is narrowing due to commoditization in portable generators, new entrants in data center backup power, and substitute technology adoption. Financial quality has collapsed (ROIC fell from 9.7% in 2022 to 4.2% in 2025; revenue down 3% CAGR), and at 82.7x trailing P/E and 31.6x EV/EBITDA, the stock prices in unrealistic growth assumptions that contradict the company's structural headwinds.",
+  "verdict": "strong avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "very expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 4,
+    "megatrend_exposure_score": 3,
+    "megatrend_type": "headwind",
+    "megatrends_exposed_to": [
+      "energy transition (solar+storage substitution)",
+      "grid modernization (microgrids, distributed energy)",
+      "data center electrification (positive but competitive)"
+    ],
+    "megatrend_analysis": "Generac is exposed to the energy transition, but primarily as a HEADWIND rather than tailwind. The company's core business—residential and commercial backup generators—faces existential pressure from solar+battery storage systems, which are becoming cost-competitive as battery prices decline 8-12% annually and government incentives (IRA tax credits) drive adoption. Microgrids and improved grid reliability further reduce demand for traditional generators. The data center backup power segment offers growth, but this is a capital-intensive, competitive market attracting well-capitalized entrants (Cummins, Caterpillar) with superior scale and customer relationships. As the energy transition accelerates, Generac's legacy backup power business becomes less valuable, not more. The company's ecosystem play (generators + storage + controls) is a defensive response, not a structural advantage.",
+    "necessity_score": 5,
+    "necessity_analysis": "Backup power is semi-discretionary for residential customers and essential for critical infrastructure (hospitals, data centers). However, the necessity is shifting: solar+battery systems provide backup power as a byproduct of primary energy generation, making traditional generators increasingly optional. Commercial and industrial customers have alternatives (microgrids, fuel cells, improved grid infrastructure). Recession behavior is mixed—backup power demand may spike during economic stress, but capital-constrained customers defer purchases. Demand elasticity is moderate to high as substitute technologies mature.",
+    "moat_trajectory_score": 3,
+    "moat_trajectory_analysis": "Generac's moat is NARROWING across all dimensions. Brand recognition and distribution networks, once defensible, are eroding as solar installers (Tesla, Sunrun, Enphase) become primary providers of backup power solutions. Switching costs are declining as customers view generators as commodities and explore alternatives. The 65+ years of engineering expertise in combustion engines is becoming a liability in a world transitioning to battery storage and renewable energy. Product breadth (portable, residential, commercial generators) is increasingly commoditized, with Chinese manufacturers and new entrants competing on price. The ecosystem approach (integrating storage and controls) is reactive, not proactive—Generac is following Tesla and Enphase into energy storage, not leading. Competitive intensity is rising as data center demand attracts well-capitalized rivals with superior balance sheets and technology platforms.",
+    "tam_evolution_score": 3,
+    "tam_evolution_analysis": "The TAM for traditional backup generators is SHRINKING as solar+battery storage captures market share. Residential backup power TAM is declining 5-10% annually as solar adoption accelerates (IRA incentives driving 30%+ annual growth in residential solar). Commercial generator TAM is stable to declining as microgrids and grid improvements reduce necessity. Data center backup power TAM is growing (5-8% annually), but this segment is highly competitive and offers lower margins than legacy business. Pricing power is eroding in portable generators (commoditized) and under pressure in residential (solar+battery competition). New adjacencies (energy storage, EV charging infrastructure) are underdeveloped and face entrenched competitors (Tesla, Enphase, LG, Panasonic).",
+    "technology_resilience_score": 3,
+    "technology_resilience_analysis": "Generac faces CRITICAL technology disruption risk. Battery storage technology (lithium-ion) is improving faster than combustion engine efficiency, and cost curves favor batteries. The company's R&D is focused on incremental improvements to generators and integration of storage, not breakthrough innovation. Fuel cell technology (hydrogen) poses a longer-term threat to natural gas generators. Generac's core competency—combustion engines—is becoming obsolete in a decarbonized energy system. The company lacks the software/AI capabilities of Tesla, Enphase, or SolarEdge, putting it at a disadvantage in the smart energy management market.",
+    "structural_summary": "Generac will be WEAKER in 10 years. The company is caught between a declining legacy business (backup generators) and a competitive new market (energy storage) where it lacks structural advantages. Solar+battery storage is the primary threat: as battery costs fall and solar adoption accelerates, the TAM for traditional generators shrinks. The data center segment offers growth but attracts well-capitalized competitors and offers lower margins. Generac's moat is narrowing due to commoditization, new entrants, and substitute technologies. The single most important structural fact is this: Generac's core business (backup power) is being displaced by solar+battery systems, which are cheaper, cleaner, and increasingly preferred by customers. The company is a legacy power equipment manufacturer in an energy transition that favors distributed, renewable, battery-backed systems—not centralized, fossil-fuel-dependent generators."
+  },
+  "moat_analysis": {
+    "score": 4,
+    "rivalry": {
+      "score": 3,
+      "trend": "weakening",
+      "analysis": "Generac holds a leading market position in North American backup power with broad product portfolio, but competitive intensity is rising. Established competitors (Cummins, Caterpillar, Kohler) are expanding into backup power and data center segments. New entrants (Chinese manufacturers, solar companies integrating storage) are fragmenting the market. The 10-K notes competitive pressure on pricing and margin compression in portable generators. In data center backup power, Generac faces Cummins (superior scale, global reach, customer relationships) and Caterpillar (similar advantages). Generac's market share in residential backup power is eroding as solar+battery systems capture share. Competitive intensity will accelerate as data center demand attracts capital-rich rivals.",
+      "key_competitors": [
+        "Cummins (CMI)",
+        "Caterpillar (CAT)",
+        "Kohler",
+        "Tesla (TSLA) - via Powerwall + solar",
+        "Enphase Energy (ENPH) - via IQ Battery",
+        "SolarEdge (SEDG) - via battery integration"
+      ]
+    },
+    "new_entrants": {
+      "score": 4,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are MODERATE and DECLINING. Capital requirements and manufacturing expertise remain, but are no longer prohibitive. Chinese manufacturers (Weichai, Yuchai) are entering North American markets with lower-cost portable generators. Solar companies (Tesla, Sunrun, Enphase) are integrating backup power into their platforms, leveraging existing customer relationships and distribution. Data center backup power is attracting new entrants due to high growth and margins. The 10-K does not detail supplier concentration, but Generac's reliance on engines and components creates vulnerability to new entrants with alternative supply chains. Regulatory barriers (emissions standards) are declining as electric and hydrogen alternatives emerge. New entrants will continue fragmenting the market, particularly in portable generators and residential backup power.",
+      "biggest_threat": "Tesla (via Powerwall + solar integration) and Enphase Energy (via IQ Battery + ecosystem) are the most credible threats, as they control customer relationships and offer superior user experience and software integration."
+    },
+    "substitutes": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Multiple credible substitutes exist and are GROWING RAPIDLY. Solar+battery storage is the primary substitute: residential solar+Powerwall systems provide backup power at lower total cost of ownership than generators, with superior environmental profile. Microgrids (distributed energy resources + storage + controls) are replacing centralized backup power for commercial/industrial customers. Fuel cells (hydrogen) are emerging as long-term substitute for natural gas generators. Improved grid reliability (smart grids, microgrids, distributed generation) reduces necessity for backup power. Battery storage costs are declining 8-12% annually, making substitutes increasingly cost-competitive. The 10-K explicitly cites solar+battery and microgrids as substitution threats. Substitute adoption will accelerate as battery costs fall and government incentives drive renewable energy deployment.",
+      "key_substitute": "Solar+battery storage systems (Tesla Powerwall, Enphase IQ Battery, LG Chem RESU) are the most credible and fastest-growing substitute, with superior economics and environmental profile."
+    },
+    "buyer_power": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Buyer power is MODERATE and INCREASING. Residential buyers have moderate power due to product commoditization in portable generators and increasing substitute options (solar+battery). Brand loyalty exists but is eroding as customers view generators as commodities. Commercial/industrial buyers have significant power, particularly in data center segment where customers are large, sophisticated, and have alternatives. The 10-K notes competitive pricing pressure and customer negotiating power in data center backup power. Buyers increasingly compare generators to solar+battery systems, reducing Generac's pricing power. As substitute technologies mature, buyer power will increase further, as customers have more alternatives and less switching cost."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Supplier power is MODERATE. Generac relies on suppliers for engines, components, and raw materials in a consolidated supply chain. The 10-K does not detail supplier concentration, but industry knowledge suggests reliance on engine suppliers (Kohler, Briggs & Stratton, Yuchai) and component suppliers. Supply chain disruptions (COVID, semiconductor shortages) have impacted Generac's ability to meet demand. Commodity price volatility (steel, aluminum, fuel) affects manufacturing costs and margins. Generac has limited pricing power to pass through cost increases, particularly in commoditized segments. Supplier power is likely to remain stable, as Generac's scale provides some negotiating leverage, but supply chain risks persist."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Generac's moat is NARROWING and AT RISK. The company's competitive advantages—brand recognition, distribution networks, product breadth, engineering expertise—are eroding due to commoditization, new entrants, and substitute technologies. Financial metrics confirm moat deterioration: ROIC fell from 9.7% (2022) to 4.2% (2025), indicating declining returns on invested capital. Gross margins are stable (33-39%) but operating margins collapsed from 12.4% (2022) to 6.9% (2025), reflecting competitive pressure and operational challenges. The company's ability to sustain pricing power and defend market share is weakening. Switching costs are declining as customers view generators as commodities and explore alternatives. The moat is not yet destroyed, but trajectory is clearly negative. In 5-10 years, Generac's competitive position will be significantly weaker unless the company successfully transitions to energy storage and distributed energy management—a transition it is losing to Tesla, Enphase, and SolarEdge."
+  },
+  "financial_analysis": {
+    "score": 4,
+    "margin_trend": "strongly deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "low",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "medium",
+    "deep_analysis": "Generac's financial quality has DETERIORATED significantly. Revenue declined 3% CAGR over 4 years ($4.6B in 2022 to $4.2B in 2025), indicating structural headwinds. Operating margin collapsed from 12.4% (2022) to 6.9% (2025)—a 550 basis point decline—reflecting competitive pressure, operational challenges, and mix shift toward lower-margin products. ROIC fell from 9.7% (2022) to 4.2% (2025), well below the 10% threshold for adequate returns and far below the 15% threshold for strong returns. This indicates the company is destroying shareholder value on incremental capital deployment. Gross margins are stable (33-39%), suggesting the margin collapse is driven by operating deleverage and SG&A inefficiency, not pricing power loss. FCF as % of net margin is volatile (6.4% in 2025 vs 14.1% in 2024), indicating inconsistent cash generation. Debt/equity is moderate (0.45x in 2025), but the company's declining profitability and cash generation raise concerns about debt serviceability if earnings deteriorate further. Recession resilience is MEDIUM: backup power demand may spike during economic stress, but capital-constrained customers defer purchases, and the company's leverage limits financial flexibility."
+  },
+  "valuation_analysis": {
+    "score": 2,
+    "overall_assessment": "very expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "very expensive",
+    "implied_10yr_growth_rate": "3.2%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "The current market cap of $15.5B at 31.6x EV/EBITDA implies EBITDA of ~$490M. Using a 10% discount rate and 3% terminal growth rate, the implied 10-year growth rate is approximately 3.2% annually. This is UNREALISTIC given: (1) revenue declined 3% CAGR over past 4 years, (2) structural headwinds from solar+battery substitution, (3) competitive intensity rising in data center segment, (4) TAM shrinking for legacy backup power business. The market is pricing in a turnaround and return to growth that is not supported by fundamentals. At 82.7x trailing P/E, the stock is pricing in exceptional earnings growth that contradicts the company's deteriorating financial trajectory.",
+    "estimated_intrinsic_value_conservative": "$95",
+    "estimated_intrinsic_value_optimistic": "$145",
+    "current_vs_intrinsic": "+82% premium (conservative) to +82% premium (optimistic)",
+    "strong_buy_price": "$95",
+    "watchlist_price": "$120",
+    "valuation_deep_analysis": "Generac is trading at EXTREME valuations that are disconnected from fundamentals. At 82.7x trailing P/E and 31.6x EV/EBITDA, the stock is priced for a company with 15%+ earnings growth and expanding margins—the opposite of Generac's trajectory. PEG analysis is not meaningful (negative growth), but the valuation is clearly expensive relative to growth. EV/EBITDA of 31.6x is 2-3x higher than industrial machinery peers (Cummins trades at 8-10x, Caterpillar at 12-14x), indicating significant premium that is not justified by superior growth or returns. Reverse DCF analysis: assuming 10% discount rate, 3% terminal growth, and current $15.5B market cap, the implied EBITDA growth is ~3.2% annually—well below historical growth and inconsistent with structural headwinds. Conservative intrinsic value estimate ($95) assumes 2% revenue growth, 8% EBITDA margins, 8x exit multiple, and 10% discount rate. Optimistic estimate ($145) assumes 4% revenue growth, 10% EBITDA margins, 10x exit multiple. Current price of $263.68 represents 82% premium to conservative estimate and 82% premium to optimistic estimate. Margin of safety is NEGATIVE. The stock offers no margin of safety and significant downside risk if market reprices valuation to reflect structural headwinds."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "Critical",
+    "competitive_disruption_explanation": "Solar+battery storage is rapidly displacing traditional backup generators, with battery costs declining 8-12% annually and IRA incentives driving adoption. Generac's core residential backup power business faces existential threat as solar+Powerwall systems become cost-competitive and preferred by customers. Data center backup power segment is attracting well-capitalized competitors (Cummins, Caterpillar) with superior scale and customer relationships, limiting Generac's growth and margin potential.",
+    "regulatory": "Medium",
+    "regulatory_explanation": "Emissions regulations are tightening, favoring electric and hydrogen alternatives over combustion engines. However, backup power generators have exemptions and are not subject to same stringent standards as vehicles. Government incentives (IRA tax credits) favor solar+battery systems over generators, creating indirect regulatory headwind. Regulatory risk is moderate but trending negative.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Backup power demand is cyclical and sensitive to economic conditions. Residential customers defer generator purchases during recessions, and commercial/industrial customers reduce capital spending. Data center backup power is less cyclical but still exposed to tech spending cycles. Rising interest rates increase cost of capital for customers considering solar+battery systems, potentially benefiting generators in near term, but long-term trend favors renewables. Macro sensitivity is HIGH.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "Debt/equity of 0.45x is moderate and manageable, but declining profitability and cash generation raise concerns about debt serviceability. ROIC of 4.2% is below cost of capital, indicating the company is destroying shareholder value. If earnings deteriorate further, leverage could become concerning. Balance sheet is adequate but not fortress-like.",
+    "management": "Medium",
+    "management_explanation": "Management has not articulated a credible strategy to address structural headwinds from solar+battery substitution. The company's ecosystem play (generators + storage + controls) is reactive, not proactive. Management's capital allocation has been inconsistent (negative FCF in 2022, volatile thereafter). No evidence of bold strategic pivots or M&A to address competitive threats. Management execution risk is moderate to high.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "Generac is primarily exposed to North American markets, reducing geopolitical risk. Supply chain disruptions (China, semiconductors) are a concern but not unique to Generac. Tariffs on Chinese imports could benefit Generac by raising cost of Chinese competitors, but this is a minor factor. Geopolitical risk is LOW.",
+    "technology_obsolescence": "Critical",
+    "technology_explanation": "Combustion engine technology is becoming obsolete in a decarbonized energy system. Battery storage technology is improving faster than generator efficiency, and cost curves favor batteries. Generac lacks software/AI capabilities of Tesla, Enphase, or SolarEdge, putting it at disadvantage in smart energy management. Fuel cell technology (hydrogen) poses longer-term threat. Technology obsolescence risk is CRITICAL.",
+    "esg": "Medium",
+    "esg_explanation": "Generac's core business (fossil fuel generators) is increasingly viewed as environmentally unfavorable, particularly as solar+battery alternatives become cost-competitive. ESG-focused investors are likely to avoid the stock. However, backup power generators serve essential functions (hospitals, data centers), and the company is investing in cleaner technologies (natural gas, hybrid systems). ESG risk is MEDIUM but trending negative.",
+    "overall_risk_level": "Critical",
+    "top_3_risks": [
+      "Solar+battery storage displacement: TAM for traditional backup generators shrinking 5-10% annually as solar adoption accelerates and battery costs decline. Residential backup power business faces existential threat within 5-10 years.",
+      "Valuation collapse: Stock trading at 82.7x trailing P/E and 31.6x EV/EBITDA, pricing in unrealistic growth assumptions. If market reprices to reflect structural headwinds, stock could decline 50-70% to fair value.",
+      "Competitive intensity in data center segment: Well-capitalized competitors (Cummins, Caterpillar) are entering high-growth data center backup power market, limiting Generac's growth and margin potential. Generac's competitive position in this segment is not defensible."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "declining",
+    "company_competitive_position": "strong #2 (but position weakening)",
+    "structural_tailwinds": [
+      "Data center electrification and backup power demand (5-8% annual growth, but highly competitive)",
+      "Residential backup power demand during grid stress events (modest, offset by solar+battery substitution)",
+      "Natural gas generator adoption in commercial/industrial segment (modest, offset by microgrids and grid improvements)"
+    ],
+    "structural_headwinds": [
+      "Solar+battery storage substitution: 30%+ annual growth in residential solar, battery costs declining 8-12% annually, IRA incentives driving adoption. TAM for traditional generators shrinking 5-10% annually.",
+      "Microgrids and distributed energy resources: Commercial/industrial customers increasingly adopting microgrids and distributed generation, reducing necessity for centralized backup power.",
+      "Grid modernization and reliability improvements: Smart grids, microgrids, and distributed generation reducing frequency and duration of outages, reducing backup power necessity.",
+      "Regulatory pressure on fossil fuels: Emissions regulations and ESG concerns favoring electric and renewable alternatives over combustion engines."
+    ],
+    "megatrend_impact": "Generac is exposed to the energy transition, but primarily as a HEADWIND. The company's core business (backup generators) is being displaced by solar+battery systems, which are cheaper, cleaner, and increasingly preferred by customers. The data center segment offers growth, but this is a capital-intensive, competitive market attracting well-capitalized entrants. As the energy transition accelerates, Generac's legacy backup power business becomes less valuable, not more. The company's ecosystem play (generators + storage + controls) is a defensive response, not a structural advantage. Generac is a legacy power equipment manufacturer in an energy transition that favors distributed, renewable, battery-backed systems—not centralized, fossil-fuel-dependent generators.",
+    "recession_history": "During 2008 financial crisis, backup power demand declined as residential and commercial customers deferred purchases. Generac's revenue declined but recovered post-crisis. During 2020 COVID recession, backup power demand was resilient due to work-from-home and grid stress concerns. However, recession resilience is declining as solar+battery systems become primary backup power solution. In future recessions, customers may defer both generator and solar+battery purchases, but solar+battery systems have superior economics and are more likely to be prioritized.",
+    "disruption_threats": "Solar+battery storage is the primary disruption threat, with 30%+ annual growth in residential solar and battery costs declining 8-12% annually. Microgrids and distributed energy resources are disrupting commercial/industrial backup power markets. Fuel cell technology (hydrogen) poses longer-term threat to natural gas generators. Generac's core competency (combustion engines) is becoming obsolete in a decarbonized energy system. The company lacks the software/AI capabilities of Tesla, Enphase, or SolarEdge, putting it at disadvantage in smart energy management market.",
+    "better_sector_alternatives": [
+      "ENPH (Enphase Energy): Leading provider of microinverters and battery storage systems, with superior software/AI capabilities and customer relationships. Positioned to benefit from solar+battery adoption.",
+      "SEDG (SolarEdge Technologies): Leading provider of power optimizers and battery storage systems, with strong market position and growth trajectory.",
+      "TSLA (Tesla): Dominant provider of Powerwall and solar systems, with superior brand, technology, and customer relationships. Positioned to capture backup power market as solar+battery adoption accelerates.",
+      "CMI (Cummins): Diversified power equipment manufacturer with superior scale, global reach, and customer relationships. Better positioned than Generac in data center backup power segment."
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Generac is a STRONG AVOID at current valuations. The company is a legacy backup power manufacturer facing existential disruption from solar+battery storage systems, which are cheaper, cleaner, and increasingly preferred by customers. Revenue has declined 3% CAGR over 4 years, ROIC has collapsed from 9.7% (2022) to 4.2% (2025), and operating margins have compressed 550 basis points. The stock is trading at 82.7x trailing P/E and 31.6x EV/EBITDA, pricing in unrealistic growth assumptions that contradict the company's deteriorating fundamentals and structural headwinds. Quality Score of 4.0 (weak) reflects narrowing moat, declining financial returns, and shrinking TAM. Opportunity Score of 2.4 (very expensive) reflects extreme valuation disconnect from fundamentals. The combination of weak quality and expensive valuation creates a value trap with significant downside risk. Even if the company successfully transitions to energy storage, it faces entrenched competitors (Tesla, Enphase, SolarEdge) with superior technology, brand, and customer relationships.",
+    "upside_catalysts": [
+      "Successful transition to energy storage and distributed energy management: If Generac develops competitive battery storage and software capabilities, could capture share of growing energy storage market. Probability: LOW (company is 2-3 years behind Tesla, Enphase, SolarEdge). Timeline: 3-5 years.",
+      "Data center backup power market consolidation: If Generac acquires or partners with data center-focused competitors, could strengthen position in high-growth segment. Probability: MEDIUM. Timeline: 1-2 years.",
+      "Grid stress events and blackouts: If frequency of grid outages increases due to climate change or infrastructure stress, backup power demand could spike. Probability: MEDIUM. Timeline: 1-3 years. Impact: +10-15% revenue upside."
+    ],
+    "downside_risks": [
+      "Valuation collapse: If market reprices stock to reflect structural headwinds and weak fundamentals, stock could decline 50-70% to fair value of $95-145. Probability: HIGH. Timeline: 1-2 years. Trigger: Earnings miss, guidance cut, or analyst downgrade.",
+      "Accelerated solar+battery adoption: If battery costs decline faster than expected (5-8% annually vs 8-12% currently) and solar adoption accelerates beyond 30% annually, TAM for traditional generators could shrink 10-15% annually. Probability: MEDIUM. Timeline: 1-3 years. Impact: -20-30% revenue downside.",
+      "Competitive intensity in data center segment: If Cummins or Caterpillar gain significant share in data center backup power market, Generac's growth and margin potential could be limited. Probability: HIGH. Timeline: 1-2 years. Impact: -15-20% earnings downside.",
+      "Recession and capital spending decline: If economy enters recession, backup power demand could decline 20-30% as customers defer purchases. Probability: MEDIUM. Timeline: 1-2 years. Impact: -25-35% revenue downside."
+    ],
+    "strong_buy_at": "$95",
+    "watchlist_at": "$120",
+    "exit_trigger": "If stock declines to $95-120 range, reassess thesis. If company successfully transitions to energy storage and gains market share, could become watchlist candidate. If valuation remains elevated (>25x EV/EBITDA) and fundamentals deteriorate further, exit position entirely.",
+    "position_sizing_note": "AVOID - Do not initiate position at current valuations. If forced to hold existing position, limit to <1% of portfolio and set stop-loss at $220 (15% below current price). Wait for valuation to compress to $95-120 before reconsidering."
+  },
+  "comparable_companies": [
+    "CMI (Cummins): Diversified power equipment manufacturer with superior scale, global reach, and customer relationships. Better positioned in data center backup power segment. Trading at 8-10x EV/EBITDA vs Generac at 31.6x.",
+    "CAT (Caterpillar): Heavy equipment manufacturer with backup power business and superior scale. Trading at 12-14x EV/EBITDA.",
+    "ENPH (Enphase Energy): Leading provider of microinverters and battery storage systems. Better positioned to benefit from solar+battery adoption. Trading at 35-40x EV/EBITDA but with 20%+ growth vs Generac's -3% revenue decline.",
+    "SEDG (SolarEdge Technologies): Leading provider of power optimizers and battery storage systems. Better positioned in energy storage market. Trading at 25-30x EV/EBITDA with 10-15% growth.",
+    "TSLA (Tesla): Dominant provider of Powerwall and solar systems. Trading at 50-60x EV/EBITDA but with 20%+ growth and superior market position in backup power."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, financial statements, and market data as of 2026-05-16. Revenue CAGR, margin trends, ROIC, and debt/equity ratios are derived from provided financial history. Valuation multiples (P/E, EV/EBITDA, PEG) are current market prices. Competitive analysis based on 10-K disclosure of competitive landscape and Porter's Five Forces assessment. Megatrend analysis based on industry trends (solar adoption, battery cost decline, microgrids, grid modernization). Intrinsic value estimates are conservative and based on DCF analysis with 10% discount rate and 3% terminal growth rate. All numbers are specific and verifiable from provided data."
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "GILD",
+  "company": "Gilead Sciences",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Gilead operates in highly competitive markets with large pharmaceutical and biotechnology companies competing on efficacy, safety, pricing, and market share. The company faces significant pricing pressures from private insurers and government payers as products mature, and new branded or generic products continuously threaten market position across HIV, hepatitis, oncology and other therapeutic areas."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive patent protection (key products protected through 2025-2037), substantial R&D investment requirements, regulatory approval complexity, and manufacturing infrastructure needs. However, the 10-K notes multiple generic manufacturer settlements and patent challenges, indicating barriers are not absolute and erosion occurs over time."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists as alternative treatment modalities emerge in virology and oncology. The company's competitive advantage relies on offering first-in-class therapies, greater efficacy, and improved delivery mechanisms, but therapeutic alternatives and competing drug classes present ongoing substitution risk, particularly as pipeline candidates advance."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (payers, healthcare systems, governments) exercise significant pricing power, as evidenced by the 10-K's explicit mention of 'pricing pressures from private insurers and government payers.' In the U.S., approximately 90% of gross product sales flow through three large wholesalers (Cardinal Health, Cencora, McKesson), concentrating distribution power and enabling volume-based negotiation leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists despite Gilead's efforts to mitigate risk through multiple CMOs and back-up suppliers for most products. The company relies on contract manufacturing organizations and specialized suppliers for APIs and drug products, and certain active pharmaceutical ingredients are held by third parties, creating some dependency. However, diversified sourcing reduces single-supplier vulnerability."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Gilead possesses a moderate competitive moat anchored primarily on patent protection, proprietary manufacturing capabilities, and a diversified portfolio of first-in-class and best-in-class therapies across high-barrier therapeutic areas. However, the moat is eroding as key products face patent expirations (Livdelzi 2025, Tecartus 2027, Trodelvy 2028), generic competition settlements accelerate, and buyer power intensifies pricing pressure. The company's R&D pipeline and strategic collaborations provide some renewal potential, but sustained competitive advantage depends on continuous innovation and successful pipeline advancement.",
+  "key_risks": [
+    "Patent cliff risk: Multiple key products face patent expiration 2025-2029 (Livdelzi, Tecartus, Trodelvy, Genvoya), with generic competition already settled for several products, threatening revenue sustainability",
+    "Buyer concentration and pricing pressure: 90% of U.S. sales through three wholesalers and explicit acknowledgment of government/insurer pricing pressures create margin compression risk, particularly as products mature",
+    "R&D execution risk: Pipeline advancement is critical for growth, but drug development is inherently risky with many candidates failing; delays or unfavorable trial results could significantly impact future revenue",
+    "Generic competition acceleration: Multiple patent settlements with generic manufacturers (Descovy, Vemlidy, Odefsey, Genvoya, Biktarvy) indicate accelerating loss of exclusivity and market share erosion",
+    "Supply chain dependency: Reliance on contract manufacturers and third-party suppliers for majority of APIs and drug products creates manufacturing disruption and quality control risks"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

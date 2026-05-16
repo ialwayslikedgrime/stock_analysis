@@ -1,0 +1,37 @@
+{
+  "ticker": "ED",
+  "company": "Consolidated Edison",
+  "forces": {
+    "rivalry": {
+      "score": 1,
+      "rationale": "ConEd operates as a regulated monopoly utility in New York City and Westchester County with no direct competitors in its service territory. The utility model eliminates traditional competitive rivalry through regulatory franchise agreements that grant exclusive service rights."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Barriers to entry are extremely high due to regulatory licensing requirements, massive capital infrastructure requirements, and established franchise agreements with government authorities. New entrants cannot feasibly replicate the century-old distribution network or obtain regulatory approval to operate in ConEd's service territory."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "While distributed solar, battery storage, and microgrids present emerging alternatives for some customers, they cannot fully replace grid-supplied electricity for the majority of ConEd's customer base. Regulatory frameworks and grid dependency limit substitute viability, though long-term electrification and distributed generation pose moderate threats."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Individual customers have minimal pricing power as ConEd is a regulated monopoly with rates set by the Public Service Commission. However, large commercial/industrial customers and regulatory bodies can exert pressure on rates and service terms, limiting ConEd's complete pricing freedom."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "ConEd purchases electricity and fuel from wholesale markets and suppliers, creating moderate supplier power. However, the company's scale, long-term contracts, and ability to pass through costs via regulated rates mitigate supplier leverage. Energy commodity price volatility presents ongoing exposure."
+    }
+  },
+  "moat_score": 4.2,
+  "moat_summary": "ConEd possesses an exceptionally strong competitive moat anchored by its regulated utility monopoly status, exclusive franchise rights, and massive infrastructure barriers to entry. The company's ability to earn regulated returns on invested capital and pass through costs provides stable cash flows and pricing power. However, regulatory oversight, emerging distributed energy alternatives, and commodity price exposure create moderate constraints on the moat's durability.",
+  "key_risks": [
+    "Regulatory rate pressure and unfavorable PSC decisions could constrain earnings growth and return on equity",
+    "Distributed solar, battery storage, and microgrids could reduce demand and create customer defection over time",
+    "Rising capital expenditure requirements for grid modernization and climate resilience may exceed regulatory cost recovery",
+    "Commodity price volatility for electricity and natural gas could impact margins if not fully recovered through rates",
+    "Cybersecurity threats to critical infrastructure and operational technology systems pose business continuity risks"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "ANET",
+  "company": "Arista Networks",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Arista operates in highly competitive markets dominated by established players (Cisco, Juniper, HPE, Dell/EMC, Nvidia) with significant resources and customer relationships. The 10-K explicitly states 'markets are highly competitive' with 'frequent introductions of new products' and 'industry consolidation,' indicating intense rivalry that will likely intensify as AI networking expands."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate despite high capital requirements and technical expertise needed. White-box vendors using open-source operating systems and commoditized hardware present a credible threat, and the 10-K acknowledges 'new market entrants' developing competitive products. However, brand reputation, customer relationships, and software ecosystem (EOS, CloudVision) provide some protection."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Alternative technologies pose meaningful substitution threats, particularly InfiniBand and Nvidia's NVLink for AI cluster networking, which the 10-K identifies as direct competitors. These are 'often sold as part of a vertical solution along with GPUs from Nvidia,' creating bundled alternatives that could displace Ethernet-based solutions in key AI workloads."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high, particularly given concentration risk: two customers represent 42% of revenue (26% and 16%). Large cloud and AI titans have significant negotiating leverage and can develop internal solutions or switch vendors. However, switching costs and operational complexity provide some protection for enterprise and mid-market customers."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is high, particularly regarding merchant silicon. Arista is 'primarily reliant upon Broadcom' for switching chips with no written supply guarantees or exclusive rights. The 10-K notes limited suppliers for key components, potential consolidation among suppliers, and lack of purchase obligations beyond submitted orders, creating significant supply chain vulnerability."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Arista possesses a moderate competitive moat anchored by its proprietary EOS operating system, CloudVision management platform, and strong brand reputation (industry-leading NPS). However, the moat is constrained by high supplier dependence (Broadcom), customer concentration risk, intense competition from well-capitalized rivals, and emerging substitutes in AI networking. The company's differentiation through software and open standards is valuable but increasingly replicable as competitors enhance their offerings.",
+  "key_risks": [
+    "Supplier concentration risk: Heavy reliance on Broadcom for merchant silicon with no guaranteed supply agreements or exclusive rights; potential supply disruptions or unfavorable pricing could materially impact margins and product availability",
+    "Customer concentration: Two customers represent 42% of revenue; loss of either customer or reduced spending would significantly impact financial performance and create operational volatility",
+    "Competitive displacement in AI networking: InfiniBand and NVLink alternatives bundled with Nvidia GPUs could capture significant share of high-margin AI Scale Out workloads, particularly among hyperscalers who drive industry standards",
+    "Intensifying competition from well-capitalized rivals: Cisco, Juniper (HPE-owned), and Nvidia have greater resources, broader portfolios, and existing customer relationships; strategic acquisitions by competitors (Broadcom/VMware, HPE/Juniper) could accelerate competitive threats",
+    "White-box and disaggregated networking: Open-source operating systems and commoditized hardware lower barriers to entry and create pricing pressure, particularly in price-sensitive segments"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

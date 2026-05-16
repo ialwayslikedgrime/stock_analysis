@@ -1,0 +1,39 @@
+{
+  "ticker": "SWKS",
+  "company": "Skyworks Solutions",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Skyworks operates in a highly competitive semiconductor market against well-established rivals including Analog Devices, Broadcom, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments. The 10-K explicitly states the company 'participates in highly competitive markets against numerous competitors that may be able to adapt more quickly to new or emerging technologies' and compete on innovation, time-to-market, quality, and price."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate-to-high but not insurmountable. The semiconductor industry requires substantial R&D investment (SWKS spent $785.5M in FY2025), advanced manufacturing capabilities, and extensive IP portfolios (~5,200 patents). However, the 10-K notes competitors 'may be able to devote greater resources' and adapt quickly, suggesting established players can still face threats from well-capitalized entrants or specialized competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Limited direct substitutes exist for analog and mixed-signal semiconductors in wireless connectivity applications, but alternative technologies and architectures could emerge. The rapid pace of technological change (5G, AI, IoT) creates risk that different solutions could displace current products. The company's broad portfolio across multiple protocols (cellular, Wi-Fi, Bluetooth, GPS) provides some protection against substitution in specific applications."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is HIGH, representing a significant weakness. Apple alone constitutes >10% of revenue across multiple fiscal years, and the three largest accounts represent 80-82% of accounts receivable. The 10-K acknowledges 'a small number of OEMs historically has accounted for a significant portion of our net revenue,' giving major customers substantial negotiating leverage on pricing and terms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is MODERATE. While Skyworks states it 'generally available from several sources,' the company acknowledges 'limited situations where we procure certain components and services from single or limited sources' and is 'currently dependent on a limited number of sole-source suppliers.' The hybrid manufacturing model with third-party partners provides some flexibility but creates dependencies on specialized suppliers for advanced processes."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Skyworks possesses a moderate competitive moat built on technology leadership (5,200+ patents, advanced filter and integration capabilities), deep customer relationships with major OEMs, and scale advantages in manufacturing and distribution. However, the moat is significantly weakened by extreme customer concentration (Apple >10% of revenue), intense competition from larger, better-resourced rivals, and the cyclical nature of semiconductor demand. The company's reliance on continuous innovation in a rapidly evolving market (5G, AI, automotive electrification) means competitive advantages are temporary and require sustained R&D investment.",
+  "key_risks": [
+    "Extreme customer concentration: Apple and top 3 customers represent 80-82% of receivables, creating revenue volatility and pricing pressure risk",
+    "Intense competitive rivalry: Multiple well-capitalized competitors (Broadcom, NXP, Qualcomm, Analog Devices) with greater resources and ability to adapt quickly to technological changes",
+    "Cyclical industry dynamics: Semiconductor industry is 'highly cyclical and subject to significant downturns' with seasonal demand fluctuations",
+    "Dependence on third-party manufacturing: Reliant on external partners for fabrication, assembly, and testing, limiting control over costs and supply",
+    "Rapid technological obsolescence: Products face constant risk of becoming obsolete; success depends on continuous innovation and R&D spending",
+    "Supply chain vulnerabilities: Dependent on limited/sole-source suppliers for certain components; exposed to China-related trade and geopolitical risks",
+    "Pending Qorvo merger risks: Substantial indebtedness required, integration challenges, management distraction, and potential regulatory delays or conditions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

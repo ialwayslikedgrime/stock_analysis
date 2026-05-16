@@ -1,0 +1,38 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Nvidia faces intense competition from AMD, Intel, and increasingly from cloud providers (Amazon, Google, Microsoft) developing custom chips. The 10-K explicitly states 'the market for our products is intensely competitive' with multiple well-resourced competitors offering alternative GPU, CPU, and accelerated computing solutions."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Nvidia's dominant CUDA ecosystem (7.5M developers), massive R&D investments ($76.7B cumulative), extensive patent portfolio (expiring 2026-2045), and deep software stack integration. However, the 10-K acknowledges that 'new competitors or alliances among competitors could emerge and acquire significant market share,' particularly given the strategic importance of AI infrastructure."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for Nvidia's integrated hardware-software platform in AI/HPC workloads. While CPUs and alternative architectures exist, they lack the parallel processing capabilities and software ecosystem optimization that Nvidia provides. Custom ASICs from hyperscalers represent partial substitution risk but require massive development investment."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Major cloud service providers and hyperscalers (Amazon, Google, Microsoft, Meta) represent concentrated buyer bases with significant negotiating leverage and resources to develop competing solutions. The 10-K notes these CSPs are 'all major' customers, creating dependency risk, though Nvidia's critical role in AI infrastructure limits their ability to switch entirely."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Nvidia depends heavily on TSMC and Samsung for wafer fabrication, with limited alternatives for advanced nodes, creating moderate supplier power. The 10-K indicates concentration in Asia supply chain and reliance on specialized suppliers (SK Hynix, Micron for memory; CoWoS for packaging). However, Nvidia's scale and strategic importance provide some negotiating leverage."
+    }
+  },
+  "moat_score": 4.0,
+  "moat_summary": "Nvidia possesses a formidable competitive moat anchored by its proprietary CUDA software ecosystem, which has created massive switching costs and network effects across 7.5M developers. The company's full-stack integration of hardware, software, algorithms, and services—combined with continuous architectural innovation and extensive patent protection—creates significant barriers to replication. However, the moat is moderately threatened by well-capitalized competitors (AMD, Intel, hyperscalers) and concentrated buyer power among major cloud providers, which limits pricing power despite Nvidia's technological leadership.",
+  "key_risks": [
+    "Concentrated customer base: All major cloud service providers are customers, creating revenue concentration risk and buyer leverage for pricing negotiations",
+    "Export control restrictions: U.S. government licensing requirements for China and D:5 countries resulted in $4.5B charge in FY2026 and ongoing geopolitical uncertainty affecting addressable market",
+    "Custom chip competition: Hyperscalers (Amazon, Google, Microsoft, Tesla) developing proprietary AI chips could reduce Nvidia's TAM and create substitute products",
+    "Supply chain concentration: Heavy reliance on TSMC for advanced node production and Asia-based manufacturing creates geopolitical and operational risks",
+    "Rapid technological obsolescence: Intense R&D competition and fast product cycles require continuous innovation investment; failure to maintain architectural leadership could erode market position",
+    "Competitive intensity: AMD, Intel, and emerging competitors are aggressively pursuing GPU and accelerated computing markets with potentially lower-cost alternatives"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

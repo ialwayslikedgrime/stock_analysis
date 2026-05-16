@@ -1,0 +1,38 @@
+{
+  "ticker": "FFIV",
+  "company": "F5, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "F5 faces intense competition across multiple segments from well-established, well-capitalized competitors. In application delivery, it competes against Citrix and Broadcom; in NGINX/cloud-native, against AWS and Google Cloud; and in security against Akamai, Cisco, Cloudflare, Fortinet, Juniper, Palo Alto, and others. The competitive set is fragmented but includes numerous strong players with overlapping capabilities."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate. While the market requires significant R&D investment, technical expertise, and customer relationships, cloud-native alternatives (open-source NGINX, Envoy, HAProxy) and public cloud providers' native services lower traditional barriers. The shift toward SaaS and managed services reduces switching costs and enables smaller competitors to gain traction in specific segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Credible substitutes exist across F5's portfolio. Public cloud providers (AWS, Azure, GCP) offer native load balancing, security, and networking services; open-source solutions (NGINX, Envoy, HAProxy) provide free alternatives for application delivery; and point-solution vendors offer specialized security tools. The trend toward cloud-native architectures increases substitution risk."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Large enterprise customers have moderate-to-significant bargaining power given the availability of alternative solutions and the ability to build or adopt open-source alternatives. However, F5's broad platform approach, mission-critical nature of application delivery, and switching costs provide some pricing protection. Customers increasingly demand platform consolidation and flexible consumption models, which constrains pricing power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "F5 has relatively low supplier power risk. Manufacturing is outsourced to Flex with facilities in Mexico and China, but components are largely commodity-based with multiple sourcing options. F5 maintains a diversified supply chain and proactively manages geopolitical risks. The company has established alternate supply arrangements, reducing dependency on any single supplier."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "F5 possesses a moderate competitive moat built on brand recognition, installed base, technical expertise in application delivery, and a broad integrated platform (F5 ADSP). However, the moat is eroding due to cloud-native disruption, open-source alternatives, and competition from hyperscalers offering native services. The company's shift toward SaaS and platform consolidation is strategically sound but faces execution risk and intensifying competition. Recent cybersecurity incident (October 2025) may further weaken customer trust and competitive positioning.",
+  "key_risks": [
+    "Intense competition from hyperscalers (AWS, Azure, GCP) offering native application delivery and security services at scale with integrated pricing",
+    "Cybersecurity incident disclosed October 15, 2025 involving persistent unauthorized access and data exfiltration, creating reputational and customer trust risks",
+    "Disruption from open-source and lightweight alternatives (NGINX, Envoy, HAProxy) that reduce switching costs and enable customers to avoid proprietary solutions",
+    "Customer migration to cloud-native architectures and containerized workloads where F5's traditional BIG-IP offerings are less relevant",
+    "Pricing pressure from platform consolidation expectations and shift to consumption-based models reducing per-unit revenue",
+    "Execution risk on F5 ADSP platform strategy and integration of recent acquisitions (CalypsoAI) to deliver unified value proposition"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

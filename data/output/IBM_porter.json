@@ -1,0 +1,39 @@
+{
+  "ticker": "IBM",
+  "company": "International Business Machines Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "IBM operates in highly competitive markets across all segments with hundreds of recognized competitors globally. In Software, it competes with Alphabet, Amazon, Microsoft, Oracle, and Salesforce; in Consulting with Accenture and Capgemini; in Infrastructure with Dell, HPE, and cloud providers. The 10-K explicitly states IBM is 'regularly exposed to new competitors' as it executes its hybrid cloud and AI strategy."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While IBM has significant brand equity and incumbency advantages, barriers to entry in cloud, AI, and software are moderate. The 10-K notes IBM's concern about 'failure of innovation initiatives' and inability to 'commercialize such innovations' with sufficient speed, suggesting emerging competitors can enter with disruptive technologies. Capital requirements and R&D intensity provide some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution risk exists as clients can adopt alternative cloud platforms (AWS, Azure, Google Cloud), open-source solutions, or point solutions from specialized vendors rather than IBM's integrated offerings. The 10-K acknowledges 'disruptive technologies' and 'emerging business models' that may unfavorably impact demand for IBM's products and services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large enterprise and government clients have substantial negotiating power, particularly given multiple competing vendors offering similar hybrid cloud and AI solutions. The 10-K notes government contracts may contain provisions allowing termination without cause and higher liability limits. However, mission-critical infrastructure and long-term relationships provide some pricing stability."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "IBM faces moderate supplier power constraints. The 10-K explicitly states 'certain of the company's businesses rely on a single or a limited number of suppliers, including for server processor technology for certain semiconductors.' Dependence on hyperscaler partners (AWS, Microsoft, Oracle) and open-source communities also creates supplier leverage, though IBM's scale provides some negotiating power."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "IBM possesses a moderate competitive moat anchored on brand reputation, deep enterprise incumbency, extensive R&D capabilities, and a broad ecosystem of partnerships. However, this moat is significantly eroding due to intense competition from cloud hyperscalers, specialized AI vendors, and consulting firms in rapidly evolving markets. The company's ability to maintain competitive advantage depends critically on continuous innovation and successful commercialization of emerging technologies like quantum computing and AI, which the 10-K identifies as key risks. Legacy business dependencies and slower innovation cycles relative to pure-play competitors present ongoing threats to moat sustainability.",
+  "key_risks": [
+    "Failure to innovate and commercialize hybrid cloud, AI, and quantum technologies at sufficient speed relative to competitors, potentially losing market share in high-growth segments",
+    "Intense competitive pressure from hyperscalers (AWS, Microsoft, Google), specialized vendors, and new entrants eroding pricing power and market position across all business segments",
+    "Dependence on single or limited suppliers for critical components (server processors, semiconductors) and reliance on hyperscaler and open-source partnerships creating supply chain and strategic vulnerabilities",
+    "Cybersecurity and data protection risks including AI-enabled attacks, ransomware, and potential loss of intellectual property in quantum and AI technologies, which could damage reputation and customer trust",
+    "Economic downturn reducing enterprise IT spending and client budgets, particularly impacting consulting and services revenue which represent significant portions of the business",
+    "Inability to attract and retain skilled talent in competitive markets for AI, cloud, and quantum expertise, limiting ability to execute transformation strategy",
+    "Regulatory risks from evolving global AI, data privacy, and trade regulations that could restrict market access or increase compliance costs, particularly given 60% of revenue from outside the U.S."
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

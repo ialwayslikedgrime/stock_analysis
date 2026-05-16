@@ -1,0 +1,39 @@
+{
+  "ticker": "SYY",
+  "company": "Sysco Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Sysco operates in a highly fragmented foodservice distribution market with numerous local, regional, and multi-regional competitors. The company explicitly states 'a large number of companies are engaged in the distribution of food and non-food products' and that competitors can form purchasing cooperatives to enhance competitive abilities. Despite Sysco's 17% U.S. market share, the low barriers to entry and customer willingness to use multiple suppliers create intense competitive pressure."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K explicitly states 'there are few barriers to market entry' in the foodservice distribution industry. While Sysco benefits from scale, geographic footprint, and multi-temperature warehouse networks, the capital requirements are moderate and the business model is replicable. Regional distributors can emerge and compete effectively on service and pricing without significant technological or regulatory moats."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Customers have multiple alternative channels including direct purchases from wholesale/retail outlets, club stores, cash and carry stores, grocery stores, and online retailers. The 10-K notes customers 'can choose from many broadline foodservice distributors; specialty distributors...other wholesale channels; club stores; cash and carry stores; grocery stores; and numerous online retailers.' Switching costs are explicitly described as 'very low,' enabling rapid channel switching."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "While Sysco serves 730,000 customer locations with no single customer exceeding 10% of sales (reducing concentration risk), customers retain significant negotiating power through multi-supplier purchasing, low switching costs, and alternative channels. However, the breadth of Sysco's product offerings, service reliability, and ancillary services (menu planning, food safety training, inventory control) provide some differentiation that moderates buyer power relative to pure commodity distributors."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Sysco purchases from thousands of suppliers with none individually exceeding 10% of purchases, providing significant supplier diversification and negotiating leverage. The company's scale enables centralized procurement programs and direct relationships with national brand suppliers. However, commodity price volatility (particularly for proteins, produce, and dairy) and supply chain disruptions create some supplier power, though Sysco's size mitigates this relative to smaller competitors."
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "Sysco possesses a modest competitive moat primarily based on scale, geographic footprint, and operational efficiency rather than structural advantages. The company's $81.4 billion in revenue, 730,000 customer relationships, and multi-temperature distribution network create switching costs and economies of scale that smaller competitors cannot easily replicate. However, the moat is significantly constrained by low barriers to entry, intense rivalry, abundant substitutes, and customer ability to source through alternative channels. The company's competitive position depends more on execution (service reliability, pricing, product quality) than defensible structural advantages.",
+  "key_risks": [
+    "Intense competitive rivalry from local, regional, and multi-regional distributors, plus purchasing cooperatives that can aggregate buying power and geographic reach",
+    "Low switching costs and customer propensity to use multiple suppliers simultaneously, enabling rapid loss of market share to competitors or alternative channels",
+    "Proliferation of alternative distribution channels (online retailers, club stores, direct-to-consumer, grocery stores) that bypass traditional foodservice distributors",
+    "Commodity price volatility and supply chain disruptions that compress margins and create supplier power, particularly for proteins, produce, and dairy products",
+    "Customer concentration in restaurants (60% of sales) creates exposure to economic downturns, labor cost inflation, and changing consumer dining patterns",
+    "Regulatory compliance burden (FDA, USDA, FSMA, environmental, labor) increases operational costs and creates potential for significant fines and penalties",
+    "Labor cost pressures from unionized workforce (14% unionized, 14% of union contracts up for renegotiation in fiscal 2026) and tight labor markets requiring wage increases (average $25/hour)"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

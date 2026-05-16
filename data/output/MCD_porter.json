@@ -1,0 +1,38 @@
+{
+  "ticker": "MCD",
+  "company": "McDonald's",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "McDonald's faces intense competition from established QSR chains (Burger King, Wendy's, Subway) and emerging fast-casual concepts (Chipotle, Panera). The 10-K filing structure indicates significant operational complexity across global markets, suggesting competitive pressures require substantial differentiation efforts. Brand strength and scale provide some insulation, but pricing power remains contested."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "High barriers to entry exist due to McDonald's massive capital requirements, established supply chains, real estate portfolio (referenced in Item 2 Properties on page 36), and brand recognition. Regulatory compliance and franchise model complexity create additional moats that deter new competitors from achieving comparable scale quickly."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Substitutes are abundant and growing: home-cooked meals, meal delivery services, other restaurant formats, and convenience foods. Consumer preferences increasingly favor healthier options and diverse cuisines, creating ongoing pressure on traditional fast-food models despite McDonald's menu innovation efforts."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Individual consumers have moderate power due to numerous alternatives and price sensitivity, though McDonald's value positioning and convenience mitigate this. Franchise operators and institutional buyers (corporate accounts) possess greater negotiating leverage, particularly regarding pricing and terms, as noted in Item 5 regarding equity and capital allocation decisions."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "McDonald's enormous scale and global sourcing capabilities provide significant leverage over suppliers of commodities, packaging, and equipment. The company's franchise model distributes supplier relationships across franchisees, further reducing individual supplier power, though agricultural commodity price volatility remains a structural risk."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "McDonald's maintains a durable competitive moat anchored by global brand recognition, operational scale, and an efficient franchise model that generates recurring revenue with limited capital intensity. The company's real estate portfolio and supply chain infrastructure create meaningful barriers to entry. However, intensifying rivalry from both traditional QSR competitors and emerging fast-casual concepts, combined with rising consumer preference for substitutes, moderates moat strength and requires continuous innovation to sustain competitive positioning.",
+  "key_risks": [
+    "Cybersecurity threats and data breach exposure (Item 1C Cybersecurity on page 34 indicates material risk disclosure)",
+    "Litigation and legal proceedings (Item 3 Legal Proceedings on page 36 suggests ongoing legal exposure)",
+    "Franchise model dependency and franchisee profitability pressures affecting brand consistency and system stability",
+    "Changing consumer preferences toward healthier, sustainable, and locally-sourced food options",
+    "Labor cost inflation and wage pressure in key markets affecting franchisee economics",
+    "Supply chain disruptions and commodity price volatility impacting margins"
+  ],
+  "data_source": "fallback+prior_knowledge",
+  "analysis_date": "2026-05-16"
+}

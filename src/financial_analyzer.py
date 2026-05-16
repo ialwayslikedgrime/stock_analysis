@@ -156,7 +156,7 @@ Respond ONLY with valid JSON. No markdown. No preamble. No trailing commas. Doub
       "analysis": "<4-5 sentences>",
       "key_substitute": "<most credible substitute>"
     }},
-    "buyer_power": {{
+    "buyer_power": {{ 
       "score": <1-5>,
       "trend": "<strengthening / stable / weakening>",
       "analysis": "<4-5 sentences>"

@@ -1,0 +1,37 @@
+{
+  "ticker": "MCO",
+  "company": "Moody's Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Moody's operates in a duopoly-like market with S&P Global and Fitch as primary competitors in credit ratings. However, regulatory initiatives explicitly seek to 'encourage increased competition among CRAs,' and the 10-K notes that regulations 'may result in alternatives to credit ratings,' indicating structural pressure to reduce competitive advantages and increase rivalry intensity."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive regulatory requirements (NRSRO status, SEC oversight, EU/UK registration), proprietary data and validated analytical models, and 115+ years of institutional trust in MIS. However, regulatory frameworks are evolving to lower barriers, and the 10-K explicitly states regulations 'seek to encourage increased competition among CRAs,' which moderates this advantage somewhat."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Credit ratings face meaningful substitution risk from alternative risk assessment methods and internal credit analysis. The 10-K warns that regulations 'may result in alternatives to credit ratings' and that future laws could 'affect the need for debt securities to be rated.' AI and machine learning technologies also present emerging substitution threats, though ratings remain mission-critical for regulatory compliance and capital markets functioning."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (issuers, investors, financial institutions) have limited pricing power due to regulatory mandates requiring ratings for capital adequacy and market transparency. However, regulatory pressure to make ratings 'non-discriminatory' and 'based on costs' constrains pricing flexibility. Large institutional buyers and regulators increasingly dictate terms, and MA customers face regulatory requirements that could mandate free provision of certain data."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Moody's has significant control over its primary inputs: proprietary data, analytical models, and talent. The company curates vast proprietary datasets and employs ~16,000 professionals globally. However, reliance on third-party software (including open-source components) and potential regulatory restrictions on data collection and use introduce moderate supplier dependencies and compliance risks."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Moody's possesses a substantial but eroding competitive moat built on regulatory barriers to entry (NRSRO status, international licensing), 115+ years of institutional trust, proprietary data and analytical models, and network effects in capital markets. However, the moat is under structural pressure from regulatory initiatives explicitly designed to increase competition, reduce barriers to entry, and mandate alternative rating methodologies. Regulatory constraints on pricing power, intellectual property protection challenges, and emerging technological substitutes (AI-driven credit analysis) further weaken the defensibility of its competitive position.",
+  "key_risks": [
+    "Regulatory erosion of competitive advantages: Multiple jurisdictions (US, EU, UK, China, Australia) are actively implementing regulations to increase CRA competition, lower barriers to entry, and mandate non-discriminatory pricing, directly threatening Moody's pricing power and market share",
+    "Litigation and regulatory exposure: Significant exposure to class actions, government investigations, and regulatory inquiries related to rating accuracy, private credit markets, climate risk disclosures, and AI product offerings could result in material fines, penalties, and reputational damage",
+    "Substitution and demand destruction: Regulatory initiatives may reduce demand for credit ratings entirely, and emerging alternatives (internal credit analysis, AI-driven models, regulatory-mandated free data provision) threaten the fundamental business model",
+    "Intellectual property vulnerability: Weak IP protections in foreign jurisdictions, mandatory publication of proprietary information, open-source software dependencies, and Gen AI-related IP risks could undermine competitive differentiation",
+    "Geopolitical and operational complexity: Operations across 40+ countries expose the company to China regulatory uncertainty, Russia-Ukraine conflict impacts, Brexit effects, and evolving international tax regimes (Pillar II minimum tax, OECD BEPS) that could materially increase costs"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

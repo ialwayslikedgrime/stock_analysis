@@ -1,0 +1,37 @@
+{
+  "ticker": "SNPS",
+  "company": "Synopsys",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The EDA industry is explicitly described as 'highly competitive' with multiple publicly traded competitors and vendors offering discrete solutions. Synopsys competes on technology leadership, product quality, features, pricing, and support across all fronts, indicating intense rivalry with no clear dominant position in all segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant R&D requirements, complex technology integration across the full-stack EDA suite, established customer relationships, and the need for comprehensive product portfolios. The 10-K notes customers' preference for integrated solutions and interoperability, creating switching costs that protect incumbents."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Internal development by customers represents a credible substitute threat, as the 10-K explicitly states customers 'internally develop design tools and capabilities that compete with our products.' However, the complexity and cost of building comprehensive EDA/S&A solutions limit practical substitution for most customers."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (semiconductor and systems companies) have significant negotiating power given the availability of multiple EDA vendors and the option to develop internal tools. The 10-K indicates 'no single factor drives an EDA customer's buying decision,' suggesting customers can leverage competition to negotiate better terms and pricing."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Synopsys has limited supplier dependency as a software company with primarily intellectual property-based inputs. The company controls its core technology stack and has diversified customer bases across industries, reducing reliance on any single supplier for critical inputs."
+    }
+  },
+  "moat_score": 3.4,
+  "moat_summary": "Synopsys possesses a moderate competitive moat built on high barriers to entry, comprehensive product integration, and established customer relationships with switching costs. However, this moat is partially offset by intense rivalry from multiple competitors, significant buyer power from large semiconductor customers, and the credible threat of internal tool development. The company's recent Ansys acquisition and AI-driven EDA initiatives strengthen its position, but sustained competitive pressure requires continuous innovation and investment.",
+  "key_risks": [
+    "Intense competition from established EDA vendors and emerging startups could pressure pricing and market share, particularly as customers increasingly develop internal capabilities",
+    "Customer concentration risk among large semiconductor companies (implied by design of 'mission-critical' solutions) could create significant revenue volatility if major customers reduce spending or switch vendors",
+    "Rapid technological change and the need for continuous R&D investment to maintain leadership in AI-driven EDA, cloud-based solutions, and advanced node support could strain profitability",
+    "Internal tool development by customers represents an ongoing substitution threat that could reduce addressable market and pricing power over time",
+    "Integration execution risk from the Ansys acquisition and ability to cross-sell S&A solutions to existing EDA customer base"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

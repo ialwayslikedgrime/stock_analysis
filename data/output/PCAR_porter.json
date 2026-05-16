@@ -1,0 +1,39 @@
+{
+  "ticker": "PCAR",
+  "company": "Paccar Inc",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "PACCAR operates in a highly competitive market with four principal competitors in North America (Volvo, Daimler, Navistar, Mack) and six in Europe. The company holds 29.9% of the North American Class 8 market and 13.5% of European heavy-duty market, indicating significant but not dominant market share. Competitors compete aggressively on price, quality, and service."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial capital requirements for manufacturing facilities, R&D investments for emissions compliance, established dealer networks, and brand recognition of Kenworth, Peterbilt, and DAF nameplates. Global manufacturing footprint and regulatory expertise create significant competitive moats that deter new entrants."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Limited substitutes exist for Class 6-8 commercial trucks in their primary use cases. However, emerging electric and hydrogen technologies represent potential long-term substitutes. PACCAR is actively developing battery-electric and hydrogen vehicles, mitigating this threat, though adoption rates remain uncertain."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (independent dealers and fleet operators) have moderate bargaining power. Most trucks are custom-ordered to specifications, and PACCAR is not dependent on any single customer (no customer >5% of sales). However, large fleet operators and dealers collectively can influence pricing and terms given the competitive market."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "PACCAR has significant supplier concentration risk with critical dependencies on Cummins (engines), Eaton and ZF (transmissions), and Magna (stampings). The 10-K explicitly states loss of supply from these vendors would have material adverse effects. However, long-term agreements and some vertical integration (particularly at DAF) provide mitigation. Materials comprise ~85% of truck costs, giving suppliers leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "PACCAR possesses a moderate competitive moat built on strong brand recognition (Kenworth, Peterbilt, DAF), established dealer networks across 99 countries, high barriers to entry through capital intensity and regulatory compliance requirements, and some vertical integration advantages (particularly at DAF). However, the moat is constrained by intense price competition, significant supplier dependencies, cyclical market demand, and the need for continuous R&D investment to meet evolving emissions standards and electrification trends. The company's 29.9% North American market share reflects competitive positioning but not dominance.",
+  "key_risks": [
+    "Cyclical commercial truck market demand highly sensitive to macroeconomic conditions, freight demand, and capital availability",
+    "Critical supplier dependencies on Cummins, Eaton, ZF, and Magna with potential material production disruptions if supply is interrupted",
+    "Intense price competition in highly competitive markets with four major North American competitors and six in Europe",
+    "Regulatory and technology transition risks from emissions standards (EPA, EU, California ACT) and shift to electric/hydrogen powertrains requiring substantial R&D and capital investment",
+    "Commodity and material cost inflation exposure with ~85% of truck costs tied to materials (steel, copper, aluminum, semiconductors)",
+    "Semiconductor supply chain vulnerability affecting truck and aftermarket parts production",
+    "Execution risk on electrification strategy and battery manufacturing joint venture timing given changing market adoption projections"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

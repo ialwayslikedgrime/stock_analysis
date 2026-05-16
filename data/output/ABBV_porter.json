@@ -1,0 +1,38 @@
+{
+  "ticker": "ABBV",
+  "company": "AbbVie",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AbbVie operates in highly competitive markets across immunology, oncology, neuroscience, and aesthetics with numerous research-based pharmaceutical and biotechnology competitors. The 10-K explicitly states 'The markets for AbbVie's products are highly competitive' with competitors developing IL-23 inhibitors, JAK inhibitors, BTK inhibitors, ADCs, and biosimilars that directly challenge AbbVie's portfolio."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate-to-high but not insurmountable. While R&D costs, regulatory approval timelines (clinical trials), and manufacturing complexity create obstacles, the 10-K notes that competitors have successfully developed competing products (e.g., Botox competitors). Patent protection and regulatory exclusivity provide temporary moats but eventually expire, allowing new entrants."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist across AbbVie's portfolio. The 10-K identifies competing therapeutic classes (IL-17 inhibitors vs. IL-23 inhibitors, JAK inhibitors, biosimilars, generic alternatives, and cell therapies). For chronic diseases like rheumatoid arthritis and IBD, multiple treatment modalities compete directly, reducing product differentiation."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers possess substantial pricing power. The 10-K identifies three major U.S. wholesalers (McKesson, Cardinal Health, Cencora) controlling substantially all pharmaceutical sales, with no single wholesaler exceeding 43% of revenues. Additionally, managed care providers, government agencies (Medicaid, VA, DoD), and centralized national payers systems outside the U.S. negotiate aggressively on reimbursement and pricing."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. The 10-K states AbbVie 'procures certain products and services from a limited number of suppliers and, in some cases, a single supply source' but maintains 'alternate supply relationships' to mitigate disruption risk. Manufacturing complexity and specialized biologic production capabilities create some supplier leverage, though AbbVie's scale provides negotiating power."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "AbbVie possesses a moderate competitive moat anchored primarily on patent protection, regulatory exclusivity, and brand recognition in key therapeutic areas (Humira, Skyrizi, Rinvoq). However, this moat is eroding significantly due to biosimilar competition on Humira, patent expirations (risankizumab and upadacitinib patents expiring 2033), and intense competition from alternative therapeutic classes. The company's diversified portfolio across immunology, oncology, neuroscience, and aesthetics provides some resilience, but high buyer power from consolidated wholesalers and payers, combined with active competitive threats, limits pricing power and sustainable competitive advantage.",
+  "key_risks": [
+    "Biosimilar competition on Humira and other biologic products eroding market share and pricing power globally",
+    "Patent expirations on key products (Skyrizi and Rinvoq patents expiring 2033) creating revenue cliff risks without successful pipeline advancement",
+    "Concentrated buyer power from three major U.S. wholesalers and government/managed care payers enabling aggressive price negotiations and margin compression",
+    "Intense competitive pressure from alternative therapeutic modalities (IL-17 inhibitors, JAK inhibitors, cell therapies, ADCs) reducing differentiation and market share",
+    "Regulatory and reimbursement pressures, particularly in international markets with centralized payer systems, constraining revenue growth",
+    "Single-source supplier dependencies for certain active pharmaceutical ingredients and manufacturing services creating supply chain vulnerability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

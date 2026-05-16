@@ -1,0 +1,39 @@
+{
+  "ticker": "VST",
+  "company": "Vistra Corp.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Vistra operates in highly competitive deregulated electricity markets with numerous competitors including regulated utilities, independent power producers, and other REPs. The document explicitly states competition is based on generation capacity, pricing, and transmission efficiency, with many market participants competing simultaneously in ERCOT, PJM, ISO-NE, NYISO, MISO, and CAISO."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate-to-low due to significant capital requirements for generation assets, but regulatory approval processes and existing transmission infrastructure create some friction. The document notes subsidies for renewables and battery storage attract new entrants, and technological advances enable new competitors to enter with lower-cost generation technologies."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Electricity has limited substitutes for most end-users, but distributed solar, battery storage, demand-side management, and energy efficiency programs represent growing alternatives. The document mentions customers can choose 100% wind/solar options and efficiency programs, indicating substitution pressure from renewable alternatives and conservation technologies."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Retail customers have significant power through choice in deregulated markets and ability to switch providers, while large industrial/commercial customers can negotiate long-term contracts. The document indicates Vistra serves 5 million retail customers across competitive markets where customers can select different power products and providers, reducing pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate; Vistra has diversified fuel sourcing (natural gas spot/contracts, coal from multiple suppliers, uranium contracts through 2030) but faces constraints from limited pipeline capacity and transmission infrastructure controlled by ISOs/RTOs. The company mitigates this through strategic inventory and long-term contracts, though fuel transportation and grid access remain potential bottlenecks."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Vistra's competitive moat is moderate, primarily derived from its integrated retail-generation business model that provides cost advantages and cash flow stability, plus scale advantages with 44,000 MW capacity and 5 million retail customers. However, the moat is constrained by intense competition in deregulated markets, regulatory price caps, low barriers to entry for new generation technologies, and significant buyer power in retail segments. The company's diversified fuel portfolio and established brand names (TXU Energy, Ambit Energy) provide some differentiation, but commodity-driven pricing and market-based dispatch mechanisms limit pricing power.",
+  "key_risks": [
+    "Commodity price volatility and wholesale electricity price exposure, particularly in ERCOT where prices are set by marginal cost and subject to scarcity pricing mechanisms",
+    "Regulatory and policy risk including price caps (ERCOT $2,000/MWh cap, PJM administrative price ceilings), capacity market design changes, and renewable energy subsidies that reduce thermal generation economics",
+    "Weather and renewable intermittency risk, especially in ERCOT with high wind/solar penetration creating supply volatility and potential generation scarcity during extreme weather events",
+    "Transmission and grid infrastructure constraints limiting dispatch flexibility and creating congestion-related pricing pressure across multiple ISOs/RTOs",
+    "Customer churn and retail market competition from other REPs and utility-affiliated competitors in deregulated markets, particularly in Texas where 2.6 million customers represent significant concentration risk",
+    "Nuclear fuel supply chain disruption from Russian supply constraints requiring strategic inventory management and procurement portfolio mitigation",
+    "Stranded asset risk from coal fleet decommissioning and transition to low-carbon generation, plus capital intensity of maintaining and upgrading aging generation assets"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

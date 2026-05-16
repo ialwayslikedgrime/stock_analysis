@@ -1,0 +1,37 @@
+{
+  "ticker": "PCG",
+  "company": "PG&E Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "PG&E operates as a regulated monopoly utility in Northern and Central California with no direct competitors in its service territory. The regulated cost-of-service model eliminates price-based competition, and franchise agreements with ~300 cities/counties provide exclusive service rights."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry including: regulatory monopoly status, massive capital requirements for infrastructure, CPUC and FERC licensing requirements, established franchise agreements, and the Public Utility Holding Company Act restrictions. New entrants cannot realistically compete in the bundled utility market."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While electricity and natural gas have limited direct substitutes for core utility services, distributed generation, rooftop solar, and community choice aggregators (CCAs) represent emerging alternatives that reduce customer dependence on PG&E. The 10-K explicitly mentions DA and CCA providers as competitive threats through the PCIA mechanism."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Individual customers have minimal pricing power due to the regulated monopoly structure, but collectively they have significant influence through regulatory proceedings. The CPUC, Public Advocates Office, and TURN actively represent customer interests in rate cases, and the regulatory framework caps returns and requires reasonableness reviews."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "PG&E has moderate supplier power constraints. Labor unions (IBEW, ESC, SEIU) represent 60% of workforce with collective bargaining agreements; energy suppliers have some negotiating power for power purchase agreements; and interstate pipeline operators control natural gas transportation. However, regulatory cost-recovery mechanisms mitigate some supplier leverage."
+    }
+  },
+  "moat_score": 4.4,
+  "moat_summary": "PG&E possesses an exceptionally strong competitive moat anchored by regulatory monopoly status, exclusive franchise agreements, and massive infrastructure barriers to entry. The cost-of-service ratemaking model provides revenue stability and eliminates price competition, while regulatory oversight ensures reasonable returns on capital. However, the moat is gradually eroding due to distributed generation, rooftop solar adoption, and CCA alternatives that allow customers to bypass PG&E's bundled service, creating long-term structural headwinds.",
+  "key_risks": [
+    "Regulatory risk: CPUC has broad discretion over rates, penalties up to $100,000/day, and can disallow cost recovery; wildfire liability and safety compliance costs are shareholder-funded and not recoverable through rates",
+    "Energy transition risk: Distributed generation, rooftop solar, and community choice aggregators (CCAs) reduce customer dependence on PG&E's bundled service and erode the customer base subject to PCIA cost-shifting",
+    "Catastrophic liability exposure: Wildfire-related liabilities, nuclear decommissioning obligations, environmental remediation costs (Hinkley/Topock hexavalent chromium), and potential bankruptcy-level claims from past incidents",
+    "Operational/compliance risk: Extensive regulatory requirements from CPUC, FERC, NRC, EPA, and CARB create substantial compliance costs; failure to meet safety standards could result in facility shutdowns or operational restrictions",
+    "Capital intensity and financing risk: Massive ongoing capital requirements for grid modernization, wildfire mitigation, and infrastructure replacement; dependence on regulatory approval for cost recovery and rate increases to fund operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "CMCSA",
+  "company": "Comcast",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "Comcast faces intense competition from Charter Communications, AT&T, Verizon, and regional cable operators in broadband and video services. The document structure indicates Risk Factors (Item 1A) likely detail competitive pressures, though specific details were not extracted. Prior knowledge confirms this is a highly competitive, mature industry with significant pricing pressure."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are very high due to massive capital requirements for network infrastructure, regulatory licensing, and established customer relationships. The cable/telecom industry requires billions in capex and spectrum/franchise agreements, making new competition unlikely despite technological disruption from streaming and wireless alternatives."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Streaming services (Netflix, Disney+), wireless carriers (5G home internet), and satellite providers (Starlink) increasingly substitute for traditional cable video and broadband. The document's Risk Factors section (Item 1A, page 19) likely addresses these threats, though specifics were not extracted. This represents a material long-term threat to legacy cable business models."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Consumers have significant power due to cord-cutting trends, service bundling commoditization, and easy switching between providers. Item 5 (Market for Registrant's Common Equity) suggests investor scrutiny of subscriber metrics. Residential customers can readily switch to competitors or drop services entirely, limiting pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Content suppliers (studios, networks) and equipment manufacturers hold moderate power, though Comcast's scale provides some negotiating leverage. Comcast's ownership of NBCUniversal (prior knowledge) partially mitigates content supplier power. However, dependence on semiconductor and network equipment suppliers creates some vulnerability."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Comcast possesses a moderate economic moat anchored on high infrastructure barriers to entry, established customer relationships, and scale advantages in network operations and content (via NBCUniversal). However, this moat is eroding due to substitution threats from streaming and wireless broadband, cord-cutting trends, and commoditization of core services. The company's defensibility is declining relative to historical levels, requiring continuous innovation and diversification.",
+  "key_risks": [
+    "Cord-cutting and video subscriber losses accelerating due to streaming competition",
+    "Wireless 5G home internet and satellite broadband (Starlink) disrupting broadband market share",
+    "Regulatory and antitrust scrutiny on market consolidation and content bundling practices",
+    "Debt burden and capital intensity limiting financial flexibility for technology transitions",
+    "Cybersecurity threats and data privacy risks (Item 1C referenced in document)"
+  ],
+  "data_source": "fallback+prior_knowledge",
+  "analysis_date": "2026-05-16"
+}

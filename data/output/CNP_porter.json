@@ -1,0 +1,37 @@
+{
+  "ticker": "CNP",
+  "company": "CenterPoint Energy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "CNP operates as a regulated monopoly utility in its service territories with no direct competitors for transmission/distribution services. The 10-K explicitly states 'There are no other electric transmission and distribution utilities in Houston Electric's service area' and similarly for Indiana Electric. Regulatory frameworks prevent competing utilities from entering established service territories."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory requirements. New entrants would need to obtain a Certificate of Convenience and Necessity (CCN) from state regulators (PUCT in Texas, IURC in Indiana) and municipal franchises. The capital intensity, established infrastructure, and exclusive service territory certifications make entry virtually impossible."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Distributed generation and alternative energy sources present moderate substitution risk. The 10-K notes that distributed generation 'could result in a reduction of demand for distribution services but has not been a significant factor to date.' For natural gas, competition exists from electricity and other fuel sources, particularly for commercial/industrial customers. Long-term energy transition trends pose emerging threats."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Buyers have minimal pricing power due to regulated rate structures. Rates are established through regulatory proceedings with municipalities and state commissions. For electric distribution, REPs (retail electric providers) have no long-term contracts and operate on continuous billing cycles, but cannot negotiate rates. Regulatory oversight protects utility margins."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Supplier power is moderate to high, particularly for natural gas and coal. The 10-K shows concentration risk: Sunrise LLC supplied 100% of Indiana Electric's coal purchases in 2025, and top three natural gas suppliers represent 51-52% of supply. However, long-term contracts with varying terms (months to 15 years) and diversified sourcing across multiple suppliers mitigate some risk. Regulatory pass-through mechanisms allow cost recovery."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "CenterPoint Energy possesses an exceptionally strong competitive moat anchored by regulated utility monopolies with exclusive service territories, high regulatory barriers to entry, and stable cash flows protected by cost-of-service rate regulation. The company's transmission and distribution networks in Texas, Indiana, Minnesota, and Ohio (pending sale) are protected by regulatory frameworks requiring government approval for any competitive entry. However, the moat faces emerging pressures from distributed generation, renewable energy adoption, and potential fuel substitution, particularly in natural gas distribution where alternative energy sources compete directly.",
+  "key_risks": [
+    "Regulatory risk: Changes in rate-setting methodologies, cost recovery mechanisms, or regulatory decisions could reduce profitability; ongoing rate proceedings and regulatory scrutiny in multiple jurisdictions",
+    "Energy transition risk: Distributed generation, electrification, and renewable energy adoption could reduce demand for traditional distribution services and natural gas sales, particularly as customers increasingly adopt solar and heat pumps",
+    "Supplier concentration risk: Heavy reliance on single suppliers (100% coal from Sunrise LLC; top 3 natural gas suppliers = 51-52% of supply) creates vulnerability to supply disruptions, price increases, or supplier financial distress",
+    "Divestiture execution risk: Pending sale of Ohio operations ($2.62B) and prior Louisiana/Mississippi sales create integration challenges, potential stranded costs, and execution risk on expected proceeds",
+    "Weather and demand volatility: Seasonal revenue patterns and weather-dependent demand create earnings volatility; extreme weather events could increase infrastructure costs and operational challenges"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

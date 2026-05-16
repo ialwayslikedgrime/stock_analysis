@@ -1,0 +1,38 @@
+{
+  "ticker": "IBKR",
+  "company": "Interactive Brokers",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "IBKR operates in a highly competitive brokerage industry with established rivals (Charles Schwab, Fidelity, TD Ameritrade, E*TRADE) and emerging fintech competitors. The 10-K emphasizes low-cost positioning and technological differentiation, indicating intense price competition and feature parity pressures across the industry."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate. While regulatory requirements and capital needs create some protection, the 10-K reveals that technology-driven automation has democratized brokerage services. New fintech entrants (Robinhood, Webull, etc.) have successfully entered with lower capital requirements, though IBKR's 50-year technology head start and global infrastructure provide advantages."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Substitutes are increasingly credible. Direct market access, robo-advisors, cryptocurrency exchanges, and alternative investment platforms (Coinbase, Kraken) compete for customer assets and trading activity. The 10-K's inclusion of cryptocurrencies and forecast contracts reflects IBKR's response to substitute threats."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is high. Individual and institutional customers can easily switch brokers with minimal switching costs, and the 10-K emphasizes commission-free trading and low fees as core competitive features. Customers have significant negotiating leverage, particularly large institutional clients and active traders."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. IBKR's suppliers include exchanges, clearing houses, and banks, which are largely standardized and regulated. However, the 10-K notes dependence on 170+ exchanges and market centers globally, creating some concentration risk, though no single supplier appears to have significant pricing power over IBKR."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "IBKR possesses a narrow but meaningful competitive moat centered on proprietary technology, operational automation, and cost leadership developed over nearly 50 years. The company's sophisticated order routing (IB SmartRouting), multi-asset unified platform, and global infrastructure create switching costs and differentiation. However, this moat is eroding as competitors replicate features, regulatory barriers diminish, and fintech disruption accelerates, resulting in a defensible but not fortress-like competitive position.",
+  "key_risks": [
+    "Intense price competition and margin compression from established brokers and fintech disruptors pursuing commission-free and low-cost models",
+    "Technology disruption and feature commoditization reducing differentiation as competitors replicate IBKR's platform capabilities and order routing algorithms",
+    "Regulatory changes affecting brokerage operations, particularly around market structure, payment for order flow, and cryptocurrency custody",
+    "Customer concentration risk among sophisticated/active traders who are price-sensitive and prone to switching for marginal cost savings",
+    "Dependence on global exchange connectivity and clearing infrastructure creates operational and counterparty risks",
+    "Cryptocurrency and forecast contract offerings introduce regulatory and reputational risks as these markets remain volatile and subject to increased scrutiny"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

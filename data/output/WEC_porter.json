@@ -1,0 +1,37 @@
+{
+  "ticker": "WEC",
+  "company": "WEC Energy Group",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "WEC operates primarily in regulated utility markets (Wisconsin, Illinois, Michigan, Minnesota) where competition is limited by regulatory frameworks, but faces retail choice competition in deregulated segments. The 10-K explicitly mentions 'increased competition in our electric and natural gas markets from retail choice and alternative electric suppliers, and continued industry consolidation,' indicating moderate competitive pressure in non-regulated segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to regulatory licensing requirements, massive capital requirements ($37.5B planned capex 2026-2030), established infrastructure monopolies in regulated territories, and long-term franchise agreements. The 10-K notes regulatory approval processes and transmission/distribution system constraints as significant barriers, though non-utility renewable operations face lower barriers."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes including distributed generation, rooftop solar adoption by customers, and alternative energy sources. The 10-K identifies 'continued adoption of distributed generation by customers or co-location of generation near data centers' and 'lower prices for alternative energy sources' as risks, though regulated utility services remain essential for most customers."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Residential and small commercial customers have limited pricing power due to regulated rate structures and geographic monopolies. However, large customers (data centers, manufacturers) demonstrate significant negotiating power—the 10-K notes WEC is developing 'VLC and Bespoke Resources tariffs' specifically to address unique needs of very large customers, indicating concentrated buyer leverage in this segment."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Moderate supplier power exists due to dependence on fuel suppliers, equipment manufacturers, and construction contractors. The 10-K identifies risks from 'supply chain disruptions, inflation, delays and shortages of equipment and materials' and 'availability and cost of sources of natural gas and other fossil fuels,' indicating suppliers have meaningful pricing leverage, particularly in inflationary environments."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "WEC Energy Group possesses a strong but moderately eroding competitive moat anchored by regulated utility monopolies in its core service territories, high capital requirements, and regulatory barriers to entry. The company's diversified portfolio across regulated utilities (70%+ of earnings), transmission assets (ATC), and non-utility renewables provides stability, though the moat is challenged by deregulation in certain markets, distributed generation adoption, and increasing competition from alternative suppliers. Regulatory dependency creates both protection and vulnerability, as rate decisions directly impact profitability and the company faces ongoing regulatory scrutiny on cost recovery and capital investments.",
+  "key_risks": [
+    "Regulatory risk: Rate case outcomes, cost recovery denials (e.g., $205M Illinois settlement charge in 2025), and changing rate-setting policies could materially impact earnings and capital recovery",
+    "Energy transition risk: Declining demand from coal phase-out, distributed generation adoption, and electrification initiatives could reduce traditional utility revenues; execution risk on $12.6B renewable capex plan",
+    "Large customer concentration risk: Dependency on data center growth (Microsoft 2.6 GW, Vantage 3.5 GW potential) creates project termination, cancellation, and demand uncertainty risks",
+    "Supply chain and inflation risk: Exposure to equipment shortages, tariffs, labor costs, and commodity price volatility affecting capex execution and operating margins",
+    "Stranded asset risk: Potential impairment of coal generation assets and goodwill if energy transition accelerates faster than planned or regulatory changes limit cost recovery"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

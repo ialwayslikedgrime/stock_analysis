@@ -1,0 +1,38 @@
+{
+  "ticker": "SCHW",
+  "company": "Charles Schwab Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Schwab faces intense competition from established players (wirehouses, regional broker-dealers, banks), fintech disruptors, and alternative custodians across both retail and advisor segments. The 10-K explicitly identifies competition spanning brokerage, wealth management, asset management, fintech companies, and retirement service providers, indicating a highly fragmented and competitive market."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but declining due to fintech disruption. While Schwab benefits from scale, regulatory capital requirements, and brand moat, the 10-K acknowledges competition from fintech custodians and digital platforms. Regulatory compliance and technology infrastructure remain costly, but lower than traditional banking entry barriers."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist including direct stock ownership, robo-advisors, cryptocurrency platforms, alternative investment platforms, and traditional banks offering wealth services. The 10-K notes Schwab's expansion into digital assets and alternative investments, suggesting management recognizes substitute threats and is actively competing against them."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high given the commoditization of trading commissions (now zero for equities industry-wide) and increasing price transparency. However, Schwab's diversified revenue streams (net interest revenue, asset management fees, banking services) and switching costs from integrated platforms provide some pricing power mitigation."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. Schwab has significant control over its funding sources through client deposits and banking subsidiaries, reducing dependence on external capital markets. The 10-K shows Schwab operates its own banking entities and has diversified funding through the TD Depository Institutions agreement, providing negotiating leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Schwab possesses a moderate competitive moat anchored by scale ($11.9 trillion AUM, 38.5 million accounts), brand reputation, operating efficiency, and an integrated business model spanning brokerage, banking, and asset management. However, the moat is eroding due to commission compression, fintech disruption, and commoditization of core trading services. The company's primary defensibility comes from switching costs, network effects in the RIA ecosystem, and cost advantages rather than pricing power or product differentiation.",
+  "key_risks": [
+    "Intensifying competition from fintech platforms and zero-commission brokers eroding trading revenue and market share",
+    "Interest rate sensitivity: declining rates would compress net interest revenue, a major revenue source, while rising rates could pressure client asset valuations",
+    "Regulatory capital requirements and potential changes to banking regulations (Category III to Category II migration at $700B+ assets) could constrain growth and capital deployment",
+    "Concentration risk in funding model: reliance on client cash balances and TD Bank sweep agreement creates liquidity and counterparty risks",
+    "Technology disruption and cybersecurity threats given the company's digital-first platform and large customer data repository",
+    "Market downturn risk: significant portion of revenue tied to AUM and trading activity, which decline during bear markets"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

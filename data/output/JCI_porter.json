@@ -1,0 +1,39 @@
+{
+  "ticker": "JCI",
+  "company": "Johnson Controls International plc",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "JCI operates in highly competitive markets with numerous large global competitors including Honeywell, Siemens, Schneider Electric, Carrier, Trane, and Daikin. The company explicitly states it conducts operations through individual contracts awarded on competitive basis, indicating intense price and performance competition across HVAC, security, fire detection, and controls segments."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to capital requirements, established distribution networks, and brand recognition (YORK, Metasys, Ansul, Grinnell). However, the 10-K notes competition from 'start-ups and other emerging entrants' in digital services and IoT, suggesting technology-driven disruption is possible despite traditional barriers. Fragmented service markets lower entry barriers in certain segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Building automation and HVAC systems have limited direct substitutes, but emerging alternatives include decentralized systems, alternative energy solutions, and third-party software platforms. The company's emphasis on digital transformation and OpenBlue suggests recognition that software-based solutions and IoT platforms could disrupt traditional product-centric models."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large commercial customers (data centers, hospitals, universities, airports) have significant negotiating power, particularly for large contracts. However, JCI's installed base, service lock-in through maintenance contracts, and integrated solutions create switching costs. The company's recurring revenue model (32% of sales from services) provides some pricing stability, but contract-by-contract competition limits pricing power."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "JCI faces elevated supplier power due to dependence on commodities (steel, aluminum, copper) and semiconductors, with the 10-K explicitly noting recent tariff-driven cost increases and supply chain disruptions. The company acknowledges inability to fully mitigate tariff impacts, indicating limited supplier diversification. However, scale and global sourcing provide some negotiating leverage."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Johnson Controls possesses a moderate competitive moat built on brand recognition, an extensive installed base, integrated product-service ecosystems, and a global direct sales and service network. The company's diversified portfolio across HVAC, security, fire, and controls creates switching costs and cross-selling opportunities. However, the moat is eroding due to intense competition from well-capitalized rivals, emerging digital entrants, commodity input cost pressures, and customer consolidation. The shift toward software and digital solutions (OpenBlue) represents both an opportunity to strengthen the moat and a vulnerability to disruption from pure-play tech competitors.",
+  "key_risks": [
+    "Intense competitive rivalry from large global players (Honeywell, Siemens, Carrier, Trane) competing on price, technology, and service capabilities",
+    "Tariff and reciprocal tariff exposure impacting raw material costs (steel, aluminum, semiconductors) with limited ability to pass through increases",
+    "Digital disruption and competition from start-ups and emerging entrants in software, IoT, and smart building solutions outside traditional building controls",
+    "Customer concentration risk in high-value segments (data centers, hospitals) where large buyers have significant negotiating leverage",
+    "Regulatory and environmental compliance costs related to refrigerants (PFAS, GWP), energy efficiency standards, and fire safety codes requiring ongoing capital investment",
+    "Supply chain vulnerability to semiconductors and electronic components critical to product manufacturing and digital platform capabilities",
+    "Execution risk on digital transformation and OpenBlue monetization as company transitions from product-centric to software-enabled services model"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

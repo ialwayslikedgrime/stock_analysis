@@ -1,0 +1,38 @@
+{
+  "ticker": "FSLR",
+  "company": "First Solar",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Intense competition from crystalline silicon manufacturers, primarily Chinese-linked competitors with lower costs. Pricing competition is severe with module average selling prices declining globally, though U.S. pricing remains stable due to domestic content incentives and tariffs. Competitors may have access to sovereign capital enabling sustained low-margin operations."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers exist due to significant R&D investment ($2B+ over 20 years), proprietary manufacturing processes, and distributed global manufacturing footprint requiring substantial capital. However, government incentives (IRA/OBBBA) and growing market demand could attract new entrants with sufficient capital and technical expertise."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes for solar PV modules in renewable energy generation. Alternative energy sources (wind, hydro, nuclear) exist but serve different applications and geographies. Energy storage advancement complements rather than substitutes solar, and solar's LCOE advantage over traditional generation is strengthening."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (utilities, IPPs, corporate energy buyers) have significant negotiating power given the commoditized nature of solar modules and multiple supplier options. Two customers (Silicon Ranch, NextEra) represent 20%+ of sales, indicating customer concentration risk. Long-term PPAs provide some price certainty but buyers can switch suppliers based on price and terms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power due to ~30 raw material types with some single-sourced or limited-supplier components. Company mitigates this through localized sourcing near manufacturing facilities and continuous supplier qualification. CdTe and specialized materials may have limited alternative sources, but integrated manufacturing reduces dependency on complex supply chains versus crystalline silicon competitors."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "First Solar possesses a moderate competitive moat built on proprietary CdTe thin-film technology with demonstrated performance advantages (superior temperature coefficient, spectral response, partial shading tolerance), vertically integrated manufacturing with continuous-flow automation, and significant R&D capabilities. The company's U.S. manufacturing footprint and supply chain independence from China provide strategic advantages in domestic markets benefiting from IRA incentives. However, the moat is partially offset by intense price competition, customer concentration, and the commoditized nature of solar modules where pricing per watt remains the primary competitive lever.",
+  "key_risks": [
+    "Government incentive policy risk: Dependence on IRA/OBBBA tax credits and renewable energy policies; OBBBA amendments introduced foreign-entity limitations and accelerated termination timelines for utility-scale solar credits (construction deadline early July 2026)",
+    "Intense price competition and margin pressure: Global module pricing near or below manufacturing costs in many markets; competitors with sovereign capital can sustain low-margin operations; U.S. pricing stability may not persist",
+    "Customer concentration and contract termination risk: Two customers represent 20%+ of 2025 sales; customers can terminate contracts in part or full; loss of major customers would significantly reduce net sales",
+    "Supply chain vulnerability: Several key raw materials single-sourced or limited suppliers; CdTe and specialized semiconductor materials may have constrained availability; manufacturing expansion dependent on timely material sourcing",
+    "Technology obsolescence risk: Rapid R&D investment required to maintain competitive differentiation; perovskite and tandem technologies under development by competitors could disrupt current CdTe advantages; failure to advance technology could render modules uncompetitive",
+    "Geopolitical and trade policy uncertainty: Tariffs on imported modules support U.S. pricing but could be reversed; international manufacturing facilities in Malaysia, Vietnam, India face tariff and trade policy risks; forced labor allegations in solar supply chain create reputational and regulatory risks"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

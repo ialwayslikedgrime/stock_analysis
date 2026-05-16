@@ -1,0 +1,37 @@
+{
+  "ticker": "WFC",
+  "company": "Wells Fargo",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The financial services industry is highly competitive with numerous traditional competitors (banks, credit unions, investment banks) and increasingly aggressive non-bank competitors (fintech, private equity, tech companies). Wells Fargo's fourth-largest position by assets provides some scale advantage, but competitive intensity remains high with undifferentiated products and price-based competition."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High regulatory barriers (BHC Act, capital requirements, licensing) protect incumbent banks like Wells Fargo from traditional bank entry. However, fintech and non-depository institutions face fewer constraints and can offer targeted financial services without full banking licenses, creating a partial moat that is eroding over time."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Digital assets, cryptocurrencies, alternative payment methods, and distributed ledger technologies pose emerging threats to traditional banking intermediation. The 10-K explicitly acknowledges these could 'reduce reliance on traditional depository institutions' and 'lead to changes in how financial services are accessed.' Traditional banking services face increasing substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Retail and commercial customers have significant switching power due to commoditized products (checking accounts, loans, investment services) and low switching costs in a digital environment. Large institutional clients have substantial negotiating leverage. However, relationship banking and integrated solutions provide some stickiness that moderates buyer power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Wells Fargo has limited supplier power concerns as a financial intermediary; its primary 'suppliers' are depositors (who are also customers) and capital markets. The company has significant bargaining power with technology vendors and service providers. Regulatory agencies represent a unique constraint but are not traditional suppliers. [INFERRED: Based on banking industry structure]"
+    }
+  },
+  "moat_score": 2.6,
+  "moat_summary": "Wells Fargo possesses a moderate but deteriorating competitive moat anchored primarily on regulatory barriers to entry, scale advantages ($2.1 trillion in assets), and established customer relationships. However, this moat is significantly weakened by intense competition from both traditional rivals and disruptive fintech/non-bank competitors, commoditized product offerings, high buyer power, and emerging technological substitutes. Regulatory constraints and ongoing compliance burdens (consent orders, enhanced supervision) further limit strategic flexibility and increase relative costs compared to less-regulated competitors.",
+  "key_risks": [
+    "Regulatory burden and compliance costs: Subject to extensive regulation (FRB, OCC, CFPB, SEC) with active consent orders and formal agreements that restrict growth, require operational changes, and increase compliance expenses relative to less-regulated competitors.",
+    "Technological disruption and fintech competition: Digital assets, cryptocurrencies, alternative payment systems, and fintech platforms are reducing reliance on traditional banking intermediaries and enabling non-depository institutions to offer banking services with lower cost structures and fewer regulatory constraints.",
+    "Commoditization and margin compression: Core banking products (deposits, loans, payments) are increasingly commoditized with intense price competition from traditional banks and non-bank competitors, limiting pricing power and compressing net interest margins.",
+    "Reputational and operational risks: History of compliance failures (referenced consent orders) and ongoing regulatory scrutiny create execution risk and potential for future enforcement actions that could further restrict business activities.",
+    "Deposit flight and funding risk: Rising competition for deposits from money market funds, Treasury securities, and alternative investments, combined with digital banking enabling rapid customer switching, creates funding stability risks."
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

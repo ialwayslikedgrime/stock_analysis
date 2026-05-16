@@ -1,0 +1,37 @@
+{
+  "ticker": "SBAC",
+  "company": "SBA Communications",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "SBAC faces intense competition from large independent tower operators (American Tower, Crown Castle), regional competitors, and wireless carriers' own tower networks. The domestic site leasing market is highly consolidated with multiple well-capitalized competitors, though SBAC's scale and portfolio provide some differentiation through tower capacity and geographic density."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for tower acquisition/construction, long-term customer contracts, regulatory complexity (FCC/FAA approvals, environmental compliance), and the need for established relationships with wireless carriers. However, alternative infrastructure (rooftops, DAS, utility poles) present lower-barrier entry points for partial substitution."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple alternatives to traditional towers exist including rooftops, distributed antenna systems (DAS), billboards, utility poles, and electric transmission towers. The 10-K explicitly identifies these as competitive threats, and emerging technologies like edge computing and satellite ground stations represent evolving substitutes that could fragment demand."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Three customers (T-Mobile 31.1%, AT&T 20.3%, Verizon 15.1%) represent 66.5% of revenues, creating significant concentration risk and pricing leverage for buyers. While long-term contracts provide some stability, the oligopolistic structure of wireless carriers and their ability to build/own alternative infrastructure gives them substantial negotiating power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "SBAC's primary suppliers are landowners for ground leases and property interests. The company has mitigated this through acquiring perpetual easements and long-term leases (71% of towers on owned/controlled land for 20+ years), reducing supplier leverage. However, remaining ground lease obligations and renewal risks create some vulnerability, particularly in international markets with currency and political risks."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "SBAC possesses a moderate competitive moat built on scale, long-term customer contracts, and control of strategic real estate (71% of towers on owned/controlled land). The company's extensive tower portfolio, established relationships with major carriers, and operational expertise create switching costs and network effects. However, the moat is constrained by high buyer concentration (Big 3 carriers represent 66.5% of revenue), intense rivalry from well-capitalized competitors, and credible substitutes in alternative infrastructure, limiting pricing power and growth optionality.",
+  "key_risks": [
+    "Customer concentration risk: Top 3 customers represent 66.5% of revenues, creating vulnerability to pricing pressure, contract non-renewal, or carrier consolidation",
+    "Substitution threat: Alternative infrastructure (DAS, rooftops, utility poles, satellite) and emerging technologies (edge computing, private networks) could fragment demand and reduce tower utilization",
+    "International exposure and currency risk: 27.4% of site leasing revenue from international markets with exposure to local currency fluctuations, political instability, and regulatory changes (evidenced by exits from Philippines, Colombia, and Canada)",
+    "Ground lease renewal risk: 14.5% of towers have ground leases maturing within 10 years; renewal at higher rates could compress margins despite long-term control strategy",
+    "Regulatory and compliance burden: Complex FCC/FAA regulations, environmental compliance requirements, and local zoning restrictions create operational complexity and potential liability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

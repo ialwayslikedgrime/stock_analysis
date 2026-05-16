@@ -1,0 +1,40 @@
+{
+  "ticker": "PTC",
+  "company": "PTC Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "PTC faces intense competition from large, well-established companies (Autodesk, Dassault Systèmes, Siemens) and emerging startups across PLM, CAD, ALM, and SLM markets. Competitors have greater name recognition and financial resources, creating significant competitive pressure and pricing pressure in rapidly evolving markets."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While PTC has some IP protections (patents, copyrights, trademarks), the 10-K explicitly states 'increasingly lower barriers to entry' in their markets. Cloud-native SaaS solutions have reduced traditional switching costs, and the growing emphasis on AI-driven solutions creates opportunities for new entrants with specialized capabilities."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitute solutions exist across PTC's product categories: point solutions for specific functions, open-source alternatives, and emerging AI-driven tools. The 10-K acknowledges customer demand for SaaS solutions and concerns about adoption rates, indicating viable alternatives to traditional PLM/CAD offerings."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "PTC serves large manufacturers and enterprises with significant purchasing power and multiple vendor options. However, the subscription model (95% recurring revenue) and multi-product adoption create switching costs and lock-in effects. Large customers can negotiate terms, but mid-market customers have less leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "PTC depends heavily on third-party cloud infrastructure providers (AWS, Azure, etc.) and strategic technology partners for product development and delivery. While multiple cloud providers exist, switching costs are material. The 10-K identifies partner failures and relationship terminations as material risks, indicating moderate supplier concentration."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "PTC possesses a moderate competitive moat based on established brand recognition, proprietary IP (patents, trade secrets), switching costs from multi-product adoption, and a large installed customer base (30,000+ customers). However, the moat is weakening due to intensifying competition from larger rivals, lower barriers to entry in cloud-based solutions, viable substitutes, and the company's acknowledged need to transform its SaaS offerings. The subscription model provides revenue predictability but does not create durable competitive advantage in rapidly evolving markets.",
+  "key_risks": [
+    "Intense competition from larger, better-resourced competitors (Autodesk, Dassault Systèmes, Siemens) with greater market recognition and financial resources",
+    "Failure to successfully transition to cloud-native SaaS solutions and compete effectively in cloud markets where barriers to entry are lower",
+    "Cybersecurity breaches affecting proprietary data, customer data, or cloud infrastructure, with potential for material business disruption and reputational harm",
+    "Dependence on third-party cloud service providers and strategic partners; service interruptions or relationship terminations could disrupt operations",
+    "Macroeconomic headwinds in discrete manufacturing sector (tariffs, supply chain disruptions, high interest rates) reducing customer spending on software solutions",
+    "Inability to attract and retain highly skilled employees in competitive talent market, impacting product development and sales capabilities",
+    "Regulatory compliance risks from evolving sustainability disclosure requirements (CSRD, CSDDD, California regulations) increasing operational costs",
+    "Risks from AI integration into products including inaccurate results, regulatory liability, and competitive disadvantage if competitors integrate AI more effectively"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

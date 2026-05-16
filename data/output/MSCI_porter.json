@@ -1,0 +1,37 @@
+{
+  "ticker": "MSCI",
+  "company": "MSCI Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "MSCI faces significant competition from well-established rivals including S&P Dow Jones Indices, FTSE Russell, Nasdaq, and Bloomberg in indexes. Additionally, asset managers and investment banks create proprietary indexes and compete directly, fragmenting the market across multiple segments (Index, Analytics, Sustainability)."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to MSCI's extensive proprietary databases, established client relationships across 6,800+ clients in 100+ countries, sophisticated technology infrastructure, and deep research capabilities. However, technology companies and data providers with sufficient capital could potentially enter specific segments, particularly in emerging areas like climate data."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists as clients could develop internal analytics capabilities, use alternative data providers, or leverage open-source tools for certain functions. However, MSCI's integrated multi-asset class solutions and proprietary research create switching costs that limit substitute viability for comprehensive portfolio management needs."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high, particularly given BlackRock represents 10.8% of revenues, creating concentration risk. Large asset managers have negotiating leverage and could threaten to develop internal solutions or switch providers. However, MSCI's recurring subscription model and integrated solutions across asset classes reduce individual client switching ability."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is low as MSCI primarily relies on data collection, research talent, and cloud infrastructure providers. While cloud providers (AWS, Azure, Google Cloud) have some leverage, MSCI can diversify across multiple providers. Data sources are largely public market information and proprietary research, limiting supplier dependency."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "MSCI possesses a strong but not impregnable competitive moat built on proprietary research-enhanced content, extensive global databases spanning 9,000+ entities, established client relationships with 6,800+ clients, and integrated technology platforms that create switching costs. The company's recurring revenue model (57% of Index segment from subscriptions) and scale advantages in data collection and analytics provide defensibility. However, concentration risk from large clients like BlackRock and competition from well-capitalized rivals in specific segments (indexes, analytics) prevent a higher moat rating.",
+  "key_risks": [
+    "Client concentration risk: BlackRock represents 10.8% of revenues with 96.5% derived from ETF asset-based fees, creating vulnerability to market downturns and potential client diversification",
+    "Competitive pressure from established rivals: S&P Dow Jones, FTSE Russell, Nasdaq, and Bloomberg compete directly in indexes and analytics, with some offering integrated solutions",
+    "Asset-based fee volatility: 43.1% of Index segment revenues depend on AUM and trading volumes, creating earnings volatility during market downturns",
+    "Technology disruption and AI commoditization: Rapid advancement in AI and machine learning could enable competitors or new entrants to replicate analytics capabilities at lower cost",
+    "Regulatory and ESG sentiment risk: Sustainability and Climate segment (11.3% of revenues) faces regulatory uncertainty and potential backlash against ESG investing, impacting growth trajectory"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

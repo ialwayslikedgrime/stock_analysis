@@ -1,0 +1,38 @@
+{
+  "ticker": "ETR",
+  "company": "Entergy",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Entergy operates in regulated utility markets with limited direct competition within its service territories (Arkansas, Louisiana, Mississippi, Texas). However, competitive pressures exist from wholesale markets (MISO participation), alternative energy providers, and potential future deregulation. The regulated nature provides some insulation but does not eliminate competitive dynamics."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry due to regulatory licensing requirements, massive capital requirements ($25,000 MW capacity), established transmission/distribution infrastructure, and state-granted service territories. The 10-K emphasizes regulatory approval processes and NRC licensing for nuclear operations, making market entry prohibitively difficult for new competitors."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including distributed solar, battery storage, demand response programs, and energy efficiency solutions. The 10-K explicitly mentions climate transition risks and renewable energy requirements. Industrial customers (42.9% of sales volume) have greater ability to pursue alternatives or self-generation, reducing pricing power."
+    },
+    "buyer_power": {
+      "score": 1,
+      "rationale": "Buyers have substantial power due to regulatory rate-setting mechanisms that cap increases (e.g., 4% annual caps in Arkansas and Mississippi) and require regulatory approval for rate changes. Residential and commercial customers cannot easily switch providers within service territories, but regulatory bodies act as powerful intermediaries protecting consumer interests and limiting pricing flexibility."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists for fuel (uranium, natural gas) and equipment procurement. The 10-K identifies risks from commodity price increases and supply chain disruptions. However, fuel cost recovery mechanisms allow pass-through to customers, and diversified generation portfolio (nuclear, hydro, solar, gas) reduces dependency on single suppliers. Capital equipment suppliers have some leverage given specialized infrastructure needs."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Entergy possesses a strong but regulated competitive moat anchored by high barriers to entry, established infrastructure, and geographic service territory monopolies. However, the moat is constrained by regulatory rate caps, buyer power through regulatory bodies, and increasing substitution threats from renewable energy and distributed generation. The company's regulated utility model provides stable cash flows and predictable returns but limits pricing power and growth potential, creating a defensive rather than offensive competitive position.",
+  "key_risks": [
+    "Regulatory risk: Rate case delays, disallowances, and unfavorable regulatory decisions could materially impact financial results and capital recovery",
+    "Energy transition risk: Increasing renewable energy mandates, distributed solar adoption, and demand response programs reduce electricity sales volumes and pricing power",
+    "Nuclear operational risk: Capacity factor variability, extended outages, decommissioning cost overruns, and NRC regulatory changes threaten profitability of nuclear fleet",
+    "Weather and climate risk: Increased hurricane frequency, severe weather impacts, and storm restoration cost recovery delays create operational and financial volatility",
+    "Capital market access risk: Credit rating downgrades or capital market disruptions could increase cost of capital and constrain growth investments",
+    "Commodity price risk: Significant increases in fuel, materials, and O&M costs may not be fully recoverable through rate mechanisms"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

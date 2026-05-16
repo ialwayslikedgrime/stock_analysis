@@ -1,0 +1,37 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AMD faces intense competition from Intel in CPUs and NVIDIA in GPUs/AI accelerators, both well-capitalized competitors with significant market share. The semiconductor industry is characterized by rapid innovation cycles, high R&D spending, and aggressive product launches, creating continuous competitive pressure across all three segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive capital requirements for chip design and manufacturing, extensive IP portfolios, established customer relationships, and complex software ecosystems (ROCm, Vivado, Vitis). However, fabless design is more accessible than integrated manufacturing, and emerging competitors in AI accelerators present some threat."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Limited direct substitutes for AMD's core products, though alternative architectures (ARM, RISC-V) and custom silicon solutions (Google TPUs, Tesla Dojo) pose emerging threats in specific segments. Cloud-based computing and heterogeneous computing approaches could reduce demand for traditional CPUs/GPUs in some applications."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large hyperscale customers (AWS, Microsoft, Google, OpenAI) and major OEMs (Dell, HP, Lenovo) have significant negotiating leverage due to their volume purchases and ability to develop custom solutions. The 10-K explicitly notes that 'a small number of customers will continue to account for a substantial part of AMD's revenue,' concentrating buyer power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "AMD relies on TSMC for manufacturing (inferred from industry knowledge), creating dependency on a single foundry partner with limited alternatives at leading-edge nodes. However, AMD's fabless model provides some flexibility, and multiple suppliers exist for packaging, testing, and software components, moderating overall supplier power."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "AMD possesses a moderate competitive moat built on strong IP portfolios, advanced chip architectures (Zen, CDNA, RDNA), comprehensive software ecosystems (ROCm, Vivado), and deep customer relationships. However, this moat is under pressure from intense rivalry with NVIDIA and Intel, concentrated buyer power from hyperscale customers, and the capital-intensive nature of semiconductor competition. The company's recent strategic acquisitions (ZT Systems, software capabilities) and full-stack AI positioning strengthen the moat but require sustained execution.",
+  "key_risks": [
+    "Intense competition from NVIDIA in AI accelerators and from Intel in CPUs could erode market share and pricing power, particularly as NVIDIA's software ecosystem (CUDA) remains entrenched",
+    "Concentrated customer base creates revenue volatility and negotiating leverage risk; hyperscale customers could demand custom solutions or shift to competitors",
+    "Dependency on TSMC for manufacturing creates supply chain vulnerability and limits control over production capacity, costs, and technology roadmap timing",
+    "Rapid technological change in AI and computing architectures could render current product portfolios obsolete if AMD fails to innovate or if alternative architectures (ARM, custom silicon) gain adoption",
+    "Geopolitical risks including export controls on advanced chips to China and potential supply chain disruptions could impact revenue and operations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

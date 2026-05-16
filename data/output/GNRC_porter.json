@@ -1,0 +1,37 @@
+{
+  "ticker": "GNRC",
+  "company": "Generac",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "Generac holds a leading market position in North American backup power with one of the broadest product portfolios, but faces established competitors like Kohler, Cummins, and Caterpillar in various segments. The market is fragmented across residential, C&I, and industrial applications, with competition intensifying in emerging segments like energy storage and data center backup power where new entrants are entering."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to capital requirements, manufacturing expertise, and established distribution networks that Generac has built over 65+ years. However, the rapidly growing data center and energy storage markets are attracting well-capitalized tech and energy companies (Tesla, Bloom Energy, etc.), and lower barriers in portable generator segments allow smaller competitors. Brand recognition and dealer relationships provide some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple credible substitutes exist and are growing: grid-tied solar with battery storage, microgrids, fuel cells, and improved utility infrastructure reduce reliance on backup generators. The 10-K acknowledges solar/storage as alternatives and notes that rising electricity prices make these substitutes more economically attractive, particularly as government incentives phase out and technology costs decline."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Residential buyers have moderate power due to product commoditization in portable generators and increasing substitute options, though brand loyalty and switching costs provide some protection. Large C&I and data center customers have significant negotiating power given the mission-critical nature of their applications and ability to source from multiple suppliers or pursue alternative solutions. Telecom and data center customers represent concentrated, high-value segments with leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Generac relies on suppliers for engines, components, and raw materials in a consolidated supply chain; the 10-K does not detail supplier concentration but manufacturing-intensive operations typically face moderate supplier power. Supply chain disruptions (noted as a risk in energy sector) and commodity price volatility (steel, aluminum, semiconductors) can pressure margins. However, Generac's scale and vertical integration in some areas (engines, controls) provide some mitigation."
+    }
+  },
+  "moat_score": 3.4,
+  "moat_summary": "Generac possesses a moderate competitive moat built on brand recognition, extensive distribution networks, product breadth, and 65+ years of engineering expertise in backup power. The company's ecosystem approach (integrating generators, storage, controls, and monitoring) and leading position in natural gas generators create switching costs and differentiation. However, the moat is being challenged by substitute technologies (solar+storage), new entrants in high-growth segments (data centers, energy storage), and the commoditization of certain product categories, limiting the durability of competitive advantages.",
+  "key_risks": [
+    "Substitution risk from solar+battery storage and microgrids as technology costs decline and grid alternatives improve, particularly as government incentives phase out per the One Big Beautiful Bill Act",
+    "Competitive intensity in high-growth data center backup power market where supply constraints are attracting well-capitalized competitors (Cummins, Caterpillar, new entrants) and customers have significant negotiating power",
+    "Supply chain and commodity price volatility affecting manufacturing costs and margins, with limited pricing power in commoditized segments like portable generators",
+    "Execution risk on ecosystem integration strategy and software/connectivity capabilities where Generac has less historical expertise compared to traditional power generation",
+    "Regulatory and policy risk including grid modernization reducing backup power demand, emissions regulations favoring alternatives, and phasing of tax incentives impacting solar/storage adoption rates"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

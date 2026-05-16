@@ -1,0 +1,38 @@
+{
+  "ticker": "CBOE",
+  "company": "Cboe Global Markets",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Cboe faces intense competition across all business segments. In options, it competes with 14 other U.S. options exchanges with 2 more entering in H1 2026; in equities, it faces 13 other exchanges plus 25+ ATSs and single-dealer platforms. Most multi-listed products trade on competing venues with aggressive fee competition eroding net revenue per contract."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate despite regulatory requirements. The 10-K explicitly notes that existing exchange holding companies are opening new exchanges with different market models on existing technology, and two new options exchanges are entering in H1 2026. Technology commoditization and regulatory frameworks enable new competitors to launch relatively quickly."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist, particularly for proprietary products. SPX options compete with SPY options and cash-settled index options; OTC derivatives compete with exchange-traded products; and event prediction markets offer similar market exposure. The shift toward electronification and alternative venues (ATSs, broker internalization) also represents substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have substantial pricing power due to multi-venue optionality and commoditized execution. Customers can route orders across 14+ competing options exchanges and 13+ equities exchanges, forcing Cboe to compete aggressively on fees and rebates. Large institutional customers and trading firms can negotiate terms and threaten to shift volume to competitors."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. Cboe controls proprietary index licenses (S&P through 2033, FTSE Russell agreements) and owns its trading technology platform (Cboe Titanium) in-house, reducing dependency on external suppliers. However, reliance on index providers for certain products and regulatory/clearing infrastructure creates some constraints."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Cboe possesses a narrow moat based primarily on proprietary products (SPX options, VIX futures/options), exclusive index licenses through 2033, and established market infrastructure with significant liquidity in flagship products. However, this moat is substantially eroded by intense competition in multi-listed options and equities, aggressive new market entrants, buyer optionality across venues, and the commoditization of execution services. The company's strategic portfolio rationalization (divesting Japan, Australia, Canada operations; winding down CEDX) suggests management recognizes competitive pressures and limited returns in non-core segments.",
+  "key_risks": [
+    "Intense competitive rivalry with 14 existing and 2 incoming options exchanges, plus 13+ equities exchanges and 25+ ATSs, driving margin compression on multi-listed products",
+    "Substitution risk from OTC derivatives, alternative trading venues, broker internalization, and event prediction markets that replicate exposure of proprietary products",
+    "High buyer power from institutional customers with multi-venue execution optionality enabling aggressive fee negotiation and volume migration threats",
+    "Technology commoditization enabling rapid new exchange entry with differentiated market models on existing platforms",
+    "Dependence on proprietary products (SPX, VIX) for profitability, creating concentration risk if trading patterns shift or competitors develop substitutes",
+    "Regulatory and geopolitical risks affecting international operations (Europe, Asia Pacific) with ongoing strategic divestitures indicating underperformance"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

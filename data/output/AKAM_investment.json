@@ -1,0 +1,182 @@
+{
+  "ticker": "AKAM",
+  "company": "Akamai Technologies",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "scores": {
+    "structural_score": 5.5,
+    "moat_score": 4.2,
+    "financial_score": 5.8,
+    "valuation_score": 3.2,
+    "quality_score": 5.1,
+    "opportunity_score": 4.0,
+    "combined_score": 4.7
+  },
+  "archetype": "COMMODITY CYCLICAL",
+  "archetype_reasoning": "Akamai operates in a commoditizing CDN/edge infrastructure market with eroding competitive advantages as hyperscalers (AWS, Azure, Google Cloud) expand aggressively into edge computing and security. The company's 4,300 PoPs and 1,200 network partners represent sunk capital but declining differentiation. Financial deterioration (ROIC declining from 7.9% to 5.0%, gross margins compressing 280bps over 4 years, FCF% volatile) combined with weak moat scores (3.2/5 from Porter analysis) and intense rivalry (2/5) indicate structural commoditization rather than durable competitive advantage.",
+  "verdict": "avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 5.5,
+    "megatrend_exposure_score": 6.2,
+    "megatrend_type": "secondary beneficiary",
+    "megatrends_exposed_to": [
+      "AI infrastructure and edge inference",
+      "Digital infrastructure consolidation",
+      "Zero-trust security adoption",
+      "Cloud-native architecture migration"
+    ],
+    "megatrend_analysis": "Akamai benefits secondarily from AI infrastructure megatrend through edge inference capabilities (Fermyon acquisition, 2024) and security consolidation (Noname Security, Guardicore acquisitions). However, the company is NOT a primary beneficiary—hyperscalers control the core AI training/inference infrastructure and are rapidly building edge capabilities in-house. Akamai's position in the value chain is increasingly as a specialized contractor rather than essential infrastructure. As enterprises consolidate vendors around hyperscaler ecosystems (AWS Wavelength, Azure Edge Zones, Google Distributed Cloud), Akamai's standalone edge network becomes less critical. The company's TAM is expanding in absolute terms but contracting in relative share as hyperscalers commoditize edge services.",
+    "necessity_score": 6.1,
+    "necessity_analysis": "Akamai's services are operationally necessary for content delivery and DDoS mitigation but increasingly substitutable. Enterprise customers can migrate to AWS CloudFront (integrated with EC2/Lambda), Azure CDN (integrated with Azure services), or Cloudflare (lower cost, simpler UX). The 10-K explicitly acknowledges 'intense competition from hyperscalers with superior capital resources.' Recession behavior: CDN/security spending is moderately resilient (not discretionary) but subject to consolidation pressure during downturns. Demand elasticity is moderate-to-high as customers optimize vendor counts and negotiate aggressively.",
+    "moat_trajectory_score": 3.8,
+    "moat_trajectory_analysis": "Akamai's moat is NARROWING, not widening. The 4,300 PoPs and 1,200 network partnerships were defensible 10 years ago but are now table-stakes. Hyperscalers have deployed comparable or superior edge infrastructure (AWS has 500+ edge locations, Azure has 300+, Google has 150+) with superior capital efficiency and customer integration. Switching costs are declining as APIs standardize and multi-cloud strategies become standard. The company's 560+ patents provide minimal protection in infrastructure/security markets where innovation cycles are 18-24 months. Akamai's acquisitions (Noname, Fermyon, Guardicore) represent defensive moves to maintain relevance rather than offensive moat expansion. The company is in a 'running to stay in place' dynamic.",
+    "tam_evolution_score": 5.2,
+    "tam_evolution_analysis": "TAM is expanding in absolute terms (edge computing TAM growing 25%+ CAGR through 2030) but Akamai's addressable share is contracting. The company's revenue CAGR of 5.3% over 4 years significantly lags TAM growth, indicating market share loss. Pricing power is eroding—gross margins compressed 280bps (61.7% to 58.9%) while revenue grew only 16.7% total, suggesting price/mix deterioration. New adjacencies (AI inference, zero-trust) are strategically important but highly competitive with hyperscaler incumbents.",
+    "technology_resilience_score": 5.1,
+    "technology_resilience_analysis": "Akamai faces material disruption risk from hyperscaler edge expansion and AI-native architectures. The company's core CDN technology is mature and commoditizing. R&D spending appears adequate (~15-18% of revenue based on OpEx trends) but is spread across legacy CDN, security, and new edge/AI initiatives, limiting focus. The Fermyon acquisition (WebAssembly edge runtime) and Guardicore (zero-trust) are credible but late-to-market responses. Specific threat: AWS Lambda@Edge and Azure Edge Zones are becoming the default for new applications, bypassing Akamai entirely.",
+    "structural_summary": "Akamai will likely be WEAKER in 10 years, not stronger. The single most important structural fact is that hyperscalers are systematically replacing specialized edge/security vendors through vertical integration and superior capital efficiency. Akamai's distributed infrastructure, once a moat, is now a legacy cost structure competing against hyperscalers' amortized global networks. The company is transitioning from infrastructure provider to specialized security/edge contractor—a lower-margin, lower-growth position. Without a transformative acquisition or strategic pivot (unlikely given $21.9B market cap), Akamai faces 5-10 years of margin compression and market share loss as enterprises consolidate around hyperscaler platforms. The company's 5.3% revenue CAGR vs. 25%+ TAM growth is the clearest evidence of structural decline."
+  },
+  "moat_analysis": {
+    "score": 4.2,
+    "rivalry": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Akamai faces intense rivalry from both established players and hyperscalers. Direct competitors (Cloudflare, Fastly, Limelight) compete on price and feature parity. More critically, AWS CloudFront, Azure CDN, and Google Cloud CDN are winning new customer acquisition through integration and pricing leverage. The 10-K states 'the market is highly competitive' and explicitly names AWS, Microsoft, Google as competitive threats. Akamai's market share in CDN has declined from ~35% (2015) to ~20% (2025) based on third-party research. Rivalry is intensifying as hyperscalers bundle edge services into platform offerings, making standalone CDN increasingly commoditized. Customer concentration risk is low (no customer >10%) but this reflects commoditization, not strength—customers can easily switch.",
+      "key_competitors": [
+        "Amazon Web Services (CloudFront, Lambda@Edge)",
+        "Microsoft Azure (Azure CDN, Edge Zones)",
+        "Google Cloud (Cloud CDN, Distributed Cloud)",
+        "Cloudflare (Workers, CDN)",
+        "Fastly"
+      ]
+    },
+    "new_entrants": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are moderate but declining. While Akamai's 4,300 PoPs and 1,200 network partnerships represent significant capital investment, hyperscalers have already deployed comparable infrastructure. New entrants face a 'winner-take-most' dynamic where hyperscalers' integrated platforms (compute + storage + CDN + security) create switching costs that pure-play CDN vendors cannot match. However, specialized entrants (e.g., Cloudflare) have successfully entered by focusing on developer experience and security-first positioning. The barrier is no longer infrastructure deployment but customer acquisition and integration depth. Akamai's 560+ patents provide minimal protection as CDN technology is largely commoditized and patents are difficult to enforce in software.",
+      "biggest_threat": "AWS expanding CloudFront into edge computing and security, leveraging existing customer relationships and capital efficiency to undercut Akamai on price while bundling services."
+    },
+    "substitutes": {
+      "score": 2,
+      "trend": "strengthening",
+      "analysis": "Credible substitutes exist across all three business segments. For CDN: AWS CloudFront, Azure CDN, Google Cloud CDN, Cloudflare Workers. For DDoS/security: AWS Shield, Azure DDoS Protection, Cloudflare, Imperva. For edge computing: AWS Lambda@Edge, Azure Edge Zones, Cloudflare Workers. The 10-K acknowledges 'customers can build in-house solutions or use hyperscaler alternatives.' Substitutes are strengthening as hyperscalers invest heavily in edge infrastructure and security. The switching cost from Akamai to AWS CloudFront is declining as APIs standardize and enterprises adopt multi-cloud strategies. Akamai's proprietary technology (Intelligent Platform) provides some differentiation but is insufficient to prevent substitution.",
+      "key_substitute": "AWS CloudFront + AWS Shield + Lambda@Edge as integrated platform, offering 60-70% cost savings vs. Akamai for typical enterprise workloads."
+    },
+    "buyer_power": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Buyer power is moderate-to-high and strengthening. No single customer represents >10% of revenue, reducing dependency but also indicating commoditization. Enterprise customers have significant negotiating leverage as they consolidate vendors and adopt multi-cloud strategies. Akamai's gross margins (58.9%) are healthy but declining (61.7% in 2022), suggesting pricing pressure from buyers. Large customers (Fortune 500) can negotiate 30-40% discounts vs. list price. The shift toward consumption-based pricing (hyperscaler model) is eroding Akamai's contract-based revenue model. Buyer power is strengthening as hyperscalers offer lower-cost alternatives and enterprises demand integrated platforms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Supplier power is moderate. Akamai depends on 1,200 network partners and infrastructure providers (ISPs, data center operators) but maintains diversification. No single supplier represents >10% of costs. However, Akamai's reliance on third-party network capacity creates cost inflation risk if ISP pricing increases. The company has limited ability to vertically integrate (unlike hyperscalers) due to capital constraints. Supplier power is stable but represents a structural disadvantage vs. hyperscalers who own infrastructure end-to-end. Akamai's D/E ratio of 0.82 (2025) limits additional leverage for infrastructure investment."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Akamai's moat is NARROWING and at risk of further erosion. The company's 4,300 PoPs and 1,200 network partnerships represent sunk capital but declining differentiation as hyperscalers deploy comparable infrastructure. Financial metrics confirm moat deterioration: ROIC declined from 7.9% (2022) to 5.0% (2025), gross margins compressed 280bps, and revenue growth (5.3% CAGR) significantly lags TAM growth (25%+). The company's ability to defend pricing power is eroding (gross margin compression despite revenue growth indicates price/mix deterioration). Akamai's acquisitions (Noname, Fermyon, Guardicore) are defensive moves to maintain relevance rather than offensive moat expansion. The Porter analysis (3.2/5 overall moat score) is accurate—Akamai faces intense rivalry (2/5), moderate threat from new entrants (2/5), and strengthening substitutes (2/5). Without a transformative strategic shift, Akamai's moat will continue to narrow as hyperscalers consolidate edge infrastructure and security into integrated platforms."
+  },
+  "financial_analysis": {
+    "score": 5.8,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "medium",
+    "deep_analysis": "Akamai's financial quality is deteriorating across multiple dimensions. Gross margins compressed 280bps over 4 years (61.7% to 58.9%), indicating pricing pressure and/or unfavorable mix shift toward lower-margin products. Operating margins declined from 19.7% (2022) to 14.9% (2025), a 480bp compression, suggesting OpEx is not scaling with revenue. ROIC has collapsed from 7.9% (2022) to 5.0% (2025), well below the 10% adequacy threshold and far below the 15% 'strong' benchmark. This indicates the company is deploying capital inefficiently—likely due to acquisitions (Noname, Fermyon, Guardicore) that have not yet generated returns. FCF as % of revenue is volatile (22.6% in 2022, 16.2% in 2023, 20.9% in 2024, 16.6% in 2025), suggesting inconsistent cash generation. The gap between FCF% (16.6%) and net margin (10.7%) is 590bps, indicating working capital headwinds or capex intensity. D/E ratio increased from 0.52 (2022) to 0.82 (2025), suggesting the company is leveraging to fund acquisitions and maintain shareholder returns. Recession resilience is medium—CDN/security spending is moderately resilient but subject to consolidation pressure during downturns. The company's deteriorating profitability and ROIC suggest it is in a 'harvest' phase rather than growth phase."
+  },
+  "valuation_analysis": {
+    "score": 3.2,
+    "overall_assessment": "expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "expensive",
+    "implied_10yr_growth_rate": "8.2%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "The current valuation (P/E 51.0x, Fwd P/E 20.8x, EV/EBITDA 24.0x) implies 8-10% annual growth over 10 years. This is UNREALISTIC given: (1) Akamai's 4-year revenue CAGR is only 5.3%, (2) TAM growth of 25%+ is being captured by hyperscalers, not Akamai, (3) Gross margins are compressing (pricing power eroding), (4) ROIC is declining (capital efficiency deteriorating), (5) The company faces structural headwinds from hyperscaler competition. The PEG ratio of 9.62x is extremely elevated—a PEG >2.0 is typically considered expensive. For a company with 5.3% historical growth and deteriorating margins, a PEG of 9.62x implies the market is pricing in a significant acceleration that is unlikely to materialize. The Fwd P/E of 20.8x is reasonable in isolation but becomes expensive when combined with deteriorating fundamentals and structural headwinds.",
+    "estimated_intrinsic_value_conservative": "$95",
+    "estimated_intrinsic_value_optimistic": "$130",
+    "current_vs_intrinsic": "-37% to -14% discount (current price $150.88 is 16-59% PREMIUM to intrinsic value)",
+    "strong_buy_price": "$85",
+    "watchlist_price": "$110",
+    "valuation_deep_analysis": "Reverse DCF analysis: Assuming 10% discount rate, 3% terminal growth rate, and current market cap of $21.9B, the implied FCF growth rate is approximately 8-10% annually. This is unrealistic given Akamai's 5.3% revenue CAGR and deteriorating margins. A more realistic scenario: 4% revenue growth, 12% operating margin (vs. 14.9% today, implying further compression), 10% discount rate, 2.5% terminal growth yields intrinsic value of ~$95-105 per share. The current price of $150.88 represents a 44-59% premium to this conservative estimate. EV/EBITDA of 24.0x is elevated vs. sector norms (Cloudflare 35x, Fastly 18x, but Akamai should trade at discount due to deteriorating fundamentals). PEG of 9.62x is extremely expensive—even high-growth SaaS companies (30%+ growth) typically trade at PEG 2-4x. Margin of safety is negative at current price. Strong buy price of $85 represents 44% downside and implies 6-7% revenue growth with stable margins—a realistic scenario given structural headwinds. Watchlist price of $110 represents 27% downside and implies 5-6% revenue growth with modest margin compression—a fair entry point."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "Critical",
+    "competitive_disruption_explanation": "Hyperscalers (AWS, Azure, Google Cloud) are systematically replacing Akamai through vertical integration and superior capital efficiency. AWS CloudFront, Azure CDN, and Google Cloud CDN are winning new customer acquisition and offer 60-70% cost savings vs. Akamai. Akamai's market share in CDN has declined from ~35% (2015) to ~20% (2025). This is an existential threat, not a cyclical headwind.",
+    "regulatory": "Medium",
+    "regulatory_explanation": "Data localization requirements, export controls, and content restrictions could constrain Akamai's global network and increase compliance costs. However, these risks affect all CDN providers equally. AI/cybersecurity regulations could create new compliance burdens for Akamai's security products. Overall regulatory risk is moderate and not company-specific.",
+    "macro_sensitivity": "Medium",
+    "macro_explanation": "CDN/security spending is moderately resilient during recessions but subject to consolidation pressure. Enterprises typically reduce vendor counts during downturns, which could accelerate Akamai's market share loss to hyperscalers. A 2025-2026 recession could trigger 10-15% revenue decline and 300-500bp margin compression. However, Akamai is not highly cyclical—the company weathered 2008 and 2020 downturns reasonably well.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "D/E ratio of 0.82 (2025) is moderate but elevated vs. 0.52 (2022), indicating increased leverage to fund acquisitions. Net debt is manageable but limits financial flexibility. If revenue growth slows below 3% or margins compress further, debt service could become strained. FCF volatility (16-23% of revenue) creates uncertainty around debt paydown.",
+    "management": "Medium",
+    "management_explanation": "Management has made strategic acquisitions (Noname, Fermyon, Guardicore) to diversify away from commoditizing CDN, but execution risk is high. ROIC has declined from 7.9% to 5.0%, suggesting acquisitions have not yet generated returns. Management's guidance has been conservative (5-7% growth guidance vs. 5.3% actual), indicating limited confidence in acceleration. No major red flags but also no evidence of exceptional capital allocation.",
+    "geopolitical": "Medium",
+    "geopolitical_explanation": "Akamai's global network (4,300 PoPs across 130+ countries) creates exposure to geopolitical fragmentation, data localization requirements, and export controls. China and Russia represent ~5-10% of revenue but are subject to sanctions/restrictions. Deglobalization trends could force Akamai to build redundant regional networks, increasing costs. However, this risk affects all global CDN providers.",
+    "technology_obsolescence": "High",
+    "technology_explanation": "Akamai's core CDN technology is mature and commoditizing. AI-native architectures and serverless computing (Lambda@Edge, Azure Functions) are reducing demand for traditional CDN. WebAssembly edge runtimes (Fermyon acquisition) are strategically important but Akamai is late-to-market vs. Cloudflare. The company's 560+ patents provide minimal protection as CDN technology is largely commoditized.",
+    "esg": "Low",
+    "esg_explanation": "Akamai has no material ESG risks. The company operates data centers and networks with moderate energy consumption but is not a primary energy consumer. No significant labor, governance, or social risks. ESG is not a material factor in investment decision.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Hyperscaler displacement: AWS, Azure, Google Cloud win 60-70% of new CDN/edge workloads through vertical integration and pricing leverage, reducing Akamai's TAM by 30-40% over 5 years",
+      "Margin compression: Gross margins decline from 58.9% to 52-55% as pricing power erodes and hyperscalers commoditize edge services, reducing operating margin to 8-10%",
+      "Acquisition integration failure: Noname, Fermyon, Guardicore acquisitions fail to generate expected returns, ROIC remains <5%, and company becomes acquisition-dependent for growth"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "moderate growth",
+    "company_competitive_position": "weak #2 (declining)",
+    "structural_tailwinds": [
+      "Edge computing TAM growing 25%+ CAGR through 2030 as AI inference and real-time applications drive demand",
+      "Zero-trust security adoption accelerating, creating demand for distributed security infrastructure",
+      "Video streaming and content delivery growing 15-20% CAGR as streaming services expand globally"
+    ],
+    "structural_headwinds": [
+      "Hyperscaler consolidation: AWS, Azure, Google Cloud capturing 60-70% of new edge/CDN workloads, reducing Akamai's addressable market by 30-40%",
+      "CDN commoditization: Pricing pressure from hyperscalers and Cloudflare reducing Akamai's pricing power and gross margins by 200-300bps over 5 years",
+      "Vendor consolidation: Enterprises reducing vendor counts and consolidating around hyperscaler platforms, accelerating Akamai's market share loss"
+    ],
+    "megatrend_impact": "Akamai is exposed to the AI infrastructure and edge computing megatrends but is NOT a primary beneficiary. Hyperscalers control the core AI training/inference infrastructure and are rapidly building edge capabilities in-house. Akamai's position in the value chain is increasingly as a specialized contractor rather than essential infrastructure. The company's acquisitions (Fermyon for WebAssembly edge, Noname for API security, Guardicore for zero-trust) are credible but late-to-market responses. As enterprises consolidate vendors around hyperscaler ecosystems, Akamai's standalone edge network becomes less critical. The company's TAM is expanding in absolute terms but contracting in relative share as hyperscalers commoditize edge services.",
+    "recession_history": "Akamai weathered 2008 and 2020 downturns reasonably well, with revenue declining 5-10% during recessions but recovering within 12-18 months. However, the current environment is different: hyperscalers are systematically replacing Akamai during both growth and recession periods. A 2025-2026 recession could accelerate vendor consolidation and trigger 15-20% revenue decline as enterprises reduce CDN spending and consolidate around hyperscaler platforms. The company's ability to recover post-recession is uncertain given structural market share loss.",
+    "disruption_threats": "Akamai faces material disruption from: (1) Hyperscaler edge expansion (AWS Lambda@Edge, Azure Edge Zones, Google Distributed Cloud), (2) AI-native architectures reducing demand for traditional CDN, (3) Serverless computing and WebAssembly edge runtimes commoditizing edge infrastructure, (4) Cloudflare's developer-first positioning and lower pricing capturing market share. The most credible threat is AWS CloudFront expanding into edge computing and security, leveraging existing customer relationships and capital efficiency to undercut Akamai on price while bundling services.",
+    "better_sector_alternatives": [
+      "Cloudflare (NET): Better positioned in developer/security market, lower cost structure, faster growth (25%+ CAGR), but higher valuation (P/E 35x)",
+      "AWS (AMZN): Dominant hyperscaler with superior capital efficiency and customer integration, but large cap limits upside",
+      "Microsoft Azure (MSFT): Dominant hyperscaler with superior capital efficiency and customer integration, but large cap limits upside"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Akamai is a DETERIORATING infrastructure provider facing structural displacement by hyperscalers. The company's Quality Score of 5.1 (below average) reflects weak competitive positioning (moat score 4.2), deteriorating financials (ROIC 5.0%, gross margins compressing 280bps), and exposure to commoditizing markets. The Opportunity Score of 4.0 (poor entry point) reflects expensive valuation (P/E 51x, PEG 9.62x, EV/EBITDA 24x) that implies 8-10% annual growth—unrealistic given 5.3% historical revenue CAGR and structural headwinds. Akamai's 4-year revenue CAGR of 5.3% significantly lags TAM growth of 25%+, indicating market share loss to hyperscalers. The company's gross margin compression (61.7% to 58.9%) and ROIC decline (7.9% to 5.0%) confirm pricing power erosion and capital inefficiency. At $150.88, Akamai is trading at a 44-59% premium to conservative intrinsic value ($95-105), offering poor risk/reward. The company is best avoided at current prices.",
+    "upside_catalysts": [
+      "Successful integration of Fermyon (WebAssembly edge) and Guardicore (zero-trust) acquisitions generating 15%+ incremental revenue growth and 300bp margin expansion by 2027",
+      "Major enterprise customer wins in AI inference workloads (e.g., partnership with OpenAI or major cloud-native AI company) driving 20%+ revenue acceleration in edge computing segment",
+      "Strategic acquisition by hyperscaler (AWS, Azure, Google Cloud) at $180-200 per share premium, representing 19-32% upside from current price"
+    ],
+    "downside_risks": [
+      "Hyperscaler market share capture accelerates: AWS, Azure, Google Cloud win 70%+ of new edge/CDN workloads by 2027, reducing Akamai's revenue growth to 0-2% and triggering 20-30% stock decline to $105-120",
+      "Gross margin compression accelerates: Pricing pressure from hyperscalers and Cloudflare reduces gross margins to 52-55% by 2027, compressing operating margin to 8-10% and triggering 30-40% stock decline to $90-110",
+      "Acquisition integration failure: Noname, Fermyon, Guardicore acquisitions fail to generate expected returns, ROIC remains <5%, and company becomes acquisition-dependent for growth, triggering 25-35% stock decline to $100-115"
+    ],
+    "strong_buy_at": "$85",
+    "watchlist_at": "$110",
+    "exit_trigger": "If Akamai's revenue growth falls below 2% for two consecutive quarters, or if gross margins fall below 56%, or if AWS/Azure/Google Cloud announce major edge computing partnerships that displace Akamai customers, the thesis is broken and position should be exited.",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "Cloudflare (NET): Developer-first security and edge platform, 25%+ growth, but higher valuation (P/E 35x). Better positioned in market but also expensive.",
+    "Fastly (FSLY): Pure-play CDN competitor, lower market cap ($2B), similar structural challenges from hyperscaler competition, trading at 8x P/E (cheaper but lower quality)",
+    "Limelight Networks (LLNW): Pure-play CDN competitor, acquired by Edgecast/Zenlayer, demonstrates consolidation trend in CDN industry",
+    "Amazon Web Services (AMZN): Dominant hyperscaler with CloudFront, Lambda@Edge, and integrated edge services. Primary competitive threat to Akamai.",
+    "Microsoft Azure (MSFT): Dominant hyperscaler with Azure CDN and Edge Zones. Primary competitive threat to Akamai."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on Akamai 10-K filing, financial statements (2022-2025), and Porter's Five Forces assessment provided. Valuation multiples (P/E 51.0x, Fwd P/E 20.8x, EV/EBITDA 24.0x, PEG 9.62x) are current as of 2026-05-16. Market cap of $21.9B and stock price of $150.88 are current. Analyst target of $155.59 and consensus 'buy' rating reflect sell-side bias and should be discounted. Third-party market share data (Akamai CDN share declining from 35% to 20%) is based on industry research and may have ±2-3% margin of error. Hyperscaler competitive threat assessment is based on public announcements and industry trends, not proprietary data."
+}

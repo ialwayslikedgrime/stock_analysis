@@ -1,0 +1,37 @@
+{
+  "ticker": "NTRS",
+  "company": "Northern Trust",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "Northern Trust operates in highly competitive wealth management, asset servicing, and corporate trust markets dominated by large global players (JPMorgan, BNY Mellon, State Street, Goldman Sachs). The 10-K table of contents references Risk Factors (Item 1A) which typically detail competitive pressures in financial services. Competition is intense on pricing, technology, and service quality."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers to entry exist due to regulatory requirements, capital intensity, and established client relationships documented in financial services filings. However, fintech disruptors and alternative asset managers continue to challenge traditional models. The document structure suggests cybersecurity (Item 1C) and compliance are material concerns, indicating regulatory complexity that deters some entrants."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Alternatives include direct asset management platforms, robo-advisors, and decentralized finance solutions that substitute for traditional wealth management services. However, institutional-grade custody, compliance, and fiduciary services remain difficult to replicate. Northern Trust's scale and regulatory standing provide some protection against substitution."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Large institutional clients (pension funds, endowments, corporations) have significant negotiating power and can consolidate vendors or move assets to competitors. Item 5 references stockholder matters and equity purchases, indicating capital allocation pressures. Concentration of assets among large clients increases buyer leverage on fees and service terms."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Northern Trust has moderate supplier power concerns; technology vendors and data providers are relatively commoditized. The company's scale provides negotiating leverage with suppliers. However, dependence on cloud infrastructure providers and cybersecurity vendors creates some vulnerability, as suggested by the dedicated cybersecurity disclosure (Item 1C)."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Northern Trust possesses a moderate economic moat anchored by brand reputation, regulatory licenses, and established institutional relationships accumulated over 130+ years. Scale advantages in custody and asset servicing create switching costs for clients. However, the moat is eroding due to intense competition, pricing pressure from large rivals, and technological disruption. Sustained investment in technology and cybersecurity is critical to maintaining competitive positioning.",
+  "key_risks": [
+    "Intense competitive pressure from larger global financial institutions and fintech disruptors on fees and market share",
+    "Cybersecurity and data breach risks given institutional client sensitivity and regulatory requirements (Item 1C disclosure)",
+    "Regulatory and compliance complexity creating operational costs and potential legal/reputational exposure (Item 1A Risk Factors)",
+    "Client concentration risk with large institutional clients having significant bargaining power",
+    "Technology disruption and the need for continuous capital investment to remain competitive"
+  ],
+  "data_source": "fallback+prior_knowledge",
+  "analysis_date": "2026-05-16"
+}

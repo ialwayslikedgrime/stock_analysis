@@ -1,0 +1,37 @@
+{
+  "ticker": "INTC",
+  "company": "Intel",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "Intel faces intense competition from AMD in CPUs and NVIDIA in GPUs/AI accelerators (prior knowledge). The 10-K references Risk Factors (Pages 37-51) which likely detail competitive pressures, indicating management recognizes significant rivalry in semiconductor design and manufacturing."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers to entry exist due to massive capital requirements for fab construction and advanced process technology (prior knowledge). However, fabless competitors like ARM-based designers and emerging players in AI chips have gained traction, suggesting barriers are eroding in certain segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Alternative computing architectures (ARM, RISC-V, custom ASICs) and heterogeneous computing solutions pose substitution risks (prior knowledge). The 10-K's business description (Pages 3-24) likely addresses product diversification, but traditional x86 dominance faces pressure from specialized processors."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Major customers (cloud providers, OEMs, enterprises) have significant negotiating leverage due to large order volumes and ability to source alternatives (prior knowledge). The 10-K's market discussion suggests concentration among key customers, increasing their bargaining power."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Intel has moderate supplier power concerns as a vertically integrated manufacturer with in-house fab capabilities (prior knowledge). However, dependence on specialized equipment suppliers (ASML, Applied Materials) and materials creates some vulnerability, though Intel's scale provides negotiating leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Intel maintains a moderate competitive moat anchored on brand recognition, manufacturing scale, and x86 architecture dominance (prior knowledge). However, the moat has weakened significantly due to competitive losses to AMD in CPUs and NVIDIA in AI/GPU markets, plus the capital-intensive fab model becoming a liability rather than advantage. The company's transition to foundry services and process technology leadership remains uncertain, as evidenced by Risk Factors discussion (Pages 37-51).",
+  "key_risks": [
+    "Intense competitive pressure from AMD (CPUs) and NVIDIA (GPUs/AI accelerators) eroding market share and pricing power",
+    "Execution risk on advanced process nodes (7nm, 5nm, 3nm) and foundry business model transition",
+    "Geopolitical and supply chain risks including export controls, Taiwan dependency, and fab capital intensity",
+    "Technological disruption from alternative architectures (ARM, RISC-V) and specialized AI/ML processors",
+    "Customer concentration among hyperscalers with significant bargaining power"
+  ],
+  "data_source": "fallback+prior_knowledge",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "FTNT",
+  "company": "Fortinet",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Fortinet operates in an extremely competitive cybersecurity market with numerous well-established competitors including Cisco, Palo Alto Networks, Check Point, and CrowdStrike. Several competitors are significantly larger with greater financial resources, broader product portfolios, and better brand recognition, creating intense competitive pressure on pricing and product features."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers to entry exist due to significant R&D requirements, extensive patent portfolios (1,405 global patents), need for specialized technical expertise, and established customer relationships. However, the cybersecurity market's rapid growth and venture capital availability enable well-funded startups to enter with focused point solutions, though achieving platform-level scale remains challenging."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Alternative security approaches and point solutions exist, but Fortinet's integrated platform approach (Security Fabric) reduces substitution risk by consolidating multiple functions. However, customers could theoretically assemble best-of-breed solutions from competitors, and emerging technologies or architectural shifts could create substitute threats."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large enterprises and government organizations have significant negotiating power given the availability of multiple competing solutions and the ability to assemble alternative security stacks. However, Fortinet's platform integration, switching costs, and technical complexity provide some pricing protection, particularly for existing customers expanding within the ecosystem."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Fortinet faces moderate supplier power due to dependence on specialized components from limited sources (Intel, AMD, Broadcom, TSMC) and contract manufacturers concentrated in Taiwan (87% of hardware). However, diversified sourcing strategies, multiple manufacturing partners, and proprietary ASIC design mitigate some supplier leverage, though geopolitical risks and semiconductor supply constraints remain concerns."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Fortinet possesses a moderate competitive moat built on proprietary technology (FortiOS, FortiASIC, extensive patent portfolio), platform integration advantages, and switching costs from its converged security-networking approach. However, this moat is challenged by intense competition from larger, better-resourced rivals, buyer power among enterprise customers, and the rapid pace of technological change in cybersecurity. The company's strong execution and market positioning provide defensibility, but sustained competitive pressure and the need for continuous innovation limit the durability of its advantages.",
+  "key_risks": [
+    "Intense competition from larger, better-resourced competitors (Cisco, Palo Alto Networks) with broader product portfolios and superior brand recognition could erode market share and pricing power",
+    "Supply chain concentration risk with 87% of hardware manufactured in Taiwan and dependence on limited-source semiconductor components (Intel, AMD, TSMC) creates vulnerability to geopolitical tensions and supply disruptions",
+    "Rapid technological change and emergence of alternative security architectures or point solutions could render Fortinet's platform approach less differentiated or obsolete",
+    "Customer consolidation and buyer power among large enterprises could pressure margins and limit pricing flexibility despite platform switching costs",
+    "Intellectual property litigation risks and potential patent infringement claims from competitors could result in costly licensing agreements or product distribution restrictions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

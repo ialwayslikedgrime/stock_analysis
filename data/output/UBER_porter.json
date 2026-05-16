@@ -1,0 +1,39 @@
+{
+  "ticker": "UBER",
+  "company": "Uber Technologies, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Uber faces intense competition across all three segments from well-capitalized, established competitors (Lyft, DoorDash, Instacart, C.H. Robinson). The 10-K explicitly states 'highly fragmented markets' with 'significant competition' and notes competitors can develop specialized expertise with targeted resources. Price competition is severe, with Uber acknowledging it has 'lowered fares' and offered 'significant Driver incentives and consumer discounts' to remain competitive."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K identifies 'low barriers to entry' and 'low switching costs' as characteristic of these industries, explicitly stating the company 'expects to face competition from new market entrants given the low barriers to entry.' However, Uber's massive network scale, proprietary technology, and operational excellence create some defensibility that pure startups would struggle to replicate quickly."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "For Mobility, personal vehicle ownership 'accounts for the majority of passenger miles' and public transportation offers 'faster and lower-cost' alternatives in many cities. For Delivery, restaurants' own delivery services and meal kit providers compete directly. Autonomous vehicle developers (Waymo, Zoox, Tesla) represent emerging substitute threats to traditional ridesharing."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Consumers have significant bargaining power due to low switching costs, abundant alternatives, and price sensitivity. The 10-K notes Uber must continuously offer 'discounts and promotions' to attract and retain users. However, network effects and Uber One membership (46 million members) create some stickiness that moderates buyer power somewhat."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Drivers and Couriers possess moderate bargaining power—they can multi-home across platforms and have alternative income opportunities, forcing Uber to offer competitive earnings and benefits. However, Uber's massive network and flexible work model provide them leverage. The 10-K emphasizes driver retention challenges and notes Uber must continuously improve 'earnings opportunities' and protections to maintain supply."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Uber possesses a moderate competitive moat built primarily on network effects, proprietary technology (marketplace, routing, payments algorithms), and operational scale across 15,000+ cities. However, this moat is significantly eroded by low barriers to entry, intense price competition, low switching costs, and the availability of credible substitutes. The company's multi-segment platform creates some cross-selling synergies (58% of new Delivery users are platform-new; cross-users generate 3x bookings), but competitive pressures and regulatory uncertainty limit moat durability.",
+  "key_risks": [
+    "Driver classification as employees rather than independent contractors would fundamentally alter unit economics and increase operating costs substantially",
+    "Intense price competition and need for continuous discounting/incentives to maintain market share erodes profitability despite scale",
+    "Low barriers to entry and well-capitalized competitors (DoorDash, Lyft, Amazon, Instacart) can rapidly replicate offerings in specific markets",
+    "Regulatory fragmentation across 70+ countries creates compliance complexity and operational restrictions that competitors may navigate more efficiently",
+    "Autonomous vehicle competition from tech giants (Waymo, Zoox, Tesla) could disrupt core Mobility business model if scaled successfully",
+    "Critical dependence on maintaining network liquidity—inability to attract/retain drivers or consumers would collapse platform value",
+    "Substitutes (personal vehicles, public transit, restaurant delivery, meal kits) limit pricing power and market expansion potential"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

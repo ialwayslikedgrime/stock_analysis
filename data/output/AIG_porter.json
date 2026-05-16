@@ -1,0 +1,38 @@
+{
+  "ticker": "AIG",
+  "company": "American International Group",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AIG operates in highly competitive insurance markets across multiple lines of business and geographies. The 10-K explicitly states 'We face intense competition in each of our business lines,' with competitors offering similar products and potentially higher commission rates to distributors, forcing AIG to compete on product features, pricing, and distribution relationships."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High regulatory barriers to entry exist through extensive licensing requirements, capital standards (RBC, solvency requirements), and complex compliance frameworks across 200+ jurisdictions. However, fintech and alternative risk transfer mechanisms present emerging competitive threats, and the 10-K notes that 'technological changes may present new and intensified challenges' to the business."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Alternative risk transfer mechanisms, self-insurance, captive insurance, and emerging InsurTech solutions present credible substitutes for traditional insurance products. The rapid development of AI and new distribution channels could enable non-traditional competitors to disrupt traditional insurance offerings, though core insurance functions remain difficult to fully substitute."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large institutional buyers and distributors possess significant negotiating power. The 10-K highlights 'distributor concentration' and notes that 'distributors have in the past, and may in the future, elect to renegotiate the terms of existing relationships' or reduce/terminate relationships, giving key buyers substantial leverage over pricing and terms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "AIG relies heavily on third-party providers for critical functions including IT infrastructure, investment management, claims processing, and policy administration. The 10-K emphasizes significant dependency on outsourced services and notes that 'third-party providers we use are located outside the U.S., which exposes us to business disruption and political risks,' giving suppliers moderate leverage, though AIG's scale provides some countervailing power."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "AIG's competitive moat is relatively weak and eroding. While regulatory barriers and scale provide some protection, intense competition, distributor concentration risk, and heavy reliance on third-party providers limit pricing power and operational independence. The company faces significant threats from technological disruption (AI, InsurTech), emerging substitutes, and buyer power from key distributors. AIG's moat is primarily defensive (regulatory) rather than offensive (brand, network effects, cost leadership).",
+  "key_risks": [
+    "Intense competition in all business lines with distributor concentration creating customer/channel dependency and renegotiation risk",
+    "Heavy reliance on third-party providers for critical operations (IT, investment management, claims) creating operational fragility and supply chain vulnerability",
+    "Rapid AI/technology disruption and regulatory uncertainty around AI deployment could impair underwriting/claims processes and competitive positioning",
+    "Significant regulatory complexity across 200+ jurisdictions with evolving capital requirements (RBC, Solvency II, IAIS standards) increasing compliance costs",
+    "Geopolitical and foreign exchange risks from substantial international operations exposure across emerging markets",
+    "Ongoing equity market exposure to Corebridge spinoff creating financial volatility and execution risk on stock sales"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

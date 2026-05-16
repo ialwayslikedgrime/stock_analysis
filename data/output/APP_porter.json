@@ -1,0 +1,40 @@
+{
+  "ticker": "APP",
+  "company": "AppLovin",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AppLovin operates in a highly fragmented but intensely competitive advertising ecosystem dominated by tech giants (Meta, Google, Amazon, Unity). The company competes on technology, relationships, scale, and pricing, but faces well-capitalized competitors with broader ecosystems and greater resources. Competition is particularly fierce in mobile app advertising and emerging CTV markets."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Barriers to entry are moderate-to-high due to the need for significant scale, proprietary AI technology, established publisher/advertiser relationships, and substantial R&D investment (42% of headcount). However, the fragmented nature of the advertising ecosystem and availability of cloud infrastructure lower barriers somewhat. Network effects from data and scale provide some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitute solutions exist across the advertising value chain: direct advertiser-to-publisher relationships, alternative ad networks (Google, Meta, Amazon), in-house marketing solutions, and emerging AI-powered alternatives. Customers typically engage multiple platforms simultaneously, indicating substitutes are readily available and viable. The threat of substitution is material."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (advertisers and publishers) have significant power due to fragmented supply of ad platforms, ability to multi-home across competitors, and lack of long-term contracts (explicitly noted as a risk). Large advertisers like Meta and Amazon can negotiate favorable terms or build proprietary solutions. Publishers can switch mediation solutions if ROI improves elsewhere."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "AppLovin has limited supplier concentration risk. Primary inputs are cloud infrastructure (commoditized), talent (competitive but distributed globally), and third-party platform access (Apple App Store, Google Play Store). However, dependency on Apple and Google for app distribution and IDFA access creates some leverage for these critical suppliers, though this is partially mitigated by diversification into CTV and web."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "AppLovin possesses a moderate competitive moat built primarily on proprietary AI technology (Axon AI), network effects from scaled data and distribution, and switching costs embedded in integrated solutions (Axon Ads Manager, MAX, Adjust). However, the moat is constrained by intense competition from well-capitalized rivals, lack of long-term customer contracts, buyer multi-homing behavior, and the commoditization of underlying cloud infrastructure. The company's scale and data advantages are meaningful but not durable against determined competitors with greater resources.",
+  "key_risks": [
+    "Intense competition from tech giants (Meta, Google, Amazon, Unity) with greater resources, broader ecosystems, and direct advertiser relationships",
+    "Lack of long-term customer contracts creates customer concentration risk and vulnerability to churn; advertisers multi-home across platforms",
+    "Dependency on third-party platforms (Apple App Store, Google Play Store) for distribution and data (IDFA); regulatory changes to privacy/tracking could impair core algorithms",
+    "Rapid technological change and need for continuous AI/ML innovation; failure to maintain algorithmic superiority could erode competitive advantage",
+    "Macroeconomic sensitivity and advertising budget cyclicality; revenue concentration in mobile gaming and e-commerce verticals",
+    "Regulatory and compliance risks related to privacy laws (GDPR, CCPA, etc.), AI governance, data protection, and international operations across 15 countries",
+    "Integration and execution risk from strategic acquisitions (Adjust, Wurl); ability to realize synergies and manage rapid growth",
+    "Cybersecurity and data breach risks given reliance on proprietary data and algorithms; reputational damage from security incidents"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

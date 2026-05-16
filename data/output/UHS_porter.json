@@ -1,0 +1,38 @@
+{
+  "ticker": "UHS",
+  "company": "Universal Health Services",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "UHS operates in highly competitive healthcare markets with numerous competitors including tax-exempt hospitals, nonprofit systems with endowments, and physician-owned outpatient centers. The 10-K explicitly states 'healthcare industry is highly competitive' and notes competitors may have greater financial resources, better equipment, and broader service offerings, particularly in concentrated markets like Texas (16%), Nevada (17%), and California (11%)."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements, regulatory complexity (CON requirements, licensing, accreditation), established physician relationships, and scale advantages. However, score is not 5 because physician-owned outpatient surgical centers and free-standing emergency departments have proliferated, indicating some ability for specialized entrants to compete in specific service lines."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes including outpatient surgical centers, urgent care facilities, telemedicine, and retail clinics for non-emergency services. The 10-K notes industry shift toward ambulatory/outpatient care, but acute inpatient care and behavioral health services have limited substitutes. [INFERRED: Telehealth expansion post-COVID represents growing substitute threat not detailed in excerpt]."
+    },
+    "buyer_power": {
+      "score": 1,
+      "rationale": "Buyers (payers) have extremely high bargaining power. Government programs (Medicare/Medicaid) represent substantial revenue with unilateral rate-setting authority; the 10-K details $432-480M annual revenue reduction from 2028-2032 Medicaid legislation. Private payers 'increasingly demand lower rates' and aggressively manage reimbursement. UHS has minimal pricing power and faces utilization review controls reducing admissions."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists, particularly for physician services and clinical labor. The 10-K emphasizes critical physician recruitment challenges, hospital-based physician expense increases (emergency/anesthesiology), nationwide nursing shortages, and mandatory staffing ratios in California. However, UHS has centralized purchasing and scale advantages that provide some negotiating leverage with equipment/pharmaceutical suppliers."
+    }
+  },
+  "moat_score": 2.2,
+  "moat_summary": "UHS has a weak competitive moat despite its scale (375 inpatient facilities). While geographic diversification and operational scale provide some advantages, the company faces intense rivalry, extreme buyer power from government payers controlling 40%+ of revenues, and critical supplier constraints (physician and nursing shortages). The regulatory environment and reimbursement pressures create structural headwinds that limit pricing power and margin expansion, making competitive advantages difficult to sustain.",
+  "key_risks": [
+    "Government reimbursement reduction: $432-480M annual Medicaid revenue decline projected 2028-2032 from One Big Beautiful Budget Act; Medicare/Medicaid policy changes could materially reduce revenues",
+    "Extreme buyer power: Payers (government and private) dictate rates with minimal negotiation leverage; value-based purchasing and utilization controls reduce admissions and revenues",
+    "Labor cost inflation: Nationwide nursing shortage, mandatory staffing ratios (California), physician recruitment challenges, and union organizing pressure could materially increase operating costs without corresponding rate increases",
+    "Geographic concentration risk: 44% of revenues from Texas (16%), Nevada (17%), and California (11%); regulatory/economic changes in these states disproportionately impact results; California wildfires and weather risks",
+    "Competitive intensity: Proliferation of physician-owned outpatient centers, free-standing emergency departments, and nonprofit competitors with tax advantages and endowments eroding market share",
+    "Quality/transparency requirements: Public reporting of quality metrics and pricing; poor performance relative to competitors could drive patient volume decline"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,38 @@
+{
+  "ticker": "ADSK",
+  "company": "Autodesk",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Autodesk faces intense competition from large, well-resourced global competitors including Adobe, Dassault Systèmes, PTC, Siemens PLM, Bentley Systems, and others across multiple vertical markets. The 10-K explicitly states 'competitive conditions in these industries are likely to continue to intensify' with competitors having comparable or greater financial and technical resources in certain segments."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K notes that 'the software industry has limited barriers to entry' and that 'the availability of computing power with continually expanding performance at progressively lower prices contributes to the ease of market entry.' The shift to cloud and mobile computing further lowers barriers, enabling startups and new competitors to challenge established players."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Disruptive technologies including AI, machine learning, and generative design pose significant threats to existing product relevance. The 10-K warns that 'disruptive technologies such as machine learning and other AI technologies may significantly alter the market for our products in unpredictable ways and reduce customer demand.' In-house solutions developed by customers also represent substitutes."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "While Autodesk serves diverse customer bases across AECO, manufacturing, and M&E sectors, enterprise customers and large contractors have meaningful negotiating power. The company's transition to direct sales models and new transaction approaches suggests efforts to reduce buyer power, but the subscription model provides some pricing stability. Customers can switch to competitors or develop internal solutions."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "The 10-K indicates limited supplier concentration risk for software development, with work performed internally and distributed across multiple geographies (US, Canada, India). However, the company's dependence on cloud infrastructure providers (inferred) and the critical role of TD Synnex historically (14% of FY2026 revenue, down from 39% in FY2024) shows some supplier leverage, though this is decreasing with direct sales expansion."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Autodesk possesses a moderate competitive moat built primarily on brand recognition, installed base switching costs, and specialized domain expertise across AECO, manufacturing, and M&E verticals. However, this moat is under pressure from intense competition, low barriers to entry in software, and disruptive AI/ML technologies that could render existing products obsolete. The company's transition to cloud-based, subscription models and investments in AI-powered features represent efforts to strengthen its moat, but execution risk remains significant given the rapidly evolving competitive landscape.",
+  "key_risks": [
+    "Intensifying competition from well-capitalized global competitors (Adobe, Dassault Systèmes, PTC, Siemens) with comparable resources and market presence",
+    "Disruptive technologies including AI, machine learning, and generative design could render existing products less competitive or create new market entrants",
+    "Low barriers to entry in software industry enable startups and new competitors to challenge Autodesk's market position with innovative cloud and mobile solutions",
+    "Customer concentration risk with largest distributor TD Synnex declining from 39% to 14% of revenue, indicating ongoing channel transition execution risk",
+    "Unauthorized software use and piracy, particularly in emerging markets with weaker IP enforcement, negatively impacts revenue and financial results",
+    "International operations expose company to currency exchange rate fluctuations and adverse economic conditions in key markets"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

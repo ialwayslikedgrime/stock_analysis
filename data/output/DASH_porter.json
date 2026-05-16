@@ -1,0 +1,39 @@
+{
+  "ticker": "DASH",
+  "company": "DoorDash",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "DoorDash operates in an intensely competitive market with major rivals including Uber Eats, Amazon, Prosus, and Delivery Hero, plus numerous local incumbents. The 10-K explicitly states the market is 'fragmented and intensely competitive' with competitors offering aggressive pricing, lower commission rates, and substantial marketing campaigns that have negatively affected DoorDash's financial performance."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate to low despite network effects. While DoorDash has scale advantages and brand recognition, the 10-K acknowledges that 'it is relatively easy to switch between offerings' and merchants can develop their own platforms. Large well-capitalized competitors (Amazon, Uber, major retailers) can enter or expand with significant resources, and regulatory complexity is manageable for funded entrants."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist and are explicitly mentioned in the 10-K: traditional offline ordering (phone, paper menus, in-store dining), merchants' own delivery fleets, grocery chains' delivery services, convenience store delivery, and direct merchant platforms. These alternatives reduce DoorDash's pricing power and create ongoing competitive pressure."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Consumers have significant bargaining power due to low switching costs and multiple platform alternatives. The 10-K notes consumers 'have a propensity to shift based on cost, quality, and selection' and can use multiple platforms. DoorDash must compete on affordability and offer membership programs (DashPass) to reduce churn, indicating weak pricing power with consumers."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Merchant power is moderate-to-high. While DoorDash provides valuable services (customer acquisition, fulfillment), merchants can develop their own platforms, use competitors, or operate multiple channels. The 10-K states merchants could 'determine that it is in their best interests to develop their own platforms' and can 'adopt more than one platform to maximize volume,' giving them negotiating leverage on commission rates."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "DoorDash's competitive moat is narrow and eroding. While the company benefits from network effects (56M MAU, 35M+ membership subscribers), scale advantages, and brand recognition, these are insufficient to create durable competitive advantages in a fragmented, low-switching-cost market. Intense rivalry from well-capitalized competitors, ease of merchant/consumer/dasher switching, and viable substitutes limit pricing power and profitability. The company's intellectual property (254 US patents) provides minimal differentiation in a logistics-driven business where execution and capital deployment matter more than patents.",
+  "key_risks": [
+    "Intense competition from Uber Eats, Amazon, and other well-capitalized rivals forcing margin-eroding price competition and increased marketing spend",
+    "Dasher reclassification as employees (from independent contractors) could materially increase labor costs and operational complexity",
+    "Low switching costs enable rapid consumer/merchant migration to competitors, limiting pricing power and customer lifetime value",
+    "Regulatory uncertainty globally regarding worker classification, commission caps, data privacy, and local delivery regulations could increase compliance costs and restrict business model",
+    "Merchant ability to develop proprietary platforms or use multiple delivery services reduces DoorDash's bargaining power and commission rate sustainability",
+    "Macroeconomic sensitivity: consumer spending weakness directly impacts order volume and merchant participation",
+    "Cybersecurity incidents could disrupt operations and damage brand reputation in a trust-dependent marketplace"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

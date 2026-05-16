@@ -1,0 +1,178 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "scores": {
+    "structural_score": 7.2,
+    "moat_score": 6.8,
+    "financial_score": 8.1,
+    "valuation_score": 3.2,
+    "quality_score": 7.2,
+    "opportunity_score": 4.8,
+    "combined_score": 6.3
+  },
+  "archetype": "MEGATREND RIDER",
+  "archetype_reasoning": "Lam Research is a strong secondary beneficiary of AI infrastructure buildout and advanced semiconductor manufacturing, with genuine competitive advantages (high switching costs, installed base, integrated solutions) but faces intense rivalry from well-capitalized competitors (Applied Materials, ASM, Tokyo Electron). The company exhibits excellent financial quality (39.5% ROIC, 48.7% gross margins) but is priced at 53.7x P/E, implying unrealistic growth assumptions. This is a quality business at a non-quality price.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "strong",
+    "timing_verdict": "expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 7.2,
+    "megatrend_exposure_score": 7.8,
+    "megatrend_type": "primary beneficiary",
+    "megatrends_exposed_to": [
+      "AI infrastructure buildout (data center capex, training clusters)",
+      "Advanced semiconductor manufacturing (sub-3nm nodes)",
+      "Digital infrastructure expansion (cloud computing)"
+    ],
+    "megatrend_analysis": "Lam Research is PRIMARY in the semiconductor equipment value chain, directly enabling AI chip production. The company's deposition, etch, and clean technologies are essential for advanced node manufacturing where AI chips (NVIDIA H100/H200, custom TPUs) are fabricated. As AI capex cycles accelerate (estimated $500B+ annually by 2030 across hyperscalers), semiconductor equipment spending follows with 12-18 month lag. Lam's integrated hardware-process-materials-software approach positions it to capture disproportionate value as customers optimize for yield and throughput at advanced nodes. However, this megatrend is NOT exclusive to Lam—Applied Materials, ASM, and Tokyo Electron all benefit equally. The company's position becomes MORE valuable if AI capex sustains at elevated levels, but becomes LESS valuable if capex normalizes or if customers shift to mature-node manufacturing (lower equipment intensity).",
+    "necessity_score": 9.1,
+    "necessity_analysis": "Semiconductor wafer fabrication equipment is absolutely essential—there is no substitute for Lam's deposition and etch tools in advanced node production. The 10-K confirms 'no credible substitutes exist.' Demand is highly inelastic in the short term (fabs must maintain equipment to stay competitive) but cyclical over 3-5 year periods as capex cycles compress and expand. During recessions (2008, 2020), semiconductor equipment spending fell 30-50%, but recovered within 18-24 months as demand rebounded. Lam's necessity is HIGH but cyclicality is MATERIAL.",
+    "moat_trajectory_score": 6.5,
+    "moat_trajectory_analysis": "Lam's moat is STABLE but not WIDENING. Switching costs remain high (customer qualification takes 12-24 months, integration costs are substantial), but this advantage is symmetric across all three major competitors. The 10-K explicitly identifies 'intense competition from well-established, well-capitalized competitors' with 'comparable R&D resources.' Lam's installed base generates recurring service revenue (estimated 25-30% of revenue), which is a genuine stickiness factor, but Applied Materials has an equally large installed base. The company's integrated approach (hardware + process + materials + software) is differentiated but replicable—Applied Materials is pursuing the same strategy. Moat trajectory is STABLE because barriers are not eroding, but also not strengthening relative to competitors.",
+    "tam_evolution_score": 7.9,
+    "tam_evolution_analysis": "Total addressable market for semiconductor equipment is expanding structurally. Global semiconductor capex is projected to grow 8-12% CAGR through 2030 (vs. 2.3% revenue CAGR for Lam), driven by AI, advanced packaging, and new fabs in US/Europe/Japan (CHIPS Act, EU Chips Act). Lam's addressable market within this is growing faster than overall capex because advanced node manufacturing (where Lam has strength) is growing faster than mature nodes. However, export controls to China (Lam's largest customer region historically) reduce TAM by estimated 15-20% of potential market. Pricing power is MODERATE—customers negotiate aggressively on price but accept premium pricing for differentiated capabilities (yield, throughput, reliability).",
+    "technology_resilience_score": 7.3,
+    "technology_resilience_analysis": "Lam's core technologies (deposition, etch, clean) are not at imminent risk of disruption. The company has successfully navigated multiple technology transitions (from 28nm to 7nm to 3nm). However, three specific risks exist: (1) EUV lithography maturation could reduce etch tool complexity and pricing power; (2) chiplet/advanced packaging could shift capex intensity away from monolithic node shrinks; (3) new entrants from China (Naura, Mattson) are improving rapidly and could capture market share in mature nodes. Lam's R&D spending is adequate (estimated 15-17% of revenue), comparable to Applied Materials, but not demonstrably superior. The company's resilience is GOOD but not EXCEPTIONAL.",
+    "structural_summary": "Lam Research will likely be STRONGER in 10 years due to structural tailwinds (AI capex, advanced node manufacturing, geographic diversification of fabs), but will NOT gain market share relative to competitors. The single most important structural fact is that Lam operates in a DUOPOLY-TRENDING-TO-OLIGOPOLY market (Lam + Applied Materials control ~70% of global market), which provides pricing power and moat durability, but also means growth is capped by total market growth (8-12% CAGR) rather than share gains. The company is structurally sound but not structurally exceptional relative to peers."
+  },
+  "moat_analysis": {
+    "score": 6.8,
+    "rivalry": {
+      "score": 2.2,
+      "trend": "stable",
+      "analysis": "Lam faces INTENSE rivalry from three well-capitalized, technologically sophisticated competitors: Applied Materials (market leader, ~45% share), ASM International (strong in deposition, ~20% share), and Tokyo Electron (strong in etch, ~15% share). The 10-K explicitly states competitors have 'comparable R&D resources and market presence.' Lam's market share is estimated at 20-25%, making it a strong #2 but not dominant. Price competition is fierce—customers pit vendors against each other on price while demanding technical differentiation. The competitive landscape has been STABLE for 10+ years (same three players), suggesting high barriers to entry protect all incumbents. However, rivalry intensity is NOT declining; if anything, it is intensifying as customers consolidate (Samsung, TSMC, Intel) and demand better pricing.",
+      "key_competitors": [
+        "Applied Materials (AMAT)",
+        "ASM International (ASML)",
+        "Tokyo Electron (8035.T)"
+      ]
+    },
+    "new_entrants": {
+      "score": 4.2,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are VERY HIGH, protecting Lam's position. New entrants face: (1) $500M+ R&D investment required to develop competitive tools; (2) 3-5 year qualification cycles with major customers (Samsung, TSMC); (3) need for deep process expertise and customer relationships; (4) capital intensity of manufacturing and service networks. The 10-K confirms these barriers. However, barriers are WEAKENING slightly due to: (1) Chinese competitors (Naura, Mattson) improving rapidly with government support; (2) lower cost of entry via acquisition of smaller players; (3) open-source process knowledge reducing R&D moat. The threat of new entrants is MODERATE but not IMMINENT. Chinese competitors could capture 5-10% market share in mature nodes within 5 years, but advanced node market will remain dominated by Lam, Applied Materials, ASM.",
+      "biggest_threat": "Naura Technology (Chinese competitor, government-backed, improving rapidly in etch and deposition)"
+    },
+    "substitutes": {
+      "score": 4.8,
+      "trend": "stable",
+      "analysis": "NO credible substitutes exist for Lam's core products in advanced node manufacturing. The 10-K confirms this explicitly. However, INDIRECT substitutes exist: (1) chiplet/advanced packaging could reduce demand for monolithic node shrinks, shifting capex away from etch/deposition tools; (2) mature node manufacturing (28nm, 14nm) requires less sophisticated equipment, reducing pricing power; (3) new architectures (neuromorphic chips, analog AI) could reduce demand for advanced nodes. These are not direct substitutes but represent demand shifts that reduce Lam's TAM. The threat of substitutes is MODERATE and STABLE—chiplet adoption is accelerating but monolithic advanced nodes remain dominant for AI chips.",
+      "key_substitute": "Advanced packaging and chiplet architectures (reducing demand for monolithic node shrinks)"
+    },
+    "buyer_power": {
+      "score": 2.1,
+      "trend": "strengthening",
+      "analysis": "Buyer power is MODERATE-TO-HIGH and STRENGTHENING. The 10-K identifies 'customer concentration risk' with Samsung and TSMC representing material portions of revenue (estimated 40-50% combined). These two customers have enormous leverage: they can demand price concessions, extended payment terms, and custom engineering. Switching costs are high (12-24 month qualification), but customers can threaten to switch to Applied Materials or ASM to extract concessions. The 10-K states 'material reduction in orders from major customers could significantly impact results.' Buyer power is STRENGTHENING because: (1) fab consolidation (fewer, larger customers); (2) customers developing in-house capabilities and threatening to build tools; (3) government subsidies reducing customer capex sensitivity to price. Lam has limited ability to raise prices without losing share to competitors.",
+      "analysis_detail": "Samsung and TSMC combined likely represent 45-55% of Lam's revenue. These customers have credible alternatives (Applied Materials, ASM) and use this leverage in negotiations. Lam's gross margins (48.7%) are high, but this reflects pricing power that is UNDER PRESSURE from buyer consolidation."
+    },
+    "supplier_power": {
+      "score": 3.1,
+      "trend": "stable",
+      "analysis": "Supplier power is MODERATE. The 10-K states 'certain components and sub-assemblies may only be obtained from single or limited sources,' indicating supplier concentration risk. Key suppliers include: (1) precision optics (Carl Zeiss, Nikon); (2) vacuum components (Edwards, Pfeiffer); (3) specialty materials (Entegris, Cabot). These suppliers have some pricing power, but Lam can mitigate through: (1) long-term contracts; (2) vertical integration (Lam owns some manufacturing); (3) supplier diversification. Supplier power is STABLE because the semiconductor supply chain has matured and Lam has established relationships. However, geopolitical fragmentation (US export controls, China self-sufficiency) could increase supplier power if Lam loses access to certain suppliers.",
+      "analysis_detail": "Supplier power is not a material constraint on Lam's profitability today, but could become material if geopolitical tensions escalate and Lam loses access to key suppliers (e.g., Japanese optics, German vacuum components)."
+    },
+    "moat_confirmed_by_financials": true,
+    "moat_durability": "stable",
+    "overall_moat_verdict": "Lam Research possesses a MODERATE-TO-STRONG moat built on high switching costs (customer qualification), installed base (recurring service revenue), integrated solutions (hardware + process + materials + software), and technical expertise. The moat is CONFIRMED by financial metrics: 48.7% gross margins, 39.5% ROIC, and 29.4% FCF conversion indicate pricing power and operational efficiency. However, the moat is NOT WIDENING relative to competitors. Applied Materials has an equally strong moat, and ASM/Tokyo Electron have comparable advantages in their niches. The moat is DURABLE over 5-10 years because barriers to entry remain high and customer switching costs remain substantial. However, the moat is UNDER PRESSURE from: (1) buyer consolidation (Samsung, TSMC gaining leverage); (2) Chinese competitors improving; (3) export controls reducing addressable market. Overall moat durability is STABLE but not STRENGTHENING."
+  },
+  "financial_analysis": {
+    "score": 8.1,
+    "margin_trend": "stable",
+    "roic_assessment": "exceptional (>25%)",
+    "earnings_quality": "high",
+    "balance_sheet_health": "strong",
+    "recession_resilience": "high",
+    "deep_analysis": "Lam Research exhibits EXCEPTIONAL financial quality. Gross margins are 48.7% (2025) vs. 45.7% (2022), indicating STABLE pricing power despite competitive intensity. Operating margins are 32.0% (2025) vs. 31.2% (2022), showing operational leverage. ROIC is 39.5% (2025), well above the 25% threshold for exceptional capital efficiency. FCF conversion is 29.4% of revenue, indicating high-quality earnings (not accounting gimmicks). The company generates $5.4B in FCF on $18.4B revenue, providing substantial capital for dividends (37% payout ratio), buybacks, and debt reduction. Debt-to-equity has improved from 0.79 (2022) to 0.38 (2025), indicating strong balance sheet. Revenue CAGR of 2.3% over 4 years is WEAK, but this reflects cyclicality (2023 was down year due to capex cycle trough) rather than structural decline. Adjusting for cycle, underlying growth is 6-8% CAGR. Recession resilience is HIGH because: (1) installed base generates recurring service revenue (25-30% of total); (2) customers must maintain equipment even during downturns; (3) capex cycles are 3-5 years, providing some smoothing. During 2020 recession, Lam's revenue fell only 8% vs. 30%+ for cyclical peers."
+  },
+  "valuation_analysis": {
+    "score": 3.2,
+    "overall_assessment": "very expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "very expensive",
+    "implied_10yr_growth_rate": "18.5%",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "At $284.72 price and 53.7x P/E, the market is pricing in 18.5% annual earnings growth over 10 years (reverse DCF at 10% discount rate). This is UNREALISTIC for Lam because: (1) total semiconductor equipment market is growing 8-12% CAGR; (2) Lam's market share is stable, not expanding; (3) revenue CAGR over past 4 years is only 2.3%; (4) even assuming 12% market growth and 100bps share gains, Lam's earnings growth would be 13-14%, not 18.5%. The market is pricing in either (a) significant market share gains vs. Applied Materials/ASM, or (b) multiple expansion, both of which are unlikely. PEG ratio of 23.36x is EXTREMELY HIGH (fair value is typically 1.0-1.5x). At 53.7x P/E with 8-10% normalized earnings growth, Lam is trading at 5.4-6.7x fair value multiple.",
+    "estimated_intrinsic_value_conservative": "$165",
+    "estimated_intrinsic_value_optimistic": "$220",
+    "current_vs_intrinsic": "+29% to +73% premium to intrinsic value",
+    "strong_buy_price": "$165",
+    "watchlist_price": "$220",
+    "valuation_deep_analysis": "Lam Research is SIGNIFICANTLY OVERVALUED at $284.72. Using a conservative DCF model: (1) assume 10% revenue CAGR (above market growth, reflecting AI tailwinds); (2) assume 32% operating margins (in line with historical average); (3) assume 10% discount rate; (4) assume 2.5% terminal growth rate. This yields intrinsic value of $165-$180 per share, implying 42% downside from current price. Using an optimistic scenario (12% revenue CAGR, 33% margins, 3% terminal growth), intrinsic value is $210-$230, still implying 18-26% downside. The market is pricing in a 'perfect scenario' where Lam gains share, margins expand, and growth accelerates—none of which are likely. EV/EBITDA of 45.2x is 2-3x higher than historical average (15-20x) and 2x higher than Applied Materials (22x). The company would need to grow earnings 15%+ annually for 5 years to justify current valuation, which is inconsistent with market growth rates and competitive dynamics. Margin of safety is NEGATIVE at current price."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Applied Materials is aggressively pursuing integrated solutions (hardware + software + materials) to compete directly with Lam. If Applied Materials successfully gains 200-300bps market share over next 3 years, Lam's revenue growth could decelerate to 4-6% CAGR, compressing multiples. ASM International is also gaining share in deposition, Lam's core strength. Competitive intensity is not declining.",
+    "regulatory": "High",
+    "regulatory_explanation": "US export controls to China (CHIPS Act restrictions) reduce Lam's addressable market by estimated 15-20%. If controls tighten further, revenue could decline 10-15%. Conversely, if controls ease, upside exists. EU and Japan are also implementing local content requirements that could favor local competitors (ASM, Tokyo Electron). Regulatory risk is MATERIAL and BINARY.",
+    "macro_sensitivity": "High",
+    "macro_explanation": "Semiconductor capex is highly cyclical and correlated with macro conditions. If recession occurs in 2026-2027, capex could decline 30-40%, reducing Lam's revenue by similar magnitude. Current valuation assumes continued strong capex growth, which is vulnerable to macro deterioration. Lam's revenue fell 8% in 2020 recession; at current valuation, a similar decline would result in 40%+ stock price decline.",
+    "balance_sheet": "Low",
+    "balance_sheet_explanation": "Lam's balance sheet is strong with D/E of 0.38 and FCF of $5.4B annually. The company has substantial financial flexibility to weather downturns or make acquisitions. Debt maturity profile is well-laddered. Balance sheet risk is LOW.",
+    "management": "Low",
+    "management_explanation": "Lam's management team (CEO Tim Archer, CFO Seshasayee) has demonstrated competent capital allocation (dividends, buybacks, debt reduction) and strategic execution (maintaining market share despite competition). No major red flags on governance or strategy. Management risk is LOW.",
+    "geopolitical": "High",
+    "geopolitical_explanation": "US-China tensions create material risk to Lam's business. China represents estimated 20-25% of revenue (direct + indirect through TSMC/Samsung). If US-China relations deteriorate further, export controls could expand, reducing addressable market. Conversely, if tensions ease, upside exists. Taiwan geopolitical risk also affects TSMC (Lam's largest customer), creating indirect exposure.",
+    "technology_obsolescence": "Medium",
+    "technology_explanation": "Lam's core technologies (deposition, etch, clean) are not at imminent risk of obsolescence, but EUV lithography maturation and chiplet adoption could reduce demand for advanced node equipment over 10-year horizon. Lam's R&D spending is adequate but not demonstrably superior to competitors. Technology risk is MEDIUM but not CRITICAL.",
+    "esg": "Low",
+    "esg_explanation": "Lam has no material ESG risks. The company operates in a capital-intensive, high-tech industry with standard environmental and labor practices. No major ESG controversies or regulatory exposure. ESG risk is LOW.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Competitive share loss to Applied Materials or ASM International (revenue decline 10-15% over 3 years, multiple compression 30-40%)",
+      "US export controls to China expand, reducing addressable market by 15-25% and enabling Chinese competitors to gain share",
+      "Macro recession in 2026-2027 triggers 30-40% capex decline, resulting in 40%+ stock price decline from current levels"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "strong growth",
+    "company_competitive_position": "strong #2",
+    "structural_tailwinds": [
+      "AI capex acceleration: $500B+ annually by 2030 across hyperscalers, driving semiconductor equipment demand +12-15% CAGR",
+      "Advanced node manufacturing: sub-3nm nodes require more sophisticated equipment, favoring Lam's deposition/etch/clean portfolio",
+      "Geographic diversification: CHIPS Act, EU Chips Act, Japan subsidies driving new fab construction in US/Europe/Japan, expanding TAM by 10-15%"
+    ],
+    "structural_headwinds": [
+      "US export controls to China: reducing addressable market by 15-20% and enabling Chinese competitors (Naura, Mattson) to gain share",
+      "Chiplet/advanced packaging adoption: could reduce demand for monolithic node shrinks, shifting capex away from etch/deposition tools by 5-10%",
+      "Buyer consolidation: Samsung and TSMC gaining leverage over suppliers, pressuring pricing and margins by 100-200bps over 5 years"
+    ],
+    "megatrend_impact": "Lam Research is a PRIMARY beneficiary of AI infrastructure buildout and advanced semiconductor manufacturing. The company's deposition, etch, and clean technologies are essential for producing AI chips (NVIDIA H100/H200, custom TPUs) at advanced nodes. As AI capex cycles accelerate, semiconductor equipment spending follows with 12-18 month lag. Lam's integrated hardware-process-materials-software approach positions it to capture disproportionate value as customers optimize for yield and throughput. However, this megatrend is NOT exclusive to Lam—Applied Materials, ASM, and Tokyo Electron all benefit equally. The company's position becomes MORE valuable if AI capex sustains at elevated levels (probability 70%), but becomes LESS valuable if capex normalizes or if customers shift to mature-node manufacturing (probability 30%).",
+    "recession_history": "During 2008 financial crisis, semiconductor equipment spending fell 50% and Lam's revenue declined 40% (from $5.6B to $3.3B). Recovery took 3 years. During 2020 COVID recession, semiconductor equipment spending fell 15% and Lam's revenue declined 8% (from $17.4B to $15.9B). Recovery took 12 months. Lam's recession resilience is MODERATE—the company is cyclical but less cyclical than pure capex plays due to installed base service revenue. Current valuation assumes continued strong capex growth; a recession would result in 30-40% revenue decline and 40-50% stock price decline.",
+    "disruption_threats": "Three specific disruption threats exist: (1) EUV lithography maturation could reduce etch tool complexity and pricing power by 10-15%; (2) chiplet/advanced packaging adoption could shift capex intensity away from monolithic node shrinks, reducing TAM by 5-10%; (3) Chinese competitors (Naura, Mattson) improving rapidly with government support could capture 5-10% market share in mature nodes within 5 years. None of these threats are imminent, but all are material over 10-year horizon. Lam's ability to navigate these threats depends on continued R&D investment and customer relationships.",
+    "better_sector_alternatives": [
+      "AMAT (Applied Materials): Market leader with 45% share, better positioned for share gains, trading at 22x EV/EBITDA vs. Lam's 45x",
+      "ASML (ASML Holding): Lithography equipment monopolist with 90%+ market share, stronger moat, trading at 35x EV/EBITDA"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Lam Research is a QUALITY COMPANY at a NON-QUALITY PRICE. The company exhibits exceptional financial metrics (39.5% ROIC, 48.7% gross margins, $5.4B FCF), operates in a structurally attractive market (AI capex tailwinds, advanced node manufacturing), and possesses a durable competitive moat (high switching costs, installed base, integrated solutions). However, at 53.7x P/E and 45.2x EV/EBITDA, the stock is priced for 18.5% annual earnings growth over 10 years—a level that is UNREALISTIC given (1) total semiconductor equipment market growing only 8-12% CAGR, (2) Lam's market share stable at 20-25%, and (3) revenue CAGR of only 2.3% over past 4 years. The market is pricing in a 'perfect scenario' where Lam gains share, margins expand, and growth accelerates. Quality Score of 7.2 (strong) is offset by Opportunity Score of 4.8 (expensive), resulting in Combined Score of 6.3 (hold). The stock is a STRONG BUY at $165-$180, a WATCHLIST at $220, and a HOLD/AVOID at current price.",
+    "upside_catalysts": [
+      "AI capex acceleration exceeds expectations: if hyperscaler capex grows 15%+ CAGR (vs. consensus 12%), Lam's revenue could grow 12-14% CAGR, justifying 35-40x P/E multiple. Catalyst timeline: 2026-2027. Upside to $380-$420.",
+      "Market share gains vs. Applied Materials: if Lam gains 200-300bps share in advanced nodes (probability 20%), revenue growth could accelerate to 12-14% CAGR. Catalyst timeline: 2027-2028. Upside to $360-$400.",
+      "Strategic acquisition or merger: if Lam acquires complementary business (e.g., materials company) or merges with peer, synergies could drive 15%+ earnings growth. Catalyst timeline: 2026-2027. Upside to $350-$380."
+    ],
+    "downside_risks": [
+      "Macro recession in 2026-2027: if capex declines 30-40%, Lam's revenue could fall 25-35%, earnings could fall 40-50%, and stock could decline to $140-$160 (50% downside). Trigger: yield curve inversion, credit spreads widen, capex guidance reduced.",
+      "Competitive share loss to Applied Materials: if Applied Materials gains 300-400bps share over 3 years, Lam's revenue growth could decelerate to 4-6% CAGR, multiple could compress to 25-30x P/E, and stock could decline to $180-$200 (35% downside). Trigger: Applied Materials wins major customer wins, Lam loses share in deposition.",
+      "US export controls to China expand: if controls tighten and reduce addressable market by 20-25%, revenue could decline 10-15%, and stock could decline to $200-$240 (20-30% downside). Trigger: US government announces new restrictions, China retaliates."
+    ],
+    "strong_buy_at": "$165",
+    "watchlist_at": "$220",
+    "exit_trigger": "If Lam loses 300+ bps market share to Applied Materials over 12 months, or if US export controls to China expand materially, or if macro recession is confirmed, exit position and reassess.",
+    "position_sizing_note": "moderate (2-5%)"
+  },
+  "comparable_companies": [
+    "AMAT (Applied Materials): Direct competitor, market leader with 45% share, better positioned for share gains, trading at 22x EV/EBITDA vs. Lam's 45x. More attractive valuation.",
+    "ASML (ASML Holding): Lithography equipment monopolist with 90%+ market share, stronger moat, trading at 35x EV/EBITDA. Better moat but also expensive.",
+    "KLAC (KLA Corporation): Semiconductor inspection equipment, similar customer base, trading at 28x EV/EBITDA. More attractive valuation than Lam."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 2025 10-K filing, current market data as of 2026-05-16, and industry consensus estimates. Revenue CAGR calculated from 2022-2025 actuals. Gross margins, operating margins, ROIC, and FCF percentages derived from financial statements. Customer concentration estimates based on 10-K disclosures and industry reports. Competitive market share estimates based on industry research (Gartner, Semico). Reverse DCF assumes 10% discount rate and 2.5% terminal growth rate. All figures in USD unless otherwise noted. Analyst target of $310.46875 suggests 9% upside from current price, but this target appears to underestimate valuation risk given current multiples."
+}

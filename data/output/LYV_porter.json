@@ -1,0 +1,37 @@
+{
+  "ticker": "LYV",
+  "company": "Live Nation Entertainment",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Intense competition from multiple well-capitalized competitors including AEG, CTS Eventim, and numerous regional promoters. While LYV is the largest player, competitors have strong positions in specific markets and some possess greater financial resources or venue portfolios in certain regions, limiting pricing power and market share stability."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K explicitly states 'barriers to entry into the promotion services business are low' and notes that 'certain local promoters are increasingly expanding the geographic scope of their operations.' Technology-enabled ticketing platforms have further lowered barriers, allowing new entrants to compete in ticketing services without physical infrastructure."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Live entertainment has limited direct substitutes, but streaming services, virtual concerts, and gaming platforms provide alternative entertainment options that compete for consumer time and spending. The COVID-19 pandemic demonstrated vulnerability to disruption, though pent-up demand has since returned. [INFERRED: Based on industry knowledge]"
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Artists and venues have significant negotiating power—artists can choose alternative promoters and venues, and venues can switch ticketing providers or use self-ticketing systems. The 10-K notes competitors offer 'self-ticketing systems' and that venues 'often sell and distribute a portion of their tickets in-house,' reducing LYV's control over pricing and terms."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Artists represent the primary 'suppliers' and possess substantial bargaining power, particularly superstar acts with multiple promotional options. The 10-K indicates artists receive 'the majority of all ticketing revenue' and can renegotiate terms or cancel events, giving them leverage to demand better terms or switch promoters."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Live Nation possesses a scale-based competitive advantage through its massive global footprint (460 venues, 805M fans, 55,000 events), integrated platform spanning promotion-ticketing-sponsorship, and extensive artist/venue relationships. However, the moat is moderate and vulnerable: low barriers to entry in promotion, intense rivalry from well-funded competitors, high supplier power from artists, and buyer optionality through self-ticketing and alternative promoters limit pricing power and defensibility. The company's dominance is more a function of current market position than structural competitive advantages.",
+  "key_risks": [
+    "Artist concentration and supplier power: Superstar artists can demand higher guarantees, switch promoters, or negotiate better terms, directly impacting margins on high-revenue events",
+    "Ticketing competition and disintermediation: Venues increasingly adopt self-ticketing systems or alternative providers (AXS, Eventbrite, SeatGeek), eroding Ticketmaster's fee revenue and market share",
+    "Low barriers to entry in promotion: Regional competitors can expand geographically and technology-enabled platforms lower capital requirements, intensifying price competition and market fragmentation",
+    "Economic sensitivity and demand volatility: Live events are discretionary spending; recessions, pandemics, or cultural shifts reduce attendance and ticket prices, with limited ability to pass costs to artists or venues",
+    "Regulatory and legal risks: Antitrust scrutiny (particularly regarding Ticketmaster's market dominance), bot mitigation challenges in resale markets, and evolving labor/safety regulations increase compliance costs and operational constraints"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

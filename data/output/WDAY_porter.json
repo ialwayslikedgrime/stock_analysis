@@ -1,0 +1,38 @@
+{
+  "ticker": "WDAY",
+  "company": "Workday, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Workday faces intense competition from large, well-established vendors (Oracle, SAP) and specialized competitors (ADP, ServiceNow, Coupa, Dayforce, UKG, Microsoft). The 10-K explicitly states the market is 'rapidly evolving, highly competitive, and subject to changing technology' with frequent new product introductions, indicating significant competitive pressure."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial capital requirements, complex domain expertise needed in HCM and financial management, global regulatory compliance requirements, and the need to build comprehensive integrated platforms. However, the 10-K notes that 'other cloud or AI platform companies' could develop competing applications, suggesting some threat from well-capitalized tech firms entering the market."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While no direct substitutes exist for integrated HCM/finance platforms, customers could develop internal applications or use best-of-breed point solutions. The 10-K acknowledges that 'some potential customers may elect to develop their own internal applications,' though this is limited by technical complexity and cost. AI-powered alternatives from emerging vendors represent a moderate substitute threat."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large enterprise customers (65% of Fortune 500) have significant negotiating leverage on pricing and contract terms. The 10-K indicates seasonality with Q4 concentration of deals, suggesting customers can time purchases strategically. However, switching costs are high due to implementation complexity and integration depth, limiting buyer power somewhat."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Workday has diversified supplier relationships with cloud providers (AWS, Google Cloud), payroll partners (ADP, Remote Technology, Strada), and system integrators. The company controls its core technology and has low dependency on any single supplier. Strategic partnerships are complementary rather than essential, giving Workday strong negotiating position."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Workday possesses a moderate competitive moat built on switching costs (complex implementations, deep integrations), network effects (75M users, 11,500+ customers creating ecosystem value), and brand reputation among C-suite executives. However, this moat is challenged by intense competition from entrenched players (Oracle, SAP) and emerging AI-powered alternatives. The company's continuous innovation strategy and AI integration help sustain competitive advantage, but the rapidly evolving market and large buyer power of enterprise customers limit moat durability.",
+  "key_risks": [
+    "Intense competition from Oracle, SAP, and specialized vendors (ServiceNow, ADP, Coupa) with established customer bases and resources",
+    "Large enterprise customers possess significant pricing power and can negotiate favorable terms, pressuring margins",
+    "Rapid technological change in AI and cloud computing could enable new entrants or disrupt Workday's platform advantage",
+    "Customer concentration risk with 65% of Fortune 500 as customers, creating dependency on large deal closures and renewal rates",
+    "Integration complexity and implementation costs create switching costs but also customer dissatisfaction risk if deployments fail",
+    "Regulatory complexity across global markets (data privacy, AI ethics, government contracting) increases compliance costs and operational risk"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

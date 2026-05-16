@@ -1,0 +1,37 @@
+{
+  "ticker": "IQV",
+  "company": "IQVIA",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "IQVIA faces intense competition from numerous established players (ICON, Parexel, PPD/Thermo Fisher, Syneos Health) and emerging startups across all three business segments. While the 10-K states 'no competitor provides the combination of geographical reach and breadth,' the company explicitly lists 20+ direct competitors, indicating a fragmented but highly competitive market with multiple full-service and specialized providers."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to significant capital requirements, regulatory compliance complexity, and the need for extensive proprietary data assets and global infrastructure. However, the 10-K acknowledges 'a broad range of new entrants and start-ups' are entering the market with new technologies, suggesting barriers are not insurmountable, particularly for technology-focused or niche competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Substitutes exist in the form of in-house capabilities maintained by large pharmaceutical companies, academic institutions, and emerging alternative data sources. The 10-K notes competition from 'in-house capabilities of our clients' and government agencies providing data directly, though IQVIA's integrated platform and scale provide some protection against full substitution."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (primarily large pharmaceutical companies) possess significant negotiating power given their size and ability to develop internal capabilities or switch providers. However, IQVIA's diversified client base of 10,000+ clients with no single client exceeding 5% of revenues, combined with integrated solutions that create switching costs, moderates buyer power somewhat."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "IQVIA has relatively low supplier power risk due to its diversified data supplier base of approximately 150,000 sources across 1.2 billion patient records and 68 petabytes of data. The company's scale, proprietary data integration capabilities, and technology infrastructure reduce dependence on any single supplier, though regulatory and privacy requirements create structural supplier constraints."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "IQVIA possesses a substantial but not impregnable competitive moat built on three primary pillars: (1) proprietary data assets comprising 1.2 billion patient records, 68 petabytes of data, and 150,000 data suppliers creating significant scale advantages; (2) sophisticated technology infrastructure and proprietary analytics/AI capabilities that are difficult to replicate; and (3) deep client relationships with 93,000 employees providing domain expertise across 100+ countries. However, the moat is moderately threatened by new entrants leveraging AI/technology, in-house capabilities of large clients, and the fragmented competitive landscape with multiple capable rivals.",
+  "key_risks": [
+    "Intense competitive pressure from established CROs (ICON, Parexel, PPD, Syneos Health) and emerging technology-driven startups could erode market share and pricing power",
+    "Large pharmaceutical clients possess significant bargaining power and could develop in-house capabilities or consolidate vendors, reducing IQVIA's wallet share",
+    "Regulatory changes in drug pricing, reimbursement, and data privacy (especially GDPR, HIPAA) could increase compliance costs and limit data monetization opportunities",
+    "Dependence on pharmaceutical industry R&D spending cycles creates revenue volatility if biotech funding or drug development activity declines",
+    "Rapid technological disruption in AI, real-world evidence generation, and data analytics could render proprietary platforms obsolete if IQVIA fails to innovate faster than competitors"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

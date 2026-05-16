@@ -1,0 +1,37 @@
+{
+  "ticker": "ADI",
+  "company": "Analog Devices",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "ADI operates in highly competitive semiconductor markets with numerous well-capitalized competitors possessing comparable financial and technical resources. The company explicitly states it competes with many semiconductor companies and acknowledges competitors may have more advantageous supply or customer relationships, indicating intense competitive pressure across analog, mixed-signal, power management, and RF IC segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial R&D requirements, advanced manufacturing capabilities, extensive patent portfolio (4,780 U.S. patents), and deep customer relationships built over 60 years. However, the document notes emerging companies selling specialized products and foreign government-backed semiconductor initiatives pose some threat, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for high-performance analog and mixed-signal ICs in their core applications, as these components are fundamental building blocks for signal processing and power management. Digital-only alternatives cannot fully replace analog functionality in bridging physical and digital worlds, though software-defined solutions present some long-term substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large OEM customers and distributors possess significant negotiating power, particularly given the company's reliance on a few major customers and the ability of distributors to carry competing products. The 10-K notes customers can cancel orders with minimal penalty and distributors receive price adjustment credits and return privileges, indicating substantial buyer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "ADI sources over 50% of wafers from third-party foundries like TSMC, creating dependency on limited suppliers for critical inputs. While the company maintains multiple sources for many components and operates internal fabrication facilities, semiconductor supply chain constraints and reliance on specialized foundry partners provide suppliers moderate negotiating power."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "ADI possesses a moderate-to-strong competitive moat built on 60 years of analog domain expertise, extensive patent protection, deep customer relationships, and proprietary manufacturing processes. The company's differentiation through technical innovation, comprehensive product portfolio (75,000+ SKUs), and 13,000 engineering talent creates switching costs and customer lock-in. However, intense rivalry, significant buyer power from large OEMs, and supplier concentration in foundry services limit the durability and strength of this moat.",
+  "key_risks": [
+    "Intense competitive rivalry from well-capitalized semiconductor competitors with comparable resources and potentially superior customer relationships",
+    "High customer concentration and buyer power, with large OEMs and distributors able to negotiate pricing and cancel orders with minimal penalty",
+    "Supply chain dependency on third-party foundries (>50% of wafers from TSMC and others) and specialized component suppliers, creating vulnerability to supply disruptions and price increases",
+    "Cyclicality and volatility in semiconductor demand, with customers placing orders without binding commitments, creating inventory and forecasting risk",
+    "Rapid technological change requiring continuous R&D investment to maintain competitive position in analog, mixed-signal, AI, and edge computing domains"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

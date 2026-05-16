@@ -1,0 +1,38 @@
+{
+  "ticker": "AKAM",
+  "company": "Akamai Technologies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Akamai faces intense competition from both established players and new entrants across its three business segments. The 10-K explicitly states 'the market for our solutions is intensely competitive and characterized by rapidly changing technology, evolving industry standards and frequent new product and service innovations.' Competition spans CDN providers, security vendors, and increasingly from hyperscaler cloud providers (AWS, Azure, Google Cloud) entering edge computing and security markets."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but declining. While Akamai's massive distributed infrastructure (4,300+ edge PoPs, 1,200 network partners) and 560+ patents create significant capital and technical barriers, hyperscalers with existing cloud infrastructure and deep pockets can more easily enter adjacent markets. The 10-K acknowledges 'we expect competition for our offerings to increase both from existing competitors and new market entrants,' particularly in cloud computing and AI inference services."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Credible substitutes exist across all three business segments. Customers can build in-house solutions, use hyperscaler alternatives (AWS CloudFront, Azure CDN), or adopt point solutions from specialized vendors. The 10-K notes 'existing and potential customers may decide to purchase or develop their own hardware, software or other technology solutions rather than rely on a third-party provider like us,' and hyperscalers increasingly offer competing security and compute services."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyer power is moderate to high. No single customer represents >10% of revenue, reducing dependency risk, but enterprise customers have significant negotiating leverage given multiple alternatives and the ability to build internal solutions. Large customers can demand custom integrations, managed services, and competitive pricing. However, switching costs and integration complexity provide some protection for incumbent relationships."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. Akamai depends on network partners (1,200 partners mentioned) and infrastructure providers, but maintains diversification across geographies and partners. The 10-K mentions reliance on NVIDIA GPUs for compute services, creating some dependency on semiconductor suppliers. However, Akamai's scale and global footprint provide negotiating leverage with most suppliers, though critical component shortages could impact operations."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Akamai possesses a defensible but eroding competitive moat built primarily on its massive distributed global infrastructure (4,300+ edge PoPs), network effects from 1,200 partners, and accumulated expertise in internet traffic management and security. However, this moat is increasingly challenged by hyperscaler cloud providers expanding into edge computing and security, the commoditization of CDN services, and the shift toward cloud-native architectures. The company's 560+ patents and brand reputation provide some protection, but sustained innovation and strategic acquisitions (Noname Security, Fermyon, Guardicore) are necessary to maintain competitive positioning as markets consolidate around AI infrastructure and zero-trust security.",
+  "key_risks": [
+    "Intensifying competition from hyperscaler cloud providers (AWS, Azure, Google Cloud) with superior capital resources and existing customer relationships entering edge computing, AI inference, and security markets",
+    "Regulatory and geopolitical risks including data localization requirements, export controls, content restrictions, and evolving AI/cybersecurity regulations that could constrain product roadmaps and increase compliance costs",
+    "Technology disruption and rapid innovation cycles requiring continuous R&D investment; failure to innovate in AI-powered security and edge inference could result in market share loss",
+    "Customer concentration risk in enterprise segment and potential for large customer churn given multiple competitive alternatives and ability to build in-house solutions",
+    "Integration execution risk from recent acquisitions (Noname Security, Fermyon, Guardicore) and ability to realize synergies and cross-sell benefits",
+    "Dependency on network partners and infrastructure providers; supply chain disruptions or partner conflicts could impact service delivery and margins"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

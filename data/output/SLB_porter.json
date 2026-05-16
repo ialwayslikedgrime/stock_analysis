@@ -1,0 +1,38 @@
+{
+  "ticker": "SLB",
+  "company": "Schlumberger",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "SLB operates in a highly competitive energy services industry with numerous large and small competitors. The 10-K explicitly states competition is based on technological innovation, quality of service, and price differentiation, indicating intense rivalry. The company's need to continuously innovate and maintain technological leadership suggests significant competitive pressure."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to SLB's century of technological leadership, extensive IP portfolio (patents, proprietary information, trade secrets), global infrastructure across 100+ countries, and deep customer relationships with national oil companies and integrated majors. The capital intensity and specialized expertise required create substantial moats against new competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While renewable energy and energy transition represent long-term substitutes for oil and gas services, near-term demand remains strong. SLB is proactively addressing this through New Horizons of Growth (carbon capture, geothermal, critical minerals, data center solutions), but traditional oilfield services remain core revenue drivers with limited near-term substitutes."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (national oil companies, integrated majors, independent operators) have moderate-to-high bargaining power given the commodity nature of some services and price competition. However, SLB's integrated solutions, technological differentiation, and the fact that no single customer exceeds 10% of revenue provides some pricing power mitigation."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "SLB has moderate supplier power exposure. As a large, diversified manufacturer and service provider, it likely has negotiating leverage with suppliers. However, the 10-K notes Scope 3 emissions (95% of baseline) come from third-party goods and services, suggesting some supply chain dependency. [INFERRED: Typical for industrial companies of this scale]"
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "SLB possesses a strong competitive moat built on nearly a century of technological leadership, an extensive IP portfolio, global scale with presence in 100+ countries, and integrated solutions that span the energy value chain. The company's diversified portfolio across Digital, Reservoir Performance, Well Construction, and Production Systems creates switching costs and customer lock-in. However, commodity price exposure, intense price competition, and the energy transition represent ongoing threats to moat sustainability.",
+  "key_risks": [
+    "Commodity price volatility and cyclical upstream spending - 2025 saw lower commodity prices and oversupplied oil market reducing customer capex",
+    "Energy transition and decarbonization - Long-term structural decline in oil and gas demand threatens core business despite New Horizons initiatives",
+    "Geopolitical uncertainty and regional concentration risk - Significant exposure to Saudi Arabia, Mexico, and Sub-Saharan Africa with 2025 showing declines in these regions",
+    "Integration execution risk from ChampionX acquisition ($4.9B) - Successful integration critical to realizing synergies and production/recovery market growth",
+    "Intense competitive pressure on pricing and margins - Multiple competitors competing on price differentiation limits pricing power",
+    "Digital transformation execution - Success depends on customer adoption of AI, cloud platforms, and digital operations at scale"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

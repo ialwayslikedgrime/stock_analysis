@@ -1,0 +1,38 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Amazon faces intense competition across multiple segments from well-resourced competitors including Walmart, Target, Microsoft (Azure), Google, Apple, and specialized players in retail, cloud, advertising, and logistics. The 10-K explicitly states 'intensely competitive' conditions with competitors having 'greater resources, longer histories, more customers, greater brand recognition' in certain segments, and ability to adopt aggressive pricing and secure better supplier terms."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While Amazon has significant scale advantages, barriers to entry are moderate due to technology democratization and capital availability. The 10-K notes that 'the internet and other technologies including artificial intelligence facilitate competitive entry and comparison shopping, which enhances the ability of new, smaller, or lesser-known businesses to compete.' However, Amazon's fulfillment network, AWS infrastructure, and brand create meaningful but surmountable barriers."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Credible substitutes exist across Amazon's business segments: traditional retail and omnichannel competitors for e-commerce, alternative cloud providers (Azure, Google Cloud) for AWS, social commerce and search engines for discovery, and direct-to-consumer channels for sellers. The 10-K identifies competitors including 'web search engines, comparison shopping websites, social networks' and 'companies that provide information technology services.'"
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate-to-high due to low switching costs, abundant alternatives, and price transparency enabled by the internet. Consumers can easily compare prices and switch to competitors; sellers have options for alternative marketplaces and fulfillment services. The 10-K acknowledges that 'comparison shopping...enhances the ability of new, smaller, or lesser-known businesses to compete' and that Amazon may be 'required to increase spending or lower prices.'"
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. While Amazon's scale provides negotiating leverage with most suppliers, the company faces constraints: China-based suppliers are critical for components and finished goods (creating geopolitical risk), content providers have leverage over digital rights, and third-party sellers have some bargaining power. The 10-K notes competitors 'may secure better terms from vendors' and highlights dependency on China-based suppliers and sellers for significant revenue portions."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Amazon possesses a narrow moat based on scale, network effects, and operational efficiency, but faces significant competitive pressures that limit its defensibility. The company's competitive advantages—vast fulfillment infrastructure, AWS market leadership, Prime ecosystem, and brand—are partially offset by intense rivalry, moderate barriers to entry, and high buyer power across segments. While AWS provides a stronger moat in cloud infrastructure, the retail business faces commoditized competition where Amazon must continuously invest in price, selection, and convenience to maintain position.",
+  "key_risks": [
+    "Intense competition from well-resourced rivals with greater resources, brand recognition, and ability to adopt aggressive pricing strategies across retail, cloud, advertising, and logistics segments",
+    "International expansion challenges including regulatory restrictions (China, India), geopolitical risks, currency fluctuations, and local competitive disadvantages despite significant capital investment",
+    "Dependence on China-based sellers and suppliers for significant portions of third-party seller services, advertising revenues, and components, creating vulnerability to tariffs, trade disputes, and regulatory changes",
+    "Rapid technological disruption and new competitive business models enabled by AI, search, and alternative distribution channels that lower barriers to entry for new competitors",
+    "Operational strain from managing complex global scale, seasonal demand volatility, fulfillment network optimization, and inventory management across diverse product categories and geographies",
+    "Intellectual property risks including potential infringement claims (amplified by AI development), counterfeiting/fraud in third-party seller marketplace, and inadequate IP protection in certain jurisdictions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

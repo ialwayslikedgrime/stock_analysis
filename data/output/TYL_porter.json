@@ -1,0 +1,38 @@
+{
+  "ticker": "TYL",
+  "company": "Tyler Technologies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Tyler faces intense competition from numerous local, regional, and national firms including Oracle, Infor, SAP, Workday, CentralSquare, and others with greater financial resources. While Tyler has the broadest product line for public sector, competitors can undercut on price and serve specific niches, creating significant competitive pressure across multiple product categories."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Tyler's deep domain expertise in government operations, established relationships with 30 states via enterprise contracts, broad integrated product portfolio, and significant switching costs for government clients. However, specialized niche competitors can still enter specific market segments with lower-cost solutions."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited credible substitutes exist for mission-critical government software systems; governments cannot easily build custom solutions internally due to IT staffing constraints and complexity. However, consulting firms and internal IT departments occasionally develop custom systems, and cloud-native alternatives from tech giants pose emerging threats."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Government buyers have moderate-to-high power due to mandatory competitive bidding processes (RFPs) and use of external consultants for vendor selection. However, Tyler's low client turnover (~2% annually), long-term contracts, and integrated system advantages reduce switching ability once implemented, limiting buyer leverage post-sale."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Tyler has low supplier power risk as hardware, software, and cloud services are available from multiple third-party sources with no reported supply problems. The strategic AWS partnership is collaborative rather than dependent, and Tyler maintains flexibility across suppliers for infrastructure needs."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Tyler possesses a moderate-to-strong competitive moat built on high switching costs, deep domain expertise, an integrated product ecosystem, and established long-term government relationships across 30 states. The company's 87% recurring revenue base, low 2% annual client turnover, and broad product breadth create defensibility. However, the moat is partially offset by intense competition from well-capitalized rivals, government procurement processes that favor competitive bidding, and the threat of larger tech companies entering the public sector market.",
+  "key_risks": [
+    "Intense competition from larger, better-capitalized competitors (Oracle, SAP, Workday) with greater resources for R&D and market expansion",
+    "Government budget constraints and mandatory competitive bidding processes that pressure pricing and limit pricing power",
+    "Execution risk on cloud migration strategy and AWS partnership dependency as Tyler transitions from proprietary data centers",
+    "Talent acquisition and retention challenges in competitive labor market, particularly for cloud and specialized technical skills",
+    "Regulatory and legislative changes affecting government IT spending priorities and compliance requirements",
+    "Integration and cultural risks from strategic acquisitions needed to expand product portfolio and market reach"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

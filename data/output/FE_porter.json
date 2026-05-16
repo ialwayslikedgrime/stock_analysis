@@ -1,0 +1,37 @@
+{
+  "ticker": "FE",
+  "company": "FirstEnergy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "FirstEnergy operates in regulated utility markets with no direct competition for electric distribution services in its service territories across Ohio, Pennsylvania, West Virginia, Maryland, New Jersey, and New York. The company holds monopoly franchises in these regions, eliminating traditional competitive rivalry in distribution operations."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry exist due to regulatory requirements, massive capital requirements ($21.3B rate base), established infrastructure (24,000+ miles of transmission lines), and state/federal licensing. However, FERC Order No. 1000 allows non-incumbent developers to compete for certain transmission projects, creating limited entry opportunities in transmission development."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for regulated electricity distribution and transmission services. While distributed generation and microgrids represent emerging alternatives (inferred from industry trends), they remain nascent and cannot fully replace grid-based electricity delivery for the 6+ million customers served. Regulatory frameworks strongly favor incumbent utilities."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Customers have minimal pricing power as FirstEnergy operates under cost-based rate regulation by FERC and state utility commissions. Rates are set by regulators, not negotiated with customers. Residential and commercial customers cannot switch providers for distribution services, eliminating buyer leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Supplier power is moderate to high. FirstEnergy faces supply chain constraints (acknowledged in 10-K regarding tariffs, lead times, and inflationary pressures) and depends on coal suppliers for generation (MP has multi-year contracts through 2030). However, diversified sourcing and regulatory cost-recovery mechanisms mitigate supplier leverage."
+    }
+  },
+  "moat_score": 4.4,
+  "moat_summary": "FirstEnergy possesses an exceptionally strong competitive moat anchored by regulated utility monopolies across six states, creating durable competitive advantages. The company benefits from high regulatory barriers to entry, cost-based rate recovery mechanisms that protect profitability, and essential infrastructure serving 6+ million customers. While transmission operations face limited competitive pressure from FERC Order No. 1000, the core distribution business remains protected by regulatory franchises and massive capital requirements that effectively prevent new entrants.",
+  "key_risks": [
+    "Regulatory risk: Changes in allowed ROE, rate structures, or regulatory treatment could materially impact profitability; recent FERC ruling eliminated 50bp RTO membership adder",
+    "Supply chain disruption: Acknowledged tariffs, lead times, and inflationary pressures could increase capital costs and operational expenses; prolonged constraints could impact service reliability",
+    "Energy transition and demand uncertainty: Shift toward distributed generation, electrification patterns, and data center demand create unpredictable load forecasting; capital-intensive generation investments (proposed $2.5B for solar and natural gas) face execution and regulatory approval risks",
+    "Weather and seasonality: Demand peaks in summer/winter; mild weather materially reduces revenue and cash flow; climate change creates long-term demand uncertainty",
+    "Transmission competition: FERC Order No. 1000 enables non-incumbent developers to compete for transmission projects, eroding FirstEnergy's transmission development opportunities and returns"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

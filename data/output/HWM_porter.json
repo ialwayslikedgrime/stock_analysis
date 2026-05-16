@@ -1,0 +1,38 @@
+{
+  "ticker": "HWM",
+  "company": "Howmet Aerospace",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Howmet faces substantial and intense competition across all segments from well-capitalized competitors including Berkshire Hathaway (via Precision Castparts), VSMPO, ATI Inc., Lisi Aerospace, and others. The 10-K explicitly states 'substantial and intense competition' and notes that many products can be produced by competitors using similar manufacturing processes, though Howmet maintains market leadership in most principal markets."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements, advanced manufacturing capabilities, proprietary technology (1,020 granted patents, 1,590 trademarks), long-standing customer relationships, and aerospace certification requirements. However, the 10-K notes increasing competition from Chinese, Taiwanese, Indian, South Korean, and Turkish suppliers in wheels, suggesting some erosion of barriers in certain segments."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for mission-critical aerospace components where Howmet specializes. Alternative materials and manufacturing processes exist but cannot fully replicate performance requirements for jet engines, airframes, and structural components. The company's advanced cooling, coatings, and material science provide differentiation that is difficult to substitute."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high due to customer concentration; RTX Corporation and GE Aerospace each represent approximately 11% of third-party sales, and the 10-K explicitly states 'loss of any such significant customer could have a material adverse effect.' However, switching costs are high due to certification requirements and integrated supply relationships, partially offsetting buyer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists as Howmet depends on specialized raw materials (titanium, nickel superalloys, cobalt, ceramics) sourced from third-party suppliers under competitively priced contracts. The 10-K states materials are available and purchased competitively, but supply chain disruptions for specialty materials could create vulnerability. [INFERRED: Global supply chain concentration in aerospace-grade materials suggests moderate supplier leverage]."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Howmet possesses a moderate-to-strong competitive moat built on proprietary technology (1,020+ patents), advanced manufacturing capabilities, vertical integration across multiple product lines, and established customer relationships with aerospace OEMs. The company can produce over 90% of structural and rotating aero engine components, creating switching costs and customer lock-in. However, the moat is partially offset by intense competition from well-capitalized rivals, customer concentration risk (two customers = 22% of sales), and increasing international competition in certain segments like forged wheels.",
+  "key_risks": [
+    "Cyclical aerospace and commercial transportation markets sensitive to global economic conditions, airline profitability, and aircraft production timing",
+    "Customer concentration with RTX and GE Aerospace each representing ~11% of sales; loss of major customer could materially impact results",
+    "Intense competition from Berkshire Hathaway/Precision Castparts, VSMPO, ATI Inc., and emerging suppliers from China, Taiwan, India, and Turkey",
+    "Dependence on specialized raw materials (titanium, nickel superalloys, cobalt) with potential supply chain vulnerabilities",
+    "Regulatory and compliance risks across 19 countries; aerospace certification and defense requirements create operational complexity",
+    "Integration risks from pending $1.8B CAM acquisition and recent Brunner acquisition; execution risk on organic growth initiatives"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

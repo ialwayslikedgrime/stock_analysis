@@ -1,0 +1,37 @@
+{
+  "ticker": "MRK",
+  "company": "Merck & Co.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Merck operates in highly competitive pharmaceutical and animal health markets with numerous research-based competitors, generic manufacturers, and biosimilar producers. The 10-K explicitly states 'highly competitive and highly regulated' markets where competitors introduce new products, processes, and combination therapies that result in price reductions and product displacement even for patent-protected drugs."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive R&D requirements, regulatory approval processes (FDA, EMA, NMPA), patent protections, and significant capital investment. However, the 10-K notes that 'patent rights are increasingly being challenged by competitors' and outcomes are 'highly uncertain,' suggesting barriers are eroding over time, particularly for biosimilars."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes as the number of compounds available to treat particular diseases increases over time, resulting in slowed sales growth. The 10-K indicates that therapeutic categories see increased competition as alternatives emerge, though Merck's diverse portfolio across oncology, vaccines, and specialty care provides some insulation."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers possess significant pricing power through managed care organizations, government agencies (Medicare, Medicaid), pharmacy benefit managers, and international price controls. The 10-K documents extensive pricing pressure from cost-containment measures, the 340B program, most-favored-nation pricing agreements, and government-mandated price reductions globally."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power appears moderate to low as the 10-K does not identify significant supplier concentration issues or supply chain vulnerabilities. Merck's scale, manufacturing capabilities, and diversified sourcing likely provide negotiating leverage, though the company does reference manufacturing investments and tariff negotiations with the U.S. government."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Merck maintains a moderate competitive moat supported by strong patent portfolios, extensive R&D capabilities, and a diversified product portfolio spanning oncology (Keytruda generating $31.7B in sales), vaccines, and specialty pharmaceuticals. However, the moat is under significant pressure from generic/biosimilar competition, eroding patent protections, intense buyer power from government and managed care entities, and regulatory pricing constraints. The company's scale and innovation track record provide defensibility, but sustained pricing pressure and patent challenges limit the durability of competitive advantages.",
+  "key_risks": [
+    "Patent expiration and biosimilar competition: Keytruda and other key products face patent challenges and biosimilar threats that could significantly reduce revenues and market share",
+    "Pricing pressure and regulatory constraints: Government-mandated pricing controls, most-favored-nation agreements, Medicaid rebates, and the 340B program are systematically reducing margins and profitability",
+    "Competitive product displacement: Increasing number of therapeutic alternatives in key categories (oncology, vaccines, cardiometabolic) could slow sales growth or reduce market share despite patent protection",
+    "Regulatory and reimbursement headwinds: Changes to vaccination recommendations (ACIP decision on MMRV/varicella) and evolving healthcare policy could negatively impact specific product categories",
+    "Geopolitical and trade risks: Tariff negotiations, international pricing controls, and trade policy uncertainty (Section 232 tariffs, foreign revenue repatriation requirements) create operational and financial uncertainty"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

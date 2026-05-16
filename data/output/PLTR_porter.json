@@ -1,0 +1,38 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Palantir faces intense competition from large enterprise software companies, government contractors, system integrators, and emerging competitors. Many competitors possess greater name recognition, larger customer bases, bigger sales/marketing budgets, broader partner relationships, and substantially greater financial and technical resources, creating a highly competitive landscape."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to complex technical requirements, long sales cycles, high installation costs, significant failure risks, and the need for deep domain expertise in government and enterprise data integration. The vertically integrated platform architecture and embedded customer relationships create substantial switching costs and competitive moats that deter new entrants."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "The primary substitute is internal software development by customers using patchwork solutions, open-source software, and IT services companies. However, Palantir's 10-K emphasizes that internal development efforts frequently fail (citing billion-dollar failures), and the company's rapid deployment capabilities (days vs. months/years) reduce substitute viability, though this threat remains material."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large government and commercial customers have significant negotiating power, particularly the top 20 customers representing substantial revenue concentration. However, mission-critical nature of solutions, high switching costs, embedded relationships, and limited viable alternatives somewhat constrain buyer leverage. Government procurement cycles and long-term contracts provide some pricing stability."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Palantir has low supplier power risk as it primarily relies on cloud infrastructure providers (AWS, Azure, GCP) and third-party LLMs, which are commoditized and interchangeable. The company's cloud-agnostic Apollo platform and ability to integrate multiple LLM providers reduces dependency on any single supplier, providing significant negotiating leverage."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Palantir possesses a moderate-to-strong competitive moat built on high switching costs (embedded customer relationships, complex data integration), significant barriers to entry (technical complexity, long sales cycles, high implementation risk), and proprietary technology (Ontology, integrated platform architecture). However, this moat is partially offset by intense rivalry from well-resourced competitors and customer concentration risk. The company's government relationships and proven track record in mission-critical applications provide defensibility, but sustained R&D investment and continued platform innovation are essential to maintain competitive positioning.",
+  "key_risks": [
+    "Customer concentration: Top 20 customers averaged $93.9M in revenue (2025), indicating significant revenue dependency on large accounts that could be lost or reduced",
+    "Intense competition from larger, better-resourced competitors with greater brand recognition, sales/marketing budgets, and established customer relationships",
+    "Government revenue concentration (54% of 2025 revenue) exposes company to policy changes, budget cuts, and geopolitical shifts affecting defense/intelligence spending",
+    "Long sales cycles and high implementation complexity create execution risk and potential for project failures that could damage reputation and customer relationships",
+    "Rapid technology evolution in AI/LLMs requires continuous R&D investment; failure to innovate could erode competitive advantages",
+    "Regulatory and compliance risks related to data privacy (GDPR, EU AI Act) and government contracting requirements could increase costs or limit market access"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

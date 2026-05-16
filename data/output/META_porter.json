@@ -1,0 +1,39 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Meta faces intense competition from multiple well-capitalized rivals including TikTok (which has reduced user engagement), Google, Amazon, Apple, and emerging platforms. The 10-K explicitly states 'We compete with companies providing connection, sharing, discovery, and communication products' and notes TikTok has 'reduced some users' engagement with our products.' Competition spans social networking, advertising technology, AI development, and emerging VR/AR platforms."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "While significant capital requirements and network effects create barriers, the 10-K acknowledges 'rapid change, and disruptive technologies' characterize the industry. Meta's dominance in social networking provides some moat, but emerging technologies (AI, metaverse, wearables) present lower barriers for new entrants with novel approaches. The company's need to continuously innovate suggests incumbent advantages are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Strong substitute threats exist across Meta's portfolio. TikTok is explicitly mentioned as reducing engagement with Meta's products. Emerging platforms, messaging apps, gaming, and AI assistants from competitors (ChatGPT, Google Gemini) provide alternative ways for users to connect, discover content, and spend time. The shift toward immersive technologies and AI creates additional substitution risks."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Advertisers (Meta's primary revenue source) have moderate-to-high bargaining power. The 10-K notes 'loss of, or reduction in spending by, our marketers' as a key risk and mentions 'reduced availability of data signals used by our ad targeting' could harm advertiser effectiveness. However, Meta's scale and targeting capabilities provide some pricing power, and self-service platforms reduce switching costs asymmetrically in Meta's favor for small advertisers."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Meta has moderate supplier power dynamics. The company relies on third-party infrastructure providers and mobile OS partners (Apple, Google), creating dependency risks noted in the 10-K regarding 'ineffective operation with mobile operating systems or changes in our relationships.' However, Meta has invested in building proprietary data centers and infrastructure to reduce reliance. Semiconductor and cloud capacity constraints represent emerging supplier pressures (inferred from AI infrastructure investments)."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Meta possesses a moderate competitive moat anchored on network effects, scale advantages in advertising technology, and massive user bases across its Family of Apps (3+ billion users inferred). However, this moat is eroding due to intense competition from TikTok and other platforms, regulatory pressures limiting data usage, and the uncertain payoff from massive Reality Labs investments ($21.4B in 2025). The company's AI capabilities and proprietary infrastructure provide some defensibility, but rapid technological change and user preference shifts toward new platforms create significant vulnerability.",
+  "key_risks": [
+    "User retention and engagement decline, particularly from TikTok competition and shifting user preferences toward emerging platforms",
+    "Regulatory restrictions on data usage, advertising practices, and content moderation (GDPR, DMA, DSA, EU AI Act) that could impair ad targeting effectiveness and revenue",
+    "Massive Reality Labs losses ($21.4B in 2025) with uncertain monetization timeline for metaverse, VR, and AR products that may never achieve commercial viability",
+    "Dependence on mobile OS partners (Apple, Google) and vulnerability to changes in their policies, particularly regarding data access and app distribution",
+    "Advertiser concentration risk and potential loss of marketing spend if ad effectiveness declines due to data signal restrictions or competitive alternatives",
+    "Geopolitical risks including government bans (Russia) and potential restrictions in other jurisdictions limiting user base and ad reach",
+    "Intellectual property challenges and inability to enforce patents in frontier AI and metaverse technologies where competitive landscape is unsettled"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,38 @@
+{
+  "ticker": "FICO",
+  "company": "Fair Isaac Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "FICO faces intense competition from numerous players including larger competitors (IBM, SAS, Pegasystems, Experian, Equifax) with greater resources. However, FICO maintains differentiation through proprietary analytics, brand recognition (FICO Score standard), and deep industry expertise. The competitive landscape is fragmented across different product categories, reducing direct head-to-head competition in some segments."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to FICO's 65+ years of analytics expertise, proprietary algorithms protected as trade secrets, 204 U.S. patents, established relationships with major financial institutions, and the network effects of the FICO Score standard. However, cloud computing and open-source ML tools have lowered some technical barriers, and well-capitalized tech firms could potentially enter with sufficient investment."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "VantageScore and alternative scoring models (FICO Score XD, UltraFICO) represent direct substitutes, though FICO Score remains the industry standard. In-house analytics development and emerging AI/ML platforms pose indirect substitution threats. The regulatory entrenchment of FICO Score in credit decisions provides some protection, but regulatory changes could enable alternatives."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "FICO faces significant buyer concentration risk: the three major consumer reporting agencies (Experian, TransUnion, Equifax) collectively accounted for 51% of revenues in fiscal 2025, up from 41% in fiscal 2023. This creates substantial leverage for these key customers. However, FICO's mission-critical role in credit decisions and switching costs provide some pricing power mitigation."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "FICO has limited supplier dependency for its core business. The company relies on cloud infrastructure providers (AWS, Azure, etc.) for SaaS delivery, but these are commoditized with multiple alternatives. Data suppliers (credit bureaus) are actually customers rather than suppliers. Employee talent in analytics and software development represents the primary supply constraint, though this is industry-wide."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "FICO possesses a moderate-to-strong competitive moat anchored by brand dominance (FICO Score as industry standard), substantial intellectual property (patents and trade secrets), high switching costs for mission-critical software, and deep customer relationships with 75% of top-100 U.S. financial institutions. However, the moat is partially eroded by high buyer concentration (51% revenue from three CRAs), increasing competition from well-resourced rivals, and the threat of regulatory changes or alternative scoring models. The company's transition to FICO Platform represents both a moat-strengthening opportunity and execution risk.",
+  "key_risks": [
+    "Buyer concentration: Three consumer reporting agencies represent 51% of revenues with growing share, creating significant pricing and contract renewal risk",
+    "Regulatory disruption: Changes to credit scoring regulations, data privacy laws (GDPR, CCPA), or mandates for alternative scoring models could undermine core Scores segment",
+    "Competitive pressure from larger, better-resourced rivals: IBM, SAS, Pegasystems, and cloud-native AI platforms pose ongoing threats to Software segment market share",
+    "FICO Platform transition execution risk: Migrating legacy products to new platform could face adoption delays, technical challenges, or customer resistance",
+    "Disintermediation threat: Direct relationships between lenders and alternative data providers could bypass FICO's scoring distribution model",
+    "Technological disruption: Advances in machine learning and AI could commoditize predictive analytics capabilities that currently differentiate FICO"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

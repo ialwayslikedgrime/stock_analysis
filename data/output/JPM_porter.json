@@ -1,0 +1,37 @@
+{
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "JPM operates in highly competitive environments across all business segments competing against other banks, brokerage firms, investment banks, hedge funds, private equity firms, and fintech companies. The 10-K explicitly states competition is intense and varies by geography and product type, with competitors competing on quality, variety, execution, innovation, reputation and price."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive regulatory requirements (Federal Reserve, OCC, SEC, CFTC oversight), capital requirements, and compliance infrastructure. However, the 10-K notes that new competitors continue to emerge, particularly internet-based and fintech companies offering disintermediated products, indicating some erosion of traditional barriers in certain segments."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist from non-financial companies offering financial services, e-commerce platforms, digital asset providers, and fintech companies disintermediating traditional banking products. The 10-K explicitly identifies these as competitive threats, particularly in payments and consumer lending segments."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Institutional and corporate clients (CIB and AWM segments) have substantial bargaining power given the commoditized nature of many wholesale banking services and ability to access multiple providers. Consumer clients have moderate power through switching costs and product alternatives, though JPM's scale and brand provide some pricing power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "JPM has significant supplier power as a major financial institution with scale advantages in capital markets and technology infrastructure. However, the firm is dependent on technology vendors, data providers, and payment system operators, creating some supplier concentration risk (inferred from operational resilience and third-party service dependencies mentioned in regulatory standards)."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "JPMorgan Chase possesses a moderate competitive moat anchored by scale ($4.4 trillion in assets), brand reputation, regulatory barriers to entry, and diversified business segments. However, the moat is eroding due to fintech disruption, intense competition across all segments, and regulatory constraints that limit differentiation. The firm's primary defensibility comes from its systemically important status, capital base, and client relationships rather than sustainable competitive advantages.",
+  "key_risks": [
+    "Regulatory capital requirements and Basel III implementation uncertainty could constrain profitability and limit strategic flexibility",
+    "Fintech and non-bank competitors offering disintermediated products threaten market share in payments, lending, and wealth management",
+    "Intense price-based competition in wholesale banking (CIB) and consumer segments limits pricing power and margin expansion",
+    "Regulatory compliance costs and enforcement actions (including March 2024 OCC consent order) create operational drag and reputational risk",
+    "Emerging regulatory proposals on interchange fees, data privacy, and fiduciary standards could materially impact revenue streams and operating model"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

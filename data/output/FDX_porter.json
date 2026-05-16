@@ -1,0 +1,39 @@
+{
+  "ticker": "FDX",
+  "company": "FedEx",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "FedEx operates in highly competitive markets dominated by UPS and DHL, with additional competition from regional carriers, USPS, Amazon's in-house delivery, and emerging startups. The 10-K explicitly states markets are 'highly competitive and sensitive to price and service,' with competition based on pricing, reliability, capacity, speed, geographic coverage, and innovation."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Barriers to entry are substantial due to FedEx's massive global infrastructure (700+ aircraft, 175,000+ vehicles, 63,000 drop-off locations), decades of investment, regulatory requirements, and the need to connect 99% of global GDP. The 10-K notes it would be 'extremely difficult, costly, and time-consuming to replicate' their network, though technology-enabled startups and Amazon demonstrate some entry is possible in niche segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Substitutes exist but are limited for time-definite, long-distance shipping. Amazon's in-house delivery and crowdsourced local delivery services pose threats for certain segments, but FedEx's integrated global network, speed capabilities, and reliability remain difficult to replicate. Digital alternatives (email, digital goods) substitute for some traditional shipping but not core parcel/freight services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large shippers (particularly Amazon, which is both customer and competitor) have significant negotiating leverage, especially high-volume customers who can demand volume discounts or threaten to develop in-house capabilities. However, SMBs and residential customers have limited alternatives and must accept published rates, creating a bifurcated market with mixed buyer power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Fuel suppliers have moderate power given FedEx's exposure to jet fuel costs (3.2% of 2025 revenue) and lack of hedging contracts, making FedEx vulnerable to commodity price volatility. Labor represents significant cost pressure, particularly pilot unionization and ongoing collective bargaining. However, FedEx's scale provides some negotiating leverage with suppliers."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "FedEx possesses a substantial but eroding competitive moat built on its unmatched global infrastructure, brand recognition, and network effects that would be extremely costly to replicate. However, this moat is under pressure from intense rivalry with UPS/DHL, Amazon's vertical integration into logistics, and technology-enabled disruption. The company's investments in AI, data analytics (FedEx Dataworks), and digital platforms (fdx) represent efforts to strengthen its moat through differentiation, but pricing power remains constrained by competition and buyer concentration.",
+  "key_risks": [
+    "Intense price competition from UPS, DHL, and Amazon's growing delivery capabilities eroding margins and pricing power",
+    "Amazon's vertical integration into logistics and stated intention to offer delivery services to third parties could cannibalize FedEx's customer base and market share",
+    "Fuel price volatility and lack of hedging exposure creates earnings volatility; jet fuel represented 3.2% of 2025 revenue with no hedging contracts",
+    "Labor cost pressures from pilot unionization and ongoing collective bargaining negotiations with ALPA",
+    "Macroeconomic sensitivity: markets described as 'sensitive to price and service, especially in periods of little or no macroeconomic growth'",
+    "Technology disruption from autonomous vehicles, crowdsourced delivery, and AI-enabled logistics startups targeting specific market segments",
+    "Government-owned/subsidized international competitors with lower costs and less profit sensitivity"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

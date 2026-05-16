@@ -1,0 +1,40 @@
+{
+  "ticker": "PEG",
+  "company": "Public Service Enterprise Group",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "PSE&G operates as a franchised monopoly utility in New Jersey with an exclusive service territory covering 2,600 square miles and 6.8 million people. The regulated T&D business faces no direct competitors within its service area, and PSEG Power competes in wholesale energy markets where it is one participant among many but benefits from low-cost nuclear baseload generation."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist for the regulated utility business due to government-granted franchises, regulatory approval requirements, massive capital requirements, and established infrastructure. New entrants cannot compete in PSE&G's transmission and distribution business, and entering the nuclear generation market requires decades of regulatory experience and billions in capital."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "For PSE&G's T&D services, no practical substitutes exist as customers cannot bypass the transmission and distribution network. However, customers can choose alternative electric and gas suppliers for commodity services, though this does not affect PSE&G's regulated margin. Long-term technological substitutes like distributed generation and microgrids pose emerging but currently limited threats."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "PSE&G's residential and commercial customers have minimal pricing power as rates are set by the New Jersey Board of Public Utilities through regulatory proceedings. The Conservation Incentive Program further insulates margins from customer usage changes. PSEG Power's wholesale customers (PJM markets) are numerous and fragmented, limiting individual buyer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Nuclear fuel supply has limited suppliers for certain aspects (uranium enrichment, conversion), creating some supplier concentration risk acknowledged in the 10-K. However, long-term contracts provide price stability. For PSE&G's operations, suppliers of materials and services are numerous and competitive, reducing supplier power. Gas supply is internally managed through PSEG Power's full-requirements contract."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "PEG possesses an exceptionally strong competitive moat anchored by regulatory barriers, government-granted franchises, and natural monopoly characteristics of its utility business. PSE&G's regulated T&D operations generate predictable, stable cash flows with minimal competitive pressure and insulated margins through formula rates and regulatory mechanisms. The company's nuclear generation assets provide low-cost baseload power with carbon-free attributes increasingly valued by markets and policy. Regulatory approval requirements and massive capital intensity create near-insurmountable barriers to entry for potential competitors.",
+  "key_risks": [
+    "Regulatory risk: Changes in BPU or FERC regulations, rate case outcomes, or return on equity approvals could materially impact profitability and capital recovery mechanisms",
+    "Nuclear fuel supply chain concentration: Limited suppliers for uranium enrichment and conversion create vulnerability to supply disruptions, tariffs, or price volatility",
+    "Wholesale market volatility: PSEG Power's nuclear generation revenues depend on PJM capacity and energy market prices, which are influenced by natural gas prices, renewable penetration, and market design changes",
+    "Production Tax Credit uncertainty: PTC eligibility and gross receipts calculations remain subject to U.S. Treasury guidance, creating material financial uncertainty for nuclear units",
+    "Technological disruption: Distributed generation, microgrids, energy storage, and electrification could reduce traditional utility load growth or create stranded assets",
+    "Long Island OSA litigation: Competitor challenge to LIPA contract extension could jeopardize $200+ million annual revenue stream (inferred from contract importance)",
+    "Transmission project delays: Maryland 500kV project facing regulatory delays with uncertain 2027 in-service date, impacting growth plans",
+    "Macro headwinds: Inflation, customer cost pressures, and economic conditions could reduce load growth and increase operating costs"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

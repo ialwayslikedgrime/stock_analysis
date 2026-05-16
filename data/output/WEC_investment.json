@@ -1,0 +1,181 @@
+{
+  "ticker": "WEC",
+  "company": "WEC Energy Group",
+  "analysis_date": "2026-05-16",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "scores": {
+    "structural_score": 5,
+    "moat_score": 6,
+    "financial_score": 5,
+    "valuation_score": 4,
+    "quality_score": 5.3,
+    "opportunity_score": 4.5,
+    "combined_score": 4.9
+  },
+  "archetype": "CASH COW",
+  "archetype_reasoning": "WEC exhibits the classic cash cow profile: regulated utility monopolies provide durable but non-expanding moats (score 6), stable but low-growth financials (ROIC 4.8%, revenue CAGR 0.7%), and high dividend yield (3.49%) characteristic of mature utilities. The company generates reliable cash but faces structural headwinds from energy transition and distributed generation that prevent it from being a compounder. At 21.9x P/E with 0.7% revenue growth, the market is pricing in perpetual stagnation with a modest premium for safety.",
+  "verdict": "hold",
+  "verdict_split": {
+    "quality_verdict": "average",
+    "timing_verdict": "fair entry"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "low",
+  "structural_analysis": {
+    "score": 5,
+    "megatrend_exposure_score": 5,
+    "megatrend_type": "secondary beneficiary with headwind offset",
+    "megatrends_exposed_to": [
+      "Energy transition (grid modernization, renewable integration)",
+      "AI/data center infrastructure (indirect via electricity demand)",
+      "Electrification (EV charging, heat pumps)"
+    ],
+    "megatrend_analysis": "WEC is positioned as a secondary beneficiary of energy transition and electrification, not a primary value-chain participant. The company benefits from increased electricity demand from data centers (Microsoft 2.6 GW, Vantage 3.5 GW potential) and EV charging infrastructure, but this is offset by structural headwinds: distributed solar adoption reduces traditional utility revenues, and the company's $12.6B renewable capex plan is defensive (maintaining market share) rather than offensive (capturing new TAM). WEC's position in the value chain is as infrastructure provider, not technology innovator. As electrification scales, WEC captures incremental volume but faces margin compression from regulatory rate-setting and capital intensity. The data center opportunity is real but concentrated (customer concentration risk explicitly flagged in 10-K) and subject to project termination risk.",
+    "necessity_score": 9,
+    "necessity_analysis": "Electricity is essential, non-discretionary, and recession-resistant. WEC's regulated utility business (70%+ of earnings) has demonstrated resilience through 2008 and 2020 downturns. Residential and small commercial customers cannot substitute away. However, necessity does not equal growth—demand is mature in developed markets, and large industrial customers have increasing bargaining power and can pursue distributed generation alternatives.",
+    "moat_trajectory_score": 5,
+    "moat_trajectory_analysis": "WEC's moat is stable but eroding at the margins. Regulatory barriers to entry remain high ($37.5B capex 2026-2030 creates switching costs), but the moat is not widening. Distributed generation adoption (rooftop solar, battery storage) directly undermines the traditional utility model by reducing throughput and enabling customer defection. The 10-K identifies this as a material risk. Regulatory dependency cuts both ways: rate cases provide protection but also create uncertainty (e.g., $205M Illinois settlement charge in 2025 signals regulatory headwinds). Switching costs are high for customers but declining as technology improves. The moat is defensible but not compounding—WEC must run faster (capex intensity) just to maintain position.",
+    "tam_evolution_score": 4,
+    "tam_evolution_analysis": "TAM for traditional utility throughput is flat to declining in mature markets. Electricity demand growth is driven by data centers and electrification, but these are offset by efficiency gains and distributed generation. WEC's regulated rate base grows only with approved capex, not organic demand. Pricing power is limited by regulatory rate-setting (not market-based). New adjacencies (renewables, transmission) are lower-margin and more competitive than legacy utility business. The company is defending existing TAM, not expanding it.",
+    "technology_resilience_score": 4,
+    "technology_resilience_analysis": "WEC faces material technology disruption risk from distributed generation, battery storage, and smart grid technologies that enable customer defection. The 10-K explicitly identifies distributed generation and rooftop solar adoption as threats. Grid modernization is necessary but capital-intensive and does not create pricing power. R&D spending is not disclosed as a separate line item, suggesting limited innovation investment. The company is reactive (adapting to technology) rather than proactive (driving technology adoption).",
+    "structural_summary": "WEC will likely be weaker in 10 years on a relative basis. The company operates in a structurally declining industry (traditional utility throughput) with defensive characteristics but no growth drivers. Energy transition and electrification create incremental demand, but this is offset by distributed generation adoption and regulatory pressure on rates. The single most important structural fact is that WEC's moat is regulatory, not economic—it depends on continued regulatory support for rate recovery and capex approval. As regulators face pressure to control costs and support distributed generation, this moat is at risk. WEC is a mature, low-growth utility in a sector experiencing structural change. It will remain profitable and dividend-paying, but will not outperform the S&P 500 over 10 years."
+  },
+  "moat_analysis": {
+    "score": 6,
+    "rivalry": {
+      "score": 2,
+      "trend": "stable",
+      "analysis": "WEC operates in regulated utility markets (Wisconsin, Illinois, Michigan, Minnesota) where direct competition is limited by regulatory frameworks and geographic monopolies. The 10-K does not identify specific competitors in core service territories, indicating minimal direct rivalry. However, rivalry is increasing from non-traditional competitors: distributed generation providers, solar installers, and battery storage companies are indirect competitors that reduce WEC's throughput. Regulatory deregulation in certain markets (e.g., Illinois) introduces competitive pressure. The moat from limited rivalry is stable but eroding as technology enables new competitors.",
+      "key_competitors": [
+        "Distributed generation providers (Tesla, Sunrun, Vivint Solar)",
+        "Other regulated utilities in adjacent markets (Alliant Energy, Xcel Energy)",
+        "Deregulated competitors in Illinois market"
+      ]
+    },
+    "new_entrants": {
+      "score": 4,
+      "trend": "weakening",
+      "analysis": "Barriers to entry for traditional utility business remain high: $37.5B capex requirement, regulatory licensing, established infrastructure. However, barriers to entry for distributed generation and renewable energy are declining rapidly due to technology cost reductions and regulatory support. New entrants do not need to replicate WEC's entire system—they can target specific customer segments (commercial, industrial) with distributed solar and storage. The 10-K identifies this as a material risk. Regulatory barriers are weakening as policymakers support distributed generation and customer choice. New entrants are not replacing WEC but are capturing incremental demand that would otherwise flow to WEC.",
+      "biggest_threat": "Distributed generation providers and solar installers capturing commercial/industrial customers and reducing utility throughput"
+    },
+    "substitutes": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Substitutes for grid electricity include rooftop solar, battery storage, microgrids, and alternative energy sources. The 10-K explicitly identifies distributed generation and rooftop solar adoption as moderate threats. Substitutes are becoming more economically attractive as solar and battery costs decline. However, substitutes are not perfect—grid electricity remains necessary for baseload power and backup. Residential customers have limited ability to substitute (high upfront costs, technical barriers), but commercial and industrial customers increasingly can. The threat is growing but not yet existential. Substitutes are strengthening as technology improves and regulatory support increases.",
+      "key_substitute": "Rooftop solar + battery storage for commercial/industrial customers"
+    },
+    "buyer_power": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Residential and small commercial customers have limited pricing power due to regulated rates and geographic monopolies. Large industrial and data center customers have significant bargaining power and can pursue alternatives. The 10-K identifies large customer concentration risk (Microsoft 2.6 GW, Vantage 3.5 GW potential). Regulatory rate-setting limits WEC's ability to extract value. Buyer power is increasing as large customers gain alternatives and regulatory pressure mounts to control rates. The company's dividend yield (3.49%) reflects investor concern about earnings growth and regulatory risk."
+    },
+    "supplier_power": {
+      "score": 2,
+      "trend": "stable",
+      "analysis": "WEC depends on fuel suppliers, equipment manufacturers, and construction contractors. Supplier power is moderate: fuel markets are competitive and global, equipment is standardized. The 10-K identifies fuel supply risks but not material supplier concentration. Transition away from coal increases dependence on natural gas and renewable equipment. Supplier power is stable and not a material constraint. However, supply chain disruptions (as seen in 2021-2022) could impact capex execution."
+    },
+    "moat_confirmed_by_financials": true,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "WEC's moat is real but narrowing. Regulated utility monopolies provide durable protection from direct competition and enable stable cash flows, but this moat is regulatory, not economic. The company's ROIC of 4.8% (well below 10% threshold) indicates that the moat is not translating into superior returns—regulatory rate-setting limits pricing power and forces capital-intensive investments. Distributed generation adoption, buyer power from large customers, and regulatory pressure are eroding the moat at the margins. The moat is defensible in the near term (5 years) but at risk over 10 years as technology and regulation evolve. WEC must invest heavily ($37.5B capex 2026-2030) just to maintain market share, indicating a moat under pressure."
+  },
+  "financial_analysis": {
+    "score": 5,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "high",
+    "deep_analysis": "WEC's financials reveal a company in structural decline. Revenue CAGR of 0.7% over 4 years is essentially flat, indicating no organic growth. Gross margin has deteriorated from 44.0% (2024) to 42.2% (2025), suggesting pricing pressure and rising input costs. Operating margin is stable at 24.2% (2025) but this masks underlying weakness: the company is maintaining margins through cost control, not pricing power. ROIC of 4.8% is critically weak—far below the 10% threshold for adequate returns and the 15% threshold for strong returns. This indicates that WEC's capital investments are not generating adequate returns, a red flag for a capital-intensive utility. FCF is negative in 2025 (-10.4%) and volatile, indicating that the company is investing heavily in capex ($37.5B planned 2026-2030) but not generating sufficient cash to cover it without debt or dividend cuts. D/E ratio of 1.36 is elevated for a utility and indicates the company is financing growth through debt. Net margin of 15.9% is adequate but declining. The company is a cash cow generating dividends but not creating shareholder value through earnings growth or ROIC expansion. Recession resilience is high due to essential nature of electricity, but this does not offset structural headwinds."
+  },
+  "valuation_analysis": {
+    "score": 4,
+    "overall_assessment": "expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "expensive",
+    "implied_10yr_growth_rate": "2.1%",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "At 21.9x P/E with 0.7% historical revenue growth, the market is pricing in approximately 2.1% annual earnings growth over 10 years (using reverse DCF at 10% discount rate). This is realistic given regulatory constraints and mature market dynamics, but it implies WEC will significantly underperform the S&P 500 (historical 10% annual return). The market is paying a premium for safety and dividends, not growth. PEG of 31.25x is extremely high, indicating the market is paying 31x earnings for each 1% of growth—a poor trade-off. At 14.8x EV/EBITDA, WEC is trading at a premium to sector average (typically 12-13x for mature utilities), suggesting the market is overvaluing the company relative to peers.",
+    "estimated_intrinsic_value_conservative": "$85",
+    "estimated_intrinsic_value_optimistic": "$110",
+    "current_vs_intrinsic": "-1% to +28% discount/premium",
+    "strong_buy_price": "$75",
+    "watchlist_price": "$95",
+    "valuation_deep_analysis": "WEC is trading at 21.9x P/E, which is expensive for a 0.7% revenue growth utility. PEG of 31.25x is extremely high and signals overvaluation relative to growth. EV/EBITDA of 14.8x is above sector average, indicating premium pricing. Reverse DCF analysis at 10% discount rate implies 2.1% annual earnings growth, which is realistic but underwhelming for equity investors. Using a conservative DCF with 2% perpetual growth, 10% discount rate, and current EBITDA of ~$2.4B, intrinsic value is approximately $85-90 per share. Using an optimistic scenario (3% growth, 9% discount rate), intrinsic value is $110-115. Current price of $109.16 is at the high end of the optimistic range, leaving minimal margin of safety. Analyst target of $124.69 implies 14% upside, but this assumes continued dividend growth and regulatory support—risks that are not adequately priced in. Strong buy price would be $75 (30% discount to conservative intrinsic value), watchlist price $95 (10% discount to conservative intrinsic value). At current price, WEC offers limited upside and significant downside risk if regulatory environment deteriorates or dividend is cut."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Distributed generation and battery storage are directly competing with WEC's core utility business by enabling customer defection. The 10-K identifies this as a material risk. Solar and battery costs are declining rapidly, making distributed generation increasingly economically attractive for commercial and industrial customers. WEC's response (capex-intensive grid modernization) is defensive and does not create competitive advantage.",
+    "regulatory": "High",
+    "regulatory_explanation": "WEC's profitability depends entirely on regulatory rate decisions and capex approval. The $205M Illinois settlement charge in 2025 signals regulatory headwinds and cost recovery denials. Regulators are increasingly focused on controlling costs and supporting distributed generation, which directly conflicts with WEC's business model. Rate case outcomes are uncertain and could materially impact earnings.",
+    "macro_sensitivity": "Medium",
+    "macro_explanation": "While electricity demand is essential and recession-resistant, WEC's capex-heavy business model is sensitive to interest rates and capital availability. Rising rates increase financing costs for the $37.5B capex plan. Economic slowdown could reduce industrial electricity demand and data center growth. However, residential demand is stable.",
+    "balance_sheet": "Medium",
+    "balance_sheet_explanation": "D/E ratio of 1.36 is elevated for a utility and indicates the company is financing growth through debt. Negative FCF in 2025 (-10.4%) suggests the company may need to increase debt or cut dividends to fund capex. Interest coverage is adequate but declining. If credit rating is downgraded, financing costs could increase materially.",
+    "management": "Medium",
+    "management_explanation": "No specific management concerns are evident from the 10-K, but the company's strategic direction (heavy capex in renewables, data center focus) is reactive rather than proactive. Management has not articulated a clear strategy to address distributed generation threat or regulatory headwinds. Dividend policy appears unsustainable if earnings growth remains flat.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "WEC operates primarily in the Midwest (Wisconsin, Illinois, Michigan, Minnesota) with limited international exposure. Supply chain risks from geopolitical tensions are manageable. Energy security is a tailwind (domestic electricity production), not a headwind.",
+    "technology_obsolescence": "High",
+    "technology_explanation": "Distributed generation, battery storage, and smart grid technologies are directly threatening WEC's traditional utility model. The 10-K identifies this risk. Grid modernization is necessary but does not create competitive advantage. WEC is reactive to technology change, not proactive. Long-term, technology could enable further customer defection.",
+    "esg": "Medium",
+    "esg_explanation": "WEC is transitioning away from coal (positive ESG) but this requires heavy capex and creates regulatory uncertainty. Renewable energy investments are positive but lower-margin. Dividend sustainability is an ESG concern if earnings growth remains flat. Regulatory pressure on rates could be framed as ESG-driven cost control.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Regulatory rate case denials or unfavorable outcomes reduce earnings by 10-20% and trigger dividend cut",
+      "Distributed generation adoption accelerates, reducing utility throughput by 15-25% and forcing margin compression",
+      "Data center customer concentration risk: Microsoft or Vantage project cancellation eliminates 2-3 GW of demand and $500M+ in capex"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable",
+    "company_competitive_position": "strong #2",
+    "structural_tailwinds": [
+      "Electrification of transportation and heating: +2-3% annual electricity demand growth",
+      "Data center infrastructure buildout: +1-2% annual demand growth in WEC service territories",
+      "Grid modernization and smart grid investment: regulatory support for capex"
+    ],
+    "structural_headwinds": [
+      "Distributed generation adoption: -2-3% annual throughput decline as customers install rooftop solar",
+      "Energy efficiency improvements: -1-2% annual demand decline from LED lighting, HVAC efficiency",
+      "Regulatory pressure on rates: -1-2% annual margin compression as regulators control costs",
+      "Coal phase-out: transition to natural gas and renewables increases capex and reduces margins"
+    ],
+    "megatrend_impact": "WEC is positioned as a secondary beneficiary of energy transition and electrification, but this is offset by distributed generation adoption and regulatory headwinds. The company benefits from increased electricity demand from data centers and EV charging, but this is incremental (1-2% annual growth) and offset by distributed generation adoption (2-3% annual throughput decline). The net effect is flat to slightly negative growth in traditional utility throughput. WEC's response (heavy capex in renewables and grid modernization) is defensive and does not create competitive advantage. The company is investing heavily to maintain market share, not to expand it.",
+    "recession_history": "WEC demonstrated resilience during 2008 and 2020 downturns: electricity demand is essential and non-discretionary. However, the company's capex-heavy business model is sensitive to interest rates and capital availability. During 2008, utilities faced financing challenges and dividend cuts. WEC maintained dividend through 2008-2009 but this was supported by regulatory rate increases. In 2020, WEC benefited from increased residential electricity demand (work-from-home) but this was offset by industrial demand decline. Recession resilience is high for earnings but medium for dividend sustainability if capex needs remain high.",
+    "disruption_threats": "Distributed generation and battery storage are the primary disruption threats. As solar and battery costs decline, customers increasingly can generate their own electricity and reduce dependence on the grid. This is not a near-term threat (5 years) but a material long-term threat (10+ years). Microgrids and community solar are emerging alternatives. Regulatory support for distributed generation (net metering, community solar incentives) accelerates this disruption. WEC's response (grid modernization, demand-side management) is necessary but does not prevent disruption. The company is adapting to disruption, not preventing it.",
+    "better_sector_alternatives": [
+      "NEE (NextEra Energy): higher growth (renewables), better positioned for energy transition, higher ROIC",
+      "AEP (American Electric Power): similar profile to WEC but with higher growth in transmission assets",
+      "XEL (Xcel Energy): similar profile but with better regulatory environment and higher growth"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "WEC Energy Group is a mature, low-growth utility trading at an expensive valuation with limited upside and material downside risks. Quality Score of 5.3 (average) reflects stable but eroding competitive moat, weak ROIC of 4.8%, and flat revenue growth of 0.7%. Opportunity Score of 4.5 (below average) reflects expensive valuation at 21.9x P/E with PEG of 31.25x, implying only 2.1% annual earnings growth. The company is a cash cow generating 3.49% dividend yield, but this is not sufficient to compensate for lack of capital appreciation and regulatory/competitive risks. Distributed generation adoption, regulatory headwinds (e.g., $205M Illinois settlement), and large customer concentration risk (Microsoft, Vantage) create material downside scenarios. WEC will likely underperform the S&P 500 over 5-10 years due to structural headwinds and expensive valuation. Better alternatives exist in the utility sector (NEE, AEP, XEL) with higher growth and better positioning for energy transition.",
+    "upside_catalysts": [
+      "Data center demand acceleration: Microsoft and Vantage projects reach full capacity, adding $1-2B in annual revenue by 2030 (probability: 40%)",
+      "Regulatory rate increases: favorable rate case outcomes in Wisconsin or Illinois increase earnings by 5-10% (probability: 30%)",
+      "Renewable energy margin expansion: $12.6B renewable capex plan reaches profitability, improving ROIC by 1-2% (probability: 25%)"
+    ],
+    "downside_risks": [
+      "Distributed generation acceleration: rooftop solar adoption increases to 20% of customer base by 2030, reducing throughput by 15-20% and forcing margin compression of 2-3% (probability: 50%)",
+      "Regulatory rate denial: unfavorable rate case outcome in Illinois or Wisconsin denies cost recovery of $500M+ capex, reducing earnings by 10-15% (probability: 35%)",
+      "Data center project cancellation: Microsoft or Vantage project termination eliminates 2-3 GW of demand and $500M+ in capex, reducing earnings by 5-10% (probability: 25%)",
+      "Dividend cut: if earnings growth remains flat and capex needs remain high, dividend cut of 10-20% is possible by 2028 (probability: 30%)"
+    ],
+    "strong_buy_at": "$75",
+    "watchlist_at": "$95",
+    "exit_trigger": "Dividend cut announcement, unfavorable rate case outcome reducing earnings by >10%, or distributed generation adoption exceeding 15% of customer base",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "NEE (NextEra Energy): higher growth (renewables), better positioned for energy transition, higher ROIC, better valuation",
+    "AEP (American Electric Power): similar regulated utility profile, higher transmission asset exposure, similar valuation",
+    "XEL (Xcel Energy): similar profile, better regulatory environment, higher growth, similar valuation",
+    "DUK (Duke Energy): larger regulated utility, similar profile, higher dividend yield, similar valuation",
+    "SO (Southern Company): larger regulated utility, higher growth, better positioned for energy transition"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, current market data (price $109.16, P/E 21.9x, dividend 3.49%), and historical financial data (4 years). Analyst target of $124.69 and consensus 'buy' rating suggest market optimism, but this is not supported by fundamental analysis. Data quality is high; no material gaps identified. Caveat: forward guidance and management commentary on data center demand and regulatory outcomes are limited, creating uncertainty around upside scenarios."
+}

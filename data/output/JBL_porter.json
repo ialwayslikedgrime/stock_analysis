@@ -1,0 +1,38 @@
+{
+  "ticker": "JBL",
+  "company": "Jabil",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Jabil operates in a highly competitive market with numerous domestic and foreign electronic manufacturing solutions providers and diversified manufacturing service providers competing on cost, time-to-market, technology, and quality. The 10-K explicitly states 'Our business is highly competitive' and identifies competition from both specialized EMS providers and customers' internal manufacturing operations, indicating intense rivalry with low differentiation."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but not insurmountable. New entrants face significant capital requirements for global manufacturing facilities, advanced automation technology, and supply chain infrastructure, but the 10-K indicates competitors can enter by targeting specific geographies or customer segments. The modular business unit model suggests scalability without requiring massive upfront investment across all markets."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "The primary substitute is customers manufacturing products internally rather than outsourcing, which the 10-K explicitly identifies as a competitive threat. However, Jabil's value proposition around cost reduction, accelerated time-to-market, advanced technology access, and global scale creates meaningful switching costs that limit substitute viability for most customers."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is high due to significant customer concentration (top 5 customers = 36% of revenue; top 87 customers = 90% of revenue) and the ability of large customers to negotiate pricing and terms. The 10-K notes that a small number of customers comprise a major portion of revenue, giving individual large customers substantial leverage, though long-term relationships and switching costs provide some mitigation."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. While Jabil sources from a broad group of suppliers and leverages scale for component pricing advantages, the 10-K acknowledges that some products contain single-source components subject to allocation during shortages, which can substantially curtail production. Centralized procurement and global sourcing relationships provide some negotiating leverage but create dependency risks."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Jabil possesses a narrow moat based primarily on scale, global operational footprint, and customer switching costs from long-term integrated relationships. However, the moat is limited by intense competition, high customer concentration, commodity-like pricing pressure, and the threat of customer insourcing. The company's competitive advantages in automation, design capabilities, and supply chain management are valuable but increasingly replicable by competitors, resulting in a structurally weak competitive position despite strong execution.",
+  "key_risks": [
+    "Customer concentration risk: Top 5 customers represent 36% of revenue, creating significant revenue volatility and pricing pressure from large customers",
+    "Intense competitive rivalry: Highly competitive market with numerous domestic and foreign competitors competing primarily on cost and efficiency, limiting pricing power",
+    "Single-source component dependencies: Supply chain vulnerabilities from components available from only one supplier can substantially curtail production and impact customer relationships",
+    "Insourcing threat: Customers continuously evaluate manufacturing internally versus outsourcing, particularly as they develop manufacturing capabilities",
+    "Cyclical end-market exposure: Dependence on capital equipment, cloud infrastructure, automotive, and consumer electronics creates vulnerability to economic downturns and industry cycles",
+    "Geopolitical and tariff risks: Global manufacturing footprint across China, Malaysia, Mexico, and US exposes company to trade tensions, tariffs, and geopolitical disruptions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

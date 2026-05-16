@@ -1,0 +1,37 @@
+{
+  "ticker": "DUK",
+  "company": "Duke Energy",
+  "forces": {
+    "rivalry": {
+      "score": 4,
+      "rationale": "Duke Energy operates as the sole supplier of electricity within most service territories (except Ohio's competitive market), eliminating direct retail competition. Wholesale competition exists with other utilities and merchant generators, but is limited by FERC cost-based rate structures and Duke's scale advantages with 55,713 MW of generation capacity serving 8.7 million customers."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to massive capital requirements, extensive regulatory approval processes (FERC, state commissions, NRC for nuclear), established transmission/distribution infrastructure across 90,000 square miles, and long-term fuel contracts. The regulated utility model with cost-of-service ratemaking creates a protected market structure that prevents new competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Distributed generation (rooftop solar, on-site generation) and energy efficiency represent growing substitutes that Duke acknowledges as primary competitive threats. However, these remain limited in scale and Duke's transmission/distribution services remain essential, mitigating substitute threat. Decoupling mechanisms in some jurisdictions further protect against usage decline impacts."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Individual customers have minimal pricing power as Duke operates as monopoly supplier in most territories with state commission-approved rates. Wholesale customers (municipalities, cooperatives) face limited alternatives and purchase under FERC cost-based contracts. The regulatory framework ensures Duke recovers costs plus reasonable return, eliminating customer negotiating leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Duke has significant supplier power through long-term contracts and diversified sourcing: 100% uranium through 2029-2034, coal contracts through 2026-2030, and multiple natural gas suppliers. However, fuel cost volatility (particularly natural gas at 33.5% of generation) and dependence on limited nuclear fuel fabrication suppliers create some supplier leverage, partially offset by regulatory cost recovery mechanisms."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "Duke Energy possesses an exceptionally strong competitive moat anchored by regulated utility monopolies across 90,000 square miles serving 8.7 million customers, creating near-insurmountable barriers to entry through regulatory approval requirements, massive capital intensity, and established infrastructure. The cost-of-service ratemaking model guarantees cost recovery and reasonable returns, eliminating customer price sensitivity and competitive pressure. While distributed generation and energy efficiency pose emerging threats, Duke's essential transmission/distribution role and decoupling mechanisms provide substantial protection. The company's scale, diversified fuel portfolio, and long-term supply contracts further entrench competitive advantages.",
+  "key_risks": [
+    "Distributed generation and rooftop solar adoption could reduce retail customer demand and wholesale energy sales volumes, particularly as technology costs decline and customer adoption accelerates",
+    "Regulatory risk including unfavorable rate case outcomes, increased environmental compliance costs (coal ash management, nuclear decommissioning), and potential changes to cost recovery mechanisms across multiple state jurisdictions",
+    "Nuclear fuel disposal uncertainty and spent fuel storage requirements; federal government has failed to develop permanent disposal facilities, creating long-term liability and operational constraints",
+    "Fuel cost volatility, particularly natural gas (33.5% of generation mix) and coal price fluctuations, though partially mitigated by regulatory recovery mechanisms with potential timing delays",
+    "Transition risk from coal generation (14.5% of mix) as environmental regulations tighten; substantial capital requirements for fleet modernization and renewable energy investments"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,39 @@
+{
+  "ticker": "CDW",
+  "company": "CDW Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "CDW operates in a highly competitive market with thousands of IT resellers, direct manufacturers, large service providers, system integrators, cloud providers, hyperscaler marketplaces, e-commerce companies, and office supply retailers competing for the same customers. The company explicitly states the market is 'highly competitive and subject to economic conditions and rapid technological changes,' with competition based on solution tailoring, product breadth, expertise, price, availability, and delivery speed."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate. While CDW has scale advantages, established vendor relationships, and deep technical expertise, the IT reseller market remains fragmented with thousands of competitors including smaller regional value-added resellers. The 10-K notes that new technologies and consumption models (cloud, AI, as-a-service) can create 'new and stronger competitors,' suggesting barriers are eroding in emerging categories."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from direct vendor sales, hyperscaler marketplaces (AWS, Google Cloud, Microsoft), e-commerce platforms, and large system integrators who bypass traditional resellers. The 10-K acknowledges that 'manufacturers sell directly to customers' and that new consumption models like cloud-based and 'as a service' solutions represent alternative channels that could disrupt CDW's traditional model."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high. CDW serves over 250,000 customers across diverse segments (corporate, small business, government, education, healthcare), but individual customers—particularly large enterprises—can negotiate pricing and terms. The fragmented customer base provides some leverage, but large customers can threaten to purchase directly from vendors or use alternative channels, limiting CDW's pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. CDW is heavily dependent on a concentrated set of vendors: three largest vendor partners each generated over $2.0 billion in sales, and purchases from two wholesale distributors (Ingram Micro and TD SYNNEX) represent over 25% of total purchases. The 10-K explicitly warns that loss of key vendors or distributors could 'reduce supply and impact cost' and that vendor partners can 'terminate or limit' CDW's right to sell their products, giving suppliers meaningful leverage over terms and pricing."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "CDW possesses a narrow moat based primarily on scale, established vendor relationships, and specialized technical expertise, but this moat is under sustained pressure. The company's ~10,500 customer-facing employees, vendor certifications, and multi-brand portfolio create switching costs and distribution advantages. However, the moat is weakened by intense rivalry, direct vendor competition, hyperscaler disruption, concentrated supplier relationships, and the commoditization of IT products. The company's competitive advantages are increasingly replicable as new technologies and consumption models emerge.",
+  "key_risks": [
+    "Vendor concentration risk: Three largest vendors represent significant revenue; loss of or reduced relationship with Apple, Cisco, Dell, HP, Lenovo, or Microsoft could materially impact business",
+    "Distributor concentration risk: Over 25% of purchases from two wholesalers (Ingram Micro, TD SYNNEX); supply disruptions or relationship changes could impair operations",
+    "Direct vendor competition and channel conflict: Vendor partners increasingly sell directly to end customers, potentially bypassing CDW and limiting product availability or favorable terms",
+    "Hyperscaler and marketplace disruption: Amazon, Google, Microsoft, and other cloud providers offer direct purchasing channels that bypass traditional resellers, particularly for cloud and SaaS solutions",
+    "Technology disruption and capability gaps: Rapid innovation in AI, cloud, and emerging technologies requires continuous investment in training and capabilities; failure to keep pace could erode competitive position",
+    "Margin compression: Commoditization of hardware (71.6% of sales) and price competition from e-commerce and direct channels pressure profitability",
+    "Vendor incentive dependency: Significant portion of marketing expenses reimbursed through discretionary vendor cooperative advertising programs, creating revenue volatility"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "BA",
+  "company": "Boeing",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Boeing faces intense competition from Airbus in commercial aircraft and multiple strong competitors (Lockheed Martin, General Dynamics, Northrop Grumman, RTX, SpaceX) in defense. The 10-K explicitly states 'aggressive international competitors who are intent on increasing their market share' and 'strong competition' expected to continue, indicating a highly competitive duopoly in commercial aviation and fragmented defense market."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry due to massive capital requirements, decades of certification processes, regulatory complexity (FAA approval), established supplier networks, and government relationships. The 10-K notes China as an emerging entrant but acknowledges Boeing's established position. Only well-capitalized, government-backed entities can realistically enter this market."
+    },
+    "substitutes": {
+      "score": 5,
+      "rationale": "No credible substitutes exist for commercial aircraft or military defense systems. While the 10-K does not explicitly address substitutes, the fundamental nature of these products (air transportation, defense capabilities) has no viable alternatives, making substitution risk negligible."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (airlines and governments) have significant power despite Boeing's scale. The 10-K states Boeing 'derives a significant portion of revenues from a limited number of commercial airlines' and notes customers have 'contractual remedies, including compensation for late deliveries or rights to reject individual airplane deliveries.' Government contracts can be terminated for convenience, and airlines can postpone/cancel orders during downturns."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Suppliers have moderate-to-high power. The 10-K explicitly states Boeing is 'highly dependent on the availability and quality of essential materials' and 'many major components are procured on a sole-source basis.' Boeing has 'experienced significant increases in supplier prices' and faces supply chain constraints, labor instability, and inflationary pressures that limit Boeing's negotiating leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Boeing possesses a moderate competitive moat anchored by extremely high barriers to entry, established government relationships, and decades of certification and supplier integration. However, this moat is significantly weakened by intense rivalry with Airbus, high buyer power from concentrated airline customers, elevated supplier power amid supply chain constraints, and recent operational challenges (quality issues, production delays, strikes). The company's moat is eroding due to execution risks and external pressures that have materially impacted financial performance.",
+  "key_risks": [
+    "Intense competition from Airbus and defense competitors (Lockheed Martin, General Dynamics, RTX, SpaceX) with aggressive market share strategies",
+    "Concentrated customer base with significant buyer power; airlines can terminate orders, demand compensation for delays, or substitute Boeing aircraft",
+    "Supply chain vulnerability with sole-source suppliers, inflationary pressures, and recent price increases significantly impacting profitability",
+    "Labor instability with 40% unionized workforce (72,000 employees); recent 53-day and 101-day strikes in 2024-2025 disrupted production and caused material financial impact",
+    "Regulatory and certification delays (777X program delayed to 2027 with $4.9B reach-forward loss in 2025; 737 production constrained by FAA oversight following door plug incident)",
+    "Cyclical commercial aircraft demand heavily dependent on airline profitability, economic growth, fuel prices, and geopolitical stability",
+    "Fixed-price contracts with indexed escalation clauses expose Boeing to cost overrun losses if actual cost increases exceed escalation rates",
+    "Government contract termination risk and uncertainty in U.S. defense spending levels and appropriations timing"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

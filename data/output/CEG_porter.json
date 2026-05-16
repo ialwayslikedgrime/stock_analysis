@@ -1,0 +1,37 @@
+{
+  "ticker": "CEG",
+  "company": "Constellation Energy",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "CEG operates in highly competitive wholesale power markets across multiple RTOs/ISOs with numerous large competitors (NextEra, Duke Energy, American Electric Power, etc.). The 10-K indicates active competition in retail markets where CEG competes on pricing and service, though CEG maintains market leadership with 32% direct C&I market share and strong renewal rates (77% C&I power, 84% C&I gas)."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Significant barriers to entry exist due to massive capital requirements for generation assets, regulatory licensing (especially nuclear), interconnection complexity, and long-term customer relationships. The 10-K notes CEG's 55 GW capacity post-Calpine acquisition and extensive contracted generation portfolio, which would be prohibitively expensive to replicate. However, distributed solar and battery storage represent lower-barrier entry points."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Traditional substitutes (coal, oil) are declining due to environmental regulations and economics. However, distributed solar, rooftop solar, energy efficiency, and demand response represent growing alternatives that reduce grid electricity demand. CEG's own renewable and energy efficiency offerings acknowledge this threat, though nuclear and natural gas baseload generation remain difficult to substitute at scale."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large C&I customers have significant negotiating power, evidenced by CEG's need to offer customized solutions, third-party broker relationships, and sustainability products to retain customers. However, residential customers and smaller commercial accounts have limited alternatives in many markets. The 10-K shows customer concentration risk with three-fourths of Fortune 100 as customers, suggesting some customers have substantial leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Nuclear fuel suppliers have moderate power due to geopolitical concentration (Russian contracts noted) and limited qualified suppliers, though CEG mitigates this through long-term contracts and inventory management. Natural gas suppliers have limited power given abundant U.S. supply. However, the 10-K indicates fuel procurement policy limits concentration risk, suggesting CEG has negotiated favorable terms with diversified suppliers."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "CEG possesses a durable competitive moat anchored by its unmatched 22 GW nuclear fleet (largest in U.S.) with best-in-class 94.7% capacity factors, long-term customer relationships (6-year average duration, 77-84% renewal rates), and geographic diversification across five major regions. The Calpine acquisition (23 GW natural gas/renewable capacity) strengthens this moat by adding dispatchable generation and expanding retail customer reach. However, the moat is partially offset by commodity price exposure, regulatory risks, and increasing buyer power from large C&I customers demanding sustainability solutions.",
+  "key_risks": [
+    "Regulatory and political risk: Nuclear licensing renewals, state energy policies, and potential changes to nuclear PTC could materially impact economics; Conowingo hydroelectric license remains unresolved since 2022 vacatur",
+    "Commodity price volatility: Wholesale power market exposure and customer contract hedging limitations (concentrated in 3-year prompt period) create earnings volatility; natural gas price fluctuations affect Calpine profitability",
+    "Customer concentration and churn: Three-fourths of Fortune 100 as customers creates concentration risk; retail market competition and customer migration to third-party brokers could pressure margins despite strong historical renewal rates",
+    "Integration execution risk: Calpine acquisition adds 2,500 employees and materially changes fleet composition; integration challenges could disrupt operations or fail to realize synergies",
+    "Energy transition disruption: Accelerating distributed solar, battery storage, and demand response could reduce grid electricity demand; customer shift toward 100% hourly carbon-free power requires continued capital investment in renewables"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

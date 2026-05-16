@@ -1,0 +1,37 @@
+{
+  "ticker": "COIN",
+  "company": "Coinbase",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Coinbase faces intense competition from crypto-native exchanges (Kraken, Binance), traditional financial services firms entering crypto, decentralized exchanges, and unregulated offshore competitors. The 10-K explicitly states the crypto industry is 'highly innovative, rapidly evolving, and characterized by healthy competition' with frequent new product introductions and changing customer needs."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate but declining. While regulatory compliance and custody infrastructure create some friction, the 10-K notes competitors can operate with less stringent regulatory requirements in lower-compliance jurisdictions. Traditional financial incumbents have capital and distribution advantages, and decentralized platforms require no centralized infrastructure, making entry feasible for well-capitalized or technically sophisticated entrants."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple substitutes exist including decentralized exchanges, non-custodial platforms, traditional brokerages expanding into crypto, and peer-to-peer trading. The 10-K identifies decentralized and non-custodial platforms as direct competitors. Additionally, stablecoins other than USDC and fiat currencies globally represent alternative value transfer mechanisms that reduce reliance on Coinbase's platform."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyer power is moderate to high. Retail consumers have low switching costs and abundant alternatives, though Coinbase's brand and ease-of-use provide some stickiness. Institutional customers have significant negotiating power given their volume and ability to access multiple venues; the 10-K notes Coinbase Prime offers 'volume-based pricing' indicating price sensitivity. However, network effects and custody switching costs provide some protection."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. Coinbase depends on blockchain protocols (Ethereum, Solana) for staking rewards and Base chain sequencer fees, creating some dependency. The Circle Agreement for USDC has renewal conditions and restructuring provisions, indicating negotiating leverage by Circle. However, Coinbase has diversified revenue streams and can support multiple stablecoins, reducing single-supplier dependency. [INFERRED: Regulatory bodies and banking partners also hold supplier-like power over fiat on/off-ramps]."
+    }
+  },
+  "moat_score": 2.8,
+  "moat_summary": "Coinbase possesses a moderate competitive moat built primarily on brand trust, regulatory compliance expertise, and custody infrastructure, but this moat is under significant pressure. The company's differentiation through 'trust' and 'ease of use' is valuable but replicable by well-capitalized competitors. Network effects are limited compared to traditional exchanges, and the low switching costs for retail users combined with intense competition from both regulated and unregulated platforms constrain pricing power. The expansion into stocks, futures, and prediction markets broadens the competitive set and dilutes focus.",
+  "key_risks": [
+    "Intense competition from unregulated offshore exchanges operating with lower compliance costs and fewer restrictions, potentially capturing market share despite regulatory disadvantages",
+    "Regulatory uncertainty and evolving compliance requirements could increase costs disproportionately or restrict product offerings, while competitors in less-regulated jurisdictions gain relative advantage",
+    "Dependence on blockchain protocol economics (staking rewards, Base sequencer fees) and third-party partnerships (Circle Agreement for USDC) creates revenue vulnerability to protocol changes or partner renegotiation",
+    "Low switching costs for retail customers and commoditized trading products expose Coinbase to price competition and customer churn, particularly if competitors achieve feature parity",
+    "Decentralized and non-custodial alternatives reduce addressable market and eliminate custody-based competitive advantages for users prioritizing self-sovereignty"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

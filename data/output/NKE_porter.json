@@ -1,0 +1,38 @@
+{
+  "ticker": "NKE",
+  "company": "Nike, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Nike operates in a highly competitive athletic footwear and apparel industry with numerous significant competitors including adidas, Puma, Under Armour, New Balance, On, Anta, and others. The 10-K explicitly states 'The athletic footwear, apparel and equipment industry is highly competitive on a worldwide basis' with 'intense competition and rapid changes in technology and consumer preferences' constituting significant risk factors."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While Nike has strong brand equity and intellectual property protections (trademarks in 190+ jurisdictions, extensive patents), barriers to entry are moderate. New entrants face challenges in brand building, distribution networks, and manufacturing relationships, but companies like On have successfully entered the market. The capital requirements and retail relationships create some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Athletic footwear and apparel have limited direct substitutes, though casual wear and alternative leisure products compete for consumer spending. The 10-K notes that many products are worn for casual purposes beyond athletic use, suggesting some fungibility with broader fashion categories. Digital fitness and virtual experiences represent emerging indirect substitutes [INFERRED from industry trends]."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "While Nike is the market leader, buyer power is moderate to high. The 10-K notes that three largest U.S. customers account for ~25% of U.S. sales and three largest international customers account for ~16% of non-U.S. sales, indicating significant wholesale customer concentration. Consumers have many brand alternatives, though Nike's brand strength provides pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Nike has moderate supplier power due to diversified sourcing across 11 countries for footwear and 34 countries for apparel. However, concentration exists: four footwear manufacturers account for 59% of production, and top five apparel manufacturers account for 51% of production. The 10-K indicates Vietnam, Indonesia, and China are critical sources, creating geographic concentration risk and potential leverage for key suppliers."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Nike maintains a moderate competitive moat built primarily on strong brand equity, extensive intellectual property protections (trademarks, patents, trade dress), and established distribution networks across 1,034 retail stores globally plus digital platforms. However, the moat is challenged by intense industry competition, moderate supplier concentration risk, and significant wholesale customer concentration. The company's innovation capabilities and consumer connection provide sustainable advantages, but these require continuous investment and execution to maintain.",
+  "key_risks": [
+    "Intense competitive rivalry from well-capitalized competitors (adidas, Puma, Under Armour, On) with rapid technology and design changes",
+    "Supplier concentration risk with four footwear manufacturers accounting for 59% of production and geographic concentration in Vietnam (51%), Indonesia (28%), and China (17%)",
+    "Wholesale customer concentration with three largest U.S. customers representing 25% of U.S. sales, creating pricing pressure and channel dependency",
+    "Trade policy and tariff exposure given 57% of revenues from international markets and manufacturing concentrated in Asia",
+    "Consumer preference shifts and failure to respond timely to design trends could materially impact sales and profitability",
+    "Supply chain disruption risks from geopolitical tensions, trade restrictions, and reliance on independent contract manufacturers"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

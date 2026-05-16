@@ -1,0 +1,39 @@
+{
+  "ticker": "FIS",
+  "company": "Fidelity National Information Services",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "FIS operates in intensely competitive markets with competitors ranging from large established players to well-funded startups and global tech companies entering payments. The 10-K explicitly states 'The market for our solutions is intensely competitive' and notes emerging competition from smaller startups, global banks, and internet companies, particularly in payments. Competitors also include clients' in-house development capabilities, creating direct competition."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While FIS has significant barriers including brand reputation, domain expertise, long-term client relationships, and global scale, the 10-K acknowledges that 'markets in which we compete have recently attracted increasing competition from smaller start-ups with emerging technologies which are receiving increasing investments.' Cloud and API-driven architectures have lowered some traditional barriers, though regulatory compliance and client switching costs remain substantial."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "The 10-K warns that 'emerging technologies and increased competition may also have the effect of unbundling bank solutions and may result in displacing solutions that we are currently providing from our legacy systems.' In-house development by large financial institutions, fintech solutions, and alternative payment networks represent credible substitutes. The shift toward modular, component-based platforms increases substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large clients possess significant negotiating leverage. The 10-K states 'Larger clients may use their negotiating leverage to seek price reductions from us when they renew a contract' and 'may reduce services if they decide to move services in-house.' Even smaller clients exert pricing pressure upon renewal. The company acknowledges this 'could adversely affect our business, financial condition or results of operations.'"
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "FIS depends on multiple third-party vendors for systems, infrastructure, connectivity, and treasury services. The 10-K notes 'If our vendors...fail to meet their obligations...we may in turn fail to provide our services.' However, FIS's scale and the availability of multiple suppliers in most categories provide some mitigation. Dependency on financial institutions for treasury services represents a concentrated supplier risk."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "FIS maintains a moderate competitive moat built on brand reputation, extensive domain expertise, long-term recurring client relationships with high switching costs, and global scale. However, this moat is under pressure from technological disruption, emerging fintech competitors, client consolidation reducing customer base, and the ability of large clients to negotiate aggressively or develop in-house alternatives. The company's shift toward cloud, SaaS, and modular platforms is necessary for competitiveness but also reduces traditional lock-in advantages.",
+  "key_risks": [
+    "Intense competitive pressure from established competitors, startups, global banks, and internet companies, particularly in high-growth payments segment",
+    "Significant buyer power from large clients who can negotiate price reductions, move services in-house, or consolidate with competitors using fewer FIS services",
+    "Technology disruption and unbundling of legacy solutions through emerging technologies, cloud platforms, and API-driven ecosystems reducing differentiation",
+    "Cybersecurity and data breach risks that could damage reputation, trigger regulatory enforcement, and cause client contract terminations",
+    "Client consolidation in banking and financial services reducing total addressable market and increasing dependency on fewer, more powerful clients",
+    "Failure to innovate or adapt to rapid technology changes (AI, cloud, SaaS) could result in loss of clients and difficulty attracting new ones",
+    "Dependency on third-party vendors and service providers for critical infrastructure and treasury services"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

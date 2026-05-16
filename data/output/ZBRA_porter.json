@@ -1,0 +1,37 @@
+{
+  "ticker": "ZBRA",
+  "company": "Zebra Technologies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Zebra operates in a highly competitive environment with numerous established competitors across multiple product categories (Honeywell, Datalogic, Cognex, Keyence, SICK, etc.). While Zebra holds market leadership in AIDC, competitors are well-capitalized and compete aggressively on breadth of offerings, pricing, performance, and geographic availability. The 10-K explicitly states 'we operate in a highly competitive environment.'"
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry protect Zebra through long-standing customer relationships, extensive channel partner networks (10,000+ partners), specialized product requirements with high switching costs, and significant R&D investment ($593M annually). The company's global scale, installed base, and brand recognition would be difficult for new entrants to replicate quickly."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While barcode/RFID technology faces some substitution from alternative technologies (laser, ink-jet, direct marking), Zebra's integrated ecosystem of hardware, software, and services creates stickiness. However, emerging technologies like computer vision, AI, and cloud analytics could potentially disrupt traditional AIDC workflows, representing moderate substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Three major distributor customers represent 59% of sales (Customer A: 29%, B: 15%, C: 15%), creating significant concentration risk and buyer leverage. However, Zebra's specialized offerings, high switching costs, and broad end-user base across industries provide some pricing power mitigation. The reliance on distributors rather than direct end-user sales somewhat reduces individual buyer power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Zebra outsources final assembly to EMSs and JDMs primarily in Asia-Pacific and Mexico, creating supply chain concentration risk. The company maintains control over supplier selection and key component negotiations, but dependence on third-party manufacturers and logistics providers provides suppliers moderate leverage. Supply chain resilience is noted as a strategic focus area."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Zebra possesses a strong competitive moat built on market leadership, high switching costs from specialized integrated solutions, extensive channel partnerships (10,000+ partners globally), and significant barriers to entry. The company's diversified portfolio across segments, geographies, and end-markets, combined with a large installed base generating recurring revenue from services and supplies, creates durable competitive advantages. However, buyer concentration (59% from three distributors) and reliance on outsourced manufacturing present vulnerabilities that moderate the overall moat strength.",
+  "key_risks": [
+    "Customer concentration risk: Three distributors represent 59% of net sales, with Customer A growing from 18% (2023) to 29% (2025), creating significant revenue dependency and pricing pressure vulnerability",
+    "Competitive intensity and technology disruption: Numerous well-capitalized competitors (Honeywell, Datalogic, Cognex, Keyence) compete across multiple product categories; emerging AI, computer vision, and cloud technologies could disrupt traditional AIDC workflows",
+    "Supply chain and manufacturing dependence: Reliance on third-party EMSs/JDMs in Asia-Pacific and Mexico creates geopolitical, logistics, and quality control risks; recent acquisitions (Elo for $1.3B, Photoneo for $62M) add integration complexity",
+    "Integration execution risk: Recent major acquisition of Elo Holdings ($1.3B) in Q4 2025 for self-service/POS solutions represents significant integration challenge in unfamiliar market segment",
+    "Margin pressure from channel model: Two-tier distribution model (distributors to VARs to end-users) limits direct customer relationships and pricing control compared to direct sales models"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

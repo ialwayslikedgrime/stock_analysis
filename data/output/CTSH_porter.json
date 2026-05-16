@@ -1,0 +1,37 @@
+{
+  "ticker": "CTSH",
+  "company": "Cognizant",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Cognizant operates in a highly competitive market with numerous direct competitors including Accenture, Infosys, TCS, Wipro, Capgemini, and IBM Consulting. The 10-K explicitly states 'The markets for our services are highly competitive, characterized by a large number of participants and subject to rapid change.' Differentiation is primarily through reputation, AI capabilities, and pricing rather than structural advantages."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "Barriers to entry are moderate. While the IT services industry requires significant capital, talent, and client relationships, boutique digital companies and emerging startups continue to enter the market. The 10-K notes competition from 'boutique digital companies' and 'clients' in-house technology resources.' AI capabilities are increasingly commoditized, reducing traditional moats."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from cloud providers (AWS, Google Cloud, Azure) offering native services, in-house GCCs (Global Capability Centers), and AI-native software solutions. The 10-K acknowledges clients face 'disruption by nimble, AI-native competitors' and that clients can build internal capabilities. Automation and AI tools reduce dependency on traditional consulting services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have substantial negotiating power. Large clients represent concentrated revenue (10-K notes 'loss of a significant client or a few significant clients...could materially reduce revenues'). Clients can switch providers, build internal capabilities, or use multiple vendors. However, switching costs for mission-critical services provide some protection, and long-term contracts with transition periods offer some stability."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Supplier power is moderate. Cognizant depends on technology partners (Microsoft, Google, AWS, Salesforce, SAP, Oracle) for ecosystem offerings, but maintains diversified partnerships. Labor supply is relatively abundant in India (256,900 of 351,600 employees) where wage inflation is a concern. Subcontractor usage is noted as 'immaterial,' reducing dependency on external labor suppliers."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Cognizant possesses a narrow competitive moat based primarily on industry-specific expertise, established client relationships, and scale in global delivery operations. However, this moat is eroding due to commoditization of AI capabilities, intense competition from larger consulting firms and cloud providers, and clients' ability to build internal capabilities or switch providers. The company's competitive advantage relies more on execution and talent retention than structural barriers, making it vulnerable to disruption in the rapidly evolving AI services market.",
+  "key_risks": [
+    "Intense competitive rivalry from larger, better-capitalized competitors (Accenture, IBM) and emerging AI-native startups eroding market share and pricing power",
+    "Client concentration risk with potential material revenue loss from major clients; clients increasingly building internal GCCs and AI capabilities as substitutes",
+    "Rapid technological change and commoditization of AI/cloud services reducing differentiation; dependency on technology partners (Microsoft, Google, AWS) for ecosystem offerings",
+    "Talent acquisition and retention challenges in competitive market; high voluntary attrition (13.9% in 2025) and need to upskill 330,000+ employees on GenAI",
+    "Regulatory and geopolitical risks including visa/immigration restrictions, data privacy regulations, and tariffs affecting global delivery model and cost structure"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

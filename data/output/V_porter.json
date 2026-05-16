@@ -1,0 +1,37 @@
+{
+  "ticker": "V",
+  "company": "Visa Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Visa faces intense competition from Mastercard, American Express, and regional payment networks (UnionPay, RuPay). The 10-K indicates Visa processed 258 billion of 329 billion total transactions, showing market share pressure. Competition is particularly acute in emerging markets and alternative payment methods where multiple networks compete for volume."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Barriers to entry are exceptionally high due to Visa's global network infrastructure spanning 200+ countries, 12 billion connected endpoints, and 175 million merchant locations. The 10-K emphasizes proprietary VisaNet technology, established relationships with 14,500 financial institutions, and regulatory complexity. However, fintech companies and digital wallets are creating new competitive pressures in specific payment flows."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Substitutes are moderately threatening. The 10-K acknowledges significant addressable spend in cash, checks, ACH, and account-to-account payments representing $20+ trillion annually. Digital wallets, cryptocurrencies, stablecoins, and alternative payment methods (A2A networks, RTP systems) pose substitution risks. Visa's strategy explicitly targets capturing these alternative flows, indicating material substitution pressure."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate to high. The 10-K reveals Visa must offer substantial client incentives to financial institutions and merchants to grow volume, indicating negotiating leverage. Large issuers and acquirers can demand favorable terms. However, Visa's network effects and lack of viable alternatives provide some pricing power, particularly for smaller participants."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is low. Visa is not dependent on scarce physical inputs or specialized suppliers. The 10-K indicates Visa controls its proprietary network infrastructure and technology stack. Financial institutions are partners rather than suppliers. The company's vertically integrated model (VisaNet, DPS, Pismo platforms) reduces external supplier dependencies."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Visa possesses a substantial but moderating competitive moat anchored on network effects (12 billion endpoints, 175 million merchants), brand equity, and proprietary technology infrastructure (VisaNet, tokenization, AI-driven fraud detection). The company's global scale and regulatory relationships create high barriers to entry. However, the moat is eroding due to intensifying competition from Mastercard, fintech disruption, and the $20+ trillion addressable opportunity in alternative payment methods (A2A, RTP, digital wallets) that Visa must actively defend against through continuous innovation and acquisitions.",
+  "key_risks": [
+    "Regulatory pressure on interchange fees and default IRF rates could compress margins, particularly in regulated markets like the EU and US where regulators scrutinize payment network economics",
+    "Accelerating shift to alternative payment methods (A2A networks, real-time payments, digital wallets, stablecoins) could cannibalize traditional card-based transaction volumes and reduce Visa's network relevance",
+    "Intensifying competition from Mastercard, regional networks (UnionPay, RuPay), and emerging fintech platforms offering lower-cost or specialized payment solutions in key growth markets",
+    "Geopolitical fragmentation and regional payment system development (CBDC initiatives, local schemes) could reduce Visa's addressable market and create localized competitive threats",
+    "Technology disruption from generative AI, agentic commerce, and blockchain-based payments could enable new entrants or disintermediate Visa's role in payment processing"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "EPAM",
+  "company": "EPAM Systems",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "EPAM operates in highly competitive digital engineering and consulting services market dominated by large players (Accenture, Deloitte, IBM, TCS, Infosys). The 10-K indicates revenue growth of 15.4% YoY, but operating margin compressed from 11.5% to 9.5%, suggesting intense competitive pricing pressure and inability to fully pass through cost increases to clients."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to need for specialized talent, global delivery infrastructure, and established client relationships. However, the 10-K shows EPAM itself acquired multiple companies (NEORIS, First Derivative, S4N) indicating consolidation is occurring and smaller players can enter through acquisition. Capital requirements and talent scarcity provide some protection but are not insurmountable."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats exist from in-house development, offshore outsourcing alternatives, and emerging AI/automation tools that reduce need for traditional engineering services. The 10-K emphasizes AI integration (EPAM AI/RUN, DIALX Lab) suggesting management recognizes automation as a competitive threat that could displace traditional service delivery."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers possess substantial negotiating power. Top 5 clients represent only 13.7% of revenues (down from 15.8%), indicating some diversification, but top 20 clients still represent 31.9% of revenues. Large enterprise clients can demand pricing concessions, evidenced by margin compression despite revenue growth and inability to fully offset compensation increases through pricing."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "EPAM faces significant supplier power from its talent base. The 10-K emphasizes employees as 'critical assets' and notes substantial compensation increases, salary raises, and promotions required to retain delivery professionals. Labor scarcity in key markets (Poland R&D credits, Ukraine operations) and need for specialized skills give suppliers (employees) considerable negotiating leverage."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "EPAM possesses a weak to moderate competitive moat based primarily on scale, global delivery infrastructure, and established client relationships, but this is substantially eroded by intense competitive rivalry, high buyer power, and significant supplier power from skilled labor. The company's 30+ years of engineering heritage and vertical specialization provide some differentiation, but the compressed operating margins (11.5% to 9.5% YoY) and inability to pass through cost increases suggest limited pricing power. Geopolitical risks (Ukraine war with $10.1M remaining humanitarian commitment) and exposure to economic cycles further weaken the competitive position.",
+  "key_risks": [
+    "Geopolitical concentration risk: Ukraine remains significant delivery location; ongoing war creates operational disruption, talent retention challenges, and humanitarian cost obligations that could materially impact profitability",
+    "Margin compression and labor cost inflation: Cost of revenues increased to 71.2% of revenues from 69.3%, driven by compensation increases not fully offset by pricing; tight labor market limits ability to improve utilization",
+    "Client concentration and economic sensitivity: Top 20 clients represent 31.9% of revenues; enterprise clients have high bargaining power and discretionary spending on consulting services is cyclical and vulnerable to economic downturns",
+    "Competitive intensity and pricing pressure: Operating margin declined 200bps YoY despite 15.4% revenue growth; large competitors (Accenture, Deloitte) and emerging AI/automation threaten traditional service delivery model",
+    "Integration execution risk: Recent acquisitions (NEORIS, First Derivative, S4N) contributed 9.2% of revenue growth; integration challenges, goodwill impairment, and contingent consideration adjustments could impact future earnings"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

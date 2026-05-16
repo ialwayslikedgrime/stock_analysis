@@ -1,0 +1,37 @@
+{
+  "ticker": "TTD",
+  "company": "Trade Desk (The)",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "TTD operates in a highly competitive and fragmented DSP market with direct competition from large, well-capitalized competitors including Google, Amazon, and other smaller private DSP providers. The 10-K explicitly states the industry is 'highly competitive and fragmented,' and TTD's differentiation claims (independence, AI capabilities, omnichannel access) suggest competitors possess similar capabilities, indicating intense rivalry."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Barriers to entry are moderate-to-high due to significant capital requirements for infrastructure, data integration complexity, and the need to build relationships with 430+ inventory sources and 370+ data vendors. However, the open internet nature of programmatic advertising and availability of cloud infrastructure lower barriers somewhat, and well-funded tech companies (as evidenced by Google/Amazon competition) can enter relatively quickly."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Direct substitutes exist in the form of competing DSPs, in-house buying platforms, and alternative media buying approaches (direct publisher relationships, traditional media). Additionally, large publishers and platforms (Google, Amazon, Meta) offer integrated buying solutions that bypass TTD entirely, representing significant substitute threats to advertisers."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyers have moderate-to-high power given the availability of competing DSPs and alternative buying methods, though TTD's 95%+ customer retention rate and long-term MSAs suggest meaningful switching costs and lock-in. The 10-K notes two holding companies represent >10% of gross billings, indicating customer concentration risk and buyer leverage, though the self-service model and lack of material purchase commitments in MSAs limit TTD's contractual protection."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Supplier power is low-to-moderate because TTD integrates with 430+ ad exchanges and publishers plus 370+ data vendors, creating significant diversification and reducing dependency on any single supplier. The 10-K emphasizes TTD's role as 'one of the largest sources of buy-side demand,' giving it negotiating leverage, though premium inventory sources (CTV platforms, major publishers) may have some pricing power."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "TTD possesses a moderate competitive moat built on proprietary AI/ML capabilities, network effects from its large ecosystem (430+ inventory sources, 370+ data vendors), high customer retention (95%+), and buy-side independence that differentiates it from conflicted competitors. However, the moat is challenged by intense rivalry from well-capitalized competitors (Google, Amazon), moderate buyer power from large holding companies, and the threat of substitutes from integrated platforms. The company's defensibility relies more on execution excellence and continuous innovation than on structural barriers.",
+  "key_risks": [
+    "Intense competition from large, well-capitalized tech giants (Google, Amazon) with integrated ecosystems and superior distribution that could commoditize DSP services",
+    "Customer concentration risk with two holding companies representing >10% of gross billings and MSAs terminable on 60 days' notice, creating revenue volatility",
+    "Regulatory and privacy headwinds including third-party cookie deprecation, privacy legislation (GDPR, CCPA), and identity solution adoption uncertainty (Unified ID 2.0 reliance)",
+    "Dependence on continued programmatic advertising growth and CTV adoption; shifts in advertiser behavior or media consumption could reduce platform utilization",
+    "Technology disruption risk from AI-driven alternatives or new buying methodologies that could disintermediate TTD's platform"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

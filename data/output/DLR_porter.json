@@ -1,0 +1,39 @@
+{
+  "ticker": "DLR",
+  "company": "Digital Realty Trust, Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The data center industry is highly competitive with well-capitalized competitors (Equinix, CoreWeave, AWS, Microsoft, Google building their own facilities). DLR's scale and global footprint provide differentiation, but intense competition on pricing and service offerings from both traditional colocation providers and hyperscalers building proprietary infrastructure limits pricing power and margins."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive capital requirements ($81B raised since IPO), specialized real estate expertise, global interconnection networks difficult to replicate, regulatory complexity, and long development timelines. However, well-capitalized tech companies and private equity firms can enter specific markets, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Hyperscalers (AWS, Azure, Google Cloud) building proprietary data centers and edge computing solutions present moderate substitution risk. However, DLR's colocation, interconnection, and multi-tenant model remain valuable for enterprises requiring flexibility, vendor neutrality, and hybrid cloud architectures that proprietary solutions cannot fully replace."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large customers (top customer = 11.7% of revenue) have significant negotiating leverage, particularly hyperscalers and cloud providers. Diversified customer base of 5,000+ customers across verticals provides some mitigation, but enterprise customers increasingly demand global scale, competitive pricing, and customized solutions, limiting DLR's pricing power."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "DLR has secured global purchasing agreements with major equipment manufacturers and leverages significant scale to negotiate favorable terms. Limited dependence on any single supplier and ability to source components globally reduces supplier leverage. However, supply chain disruptions (noted in 10-K) and specialized equipment requirements create some vulnerability."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Digital Realty possesses a moderate-to-strong competitive moat anchored by high barriers to entry (capital intensity, global scale, interconnection networks), significant switching costs for customers, and a diversified customer base across multiple verticals. The company's 310 global data centers, 232,000+ cross-connects, and proprietary PlatformDIGITAL® ecosystem create network effects and switching costs. However, the moat is partially eroded by intense rivalry from hyperscalers, well-capitalized competitors, and buyer power from large cloud providers, limiting pricing power and requiring continuous capital investment to maintain competitive positioning.",
+  "key_risks": [
+    "Hyperscaler competition: AWS, Microsoft, Google, and other cloud providers building proprietary data center infrastructure reduces demand for third-party colocation and limits pricing power",
+    "Customer concentration: Top customer represents 11.7% of revenue; loss of major hyperscaler or cloud provider customer could significantly impact cash flows and growth",
+    "Capital intensity and execution risk: Requires continuous substantial capital deployment ($769M under construction, >5GW future capacity); development delays, cost overruns, or inability to pre-lease capacity could impair returns",
+    "Technological disruption: Edge computing, distributed computing, or alternative infrastructure models could reduce demand for centralized data center capacity",
+    "Supply chain disruptions: Reliance on specialized equipment and global supply chains creates vulnerability to procurement delays and cost inflation",
+    "Regulatory and geopolitical risks: Operations across 30+ countries expose company to varying regulatory environments, data sovereignty requirements, and geopolitical tensions",
+    "Interest rate sensitivity: REIT structure and debt-dependent capital model (5.5x target leverage) create exposure to rising rates and refinancing risk"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

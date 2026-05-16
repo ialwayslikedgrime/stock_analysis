@@ -1,0 +1,39 @@
+{
+  "ticker": "CSGP",
+  "company": "CoStar Group",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "CoStar operates in highly competitive markets with multiple established competitors and faces pressure from both traditional players and new AI-powered entrants. The 10-K explicitly states the market is 'highly competitive and rapidly changing,' with competitors potentially having greater resources, better technology, lower prices, or superior branding. However, CoStar's dominant market position in commercial real estate information and its comprehensive database provide some differentiation."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to CoStar's 35+ years of proprietary database development, extensive research infrastructure, and standardized platform across hundreds of data fields. The 10-K notes that 'rapid advancement of generative AI Technologies may reduce the barrier to entry for new competitors,' but the scale of data collection, field research operations, and customer relationships remain substantial obstacles. Significant capital investment and domain expertise are required to compete effectively."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Credible substitutes exist and are emerging, particularly AI-powered platforms that provide real estate information and agent connections without directing users to CoStar's marketplaces. The 10-K warns of 'AI-powered platforms that provide access to real estate agents, real estate data, and related content' as competitive threats. Generative AI and alternative data sources represent meaningful substitute threats to traditional marketplace and information services."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyers have moderate power due to subscription-based pricing models and the ability to switch services, particularly during contract renewal periods. However, CoStar's comprehensive database, integrated platform, and critical role in commercial real estate transactions reduce switching costs somewhat. The 10-K indicates customers may reduce spending due to 'budgetary constraints' and 'consolidation in the real estate and/or financial services industries,' suggesting some price sensitivity and negotiating leverage."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is low as CoStar licenses only a 'small portion' of data from third-party providers and maintains proprietary databases built internally. The company has direct feeds from larger apartment sites, owners, brokers, and home builders, reducing dependence on external suppliers. However, reliance on third-party data providers for certain information and potential MLS compliance requirements create some supplier dependencies (flagged as risk in 10-K)."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "CoStar possesses a substantial but moderately eroding competitive moat built on 35+ years of proprietary database development, extensive field research operations, and network effects from its integrated platform serving diverse real estate stakeholders. The company's comprehensive commercial real estate database, largest research department in the industry, and standardized platform create meaningful switching costs and competitive advantages. However, the moat is threatened by emerging AI-powered competitors, generative AI reducing barriers to entry, and the potential for substitute services that bypass traditional marketplaces. The company must continue investing heavily in technology, data quality, and product innovation to maintain its competitive position.",
+  "key_risks": [
+    "Competitive pressure from AI-powered platforms and new entrants leveraging generative AI technology to reduce traditional barriers to entry",
+    "Customer acquisition and retention challenges amid economic uncertainty, real estate market cyclicality, and potential consolidation in customer industries",
+    "Failure to successfully develop and integrate new services (particularly AI and 3D digital twin technology) or maintain data quality and accuracy across hundreds of data fields",
+    "Dependence on third-party data providers, MLS relationships, and listing feeds; potential disruption to data supply chains",
+    "Significant capital requirements for ongoing database development, field research operations, and technology infrastructure (including Richmond campus expansion)",
+    "Geographic expansion execution risks and international currency exposure affecting customer purchasing power",
+    "Integration and realization of benefits from major acquisitions (Matterport, Domain) amid heavy R&D and marketing investments pressuring margins"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

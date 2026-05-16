@@ -1,0 +1,38 @@
+{
+  "ticker": "IRM",
+  "company": "Iron Mountain",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "IRM faces intense competition from numerous global and regional storage providers, as well as internal management by customers. While IRM emphasizes its differentiated global offering and scale advantages, the 10-K explicitly states competitors operate in comparable metropolitan areas with similar properties, indicating commoditized competition on pricing, security, and reliability."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to significant capital requirements for real estate (98M+ sq ft), specialized infrastructure (1,340 MW data center capacity), and established customer relationships with 240,000+ clients. However, regional competitors and hyperscalers can enter specific markets, and digital solutions have lower barriers than physical infrastructure."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "High threat from digital alternatives and cloud storage reducing demand for physical records management. The 10-K acknowledges declining activity rates as customers digitize records and adopt alternative storage technologies. Internal customer IT asset management and cloud-based solutions represent significant substitution risks to traditional storage revenue."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers possess considerable negotiating power despite IRM's scale. No single customer exceeds 3% of revenue, indicating customer concentration risk is low but also that IRM lacks major account leverage. Customers can switch providers, manage assets internally, or adopt digital alternatives, giving them multiple options to reduce dependence on IRM."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "IRM has relatively low supplier power exposure due to its vertically integrated real estate ownership (24M+ sq ft owned) and operational self-sufficiency. The company operates its own facilities, logistics, and security infrastructure, reducing dependency on external suppliers for core services. [INFERRED: Standard utility and equipment suppliers have limited leverage given IRM's scale and diversified sourcing.]"
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Iron Mountain possesses a moderate competitive moat built on scale, brand reputation, customer switching costs from long-term contracts (1-5 years for storage, 10.3 year average for data centers), and integrated global infrastructure. However, the moat is eroding due to digital substitution, commoditized pricing competition, and the ability of large customers to internalize services. The company's diversification across records management, data centers, digital solutions, and ALM provides some resilience, but declining physical storage volumes and intense rivalry limit pricing power.",
+  "key_risks": [
+    "Structural decline in physical records storage demand as customers digitize and adopt cloud-based alternatives, reducing core storage revenue and service activity rates",
+    "Intense competitive pressure on pricing and service quality from regional competitors and hyperscalers, particularly in data center and digital solutions markets",
+    "Execution risk on strategic transformation (Project Matterhorn) and digital solutions growth, with $574M+ invested and uncertain ROI on new offerings like DXP platform",
+    "Regulatory and compliance burden expansion in data privacy, cybersecurity, and environmental regulations increasing operational costs and capital requirements",
+    "Customer concentration risk mitigated by 240,000 customer base but offset by low switching costs and ability of large customers to internalize asset management functions",
+    "Real estate portfolio exposure to environmental liabilities, remediation costs, and climate-related physical risks across 1,340+ global locations"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,38 @@
+{
+  "ticker": "MU",
+  "company": "Micron Technology",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Micron operates in highly competitive semiconductor memory markets dominated by a few large players (Samsung, SK Hynix, Kioxia). The 10-K explicitly states 'we face intense competition in the semiconductor memory and storage markets' and emphasizes continuous need for R&D investment and cost reduction to remain competitive. Commodity-like pricing dynamics in DRAM and NAND create significant competitive pressure."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Barriers to entry are very high due to massive capital requirements for fabrication facilities, advanced process technology (EUV lithography), and years of R&D investment. The 10-K highlights 'significant investments to develop proprietary product and process technology' and maintains 'wholly-owned facilities' globally. However, score is not 5 because established competitors could theoretically enter adjacent segments."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for DRAM and NAND in their primary applications, though emerging technologies like 3D XPoint (now discontinued) or future quantum computing could pose long-term threats. Current product portfolio (HBM, DDR5, LPDDR5X, QLC NAND) addresses evolving customer needs with few viable alternatives in near-term."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is substantial; the 10-K notes 'approximately one-half of our total revenue was from our top ten customers,' indicating high customer concentration. Customers are 'generally reluctant to enter into long-term, fixed-price purchase contracts' and pricing/terms are 'periodically negotiated to reflect market conditions,' giving large hyperscalers (cloud providers) significant leverage over pricing and terms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Micron manufactures at 'wholly-owned facilities' and 'utilizes subcontractors for certain manufacturing processes,' providing some vertical integration but not complete control. [INFERRED: Suppliers of specialized equipment (lithography, deposition tools) and materials have moderate power, though Micron's scale provides negotiating leverage.] The company's reliance on advanced manufacturing equipment from limited suppliers (ASML for EUV) creates some supplier dependency."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Micron possesses a moderate competitive moat built on high capital barriers, proprietary process technology (1γ/1β nodes with EUV), and manufacturing scale. However, this moat is partially offset by intense rivalry with well-capitalized competitors, high customer concentration that limits pricing power, and commodity-like market dynamics in memory. The company's technology leadership and diversified product portfolio (HBM, DDR5, LPDDR5X, G9 NAND) provide differentiation, but continuous R&D spending is required to maintain competitive position.",
+  "key_risks": [
+    "Intense competition from Samsung and SK Hynix could compress margins through price competition and technology parity",
+    "High customer concentration (50% revenue from top 10 customers) creates dependency on hyperscale cloud providers with significant negotiating power",
+    "Cyclical industry dynamics and volatile demand could lead to overcapacity and pricing pressure, particularly in DRAM and NAND markets",
+    "Massive capital expenditure requirements for advanced fabs and process technology development strain cash flow and require sustained profitability",
+    "Geopolitical risks including Taiwan/Singapore manufacturing exposure and potential export restrictions on advanced semiconductor technology",
+    "Technology transition risks if emerging memory technologies disrupt DRAM/NAND markets or if competitors achieve process node parity"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

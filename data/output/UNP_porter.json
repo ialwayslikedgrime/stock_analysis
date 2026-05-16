@@ -1,0 +1,39 @@
+{
+  "ticker": "UNP",
+  "company": "Union Pacific Corporation",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "UNP operates in a highly consolidated Class I railroad industry with only 6-7 major competitors (BNSF, CSX, NS, KSU, etc.). However, intense competition exists on pricing, service quality, and operational efficiency. The document explicitly references competition from other railroads and transportation providers as a material risk factor."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry due to massive capital requirements ($32,889 route miles of infrastructure), regulatory approval from STB, decades of network development, and established customer relationships. The railroad industry is essentially closed to new competitors, making this a protected market."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Trucking, shipping, and pipelines provide viable alternatives for freight transportation. The document acknowledges competition from other transportation providers. However, rail has inherent advantages (3-4x more fuel efficient than trucks per AAR data), limiting substitution for certain commodities like bulk goods and intermodal."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large customers (shippers, logistics companies, manufacturers) have significant negotiating power, particularly for high-volume commodities. The diversified customer base across Bulk (33%), Industrial (37%), and Premium (30%) segments provides some mitigation, but major customers can threaten to shift to competitors or alternative transportation modes."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "UNP is dependent on key suppliers of locomotives and rail (noted as a risk factor). However, the company has multiple suppliers and significant scale. Labor represents a major cost component with 83% of workforce unionized under Railway Labor Act, limiting wage flexibility but providing predictability through 5-year negotiation cycles."
+    }
+  },
+  "moat_score": 4.2,
+  "moat_summary": "Union Pacific possesses a durable competitive moat anchored by exceptional barriers to entry (massive capital requirements, regulatory approval, network effects) and geographic advantages (32,889 route miles connecting major ports and gateways across western two-thirds of U.S.). The company's scale, integrated network, and established customer relationships create significant switching costs. However, the moat is partially offset by moderate competitive rivalry within the Class I railroad oligopoly, buyer power from large shippers, and substitution threats from trucking and alternative transportation modes.",
+  "key_risks": [
+    "Demand fluctuations and capacity management: Significant reductions in demand for rail services or demand exceeding network capacity could increase unit costs and compromise service levels",
+    "Hazardous materials transportation: Accidents involving crude oil, ethanol, or toxic materials could result in costs and claims exceeding insurance coverage, harming reputation and financial condition",
+    "Cybersecurity threats: Increasing sophistication of cyber-attacks and AI-enabled threats could disrupt operations, compromise critical data, or impact safety systems given UNP's critical infrastructure status",
+    "Severe weather and natural events: Exposure to earthquakes, floods, fires, and extreme weather across vast network could cause significant business interruptions and capital expenditures",
+    "Technology obsolescence: Failure to adequately invest in or maintain critical systems (PTC, NetControl, transportation control systems) could result in service outages and competitive disadvantage",
+    "Labor cost inflation: 83% unionized workforce with 5-year negotiation cycles limits wage flexibility; recent 2025-2029 negotiations could increase labor costs materially",
+    "Regulatory changes: STB rulemaking on reciprocal switching, revenue adequacy methodology, and service regulation could compress margins or limit pricing power"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

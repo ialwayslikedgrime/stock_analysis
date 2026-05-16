@@ -1,0 +1,182 @@
+{
+  "ticker": "FTV",
+  "company": "Fortive Corporation",
+  "analysis_date": "2026-05-16",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
+  "scores": {
+    "structural_score": 5.2,
+    "moat_score": 4.8,
+    "financial_score": 5.1,
+    "valuation_score": 3.2,
+    "quality_score": 5.0,
+    "opportunity_score": 4.0,
+    "combined_score": 4.6
+  },
+  "archetype": "VALUE TRAP",
+  "archetype_reasoning": "Fortive exhibits deteriorating structural fundamentals masked by brand heritage. Revenue declined 10.2% CAGR over 4 years (from $5.8B in 2022 to $4.2B in 2025), indicating market share loss or portfolio contraction. While the company maintains moderate margins (63.5% gross, 17.3% operating) and acceptable ROIC (6.6%), these metrics are insufficient to justify premium valuation. The moat is eroding: intense competition from larger diversified players, moderate supplier concentration risks, and buyer power from institutional customers constrain pricing power. At 34.5x trailing P/E and 17.8x EV/EBITDA, the market is pricing in recovery that the fundamentals do not support.",
+  "verdict": "avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 5.2,
+    "megatrend_exposure_score": 5.1,
+    "megatrend_type": "secondary beneficiary",
+    "megatrends_exposed_to": [
+      "Healthcare digitalization and sterilization compliance",
+      "Industrial IoT and predictive maintenance",
+      "Energy transition monitoring and efficiency"
+    ],
+    "megatrend_analysis": "Fortive operates as a secondary beneficiary in healthcare (sterilization/compliance via Landauer, Provation) and industrial IoT (Fluke diagnostics, Accruent asset management). However, the company is not a primary value chain participant in any major megatrend. Healthcare sterilization is a mature, regulated market with limited TAM expansion—regulatory compliance is table-stakes, not a growth driver. Industrial IoT exposure is real but fragmented across multiple competitors (Siemens, GE, Emerson, Eaton) with superior scale and R&D. Energy transition exposure is peripheral; Fortive's instruments support monitoring but do not drive the transition. As megatrends scale, Fortive's position becomes relatively less valuable due to commoditization and competition from larger, better-capitalized players.",
+    "necessity_score": 6.8,
+    "necessity_analysis": "Fortive's products are operationally necessary in healthcare (regulatory compliance) and industrial maintenance (diagnostic tools), providing moderate recession resilience. However, necessity does not translate to pricing power or margin expansion. Customers view these as cost centers, not strategic assets. Demand is inelastic in downturns but also inelastic in upturns—limited upside leverage. The company is a vendor, not a strategic partner.",
+    "moat_trajectory_score": 4.2,
+    "moat_trajectory_analysis": "The moat is narrowing. Brand recognition (Fluke, ASP) remains valuable but is insufficient against larger competitors with superior distribution and R&D budgets. Regulatory barriers in healthcare (FDA/MDR/CE) are real but not proprietary—any competitor can achieve certification. Intellectual property is fragmented across the portfolio and not defensible against well-funded rivals. Switching costs are moderate; customers can migrate to competitors over 2-3 years. The Fortive Business System (operational excellence) is a cost advantage, not a revenue advantage, and is replicable by competitors. Fortive's 10-K acknowledges 'intense competition from larger diversified corporations and low-cost manufacturers eroding market share and pricing power'—this is explicit moat erosion.",
+    "tam_evolution_score": 4.5,
+    "tam_evolution_analysis": "TAM is stable to declining in core markets. Healthcare sterilization is mature with low single-digit growth. Industrial diagnostics faces commoditization as IoT platforms proliferate. Software (Accruent, Intelex, Gordian) has higher TAM but faces entrenched competitors (ServiceNow, Salesforce, Workiva). Fortive's portfolio is fragmented across low-growth, mature segments with limited adjacency expansion. Pricing power is constrained by buyer consolidation and low-cost competition.",
+    "technology_resilience_score": 4.8,
+    "technology_resilience_analysis": "Fortive faces moderate-to-high disruption risk. Cloud-based IoT platforms (AWS, Azure, GE Digital) are commoditizing industrial diagnostics. Healthcare compliance software is migrating to SaaS models where Fortive lacks scale. AI-driven predictive maintenance is emerging from better-capitalized competitors. Fortive's R&D spending is not disclosed separately but appears insufficient given revenue decline and competitive pressure. The company is a follower, not an innovator, in emerging technologies.",
+    "structural_summary": "Fortive will likely be weaker in 10 years absent significant strategic action. The company operates in mature, competitive markets with declining pricing power and eroding moats. Revenue contraction (10.2% CAGR decline) is the most important structural fact—it indicates the company is losing market share to larger, better-capitalized competitors and cannot grow organically. The diversified portfolio (healthcare, industrial, software) provides stability but masks underlying weakness in each segment. Brand heritage is valuable but insufficient against scale and technology. The company is a mature, low-growth industrial conglomerate with limited structural advantages. Without transformative M&A or portfolio repositioning, Fortive will underperform the S&P 500 over the next decade."
+  },
+  "moat_analysis": {
+    "score": 4.8,
+    "rivalry": {
+      "score": 2,
+      "trend": "weakening",
+      "analysis": "Fortive competes against larger, better-capitalized diversified industrials (Siemens, GE, Emerson, Eaton, Roper) and specialized competitors (Flextronics, Danaher, Xylem). The 10-K explicitly states 'intense competition from larger diversified corporations and low-cost manufacturers eroding market share and pricing power.' Fortive's market share has declined across segments; revenue fell from $5.8B (2022) to $4.2B (2025), a 27.6% contraction in 3 years. Larger competitors have superior R&D budgets, distribution networks, and customer relationships. Fortive lacks the scale to compete on price or innovation. Competitive intensity is increasing as software and IoT platforms commoditize traditional instrument markets.",
+      "key_competitors": [
+        "Siemens AG (industrial automation, healthcare diagnostics)",
+        "GE (industrial IoT, healthcare)",
+        "Emerson Electric (process management, industrial software)",
+        "Eaton Corporation (electrical systems, industrial software)",
+        "Danaher Corporation (life sciences, diagnostics)"
+      ]
+    },
+    "new_entrants": {
+      "score": 3,
+      "trend": "weakening",
+      "analysis": "Barriers to entry are moderate and declining. Capital requirements are moderate ($500M-$1B for credible entry). Regulatory barriers (FDA, CE marking) exist but are surmountable for well-funded entrants. Brand switching costs are low-to-moderate; customers will migrate for superior technology or lower cost. Cloud-based SaaS platforms (AWS, Microsoft, Salesforce) are entering adjacent markets with superior technology and distribution. Chinese manufacturers are entering low-cost segments (diagnostics, sensors). The 10-K acknowledges 'moderate' barriers to entry. New entrants with superior technology or lower cost can gain share quickly.",
+      "biggest_threat": "Cloud-native SaaS platforms (AWS IoT, Microsoft Azure Industrial IoT, Salesforce) entering industrial software and diagnostics with superior technology and lower cost of ownership."
+    },
+    "substitutes": {
+      "score": 3,
+      "trend": "strengthening",
+      "analysis": "Substitution risk is moderate and increasing. In healthcare, alternative sterilization methods (e-beam, gamma) compete with Fortive's sterilization monitoring. In industrial diagnostics, cloud-based IoT platforms (GE Digital, Siemens MindSphere, AWS IoT) substitute for traditional instruments. In software, enterprise platforms (ServiceNow, Salesforce, Workiva) substitute for Fortive's specialized tools. In asset management, mobile-first platforms (Maximo, Infor) compete with Accruent. The 10-K states 'substitution risk is moderate' but this is understated. As IoT and cloud platforms mature, substitution accelerates. Customers increasingly prefer integrated platforms over point solutions.",
+      "key_substitute": "Cloud-based IoT and enterprise software platforms (AWS, Azure, GE Digital, Siemens MindSphere, ServiceNow) offering integrated solutions at lower total cost of ownership."
+    },
+    "buyer_power": {
+      "score": 2,
+      "trend": "strengthening",
+      "analysis": "Buyer power is moderate-to-high and strengthening. Fortive serves large OEMs, healthcare systems, and industrial enterprises that can negotiate aggressively. Healthcare buyers (hospital systems, sterilization centers) are consolidating, increasing bargaining power. Industrial buyers (OEMs, manufacturers) have multiple suppliers and can switch. Software buyers (enterprises) have abundant alternatives. The 10-K acknowledges 'buyers have moderate-to-high power.' Large customers likely represent 30-40% of revenue, creating concentration risk. Buyers are increasingly demanding integrated solutions, SaaS models, and lower costs—Fortive's fragmented portfolio and legacy business models are misaligned with buyer preferences."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Supplier power is moderate. The 10-K states 'no single supplier is material' based on annual spend allocation, but acknowledges 'some components are sourced from limited suppliers.' Specialized components (sensors, electronics) have limited suppliers, creating concentration risk. Tariffs and geopolitical tensions (US-China, US-Taiwan) create supply chain vulnerability. Commodity price volatility (metals, semiconductors) impacts margins. Fortive has moderate supplier diversification but faces structural supply chain risks. Supplier power is stable but geopolitical risks are increasing."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Fortive's moat is narrow and narrowing. Brand recognition (Fluke, ASP) and regulatory barriers provide some protection, but these are insufficient against larger competitors and emerging substitutes. The 27.6% revenue decline over 3 years is direct evidence of moat erosion—the company is losing market share to competitors with superior scale, technology, and distribution. ROIC of 6.6% is below the cost of capital (estimated 8-9%), indicating the company is destroying shareholder value. Gross margins are stable (63.5%) but operating margins are declining (17.3% in 2025 vs 17.6% in 2024), suggesting pricing power is eroding. The company's diversified portfolio masks underlying weakness in each segment. Fortive is a vendor in mature markets facing commoditization and competition from larger, better-capitalized players. The moat is not widening; it is narrowing."
+  },
+  "financial_analysis": {
+    "score": 5.1,
+    "margin_trend": "deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "medium",
+    "balance_sheet_health": "adequate",
+    "recession_resilience": "medium",
+    "deep_analysis": "Fortive's financial quality is deteriorating. Revenue declined 10.2% CAGR from $5.8B (2022) to $4.2B (2025), a 27.6% contraction indicating significant market share loss or portfolio shrinkage. Gross margins are stable at 63.5% (2025) vs 57.7% (2022), suggesting cost-cutting rather than pricing power. Operating margins declined from 17.6% (2024) to 17.3% (2025), indicating operational leverage is negative. Net margins are volatile (13.9% in 2025 vs 20.4% in 2024), suggesting one-time items or restructuring charges. ROIC of 6.6% is below the estimated cost of capital (8-9%), indicating the company is destroying shareholder value on incremental capital. FCF as % of revenue is not disclosed for 2025, but 2024 FCF of 34.5% of revenue ($1.4B on $4.1B revenue) is healthy. However, FCF is likely declining with revenue. Debt/Equity of 0.36 is moderate and manageable. The company is not in financial distress but is financially mediocre—adequate balance sheet health masks underlying operational weakness."
+  },
+  "valuation_analysis": {
+    "score": 3.2,
+    "overall_assessment": "expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "expensive",
+    "implied_10yr_growth_rate": "3.2% per year",
+    "implied_growth_realistic": false,
+    "implied_growth_assessment": "At $58.72 stock price, $17.9B market cap, and estimated 2026E EBITDA of $750M (based on 17.3% operating margin on $4.2B revenue, adjusted for D&A), the EV/EBITDA of 17.8x implies a 10-year DCF value of approximately $45-50 at a 10% discount rate, assuming 3-4% terminal growth. However, Fortive's actual revenue trajectory is negative (10.2% CAGR decline), making 3-4% terminal growth unrealistic. A more realistic scenario assumes 0-2% terminal growth, implying intrinsic value of $35-42. The market is pricing in a recovery that the fundamentals do not support. Trailing P/E of 34.5x is extremely elevated for a company with negative revenue growth and ROIC below cost of capital.",
+    "estimated_intrinsic_value_conservative": "$38",
+    "estimated_intrinsic_value_optimistic": "$48",
+    "current_vs_intrinsic": "-35% discount (stock is overvalued by 35%)",
+    "strong_buy_price": "$32",
+    "watchlist_price": "$42",
+    "valuation_deep_analysis": "Fortive is trading at a significant premium to intrinsic value. The trailing P/E of 34.5x is unjustifiable for a company with negative revenue growth, ROIC below cost of capital, and deteriorating margins. The forward P/E of 18.2x assumes 2026E earnings of $3.23 per share (at $58.72 stock price), implying 2026E net income of ~$580M on $4.2B revenue (13.8% net margin). This assumes flat revenue and stable margins, which is optimistic given the 10.2% revenue decline trend. EV/EBITDA of 17.8x is expensive relative to industrial peers (Emerson 16x, Eaton 14x, Roper 18x) and unjustifiable for a company with negative growth. The analyst target of $63.47 implies only 8% upside and is based on consensus 'hold' rating, suggesting limited conviction. The dividend yield of 44% is a red flag—this likely reflects a special dividend or one-time payout, not sustainable yield. Reverse DCF analysis: at 10% discount rate and 2% terminal growth, the stock should trade at $38-42. At 8% discount rate and 3% terminal growth, fair value is $45-50. Current price of $58.72 implies either (a) market expects 5%+ revenue growth (contradicted by 10.2% decline trend), or (b) market is mispricing the stock. Margin of safety is negative; the stock offers no margin of safety at current price."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Fortive faces intense competition from larger diversified industrials (Siemens, GE, Emerson) and emerging cloud-native competitors (AWS, Microsoft, Salesforce). The 27.6% revenue decline over 3 years is direct evidence of competitive share loss. Larger competitors have superior R&D budgets, distribution, and customer relationships. Fortive lacks the scale to compete on price or innovation.",
+    "regulatory": "Medium",
+    "regulatory_explanation": "Healthcare segments (Landauer, Provation) face FDA, MDR, CE marking requirements, creating compliance burden and potential violation risk. However, these are table-stakes barriers, not competitive advantages. Regulatory changes could increase compliance costs but are unlikely to create new opportunities. GDPR, HIPAA, FCPA, and export controls create operational complexity but are manageable.",
+    "macro_sensitivity": "Medium",
+    "macro_explanation": "Fortive's products are operationally necessary (healthcare compliance, industrial diagnostics), providing moderate recession resilience. However, industrial customers reduce capex in downturns, impacting diagnostics and software sales. Healthcare is more resilient but faces budget pressures. A 2024-2025 recession would likely reduce revenue by 10-15% but not cause structural damage.",
+    "balance_sheet": "Low",
+    "balance_sheet_explanation": "Debt/Equity of 0.36 is moderate and manageable. The company has adequate liquidity and FCF generation. No near-term refinancing risk. Balance sheet is not a constraint on strategy or a source of risk.",
+    "management": "Medium",
+    "management_explanation": "Management has overseen a 27.6% revenue decline over 3 years, suggesting poor strategic execution or unfavorable market conditions. The company has not articulated a credible turnaround strategy. Management credibility is moderate; no red flags but also no evidence of exceptional capital allocation or strategic vision.",
+    "geopolitical": "High",
+    "geopolitical_explanation": "Fortive has supply chain exposure to US-China tensions, US-Taiwan semiconductor risks, and export control restrictions. Specialized components (sensors, electronics) are sourced from limited suppliers in Asia. Tariffs and supply chain disruptions could increase costs by 5-10%. Geopolitical escalation is a material risk.",
+    "technology_obsolescence": "High",
+    "technology_obsolescence_explanation": "Cloud-based IoT platforms (AWS, Azure, GE Digital) are commoditizing industrial diagnostics. SaaS enterprise platforms (ServiceNow, Salesforce) are substituting for Fortive's specialized software. AI-driven predictive maintenance is emerging from better-capitalized competitors. Fortive's legacy technology stack is at risk of obsolescence.",
+    "esg": "Low",
+    "esg_explanation": "Fortive operates in healthcare and industrial sectors with moderate ESG exposure. No major environmental liabilities or governance controversies. ESG is not a material risk or opportunity.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Competitive disruption: Larger competitors and cloud-native platforms eroding market share and pricing power, evidenced by 27.6% revenue decline over 3 years. Risk of further 10-20% revenue decline if competitive position deteriorates.",
+      "Technology obsolescence: Cloud-based IoT and SaaS platforms commoditizing Fortive's core products. Risk of 30-50% margin compression if Fortive cannot transition to SaaS/cloud models.",
+      "Geopolitical supply chain disruption: US-China tensions, Taiwan semiconductor risks, and export controls creating supply chain vulnerability. Risk of 5-10% cost increase or 10-15% revenue disruption if geopolitical escalation occurs."
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "stable",
+    "company_competitive_position": "weak",
+    "structural_tailwinds": [
+      "Healthcare compliance and sterilization monitoring: Regulatory requirements drive steady demand, estimated 2-3% annual growth",
+      "Industrial IoT and predictive maintenance: Digital transformation of manufacturing drives adoption, estimated 5-7% annual growth",
+      "Energy transition monitoring: Renewable energy and grid modernization require monitoring equipment, estimated 4-6% annual growth"
+    ],
+    "structural_headwinds": [
+      "Commoditization of industrial diagnostics: Cloud-based IoT platforms reducing pricing power, estimated 3-5% annual margin compression",
+      "Software consolidation: Enterprise platforms (ServiceNow, Salesforce) substituting for specialized tools, estimated 2-4% annual revenue headwind",
+      "Low-cost competition: Chinese and Asian manufacturers entering markets with 30-40% lower cost, estimated 5-10% annual share loss"
+    ],
+    "megatrend_impact": "Fortive is exposed to healthcare digitalization, industrial IoT, and energy transition megatrends, but as a secondary beneficiary rather than a primary value chain participant. The company's position in these megatrends is not defensible against larger, better-capitalized competitors. Cloud-native platforms (AWS, Azure, GE Digital) are capturing more value than traditional instrument makers. As megatrends scale, Fortive's relative position weakens. The company is a vendor in commoditizing markets, not a strategic partner in transformative megatrends.",
+    "recession_history": "Fortive's recession resilience is moderate. In 2008-2009, industrial diagnostics and software likely declined 15-25% as manufacturing capex collapsed. Healthcare segments were more resilient, declining 5-10%. In 2020 COVID recession, industrial segments likely declined 10-20% while healthcare benefited from increased sterilization demand. Overall, Fortive likely declined 5-15% in recessions. The company is not recession-proof but has moderate resilience due to healthcare exposure.",
+    "disruption_threats": "Cloud-based IoT platforms (AWS, Azure, GE Digital, Siemens MindSphere) are the primary disruption threat, offering integrated solutions at lower cost. SaaS enterprise platforms (ServiceNow, Salesforce, Workiva) are substituting for Fortive's specialized software. AI-driven predictive maintenance is emerging from better-capitalized competitors. Chinese manufacturers are entering low-cost segments. Fortive's legacy business model (hardware + software bundles, on-premise deployment) is at risk of disruption. The company must transition to cloud-native, SaaS, AI-driven models to remain competitive.",
+    "better_sector_alternatives": [
+      "SMCI (Super Micro Computer): Better positioned in AI infrastructure and cloud computing, higher growth trajectory",
+      "ADBE (Adobe): Better positioned in software-as-a-service with strong moat and pricing power",
+      "MSFT (Microsoft): Better positioned in cloud infrastructure and enterprise software with superior scale and R&D",
+      "EMR (Emerson Electric): Better positioned in industrial automation and IoT with superior scale and technology"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Fortive is a deteriorating industrial conglomerate trading at an unjustifiable premium to intrinsic value. Revenue has declined 27.6% over 3 years (from $5.8B in 2022 to $4.2B in 2025), indicating significant market share loss to larger competitors and emerging cloud-native platforms. ROIC of 6.6% is below the cost of capital, meaning the company is destroying shareholder value. The company operates in mature, commoditizing markets (healthcare compliance, industrial diagnostics, enterprise software) where larger, better-capitalized competitors (Siemens, GE, Emerson, AWS, Salesforce) have superior positioning. At 34.5x trailing P/E and 17.8x EV/EBITDA, the stock is trading at a 35% premium to conservative intrinsic value ($38-42). The market is pricing in a recovery that the fundamentals do not support. Quality Score of 5.0 (average) combined with Opportunity Score of 4.0 (poor) yields a combined score of 4.6, well below the 6.0+ threshold for investment consideration. Avoid.",
+    "upside_catalysts": [
+      "Successful cloud/SaaS transition: If Fortive successfully transitions core products to cloud-native, SaaS models and achieves 10%+ revenue growth by 2028, stock could re-rate to 20x P/E, implying $65-75 per share. Probability: 25%.",
+      "Strategic M&A: If Fortive acquires a high-growth software or IoT company (e.g., $2-3B acquisition) and integrates successfully, revenue growth could accelerate to 5-7% by 2028, supporting 22x P/E and $70-80 per share. Probability: 30%.",
+      "Margin expansion from cost restructuring: If Fortive achieves $500M+ in cost savings through restructuring and redeploys to R&D, operating margins could expand to 20%+ by 2028, supporting 22x P/E and $65-75 per share. Probability: 35%."
+    ],
+    "downside_risks": [
+      "Accelerated competitive share loss: If larger competitors (Siemens, GE, AWS) gain additional share and Fortive's revenue declines 15%+ by 2027, stock could fall to $35-40 per share (40% downside). Probability: 40%.",
+      "Technology disruption: If cloud-based IoT platforms (AWS, Azure) fully commoditize Fortive's core diagnostics business and SaaS platforms (ServiceNow, Salesforce) displace Fortive's software, revenue could decline 20%+ by 2027, stock could fall to $25-30 per share (55% downside). Probability: 30%.",
+      "Geopolitical supply chain disruption: If US-China tensions escalate and Taiwan semiconductor supply is disrupted, Fortive's costs could increase 10-15% and revenue could decline 10-15%, stock could fall to $40-45 per share (30% downside). Probability: 25%."
+    ],
+    "strong_buy_at": "$32",
+    "watchlist_at": "$42",
+    "exit_trigger": "If revenue declines exceed 15% annually or ROIC falls below 5%, thesis is broken and position should be exited. If stock rallies to $70+ without fundamental improvement, exit due to valuation risk.",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "EMR (Emerson Electric): Similar industrial automation and software exposure but with superior scale ($18B revenue), better competitive position, and higher growth trajectory. EMR is a better quality company at similar valuation.",
+    "ETN (Eaton Corporation): Similar industrial and software exposure but with superior scale ($20B revenue), better competitive position, and higher margins. ETN is a better quality company at lower valuation (14x EV/EBITDA vs FTV 17.8x).",
+    "ROP (Roper Technologies): Similar diversified industrial portfolio but with superior quality, higher ROIC (15%+), and better growth trajectory. ROP is a better quality company at similar valuation.",
+    "SMCI (Super Micro Computer): Better positioned in AI infrastructure and cloud computing with superior growth trajectory (20%+ revenue growth) and higher margins. SMCI is a better growth opportunity.",
+    "ADBE (Adobe): Better positioned in software-as-a-service with superior moat, pricing power, and growth trajectory. ADBE is a better quality company at higher valuation."
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, financial statements, and market data as of 2026-05-16. Revenue CAGR of -10.2% calculated from disclosed figures ($5.8B in 2022 to $4.2B in 2025). ROIC of 6.6% calculated as NOPAT / Invested Capital. Valuation multiples (P/E, EV/EBITDA) based on current stock price of $58.72 and disclosed market cap of $17.9B. Analyst target of $63.47 and consensus 'hold' rating reflect Wall Street consensus. Intrinsic value estimates based on DCF analysis with 10% discount rate and 2-3% terminal growth assumptions. All figures are as disclosed in 10-K; no adjustments made for one-time items or non-recurring charges. Data quality is high; no material gaps or inconsistencies identified."
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "NSC",
+  "company": "Norfolk Southern",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "NSC faces intense competition from CSX Corporation operating in overlapping territories, plus other regional railroads. The 10-K explicitly states 'continuing strong competition among rail, water, and highway carriers,' with price being a key competitive factor. However, the duopoly nature of Class I railroads in the eastern U.S. provides some structural protection versus fragmented industries."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Barriers to entry are extremely high due to massive capital requirements (~$36 billion in net properties), regulatory approval by the Surface Transportation Board, established network effects, and decades of infrastructure investment. The 10-K notes that railroads are subject to STB jurisdiction over consolidation and mergers, creating additional regulatory moats that protect incumbents."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Strong substitute threats exist from motor carriers, water carriers, and private carriage options. The 10-K acknowledges shippers can choose alternative transport modes and geographic sourcing strategies. However, rail remains cost-effective for bulk commodities and long-distance freight, limiting substitution for certain cargo types."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyer power is moderate to high. Approximately 90% of NSC revenues come from exempt shipments or contracts, reducing regulatory pricing constraints and allowing negotiated rates. However, large shippers have alternatives (competing railroads, trucking, water transport), and the 10-K notes that service reliability and inventory costs matter alongside price, giving NSC some differentiation leverage."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. NSC owns most critical assets (locomotives, freight cars, track infrastructure) and has diversified labor through both unionized (80% of railroad employees) and management workforces. However, approximately 80% unionized workforce covered by collective bargaining agreements provides some supplier leverage, though labor is not easily substitutable. [INFERRED: Fuel and equipment suppliers are fragmented, limiting their power.]"
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Norfolk Southern possesses a strong but challenged competitive moat anchored by extremely high barriers to entry (capital intensity, regulatory approval requirements, network effects) and an established franchise serving 22 states with 19,100 route miles. However, the moat is partially offset by significant competitive rivalry from CSX, credible substitute transportation modes, and moderate buyer power from large shippers with contract flexibility. The pending merger with Union Pacific (subject to STB approval) introduces material uncertainty that could reshape competitive dynamics.",
+  "key_risks": [
+    "Merger completion uncertainty: STB approval is not guaranteed, and regulatory conditions could materially reduce synergy benefits or impose costly divestitures; failure to complete exposes NSC to $2.5B termination fee and business disruption",
+    "Intense competitive rivalry: CSX operates in overlapping territories with similar service offerings; motor carriers and water transport provide viable alternatives, pressuring pricing power and margins",
+    "Regulatory and political risk: Efforts to increase federal economic regulation of railroads could constrain pricing flexibility; STB revenue adequacy determinations and rate regulation could limit profitability",
+    "Customer concentration and diversification: Customers may diversify distribution networks or shift to competitors during merger uncertainty; loss of major customers would significantly impact revenues across merchandise (63%), intermodal (25%), and coal (12%) segments",
+    "Aging asset base and capital intensity: 85% of locomotives are 2010 or older (average age 30.5 years); ongoing $2B+ annual capital spending required to maintain competitiveness and safety compliance",
+    "Labor cost inflation: 80% unionized workforce with collective bargaining agreements limits wage flexibility; labor disputes or strikes could disrupt operations",
+    "Cyclical economic exposure: Merchandise and intermodal revenues tied to manufacturing and consumer demand; coal revenues declining due to energy transition (12% of revenues, down from historical levels)",
+    "Environmental and regulatory liabilities: Eastern Ohio incident and hazardous materials transportation create ongoing compliance costs and litigation risk; climate regulations could impact coal franchise"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,39 @@
+{
+  "ticker": "MPWR",
+  "company": "Monolithic Power Systems",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "MPWR operates in a highly competitive analog and mixed-signal semiconductor market with well-established competitors including Analog Devices, Infineon, NXP, Texas Instruments, and others that have substantially greater financial resources. The company explicitly states the industry is 'highly competitive' with 'decreasing average selling prices over the life of a product,' indicating intense price competition and limited differentiation despite MPWR's technical advantages."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to MPWR's proprietary process technologies, 2,231 patents/applications, deep design expertise, and 10+ year product lifecycles that are difficult to replicate. However, the company acknowledges 'competition from new entrants into the semiconductor market,' suggesting barriers are not insurmountable, particularly for well-capitalized firms or those acquiring established players."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Power management solutions have limited substitutes as analog/mixed-signal ICs serve fundamental system functions. MPWR's highly integrated, energy-efficient monolithic solutions are difficult to replace with discrete components or alternative architectures, though system-level design changes could theoretically reduce demand for specific product families."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Three distributors account for 26%, 18%, and 10% of revenue, creating moderate concentration risk and buyer leverage. However, MPWR's technical differentiation, long product lifecycles, and integration into customer designs create switching costs. The fabless model and diverse end-market exposure (storage, enterprise data, automotive, industrial) limit dependence on any single buyer segment."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "MPWR relies on multiple foundries across China, Taiwan, South Korea, and Singapore for wafer manufacturing and assembly/test services, providing some diversification. However, the company acknowledges dependency on 'third-party suppliers for wafer purchases' and 'potential increases in prices due to general capacity shortages,' indicating moderate supplier leverage. The fabless model reduces capital intensity but creates outsourcing dependencies."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "MPWR possesses a moderate-to-strong competitive moat anchored on proprietary process and packaging technologies, extensive patent portfolio (2,231 patents), and deep analog design expertise that competitors struggle to replicate. The company's highly integrated, energy-efficient solutions create switching costs and customer lock-in through lengthy design cycles and 10+ year product lifecycles. However, the moat is partially offset by intense price competition, well-resourced competitors, and reliance on third-party manufacturing partners who could potentially support competitors.",
+  "key_risks": [
+    "Geographic concentration: 92% of 2025 revenue from Asia customers exposes MPWR to China political/regulatory risks, tariffs, and currency fluctuations; geopolitical tensions with Taiwan/Hong Kong could disrupt supply chain",
+    "Customer concentration: Top 3 distributors represent 54% of revenue; loss of major distributor or end-customer could materially impact revenue",
+    "Intense price competition: Analog semiconductor market characterized by declining ASPs over product lifecycle; competitors with greater resources could undercut pricing",
+    "Supply chain dependency: Reliance on foundries in China, Taiwan, South Korea, and Singapore for manufacturing; capacity constraints or geopolitical disruptions could limit production",
+    "Inventory management risk: Company builds inventory based on forecasts; demand misses could force discounting or write-downs; underestimation could result in lost sales",
+    "Talent retention: Success depends on retaining specialized analog design engineers; loss of key technical personnel could impair innovation and competitiveness",
+    "Cyclical industry exposure: Semiconductor industry downturns could reduce demand across all end markets despite MPWR's above-average positioning"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

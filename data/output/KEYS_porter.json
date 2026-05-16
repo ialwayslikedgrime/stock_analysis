@@ -1,0 +1,38 @@
+{
+  "ticker": "KEYS",
+  "company": "Keysight Technologies",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Keysight operates in highly competitive markets with numerous competitors offering similar solutions. While the company acknowledges no single competitor offers equivalent range and scale across all markets, it faces substantial competition from well-capitalized competitors and specialized regional players. The 10-K explicitly states 'Keysight operates in a highly competitive and rapidly changing global marketplace.'"
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers to entry exist due to significant R&D investments ($1.007B in 2025), proprietary semiconductor and packaging technologies, 80+ year heritage with established customer relationships, and specialized technical expertise. However, the 10-K notes 'increased competition in a number of our served markets as a result of the entry of new competitors,' suggesting barriers are not insurmountable, particularly in software and emerging adjacencies."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While Keysight's hardware and software solutions are specialized for design and test applications, alternative approaches exist including in-house development, open-source tools, and cloud-based simulation platforms. The company's expansion into software and services (CAE, simulation, emulation) creates some vulnerability to substitution from pure-play software vendors, though integrated hardware-software solutions remain difficult to replicate."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Keysight serves approximately 40,000 end customers annually, including many Fortune 1000 companies, providing significant customer concentration risk. However, the company's deep, long-term relationships, proprietary solutions tailored to specific applications, and critical role in customers' R&D cycles limit individual buyer leverage. The 80%+ revenue from direct sales relationships suggests strong customer lock-in and switching costs."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Keysight maintains vertical integration through in-house manufacturing of high-value components (microwave circuits, optical components, advanced packaging) and operates five specialized technology centers, reducing supplier dependence. However, reliance on contract manufacturers for assembly and PCB fabrication, plus dependence on semiconductor suppliers for components, creates moderate supplier power. The company's centralized Penang hub and U.S. operations provide some diversification."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Keysight possesses a moderate-to-strong competitive moat built on proprietary technology, deep customer relationships spanning 80+ years, and vertical integration in specialized manufacturing. The company's differentiated hardware-software solutions, first-to-market capabilities, and installed base of 40,000 customers create meaningful switching costs and customer lock-in. However, intensifying competition, the rise of software-centric alternatives, and customer consolidation pressures limit the moat's durability, requiring continuous R&D investment and strategic M&A to maintain competitive positioning.",
+  "key_risks": [
+    "Intense competition from well-capitalized competitors and specialized regional players could pressure margins and market share, particularly as the company expands into software and adjacent markets",
+    "Customer concentration among Fortune 1000 companies and consolidation in end markets (communications, semiconductor, aerospace) creates revenue volatility and buyer power risks",
+    "Rapid technological change and the need for continuous innovation require sustained high R&D spending ($1B+ annually); failure to innovate could result in product obsolescence",
+    "Integration risks from recent acquisitions (Spirent, ESI Group, Riscure, AnaPico, OSG, PowerArtist) could dilute returns and distract management from core business execution",
+    "Dependence on contract manufacturers and semiconductor supply chain vulnerabilities could disrupt production and increase costs, particularly given geopolitical tensions",
+    "Shift toward open-source and cloud-based design tools could cannibalize demand for proprietary hardware and software solutions"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

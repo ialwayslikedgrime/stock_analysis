@@ -1,0 +1,38 @@
+{
+  "ticker": "UPS",
+  "company": "United Parcel Service",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "UPS faces intense competition from FedEx, DHL, Amazon Logistics, USPS, and numerous regional carriers. The 10-K explicitly states 'We expect to continue to face significant local, regional, national and international competition' from postal services, motor carriers, express companies, freight forwarders, and e-commerce companies making substantial technology investments. Competitive intensity is high with low differentiation in core services."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to UPS's integrated global network, significant capital requirements for infrastructure, and regulatory complexity (FAA, DOT, customs certifications). However, the 10-K notes competition from 'start-ups and other smaller companies that combine technologies with flexible labor solutions such as crowdsourcing,' indicating emerging players can enter niche segments with lower capital requirements and technology-driven models."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes including digital communication (reducing document shipping), local delivery alternatives, and crowdsourced delivery platforms like Roadie (which UPS owns). E-commerce companies building internal logistics capabilities and USPS partnerships represent alternative delivery models. However, complex B2B and healthcare logistics remain difficult to substitute."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "High buyer power exists, particularly evidenced by Amazon representing 10.6% of revenue with UPS deliberately reducing volumes by 50% by June 2026, indicating customer leverage. SMBs and e-commerce customers have multiple carrier options. However, UPS's strategy to focus on higher-yielding segments (healthcare, B2B, SMBs) and long-term relationships provides some pricing power with specialized customers."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Moderate-to-high supplier power from unionized labor (80% of U.S. employees represented by Teamsters) with significant wage and benefit negotiations, as evidenced by recent labor agreements. Fuel costs and aircraft/vehicle manufacturers also represent concentrated supplier relationships. However, UPS's scale and integrated operations provide some negotiating leverage and ability to substitute labor with automation."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "UPS possesses a moderate competitive moat built on its integrated global smart logistics network, brand equity, scale advantages, and specialized capabilities in healthcare and B2B logistics. The company's extensive infrastructure, RFID technology investments, and customer relationships create switching costs and operational efficiencies. However, the moat is eroding due to intense competition, high buyer concentration (Amazon), significant labor costs, and emerging technology-driven competitors. The moat is sustainable but requires continuous innovation and strategic focus on higher-margin segments.",
+  "key_risks": [
+    "Customer concentration risk: Amazon represents 10.6% of revenue with planned 50% volume reduction by June 2026, creating significant revenue and profitability headwinds",
+    "Intense competitive pressure from FedEx, DHL, Amazon Logistics, and emerging crowdsourced delivery platforms threatening market share and pricing power",
+    "Labor cost inflation and unionization: 80% of U.S. workforce unionized with Teamsters agreement expiring July 2028; recent labor agreements have increased wage pressures",
+    "Economic sensitivity: Operations across 200+ countries exposed to macroeconomic cycles, geopolitical tensions, and international trade policy changes affecting shipping volumes",
+    "Technology disruption: Rapid evolution of logistics industry with new entrants using AI, automation, and flexible labor models; failure to innovate could erode competitive position",
+    "Regulatory compliance costs: Subject to complex FAA, DOT, TSA, customs, environmental, and data protection regulations with increasing compliance burdens and potential fines"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

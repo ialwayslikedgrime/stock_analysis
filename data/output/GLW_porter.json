@@ -1,0 +1,38 @@
+{
+  "ticker": "GLW",
+  "company": "Corning Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Corning faces intense competition across all segments from well-established global competitors (Prysmian, AGC, Nippon Electric Glass, Thermo Fisher, etc.). The 10-K explicitly states 'competitive landscape includes industry consolidation, pricing pressure and competition for innovation' with conditions 'likely to persist,' indicating structural competitive intensity."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to Corning's extensive patent portfolio (11,375 unexpired patents), proprietary manufacturing processes (fusion process for displays, ceramic substrate expertise), significant capital requirements for manufacturing facilities, and deep customer relationships built over 175 years. However, score is not 5 due to some patent expirations (740 patents expiring 2026-2028) and potential for well-capitalized competitors."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited credible substitutes exist for most Corning products due to specialized material science requirements and regulatory compliance (e.g., catalytic converters, pharmaceutical glass). However, emerging technologies like alternative display technologies or alternative materials for semiconductors present some long-term substitution risk, preventing a perfect score."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have moderate-to-high power due to consolidation in key customer bases (automotive OEMs, display panel makers, hyperscale data centers). The 10-K notes customers like Apple and major automotive manufacturers have significant leverage. However, Corning's specialized products and supply reliability provide some countervailing power, preventing a lower score."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists as Corning requires 'uninterrupted power sources, significant quantities of industrial water, precious metals and various batch materials.' The 10-K acknowledges 'certain key materials and proprietary equipment...are currently sole-sourced or available only from a limited number of suppliers' and notes export restrictions on some raw materials, creating vulnerability."
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Corning possesses a moderate-to-strong competitive moat anchored by extensive intellectual property (11,375 patents), proprietary manufacturing processes (fusion technology, ceramic expertise), and deep customer relationships spanning 175 years. The company's diversified portfolio across high-barrier segments (optical communications, displays, specialty materials) and significant R&D investment provide defensibility. However, the moat is challenged by intense competitive rivalry, customer consolidation, patent expirations, and supplier concentration risks that limit pricing power and require continuous innovation to maintain market position.",
+  "key_risks": [
+    "Intense pricing pressure and competitive consolidation across all segments, particularly in optical communications and displays where larger competitors compete aggressively",
+    "Customer concentration risk with major buyers (Apple, automotive OEMs, hyperscale data centers) possessing significant negotiating leverage and ability to shift suppliers",
+    "Supply chain vulnerability from sole-sourced materials, precious metals dependencies, and export restrictions on key raw materials that could disrupt production",
+    "Patent expiration risk with 740 patents (6.5% of portfolio) expiring 2026-2028, potentially eroding competitive advantages in core technologies",
+    "Substitution risk from emerging display technologies, alternative materials for semiconductors, and electrification reducing demand for automotive catalytic converters",
+    "Cyclical demand exposure in display and semiconductor segments tied to consumer electronics and capital equipment cycles"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

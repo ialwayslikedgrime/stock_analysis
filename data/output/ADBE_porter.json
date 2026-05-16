@@ -1,0 +1,37 @@
+{
+  "ticker": "ADBE",
+  "company": "Adobe Inc.",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Adobe faces intense competition from large established players (Microsoft, Google, Figma), specialized point solutions, and emerging AI-first competitors across all three customer segments. The 10-K explicitly states the market is 'highly competitive and rapidly evolving' with 'limited barriers to entry' and 'short product lifecycles,' indicating significant competitive pressure."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "The 10-K identifies 'frequent entry of new solutions or competitors' and 'limited barriers to entry' as key market characteristics. AI-first startups and cloud-native companies can rapidly develop competitive offerings, particularly in creative tools and marketing platforms where technology is increasingly commoditized."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Numerous substitutes exist across Adobe's portfolio: free alternatives (Canva, GIMP, DaVinci Resolve), open-source solutions, built-in OS tools, and social media platforms with native editing capabilities. The 10-K acknowledges competition from 'general productivity platforms,' 'web and mobile-first design platforms,' and 'social media platforms that offer built-in media editing capabilities.'"
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "While Adobe has strong brand loyalty and switching costs in enterprise segments, the 10-K notes 'customer price sensitivity' and competition from lower-cost alternatives. Consumers and SMBs have significant power to switch to cheaper or free alternatives, though enterprise customers face higher switching costs due to integrated workflows and training investments."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Adobe has moderate supplier power concerns primarily around AI model partnerships and cloud infrastructure. The company mitigates this by building proprietary Firefly models and maintaining partnerships with multiple AI providers, reducing dependence on any single supplier. Cloud infrastructure providers (AWS, Azure) have some leverage but Adobe's scale provides negotiating power."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Adobe maintains a moderate competitive moat built on brand recognition, integrated ecosystem lock-in (particularly in enterprise), proprietary AI capabilities (Firefly), and substantial R&D investment. However, this moat is eroding due to intense competition from AI-first startups, free alternatives, and tech giants entering creative/marketing spaces. The company's strength lies in enterprise customer relationships and end-to-end platform integration, but consumer and SMB segments face significant competitive pressure from lower-cost substitutes.",
+  "key_risks": [
+    "Intensifying competition from AI-first startups and established tech giants (Microsoft, Google, Meta) offering free or lower-cost alternatives",
+    "Rapid technological disruption in AI and generative models could commoditize creative tools and reduce pricing power",
+    "Customer concentration risk and price sensitivity in SMB/consumer segments; subscription fatigue and churn from freemium model users",
+    "Dependence on third-party AI model partnerships and cloud infrastructure providers; regulatory risks around AI training data and IP indemnification claims",
+    "Execution risk on AI strategy; failure to deliver differentiated AI capabilities could accelerate customer migration to competitors"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

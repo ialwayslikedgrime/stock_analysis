@@ -1,0 +1,37 @@
+{
+  "ticker": "AMGN",
+  "company": "Amgen",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Amgen operates in highly competitive markets with numerous well-capitalized competitors (Regeneron, Novartis, AbbVie, Johnson & Johnson, Eli Lilly, Pfizer, Bristol Myers Squibb). The 10-K explicitly states 'we operate in a highly competitive environment' with competitors targeting the same genetic pathways and disease areas. Multiple biosimilar and generic competitors have launched against key products, intensifying price competition."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to extensive patent protection (multiple products with exclusivity through 2030s-2040s), substantial R&D costs, regulatory complexity (FDA approval requirements), and manufacturing expertise. However, biosimilar pathways have lowered barriers somewhat, as evidenced by multiple biosimilar launches against Amgen's originator products like Prolia, XGEVA, and ENBREL."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist across Amgen's portfolio. For example, TEPEZZA faces competition from off-label corticosteroids; Repatha competes with alternative PCSK9 inhibitors and statins; Otezla faces competition from newer biologics (Skyrizi, Taltz, Cosentyx). The 10-K notes 'development of new treatment options or standards of care may reduce the use of our products.'"
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is substantial and increasing. Three wholesalers (McKesson, Cencora, Cardinal Health) account for 77% of worldwide gross revenues, creating significant concentration risk. Payers are 'more restrictive regarding the use of biopharmaceutical products' and 'scrutinizing the prices of these products,' demanding higher clinical evidence and using stricter utilization management criteria."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power appears moderate to low. Amgen manufactures many products internally and has established manufacturing capabilities. The 10-K does not identify critical supplier dependencies or supply chain vulnerabilities, though manufacturing complexity for biologics creates some supplier leverage. [INFERRED: Typical for large pharma with integrated operations]"
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Amgen possesses a moderate competitive moat anchored on patent protection, brand reputation, and manufacturing scale, but this moat is eroding. While the company maintains strong patent portfolios (many extending to 2030s-2040s) and benefits from regulatory exclusivity, it faces accelerating biosimilar competition following patent expirations (Prolia/XGEVA in 2025, ENBREL in 2028). The moat is further weakened by high buyer concentration (77% of sales through three wholesalers) and increasing payer pressure on pricing. Amgen's robust pipeline and innovation efforts provide some offset, but near-term revenue headwinds from patent cliffs and biosimilar erosion are material.",
+  "key_risks": [
+    "Patent cliff exposure: Prolia and XGEVA patents expired in February 2025 (U.S.) with multiple biosimilars launched; ENBREL faces biosimilar competition; accelerated sales erosion expected as biosimilar competition intensifies",
+    "Buyer concentration and pricing pressure: Three wholesalers represent 77% of revenues; payers increasingly restrictive on reimbursement, demanding higher clinical evidence and using stricter utilization management criteria",
+    "Intense competitive rivalry: Multiple well-capitalized competitors (Regeneron, Novartis, AbbVie, J&J, Eli Lilly) in key therapeutic areas; competitors targeting same genetic pathways; new product launches and treatment standards threatening existing product utility",
+    "Regulatory and compliance risks: TAVNEOS withdrawal request by FDA (January 2026) regarding clinical trial data re-adjudication; bemarituzumab program discontinued; ongoing regulatory scrutiny of pricing and marketing practices",
+    "Pipeline execution risk: Heavy reliance on new product launches (MariTide, IMDELLTRA, UPLIZNA, TEZSPIRE) to offset patent cliff losses; clinical trial failures or delayed approvals could materially impact future revenue growth"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

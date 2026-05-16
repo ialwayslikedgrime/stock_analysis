@@ -1,0 +1,38 @@
+{
+  "ticker": "JKHY",
+  "company": "Jack Henry & Associates",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "JKHY operates in a highly competitive market dominated by large, well-capitalized competitors (Fiserv, FIS, Finastra, Corelation) with longer operating histories, larger client bases, and greater financial resources. The 10-K explicitly states competition is expected to remain strong, and significant consolidation among providers has occurred over the past decade."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial capital requirements, deep technical expertise needed, long client implementation cycles (6-year contracts), switching costs, and the need for regulatory compliance expertise. However, fintech disruption and cloud-native solutions lower barriers somewhat for specialized non-core solutions, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Traditional core processing systems face substitution threats from cloud-native platforms, open-banking APIs, and emerging fintech solutions that bypass legacy infrastructure. However, regulatory requirements and mission-critical nature of core processing create stickiness. JKHY's own modernization strategy (Jack Henry Platform) acknowledges this threat."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "While JKHY serves approximately 7,400 institutions, individual clients have limited pricing power due to high switching costs, long-term contracts (6 years for cloud services), and integrated complementary solutions creating lock-in. However, consolidation in banking reduces the number of buyers and increases their relative importance, giving larger institutions some negotiating leverage."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "JKHY has established remarketing agreements with multiple hardware providers (IBM, Lenovo, Dell, HP, Cisco) and is not dependent on any single supplier. The company's software-centric business model and ability to work with diverse hardware platforms provide significant supplier diversification and negotiating power."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "JKHY possesses a moderate competitive moat built on high switching costs, long-term contracts, deep client relationships, and significant R&D investment in technology modernization. The company's 50-year operating history, 7,400-client base, and integrated solution ecosystem create meaningful barriers to exit for customers. However, the moat is challenged by intense competition from larger, better-resourced rivals and emerging cloud-native alternatives that threaten legacy core processing systems. The company's ability to successfully execute its public cloud-native modernization strategy will be critical to maintaining competitive positioning.",
+  "key_risks": [
+    "Intense competition from larger, better-capitalized competitors (Fiserv, FIS) with greater resources for R&D and M&A",
+    "Technology disruption risk from cloud-native fintech solutions and open-banking standards that could bypass traditional core processing",
+    "Client concentration risk: banking industry consolidation reduces buyer count and increases negotiating power of remaining large institutions",
+    "Execution risk on Jack Henry Platform modernization strategy; failure to deliver competitive cloud-native solutions could accelerate client attrition",
+    "Regulatory and compliance complexity; changes in banking regulations could require significant R&D investment or create competitive disadvantages",
+    "Integration and retention challenges from acquisition strategy; 35 acquisitions since 1999 create operational complexity"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

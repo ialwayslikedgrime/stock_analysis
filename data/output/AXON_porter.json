@@ -1,0 +1,38 @@
+{
+  "ticker": "AXON",
+  "company": "Axon Enterprise",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Axon faces intense competition across all product categories with dozens to hundreds of competitors identified in each segment. The 10-K explicitly lists 30+ competitors in digital evidence management, 50+ in RMS, and numerous competitors in drones, counter-drones, CEDs, and emergency communications. While Axon has scale advantages, the fragmented competitive landscape and low switching costs in many categories create significant rivalry pressure."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "Moderate barriers to entry exist due to Axon's 370+ U.S. patents, 350+ international patents, and integrated ecosystem lock-in effects. However, the 10-K reveals highly fragmented markets with many new entrants competing successfully, particularly in emerging categories like AI-enabled drafting and counter-drone technology. Regulatory compliance (export controls, spectrum licensing, ATF certification) creates some barriers but has not prevented new competitors from entering."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist across product lines. For CEDs, alternatives include pepper spray, rubber bullets, stun guns, and traditional restraint methods. For digital evidence management, agencies can develop internal systems or use competing cloud platforms. For emergency communications, legacy 911 systems and alternative NG911 providers offer substitutes. The 10-K acknowledges that some agencies still use paper-based reporting systems."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Government customers (federal, state, local) represent the majority of revenue and typically have significant procurement power, lengthy decision cycles, and ability to negotiate terms. No single customer exceeds 10% of revenue, but the concentration of public sector buyers and their budget constraints limit Axon's pricing power. Government procurement regulations further constrain margins and terms."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Axon owns substantially all injection-molded tooling and designs for custom components, reducing supplier leverage. However, the 10-K acknowledges reliance on certain single-source suppliers for components and notes ongoing supply chain disruption risks. The company's ability to source from multiple countries mitigates some supplier power, but component dependencies remain a vulnerability."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Axon possesses a moderate competitive moat built primarily on its integrated ecosystem of hardware and software, extensive patent portfolio (370+ U.S. patents), and strong customer relationships with government agencies. The company's recurring SaaS revenue model ($1.3B ARR) and switching costs from integrated workflows provide defensibility. However, the moat is constrained by intense fragmented competition, government buyer power, regulatory uncertainties, and the emergence of credible substitutes and new entrants in key markets. The moat is sustainable but not insurmountable.",
+  "key_risks": [
+    "Intense competitive pressure across all product categories with 30-50+ competitors in core markets, particularly from established players like Motorola Solutions and emerging competitors like Flock Safety",
+    "Government customer concentration and procurement power limiting pricing flexibility; budget cycles and political pressures affecting demand for use-of-force technology",
+    "Regulatory risks including potential reclassification of TASER products as firearms, evolving AI regulation, export control restrictions, and international restrictions on CED sales",
+    "Supply chain vulnerabilities including single-source supplier dependencies and ongoing disruption risks that could impact manufacturing and product availability",
+    "Reputational and legal risks associated with use-of-force technology, privacy concerns with surveillance products, and potential litigation related to product use and data handling",
+    "Rapid technological change and market fragmentation requiring continuous R&D investment; emerging substitutes like alternative de-escalation methods and internal government systems"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

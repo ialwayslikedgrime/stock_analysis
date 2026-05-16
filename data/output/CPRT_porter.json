@@ -1,0 +1,37 @@
+{
+  "ticker": "CPRT",
+  "company": "Copart",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Copart operates in a consolidated but competitive market dominated by a few large players (primarily IAA and Copart). The 10-K does not name specific competitors but indicates the industry has multiple 'companies' offering similar services. Differentiation through technology (VB3) and geographic coverage provides some competitive advantage, but pricing pressure and service competition remain significant."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to: (1) significant capital requirements for facility networks and infrastructure across multiple geographies, (2) established relationships with insurance companies (81% of volume) that are difficult to displace, (3) proprietary technology and operational systems requiring substantial investment, and (4) regulatory requirements for vehicle handling and title processing. The 10-K emphasizes Copart's proven acquisition and integration capabilities as a competitive advantage, suggesting organic entry is challenging."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited substitutes exist for Copart's core service of aggregating and auctioning salvage vehicles at scale. While insurance companies could theoretically handle salvage in-house or use alternative channels, the 10-K indicates Copart's value proposition centers on maximizing returns and reducing administrative burden—services difficult to replicate internally. Direct peer-to-peer sales or dealer networks are not viable substitutes for the volume and efficiency Copart provides."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers (dismantlers, rebuilders, dealers, exporters) have moderate power due to fragmentation and the ability to participate globally via VB3, increasing competition among buyers. However, Copart's virtual platform and global reach create network effects that lock in buyer participation. Insurance companies (sellers, not buyers) have higher power but are partially offset by Copart's geographic coverage and service breadth, which limits their ability to switch providers easily."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Insurance companies represent 81% of vehicle supply and possess significant negotiating power, particularly in the U.K. where contracts are periodically tendered and awarded to highest bidders. However, Copart's geographic scale, integrated service offerings, and disaster response capabilities reduce supplier concentration risk. Transportation and facility operators have low power due to availability of alternatives, but labor costs and fuel rates present ongoing cost pressures."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Copart possesses a strong competitive moat built on high barriers to entry (capital intensity, regulatory complexity, established seller relationships), network effects from its global VB3 platform, and significant switching costs for insurance company partners. The company's geographic diversification, proprietary technology, and proven M&A integration capabilities create durable competitive advantages. However, concentrated supplier power from insurance companies and competitive pricing pressure from IAA limit the moat's strength, preventing a higher score.",
+  "key_risks": [
+    "Insurance company concentration risk: 81% of vehicle volume from insurance sellers creates dependency on a small number of large customers who can negotiate aggressively on pricing and terms, particularly in the U.K. where contracts are periodically rebid.",
+    "Technological disruption and platform commoditization: Competitors could replicate VB3 functionality or insurance companies could develop proprietary auction platforms, eroding Copart's technology differentiation advantage.",
+    "Economic sensitivity and vehicle total-loss rates: Copart's revenue depends on accident frequency, insurance claims volume, and total-loss determinations; economic downturns, improved vehicle safety features, and repair cost dynamics could reduce vehicle supply.",
+    "International expansion execution risk: The 10-K shows ongoing facility expansion in multiple countries; integration challenges, regulatory changes, or market saturation could impair returns on capital deployed internationally.",
+    "Regulatory and compliance risk: Changes to vehicle salvage regulations, environmental standards, title processing requirements, or data privacy laws across multiple jurisdictions could increase operating costs or limit service offerings."
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

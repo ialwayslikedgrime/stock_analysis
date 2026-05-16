@@ -1,0 +1,38 @@
+{
+  "ticker": "CHRW",
+  "company": "C.H. Robinson",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The transportation and logistics industry is highly competitive and fragmented, with competition from traditional brokers, technology matching services, internet freight brokers, carriers offering logistics services, and on-demand platforms. CHRW competes primarily on price, scope of services, or combinations thereof, indicating intense competitive pressure with limited differentiation on core services."
+    },
+    "new_entrants": {
+      "score": 2,
+      "rationale": "While regulatory licensing requirements (DOT, FMC, IATA, CBP) create some barriers, technology-enabled entrants and digital freight platforms have significantly lowered barriers to entry. The 10-K explicitly mentions competition from 'technology matching services' and 'internet freight brokers,' indicating that capital and regulatory requirements alone are insufficient to prevent new competition."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Direct substitutes are limited—freight must be transported via established modes (truck, ocean, air, rail). However, customers can self-manage logistics, use in-house transportation, or leverage emerging on-demand platforms. The rise of digital freight marketplaces and shipper-carrier direct connections represent emerging substitution threats."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyer power is moderate-to-high: the largest customer represents only 2% of revenues, indicating customer concentration is low, but customers can easily switch providers given the fragmented, commoditized nature of freight brokerage. Most contracts are one year or less with renegotiation clauses, giving buyers significant leverage on pricing."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low due to CHRW's scale and fragmentation of the carrier base. The largest truck provider represents less than 1% of transportation costs, and 72% of truckload shipments come from carriers with fewer than 100 trucks. However, during capacity-constrained periods, carrier power increases, and ocean/air carrier relationships are more concentrated, creating some leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "C.H. Robinson possesses a moderate competitive moat built on scale, proprietary technology (Navisphere platform with 30+ AI agents), and an extensive dataset of 37 million annual shipments across 450,000 carriers. The company's differentiation through Lean AI, customer relationships, and integrated multimodal services provides defensibility, but the fragmented, commoditized nature of freight brokerage and low switching costs limit moat durability. Sustained competitive advantage depends on continuous technology innovation and maintaining operational excellence, as regulatory barriers and network effects alone are insufficient against well-capitalized digital competitors.",
+  "key_risks": [
+    "Intense price competition and margin compression from fragmented competitor base and technology-enabled entrants reducing barriers to entry",
+    "Customer concentration risk mitigated by diversification (largest customer 2% of revenue), but customers have low switching costs and can renegotiate annually",
+    "Dependence on proprietary technology and data assets; cybersecurity breaches or technology disruption could undermine competitive advantage",
+    "Carrier capacity constraints during peak demand periods reduce pricing power and service reliability; reliance on 450,000+ independent contractors creates operational risk",
+    "Regulatory changes in transportation, customs, data privacy, or cross-border logistics could increase compliance costs or restrict service offerings",
+    "Economic cyclicality and freight volume volatility directly impact margins; 2022-2023 showed significant margin compression from peak levels"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

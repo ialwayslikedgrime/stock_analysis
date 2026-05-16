@@ -1,0 +1,37 @@
+{
+  "ticker": "AMAT",
+  "company": "Applied Materials",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "AMAT operates in highly competitive semiconductor equipment manufacturing with significant rivals including ASML, Lam Research, and KLA Corporation. The industry is characterized by intense competition on technology, pricing, and customer relationships, with competitors continuously innovating in process node advancement and equipment capabilities."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive R&D requirements, substantial capital investment, complex technical expertise, and established customer relationships with semiconductor manufacturers. The 10-K indicates significant R&D spending and specialized manufacturing capabilities that are difficult to replicate, though emerging competitors from Asia present some threat."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for semiconductor manufacturing equipment; however, alternative manufacturing approaches (e.g., chiplet designs, different process technologies) could reduce demand for certain equipment types. The fundamental need for advanced fabrication equipment remains strong as semiconductor complexity increases."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "The 10-K discloses significant customer concentration risk with two customers representing material portions of revenue, indicating high buyer power. Major customers (Samsung, TSMC, Intel) have substantial leverage in negotiations due to their scale and the criticality of their orders to AMAT's revenue, though switching costs are high."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "AMAT relies on specialized component suppliers and materials for complex equipment manufacturing. While the company has established supply chains, geopolitical factors (particularly regarding Taiwan and China operations noted in the 10-K) and semiconductor supply constraints create moderate supplier leverage and supply chain risks."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Applied Materials possesses a moderate competitive moat built on high barriers to entry, significant R&D capabilities, and established customer relationships in semiconductor equipment manufacturing. However, this moat is partially offset by intense rivalry with well-capitalized competitors, concentrated customer base with substantial bargaining power, and supply chain vulnerabilities. The company's technological leadership and switching costs provide defensibility, but continuous innovation investment is required to maintain competitive position.",
+  "key_risks": [
+    "Customer concentration risk: Two customers represent material revenue portions, creating vulnerability to demand fluctuations and pricing pressure from major semiconductor manufacturers",
+    "Intense competitive rivalry: Well-funded competitors (ASML, Lam Research, KLA) continuously innovate, potentially eroding market share and pricing power",
+    "Geopolitical and regulatory risks: Operations in China, Taiwan, and South Korea expose the company to trade restrictions, export controls, and geopolitical tensions that could disrupt supply chains and customer access",
+    "Technology obsolescence: Rapid semiconductor industry evolution requires continuous R&D investment; failure to innovate could result in loss of competitive advantage",
+    "Supply chain dependencies: Reliance on specialized suppliers and materials creates vulnerability to disruptions, particularly given semiconductor industry constraints"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

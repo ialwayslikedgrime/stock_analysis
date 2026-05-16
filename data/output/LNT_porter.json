@@ -1,0 +1,37 @@
+{
+  "ticker": "LNT",
+  "company": "Alliant Energy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "Alliant Energy operates as a regulated monopoly utility in Iowa and Wisconsin with no retail electric competition. IPL and WPL have exclusive service territories with obligations to serve all customers, eliminating direct rivalry in their core regulated business. Wholesale power markets show some competitive pressure, but represent a minor portion of revenue."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory licensing requirements, capital intensity, and established infrastructure monopolies. New entrants would require state regulatory approval, massive capital investment, and cannot compete in retail markets where IPL and WPL hold exclusive franchises and permits of indefinite duration."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While electricity and natural gas have limited direct substitutes for most customers, the company faces emerging threats from distributed solar, customer self-generation, and energy efficiency programs. The 10-K explicitly mentions competition from customer and third-party owned generation (e.g., solar panels) and alternative energy sources, though these remain limited threats to the core business."
+    },
+    "buyer_power": {
+      "score": 5,
+      "rationale": "Retail customers have minimal pricing power as they cannot choose suppliers and face regulated rate structures. Rate changes require regulatory approval with defined processes (10 months in Iowa, ~10 months target in Wisconsin), and customers must accept utility service. Wholesale customers have more options but represent a smaller revenue portion."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Alliant Energy faces moderate supplier power from fuel suppliers (coal, natural gas) and transmission operators (ITC, ATC). However, the company can recover prudent fuel and transmission costs through regulated rates, mitigating supplier leverage. Labor unions represent 58% of workforce with collective bargaining agreements, providing some supplier power but with predictable cost recovery mechanisms."
+    }
+  },
+  "moat_score": 4.6,
+  "moat_summary": "Alliant Energy possesses an exceptionally strong competitive moat anchored by regulated utility monopolies in Iowa and Wisconsin. The company benefits from exclusive service territories, high regulatory barriers to entry, captive customer bases with no choice of supplier, and cost-plus rate recovery mechanisms that protect profitability. The primary vulnerabilities are regulatory risk, environmental compliance costs, and emerging distributed generation technologies, but these do not materially erode the fundamental monopoly position.",
+  "key_risks": [
+    "Regulatory and political risk: Changes in rate-setting methodology, rate caps, or unfavorable regulatory decisions by IUC or PSCW could constrain earnings growth and returns on equity",
+    "Environmental compliance costs: Significant uncertainty around EPA regulations (Section 111(d), CCR Rule, effluent limitations) could require substantial capital expenditures with uncertain cost recovery; coal ash remediation and carbon emission standards pose material financial exposure",
+    "Energy transition and distributed generation: Accelerating adoption of rooftop solar, battery storage, and customer self-generation could reduce retail customer demand and create stranded asset risk for traditional generation infrastructure",
+    "Workforce and labor costs: 58% of workforce covered by collective bargaining agreements with potential for wage inflation; IBEW Local 965 agreement expires May 2026, creating near-term labor negotiation risk",
+    "Regulatory uncertainty on climate policy: Proposed EPA rule repeals (GHG authority, Section 111(d)) create planning uncertainty; future administrations could reverse course, creating compliance and investment volatility"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

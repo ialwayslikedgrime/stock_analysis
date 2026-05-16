@@ -1,0 +1,39 @@
+{
+  "ticker": "MCHP",
+  "company": "Microchip Technology",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The semiconductor industry is intensely competitive with price erosion and rapid technological change. MCHP competes against major domestic and international companies with greater resources, plus faces competition from companies that have copied or reverse-engineered their products in China and Taiwan. Competition is primarily on technical innovation, performance, and total cost of ownership."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for wafer fabrication (MCHP owns Fab 2, 4, and 5), extensive R&D investment, complex manufacturing processes requiring high yields, and established customer relationships. However, fabless competitors can enter with lower capital requirements, preventing a perfect score."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for embedded control solutions in their target applications. While alternative architectures (FPGA, discrete components, or custom ASICs) exist, MCHP's integrated mixed-signal microcontrollers provide unique cost-performance advantages. The broad applicability across automotive, industrial, IoT, and data center markets reduces substitution risk."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "MCHP serves approximately 109,000 unique customers with no single customer exceeding 10% of sales (except distributor Arrow at 10-12%), limiting individual buyer leverage. However, large OEMs and distributors collectively have negotiating power on pricing and terms. Short delivery schedules and inventory requirements indicate customers can pressure suppliers."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "MCHP owns significant manufacturing capacity (36% of sales from internal fabs), reducing dependence on external suppliers for wafer production. However, the company relies on third-party foundries for 64% of wafer production and outsources assembly/test, creating some supplier dependency. Multiple sourcing is pursued but some single-source dependencies exist for specialized materials."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Microchip possesses a moderate competitive moat built on proprietary technology, manufacturing control, and switching costs. The company's 35+ years of technology leadership, broad integrated product portfolio (Total System Solution), owned manufacturing capacity, and extensive development tools create customer lock-in and switching friction. However, intense industry competition, price erosion, and reliance on external foundries for 64% of production limit the moat's strength. The recent Fab 2 closure and paused expansion suggest capital constraints that could erode competitive positioning.",
+  "key_risks": [
+    "Intense price competition and rapid technological obsolescence in semiconductors could compress margins and require continuous R&D investment",
+    "Dependence on external foundries (64% of wafer production) creates supply chain vulnerability and reduces manufacturing cost control advantages",
+    "Intellectual property infringement and counterfeiting in China/Taiwan require ongoing legal defense and could undermine proprietary advantages",
+    "Concentration risk with Arrow Electronics representing 10-12% of sales; loss of major distributors could significantly impact revenue",
+    "Cyclical industry downturn evident in current period (Fab 2 closure, paused $800M+ expansion, headcount reductions) could pressure profitability and R&D spending",
+    "Transition to advanced process technologies (64-bit microprocessors, SiC production) requires significant capital and execution risk",
+    "Geopolitical tensions, tariffs, and supply chain disruptions could impact manufacturing operations and customer access"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

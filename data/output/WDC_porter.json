@@ -1,0 +1,39 @@
+{
+  "ticker": "WDC",
+  "company": "Western Digital",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "WDC faces intense competition from Seagate Technology and Toshiba in HDDs, with limited differentiation in a commoditized market. The 10-K explicitly states 'we face strong competition from several manufacturers' and the HDD market is characterized by price competition and capacity-driven innovation, creating a highly competitive environment."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant capital requirements for manufacturing facilities, complex clean-room production processes, and substantial R&D investment (WDC holds ~4,500 active patents). The 10-K notes vertical integration in recording heads and magnetic media manufacturing, which requires specialized expertise and infrastructure difficult for new competitors to replicate."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "NAND flash and alternative storage technologies pose significant substitution threats, particularly as SSDs gain market share. The 10-K acknowledges 'NAND flash suppliers that provide and enable alternative storage technologies' as competitors, and the company's recent separation from its Flash business indicates recognition of this competitive threat."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large cloud service providers and OEMs exercise substantial pricing power; the 10-K discloses that three customers represented 17%, 12%, and 10% of 2025 revenue, indicating significant customer concentration. The document notes 'variability of sales because it is largely dependent on the buying patterns of our large Cloud customers,' demonstrating buyer leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists despite WDC's vertical integration in critical components. The 10-K states 'we generally retain multiple suppliers for our component requirements, but for business or technology reasons, we source some of our components from a limited number of sole or single source providers,' creating vulnerability to supply disruptions and price increases."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Western Digital possesses a moderate competitive moat anchored in high barriers to entry (capital intensity, manufacturing expertise, patent portfolio of ~4,500 patents), vertical integration in critical recording head and media technologies, and established customer relationships. However, this moat is significantly eroded by intense rivalry with Seagate and Toshiba, powerful large customers (cloud providers), and credible substitutes from NAND flash technology. The company's position is defensible but not dominant, particularly as the industry transitions toward tiered storage architectures.",
+  "key_risks": [
+    "Intense price competition and commoditization in HDD market with limited differentiation versus Seagate and Toshiba",
+    "Substitution risk from NAND flash and alternative storage technologies, particularly as SSDs continue gaining market share",
+    "High customer concentration with three customers representing 39% of 2025 revenue, creating significant pricing pressure and demand volatility",
+    "Supply chain vulnerability with dependence on sole-source suppliers for critical components and materials",
+    "Tariff and trade policy uncertainty impacting manufacturing costs and international operations (55% of revenue from international sales)",
+    "Cyclicality and seasonality driven by cloud customer data center buildout patterns and macroeconomic conditions",
+    "Geopolitical risks and manufacturing concentration in Asia Pacific (88% of employees) exposing operations to regional instability"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,37 @@
+{
+  "ticker": "ES",
+  "company": "Eversource Energy",
+  "forces": {
+    "rivalry": {
+      "score": 5,
+      "rationale": "Eversource operates as a regulated monopoly utility in Connecticut, Massachusetts, and New Hampshire with exclusive geographic service territories. No direct competitors exist within each service area, as regulated utilities maintain natural monopoly status through regulatory frameworks that prevent competing distribution networks."
+    },
+    "new_entrants": {
+      "score": 5,
+      "rationale": "Extremely high barriers to entry exist due to regulatory licensing requirements, massive capital requirements for infrastructure, and established franchises granted by state regulators. New entrants would need FERC and state regulatory approval, making market entry virtually impossible for competitors."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "While customers can choose competitive energy suppliers for generation (50% in Connecticut, 88% in Massachusetts, 44% in New Hampshire), they cannot bypass Eversource's distribution infrastructure. However, distributed generation (solar, microgrids) and energy efficiency represent emerging long-term substitutes that could reduce demand for traditional distribution services."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Individual customers have limited pricing power as rates are set by state regulators (PURA, DPU, NHPUC) rather than negotiated. However, regulatory bodies act as powerful intermediaries on behalf of customers, and regulators can deny rate increases or impose performance penalties, creating indirect buyer leverage."
+    },
+    "supplier_power": {
+      "score": 2,
+      "rationale": "Eversource has significant supplier power as it procures energy through competitive RFPs and can self-manage wholesale market purchases if needed. The company does not own generation assets, reducing dependency on specific suppliers, though wholesale energy prices are market-determined and beyond company control."
+    }
+  },
+  "moat_score": 4.4,
+  "moat_summary": "Eversource possesses an exceptionally strong competitive moat anchored by regulated utility monopoly status with exclusive geographic franchises across three states. The company benefits from high barriers to entry, minimal direct rivalry, and captive customers who cannot bypass its distribution infrastructure. However, the moat is partially offset by regulatory oversight that constrains pricing power and emerging substitutes like distributed generation and energy efficiency that could erode long-term demand.",
+  "key_risks": [
+    "Regulatory risk: State regulators (PURA, DPU, NHPUC) control rates and can deny recovery of costs or impose performance penalties; FERC ROE complaints could reduce transmission profitability",
+    "Energy transition risk: Distributed solar, microgrids, and energy efficiency programs could reduce customer demand for traditional distribution services and stranded asset risk",
+    "Capital intensity and financing risk: Massive ongoing capex requirements for grid modernization and infrastructure maintenance require continuous access to capital markets at favorable rates",
+    "Stranded cost recovery: Regulatory changes could prevent full recovery of legacy costs (IPP contracts, above-market power purchases, generation facility sales)",
+    "Aquarion divestiture uncertainty: Regulatory denial of Aquarion sale creates balance sheet and strategic uncertainty (flagged as inferred from 10-K reference to 'regulatory denial and subsequent appeal')"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

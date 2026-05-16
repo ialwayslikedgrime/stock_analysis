@@ -1,0 +1,37 @@
+{
+  "ticker": "INTU",
+  "company": "Intuit",
+  "forces": {
+    "rivalry": {
+      "score": 3,
+      "rationale": "Intuit faces moderate-to-intense competition in financial software markets. In tax preparation, competitors include H&R Block and TurboTax alternatives; in small business accounting, QuickBooks competes with Xero, FreshBooks, and Wave. However, Intuit's scale, brand recognition, and integrated ecosystem provide differentiation that limits direct head-to-head competition on price alone."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry protect Intuit's market position. Significant capital requirements for software development, established customer switching costs through data lock-in and ecosystem integration, regulatory compliance complexity (especially in tax), and network effects from large user bases create substantial obstacles. However, cloud-based SaaS models have lowered some traditional barriers."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists. Generic spreadsheet tools (Excel), open-source alternatives, and emerging AI-powered solutions could theoretically replace some functions. Additionally, outsourced accounting services and in-house solutions pose indirect competition. However, Intuit's specialized functionality, compliance features, and integration depth limit practical substitutability for most SMBs and consumers."
+    },
+    "buyer_power": {
+      "score": 3,
+      "rationale": "Buyer power is moderate. While individual consumers and small businesses have limited negotiating leverage, large enterprise customers and potential acquirers of Intuit's services could exert pressure. Subscription-based pricing and switching costs provide some insulation, but price sensitivity among SMBs and consumer segments constrains pricing power. [INFERRED: Based on typical SaaS dynamics]"
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low. Intuit relies on cloud infrastructure providers (AWS, Azure, Google Cloud) and third-party integrations, but maintains diversification and can develop alternatives. The 10-K indicates no material supplier concentration risk. Software development talent is competitive but not concentrated, and Intuit's scale provides procurement advantages."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Intuit possesses a moderate-to-strong competitive moat anchored by high switching costs, brand recognition, network effects, and regulatory/compliance expertise that competitors struggle to replicate. The integrated ecosystem across tax, accounting, and payments creates customer lock-in and cross-selling opportunities. However, the moat is not impenetrable—cloud-based alternatives, AI disruption, and new entrants in specific verticals present ongoing threats. Scale advantages and data assets provide defensibility but require continuous innovation to maintain market leadership.",
+  "key_risks": [
+    "Intensifying competition from specialized cloud-based accounting platforms (Xero, FreshBooks) and AI-powered alternatives that could disrupt traditional workflows",
+    "Regulatory changes in tax preparation, financial services, and data privacy that could increase compliance costs or limit business models",
+    "Customer concentration risk and pricing pressure from large enterprise customers or potential consolidation in SMB market",
+    "Technology disruption and the need for continuous R&D investment to maintain competitive differentiation in rapidly evolving fintech landscape",
+    "Switching costs erosion as cloud adoption and API standardization reduce customer lock-in and increase portability of data and workflows"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

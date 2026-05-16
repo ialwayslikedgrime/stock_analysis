@@ -1,0 +1,39 @@
+{
+  "ticker": "LMT",
+  "company": "Lockheed Martin",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Lockheed Martin faces intense competition from well-established peers including Boeing, General Dynamics, L3Harris, Northrop Grumman, and RTX Corporation. The 10-K explicitly states 'intense competition' is evident through multiple competitors bidding on opportunities and frequent bid protests, with companies often competing for prime contracts while simultaneously serving as subcontractors to competitors."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to substantial capital requirements, security clearance requirements for ~93% U.S.-based workforce, complex regulatory compliance (FAR/DFARS), long development cycles, and established customer relationships. However, the 10-K notes 'increasingly, non-traditional and non-U.S. defense contractors' are competing, suggesting some erosion of traditional barriers in certain segments."
+    },
+    "substitutes": {
+      "score": 4,
+      "rationale": "Limited direct substitutes exist for specialized defense systems like the F-35, missile defense systems, and strategic weapons platforms. However, technological advances in AI, autonomy, and commercial space access are creating alternative approaches to traditional defense solutions, and geopolitical shifts could reduce demand for certain platforms."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "The U.S. Government is the principal customer (~majority of revenue), providing significant leverage through contract termination rights, unilateral definitization authority, and ability to impose cost accounting standards. International customers have additional leverage through offset requirements and industrial cooperation mandates, though the 10-K indicates long-term agreements historically provide some stability."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists due to reliance on scarce materials (rare earth minerals, titanium, semiconductors) and specialized components. The 10-K explicitly identifies 'supply chain challenges, supplier disputes, regulatory restrictions, and inflationary pressures' causing shortages, extended lead times, and pricing escalations, though many challenges are industry-wide and outside LMT's control."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "Lockheed Martin possesses a substantial but moderately eroding competitive moat built on high barriers to entry (regulatory, security clearance, capital intensity), long-term government contracts (F-35 represents 27% of sales), technological differentiation, and an integrated portfolio across defense domains. However, the moat is constrained by concentrated buyer power (U.S. Government dominance), intense rivalry from capable competitors, and emerging threats from non-traditional competitors and technological substitutes. The company's scale, intellectual property, and customer relationships provide defensibility, but government budget pressures and evolving procurement practices present ongoing challenges.",
+  "key_risks": [
+    "Concentrated customer dependency: U.S. Government and allies represent principal customers; budget cuts or policy shifts could materially impact revenue",
+    "F-35 program concentration risk: Single program generates 27% of consolidated sales; performance issues, cost overruns, or procurement delays pose significant earnings risk",
+    "Supply chain vulnerabilities: Reliance on scarce materials (rare earth minerals, semiconductors, specialty metals) with regulatory compliance requirements; geopolitical disruptions and inflationary pressures causing delays and cost escalations",
+    "Intense competitive bidding: Multiple capable competitors (Boeing, RTX, Northrop Grumman, General Dynamics) competing for same contracts; bid protests and pricing pressure limit margins",
+    "Regulatory and compliance burden: Complex FAR/DFARS requirements, security clearance dependencies, export controls, and evolving climate/sustainability regulations increase operational complexity and costs",
+    "Technological disruption: Emerging non-traditional competitors, AI/autonomy advances, and commercial space access creating alternative solutions that could displace traditional defense platforms",
+    "International market constraints: Export restrictions, technology transfer requirements, and offset obligations limit international growth and pricing flexibility"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

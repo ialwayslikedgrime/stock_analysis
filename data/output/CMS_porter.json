@@ -1,0 +1,37 @@
+{
+  "ticker": "CMS",
+  "company": "CMS Energy",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "CMS operates in a regulated utility market with limited direct competitors in its core Michigan service territory, but faces competition from alternative electric suppliers (ROA program at 10% cap), municipal utilities, and customer self-generation. The regulated nature provides some protection, but competitive pressures exist in wholesale markets and from adjacent utilities."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry due to regulatory requirements (MPSC/FERC jurisdiction), massive capital requirements for infrastructure, established distribution networks spanning 97,000+ miles of lines, and long-term contracts. New entrants would need regulatory approval and decades to build comparable infrastructure."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitute threats exist including customer self-generation, distributed solar, battery storage, alternative fuels (propane, oil), and data center relocation. The 10-K explicitly mentions competition from self-generation and alternative energy sources, and CMS is investing heavily in renewables partly to address these threats."
+    },
+    "buyer_power": {
+      "score": 4,
+      "rationale": "Residential and small commercial customers have minimal pricing power due to regulated rate structures set by MPSC. However, large industrial customers have some leverage through competitive rate-design options, GCC programs, and ability to relocate or self-generate, limiting overall buyer power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists for fuel and capacity. CMS has long-term PPAs ($17B commitment through 2060) and relies on specific gas transportation contracts (Panhandle Eastern, Trunkline) expiring through 2028. However, diversified supply sources and MISO market access provide some negotiating leverage and alternatives."
+    }
+  },
+  "moat_score": 3.8,
+  "moat_summary": "CMS Energy possesses a strong but moderating competitive moat anchored by regulatory protection, massive infrastructure investments, and geographic monopoly in Michigan's Lower Peninsula serving 6.8 million residents. However, the moat is eroding due to distributed generation, battery storage, customer self-generation, and the energy transition requiring massive capital redeployment. The company's regulated utility model provides stable cash flows and high barriers to entry, but regulatory changes and technological disruption present structural headwinds.",
+  "key_risks": [
+    "Regulatory risk: MPSC rate decisions, 2023 Energy Law compliance (60% renewable by 2035, 100% clean by 2040) requiring $17B+ in capital investments and potential stranded asset write-downs",
+    "Energy transition risk: Coal plant retirements (J.H. Campbell subject to emergency orders), declining coal generation (20% of supply), and need to replace 1,407 MW of coal capacity with more expensive renewables",
+    "Technological disruption: Distributed solar, battery storage, customer self-generation, and data center relocation reducing load and customer base; ROA program already at 10% statutory cap",
+    "Commodity price volatility: Gas price exposure for electric generation (41% of supply) and customer heating; coal supply chain disruptions; long-term PPA obligations ($17B through 2060)",
+    "Capital intensity: Massive infrastructure modernization required for renewable transition, grid hardening, and methane reduction (net-zero by 2030) straining financial flexibility"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

@@ -1,0 +1,38 @@
+{
+  "ticker": "MET",
+  "company": "MetLife",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "MetLife operates in highly competitive insurance and asset management markets dominated by large established players (Prudential, Lincoln National, Voya, Equifax, etc.). The 10-K explicitly states 'Competition' as a material factor, and the company competes on pricing, product features, and distribution channels across all segments, indicating intense competitive pressure."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to significant regulatory requirements, capital requirements, and the need for actuarial expertise and distribution networks. The 10-K details extensive state and federal regulation, solvency regimes, and reserve requirements that would deter new competitors. However, fintech and alternative asset managers pose emerging threats in specific segments."
+    },
+    "substitutes": {
+      "score": 3,
+      "rationale": "Moderate threat from substitutes exists as alternative retirement solutions (self-directed investing, robo-advisors), direct government programs, and alternative risk transfer mechanisms compete with traditional insurance products. The 10-K does not explicitly address substitutes, but the diversified product portfolio across life, annuities, disability, and asset management suggests some resilience to substitution in specific product lines."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Buyers have moderate-to-high bargaining power, particularly large corporate employers and institutional clients who represent significant revenue concentrations. The 10-K indicates Group Benefits customers are large employers with negotiating leverage, and RIS serves institutional customers managing substantial pension liabilities who can shop among competitors."
+    },
+    "supplier_power": {
+      "score": 4,
+      "rationale": "Supplier power is relatively low as MetLife has diversified distribution channels (internal sales force, brokers, bancassurance, direct-to-consumer) and can manage reinsurance relationships. The company uses affiliated reinsurers and has significant in-house underwriting and actuarial capabilities, reducing dependency on external suppliers. However, reliance on investment managers and technology vendors provides some supplier leverage."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "MetLife possesses a moderate competitive moat anchored by brand recognition, scale advantages, regulatory barriers to entry, and diversified distribution networks across six global segments. The company's leading market positions in Group Benefits, retirement solutions, and institutional asset management, combined with high capital requirements and regulatory complexity, create defensibility. However, intense competition from established rivals, buyer power from large corporate and institutional customers, and emerging substitutes from fintech and alternative asset managers limit the strength of the moat. The recent PineBridge acquisition and strategic reorganization suggest management recognizes the need to continuously invest to maintain competitive positioning.",
+  "key_risks": [
+    "Intense competitive pressure from established rivals (Prudential, Lincoln National, Voya) and emerging fintech competitors eroding market share and pricing power",
+    "Concentration risk with large corporate employers and institutional clients in Group Benefits and RIS segments who have significant bargaining leverage",
+    "Regulatory and capital requirement changes, including potential increases in solvency standards and federal oversight, could increase compliance costs and reduce profitability",
+    "Interest rate and investment risk exposure given the company's large general account portfolio and fixed income-heavy asset base affecting returns on annuities and GICs",
+    "Longevity and mortality assumption risks in pension risk transfer and annuity businesses if actual experience diverges from pricing assumptions",
+    "Cybersecurity and data privacy risks given the company's large customer database and regulatory requirements around AI and big data"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

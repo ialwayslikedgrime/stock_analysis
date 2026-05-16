@@ -1,0 +1,38 @@
+{
+  "ticker": "EQIX",
+  "company": "Equinix",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "The global MTDC market is highly fragmented with numerous competitors including hyperscale cloud providers, telecommunications carriers, and other neutral data center operators. While Equinix has differentiated offerings, intense competition exists on pricing, service quality, and geographic coverage, particularly as hyperscalers increasingly build proprietary infrastructure."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High barriers exist due to massive capital requirements, real estate acquisition complexity, regulatory compliance, and the need for global scale and ecosystem density. However, well-capitalized tech companies and infrastructure funds can enter specific markets, and xScale partnerships show Equinix itself faces competition from hyperscalers developing alternative capacity."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitutes exist including hyperscale cloud providers' proprietary data centers, on-premises infrastructure, and edge computing solutions. The shift toward hybrid multi-cloud architectures reduces dependency on any single colocation provider, and enterprises increasingly build their own infrastructure for mission-critical workloads."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Large hyperscale customers (cloud providers) have substantial negotiating leverage and can develop alternative infrastructure, as evidenced by xScale joint ventures. However, the diversified customer base of 10,500+ customers with no single customer exceeding 10% of revenue provides some mitigation, though enterprise customers increasingly demand competitive pricing and multi-vendor options."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Equinix depends on real estate landlords, power utilities, construction contractors, and technology vendors for critical inputs. While some supplier concentration exists (particularly for power and real estate in premium markets), Equinix's scale and global diversification provide negotiating leverage. However, rising energy costs and real estate scarcity in key metros present supply-side pressures."
+    }
+  },
+  "moat_score": 3.4,
+  "moat_summary": "Equinix possesses a moderate-to-strong competitive moat anchored on network effects from its 500,000+ interconnections and 10,500-customer ecosystem, global scale across 280 data centers in 77 markets, and switching costs embedded in multi-tenant colocation relationships. However, the moat is partially eroded by intense rivalry, powerful hyperscale customers developing alternatives, and the fragmented market structure. The company's differentiation through ecosystem density and interconnection capabilities provides sustainable advantage, but requires continuous investment to maintain technological leadership and geographic coverage.",
+  "key_risks": [
+    "Hyperscale cloud providers (AWS, Azure, Google Cloud) increasingly build proprietary infrastructure and reduce reliance on third-party colocation, directly threatening revenue from largest customer segments",
+    "Intense price competition in fragmented MTDC market pressures margins, particularly as competitors expand capacity and customers demand multi-vendor options",
+    "High capital intensity and real estate constraints in premium metropolitan markets limit expansion flexibility and increase vulnerability to economic downturns affecting data center demand",
+    "Concentration risk among hyperscale customers despite no single customer exceeding 10% revenue; loss of major cloud provider relationships could significantly impact growth",
+    "Regulatory and compliance risks across 36 countries including data sovereignty requirements, environmental regulations, and energy policy changes affecting operational costs and market access",
+    "Technology disruption from edge computing, distributed infrastructure, and alternative connectivity solutions could reduce demand for centralized colocation facilities"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

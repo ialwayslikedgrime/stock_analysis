@@ -1,0 +1,37 @@
+{
+  "ticker": "EXC",
+  "company": "Exelon",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Exelon operates in highly regulated utility markets with limited direct competition in its service territories (Illinois, Pennsylvania, Maryland, New Jersey, Delaware, DC). However, competitive pressures exist from alternative energy providers, distributed generation, and other utilities in adjacent markets. The regulated nature creates stable but not monopolistic conditions."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "Extremely high barriers to entry due to regulatory licensing requirements, massive capital requirements for infrastructure, established franchise agreements, and state-granted service territories. The 10-K emphasizes comprehensive federal and state regulation that effectively prevents new competitors from entering Exelon's core utility markets."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant substitution threats from distributed solar generation, energy efficiency programs, and emerging technologies that reduce electricity/gas demand. The 10-K explicitly identifies emerging technologies and customer-driven energy transformation as material risks. Electrification and decarbonization could fundamentally alter demand patterns for traditional utility services."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Residential and small commercial customers have minimal pricing power due to regulated monopoly service territories and mandatory utility service requirements. However, large industrial customers and regulators (acting as proxy for consumer interests) exercise significant influence over rates, cost recovery, and service terms through rate proceedings and regulatory oversight."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Moderate supplier power exists for electricity procurement, natural gas supply, and specialized labor. The 10-K notes 42% of employees are unionized with collective bargaining agreements, creating labor cost pressures. However, Exelon's scale and regulatory cost-recovery mechanisms mitigate supplier leverage. [INFERRED: Energy commodity suppliers have moderate power given market dynamics.]"
+    }
+  },
+  "moat_score": 3.6,
+  "moat_summary": "Exelon possesses a substantial but eroding competitive moat anchored by regulatory barriers, established infrastructure, and geographic monopolies in its service territories. The company benefits from high barriers to entry and stable, regulated cash flows that support long-term investment. However, this moat is increasingly threatened by energy transition risks, distributed generation, emerging technologies, and regulatory shifts toward decarbonization that could fundamentally alter demand for traditional utility services and compress margins.",
+  "key_risks": [
+    "Climate change mitigation and transition risks from regulatory mandates for decarbonization, renewable energy standards, and potential stranded asset costs in natural gas distribution",
+    "Emerging technology disruption including distributed solar, energy efficiency, electrification, and demand-side management that reduce traditional utility revenue and load growth",
+    "Regulatory and legislative uncertainty affecting rate recovery, cost allocation, and return on investment, including lengthy rate proceedings with uncertain outcomes and potential prudency reviews",
+    "Physical climate adaptation risks to infrastructure from extreme weather, sea level rise, and temperature changes requiring substantial capital expenditures",
+    "Labor cost pressures from unionized workforce (42% of employees) with collective bargaining agreements and competitive talent acquisition needs in tight labor markets"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

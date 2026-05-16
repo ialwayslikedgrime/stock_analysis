@@ -1,0 +1,39 @@
+{
+  "ticker": "TSN",
+  "company": "Tyson Foods",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Tyson operates in highly fragmented but intensely competitive protein markets dominated by large integrated players (Cargill, JBS, National Beef). Competition centers on price, product quality, innovation, and distribution—commoditized factors that limit differentiation. The 10-K explicitly states products compete globally with numerous other food producers and processors."
+    },
+    "new_entrants": {
+      "score": 4,
+      "rationale": "High barriers to entry exist due to massive capital requirements for vertically-integrated operations, established distribution networks, regulatory compliance (USDA/FDA), and economies of scale. Tyson's breeding stock subsidiary (Cobb-Vantress) and proprietary feed formulations create additional moats. However, score is not 5 due to potential for specialized/niche entrants in prepared foods or alternative proteins."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Significant threat from alternative proteins (plant-based, cultivated meat) and shifting consumer preferences toward plant-forward diets. The 10-K identifies 'demand for alternative proteins' as a risk factor and notes Tyson New Ventures invests in breakthrough protein technologies. Traditional protein substitution (beef↔pork↔chicken) is also common."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Walmart alone represents 18.7% of sales, creating material concentration risk explicitly acknowledged in the 10-K. Large retailers and foodservice chains (grocery chains, QSR distributors, warehouse clubs) have significant negotiating leverage. Short-term contracts and commodity pricing dynamics further empower buyers to switch suppliers."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Mixed supplier dynamics: Tyson has moderate power over independent cattle/hog producers through buyer networks and procurement relationships, but faces commodity price volatility for feed (corn, soybean meal = 53% of chicken production cost). The 10-K notes 'limited supply of market-ready cattle' and supply/demand imbalances, giving suppliers some leverage during tight markets. Contract farmer relationships provide some stability."
+    }
+  },
+  "moat_score": 3.2,
+  "moat_summary": "Tyson possesses a moderate competitive moat anchored by vertical integration (particularly in chicken), scale economies, established distribution networks, and strong brand portfolio (Tyson, Jimmy Dean, Hillshire Farm). However, the moat is constrained by commodity-like pricing dynamics, high buyer concentration (Walmart 18.7%), exposure to input cost volatility, and emerging substitution threats from alternative proteins. The company's competitive advantage is defensible but not durable against structural industry shifts.",
+  "key_risks": [
+    "Buyer concentration risk: Walmart represents 18.7% of consolidated sales; loss of this customer could materially impact operations",
+    "Commodity input volatility: Feed costs (corn, soybean meal) represent ~53% of chicken production costs; live cattle supply currently limited with herd rebuild timing uncertain",
+    "Alternative protein substitution: Growing consumer demand for plant-based and cultivated meat alternatives threatens traditional protein market share",
+    "Labor availability and cost inflation: 133,000 employees with 31,000 unionized (47% of union workforce under negotiation or expiring in FY2026); tight labor markets pressure wages",
+    "Livestock disease outbreak: ASF, avian influenza, or other pathogens could disrupt operations, supply chains, and consumer perception",
+    "Regulatory and climate compliance: Evolving greenhouse gas regulations and environmental laws could increase compliance costs; exact impact remains uncertain",
+    "Competitive pricing pressure: Intense rivalry with Cargill, JBS, and National Beef limits pricing power in commodity segments"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

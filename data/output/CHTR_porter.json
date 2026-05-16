@@ -1,0 +1,39 @@
+{
+  "ticker": "CHTR",
+  "company": "Charter Communications",
+  "forces": {
+    "rivalry": {
+      "score": 2,
+      "rationale": "Charter faces intense competition from fiber-to-the-home (FTTH) providers, satellite internet, DSL, 5G wireless home internet, and streaming video alternatives. The 10-K explicitly states the industry is 'highly competitive and has become more so in recent years' with competitors deploying fiber to more buildings and engaging in aggressive pricing and marketing."
+    },
+    "new_entrants": {
+      "score": 3,
+      "rationale": "High capital requirements and existing infrastructure create barriers, but fiber deployment by competitors and wireless alternatives are lowering traditional entry barriers. The 10-K notes competitors with 'fewer regulatory burdens, better access to financing' are emerging, and rural broadband subsidies are enabling new entrants in underserved areas."
+    },
+    "substitutes": {
+      "score": 2,
+      "rationale": "Multiple credible substitutes exist: FTTH providers, satellite internet, 5G home internet, streaming services (reducing video demand), mobile data replacing wireline voice, and social media/messaging replacing traditional communication. The 10-K acknowledges 'newer products and services, particularly alternative methods for distribution' continue to increase competitive pressure."
+    },
+    "buyer_power": {
+      "score": 2,
+      "rationale": "Customers have significant switching power due to multiple alternatives and low switching costs, particularly for video services. The 10-K notes customers can easily substitute video with 'Internet-delivered or over-air content' and mobile data for wireline services, giving them substantial pricing leverage."
+    },
+    "supplier_power": {
+      "score": 3,
+      "rationale": "Charter depends on limited vendors for key technologies and has sole-source suppliers for some hardware/software, creating moderate supplier leverage. However, the 10-K indicates Charter has negotiating power through scale, though programmers have significant power over content costs, which are 'one of our largest expense items' with contractual rate increases exceeding inflation."
+    }
+  },
+  "moat_score": 2.4,
+  "moat_summary": "Charter possesses a moderate but eroding competitive moat based primarily on its extensive fiber infrastructure footprint (58 million homes across 41 states) and scale economies. However, this advantage is being undermined by aggressive fiber deployment by competitors, the rise of wireless alternatives, and declining video subscriber bases. The company's network evolution investments and bundled service strategy provide some differentiation, but the 10-K reveals intense competitive pressure across all service lines with limited pricing power, particularly as customers increasingly substitute toward lower-cost alternatives.",
+  "key_risks": [
+    "Intense competitive rivalry from FTTH providers, satellite internet, 5G home internet, and streaming services eroding market share and pricing power",
+    "Significant debt burden ($94.6 billion) limiting financial flexibility and increasing vulnerability to interest rate increases and refinancing risk",
+    "Programming cost inflation exceeding ability to pass costs to customers, compressing video margins as subscriber base declines",
+    "Dependence on limited third-party vendors for critical technologies and services, creating supply chain vulnerability",
+    "Rapid technological change and customer preference shifts toward mobile and streaming alternatives reducing traditional broadband/video demand",
+    "Cybersecurity and data privacy risks from increasing sophisticated attacks and regulatory exposure",
+    "Execution risk on network evolution (DOCSIS 4.0, DAA) and rural expansion requiring substantial capital investment"
+  ],
+  "data_source": "10-K",
+  "analysis_date": "2026-05-16"
+}

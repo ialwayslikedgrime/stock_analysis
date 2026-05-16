@@ -1,0 +1,181 @@
+{
+  "ticker": "ETR",
+  "company": "Entergy",
+  "analysis_date": "2026-05-16",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "scores": {
+    "structural_score": 4,
+    "moat_score": 5,
+    "financial_score": 4,
+    "valuation_score": 3,
+    "quality_score": 4.4,
+    "opportunity_score": 3.6,
+    "combined_score": 4.1
+  },
+  "archetype": "CASH COW",
+  "archetype_reasoning": "Entergy exhibits the classic cash cow profile: regulated utility with geographic monopolies (high structural moat in theory), but facing secular headwinds from energy transition, distributed solar, and regulatory rate caps that constrain pricing power. Financial quality is deteriorating (ROIC 4.0% in 2025 vs 6.3% in 2023, negative FCF -21.6% in 2025, revenue declining -2.2% CAGR). The company generates stable dividends but lacks growth catalysts and faces structural margin compression. At 27.7x P/E with negative FCF, valuation is stretched for a low-growth, challenged utility.",
+  "verdict": "avoid",
+  "verdict_split": {
+    "quality_verdict": "weak",
+    "timing_verdict": "very expensive"
+  },
+  "time_horizon": "long-term (3yr+)",
+  "conviction_level": "high",
+  "structural_analysis": {
+    "score": 4,
+    "megatrend_exposure_score": 3,
+    "megatrend_type": "headwind",
+    "megatrends_exposed_to": [
+      "energy transition (distributed solar, battery storage)",
+      "decarbonization (renewable mandates reducing thermal generation)",
+      "demand response and energy efficiency (reducing consumption)"
+    ],
+    "megatrend_analysis": "Entergy is PERIPHERALLY exposed to the energy transition, but as a HEADWIND rather than tailwind. The company operates a legacy thermal-heavy fleet (coal, natural gas, nuclear) in a regulatory environment increasingly mandating renewable adoption. Distributed solar and battery storage directly cannibalize Entergy's centralized generation model and reduce per-unit pricing power. As renewable mandates scale (e.g., Louisiana's 50% renewable target by 2030), Entergy must invest heavily in grid modernization and renewable capacity while losing high-margin thermal generation. The company's value chain position deteriorates as it becomes a transmission/distribution utility rather than a generation monopoly. By 2035, Entergy will likely be a lower-margin infrastructure play, not a profitable generation company.",
+    "necessity_score": 8,
+    "necessity_analysis": "Electricity is essential and non-discretionary; demand is inelastic in the short term. Entergy's service territories (Arkansas, Louisiana, Mississippi, Texas) have stable residential and industrial demand. However, necessity does NOT translate to pricing power in a regulated utility: regulators cap rate increases (4% annual caps in Arkansas/Mississippi) and require cost justification. Recession resilience is high (utilities outperformed in 2008-2009 and 2020), but this defensive characteristic is already priced into the 0.529 beta and 27.7x P/E multiple.",
+    "moat_trajectory_score": 3,
+    "moat_trajectory_analysis": "Entergy's moat is NARROWING, not widening. Geographic monopolies remain intact (high barriers to entry for new transmission/distribution), but this moat is increasingly irrelevant as the value chain shifts from generation to grid services. Regulatory rate caps (4% annual in Arkansas, similar in other states) prevent pricing power expansion. Distributed solar adoption in Entergy's territories is accelerating, eroding the company's generation monopoly and reducing load growth. Switching costs for customers are high (cannot switch utilities), but regulatory bodies act as proxy buyers with increasing power to mandate renewable investment and cap returns. The company's nuclear fleet (Grand Gulf, River Bend) faces extended outages and decommissioning risks that erode competitive positioning. By 2030, Entergy's moat will be primarily regulatory (hard to displace) but economically weak (low returns on capital).",
+    "tam_evolution_score": 2,
+    "tam_evolution_analysis": "TAM is SHRINKING in real terms. Electricity consumption in Entergy's service territories is flat to declining due to energy efficiency, distributed solar adoption, and industrial migration. Regulatory mandates for renewable adoption force Entergy to invest in lower-margin wind/solar rather than high-margin thermal generation. Pricing power is constrained by regulatory rate caps and increasing buyer power from state regulators. New adjacencies (battery storage, EV charging infrastructure) offer modest growth but require massive capex with uncertain returns. The company's TAM is essentially fixed at current levels with downside risk from continued efficiency improvements and distributed generation.",
+    "technology_resilience_score": 3,
+    "technology_resilience_analysis": "Entergy faces CRITICAL technology disruption risk. Distributed solar + battery storage directly threatens the centralized generation model. The company's nuclear fleet is aging (Grand Gulf operational since 1985, River Bend since 1986) with extended outages (Grand Gulf was offline for 18+ months in 2022-2023). Grid modernization and smart grid technology are necessary but capital-intensive with uncertain ROI. Entergy's R&D spending is minimal relative to peers; the company is primarily a capital-intensive infrastructure operator, not a technology innovator. The 10-K identifies NRC regulatory changes and capacity factor variability as material risks to nuclear profitability.",
+    "structural_summary": "Entergy will be WEAKER in 10 years, not stronger. The single most important structural fact is that regulated utilities face a fundamental business model challenge: as electricity becomes cleaner and more distributed, the value of centralized generation and transmission monopolies declines. Entergy's geographic monopolies are durable but economically deteriorating. Revenue is declining (-2.2% CAGR), ROIC is collapsing (4.0% in 2025), and FCF is negative (-21.6% in 2025). The company is trapped between regulatory rate caps that prevent pricing power and capital intensity that requires high returns. By 2035, Entergy will likely be a low-growth, low-return infrastructure utility with dividend yields attractive only to income investors seeking stability, not capital appreciation. The structural trajectory is negative."
+  },
+  "moat_analysis": {
+    "score": 5,
+    "rivalry": {
+      "score": 2,
+      "trend": "stable",
+      "analysis": "Entergy operates in regulated utility markets with LIMITED direct competition within its service territories (Arkansas, Louisiana, Mississippi, Texas). The 10-K confirms geographic monopolies for transmission and distribution. However, rivalry is increasing from INDIRECT competitors: distributed solar providers, battery storage companies, and demand response aggregators are fragmenting Entergy's generation monopoly. Within the regulated utility sector, Entergy competes with Duke Energy, Southern Company, and American Electric Power for regulatory favor and capital access. The 10-K does not identify direct transmission/distribution competitors, confirming local monopoly status. However, this monopoly is increasingly irrelevant as the value chain shifts away from generation.",
+      "key_competitors": [
+        "Duke Energy (DUK) - larger regulated utility with similar challenges",
+        "Southern Company (SO) - larger regulated utility with similar challenges",
+        "Distributed solar providers (Sunrun, Vivint Solar) - indirect competition for generation",
+        "Battery storage companies (Tesla Energy, Eos Energy) - indirect competition for generation"
+      ]
+    },
+    "new_entrants": {
+      "score": 4,
+      "trend": "weakening",
+      "analysis": "Barriers to entry for transmission/distribution remain EXTREMELY HIGH due to regulatory licensing, massive capex ($25B+ for new utility), and established infrastructure. However, barriers to entry for GENERATION are COLLAPSING. Distributed solar companies (Sunrun, Vivint Solar) have entered Entergy's service territories with minimal regulatory friction. Battery storage companies are entering the market with declining costs (lithium-ion costs down 89% since 2010). The 10-K identifies distributed solar and battery storage as material threats. Regulatory barriers to new entrants in transmission/distribution remain high, but regulatory barriers to distributed generation are LOW and declining. This creates a structural threat: new entrants can bypass Entergy's transmission monopoly by generating and storing power locally.",
+      "biggest_threat": "Distributed solar + battery storage providers (Sunrun, Vivint Solar, Tesla Energy) entering Entergy's service territories and reducing centralized generation demand"
+    },
+    "substitutes": {
+      "score": 4,
+      "trend": "strengthening",
+      "analysis": "Substitutes for Entergy's generation are RAPIDLY STRENGTHENING. The 10-K explicitly identifies distributed solar, battery storage, demand response programs, and energy efficiency solutions as material substitute threats. Distributed solar costs have declined 89% since 2010 and continue falling. Battery storage costs ($/kWh) have declined 89% since 2010. Rooftop solar + battery storage is now cost-competitive with grid electricity in many Entergy territories. Demand response programs (smart thermostats, EV charging management) reduce peak demand and lower Entergy's pricing power. Energy efficiency improvements (LED lighting, HVAC upgrades, building insulation) reduce consumption. The 10-K notes that renewable energy mandates and distributed solar adoption reduce electricity sales volumes and pricing power. Substitution threat is CRITICAL and accelerating.",
+      "key_substitute": "Distributed solar + battery storage (rooftop solar + Tesla Powerwall or equivalent) is now cost-competitive with grid electricity in Entergy territories and growing rapidly"
+    },
+    "buyer_power": {
+      "score": 1,
+      "trend": "strengthening",
+      "analysis": "Buyers (residential and industrial customers) have SUBSTANTIAL power due to regulatory rate-setting mechanisms. State regulators (Arkansas Public Service Commission, Louisiana Public Service Commission, Mississippi Public Utilities Commission, Texas Public Utility Commission) act as proxy buyers and cap rate increases (4% annual caps in Arkansas and Mississippi). Regulators require cost justification for capex and can disallow recovery. Industrial customers have increasing bargaining power: they can threaten to install distributed solar or relocate to lower-cost jurisdictions. The 10-K identifies regulatory risk as material: rate case delays, disallowances, and unfavorable regulatory decisions could materially impact financial results. Buyer power is INCREASING as regulators prioritize affordability and renewable mandates over utility profitability. This is a structural headwind to pricing power."
+    },
+    "supplier_power": {
+      "score": 3,
+      "trend": "stable",
+      "analysis": "Supplier power is MODERATE. Entergy depends on fuel suppliers (uranium for nuclear, natural gas for thermal generation) and equipment suppliers (turbines, transformers, solar panels). The 10-K identifies commodity price increases and supply chain disruptions as risks. However, Entergy has diversified suppliers and long-term contracts that mitigate supplier power. Natural gas prices are volatile but not controlled by single suppliers. Nuclear fuel (uranium) is a commodity market with multiple suppliers. Equipment suppliers (GE, Siemens, ABB) are competitive. Supplier power is not a material constraint on profitability. However, renewable energy transition requires new suppliers (solar panel manufacturers, battery makers) with increasing pricing power as demand scales. Overall supplier power is stable but shifting from traditional fuel/equipment suppliers to renewable technology suppliers."
+    },
+    "moat_confirmed_by_financials": false,
+    "moat_durability": "narrowing",
+    "overall_moat_verdict": "Entergy's moat is NARROWING and economically deteriorating. Geographic monopolies in transmission/distribution remain intact (high barriers to entry), but this moat is increasingly irrelevant as value shifts to distributed generation and storage. Regulatory rate caps (4% annual) prevent pricing power expansion and constrain returns on capital. ROIC has collapsed from 6.3% (2023) to 4.0% (2025), indicating that the moat is not translating to economic returns. Buyer power (regulators) is increasing, forcing renewable investment and limiting profitability. Substitutes (distributed solar + battery storage) are rapidly strengthening and eroding generation monopoly. The company's moat is primarily regulatory (hard to displace) but economically weak (low returns). By 2030, Entergy will be a low-return infrastructure utility with a durable but economically impaired moat."
+  },
+  "financial_analysis": {
+    "score": 4,
+    "margin_trend": "strongly deteriorating",
+    "roic_assessment": "weak (<10%)",
+    "earnings_quality": "low",
+    "balance_sheet_health": "stretched",
+    "recession_resilience": "high",
+    "deep_analysis": "Entergy's financial quality is DETERIORATING rapidly. Revenue declined -2.2% CAGR over 4 years ($13.8B in 2022 to $12.9B in 2025), indicating structural demand headwinds. Operating margin collapsed from 21.9% (2023) to 24.8% (2025) in absolute terms, but net margin is volatile (19.4% in 2023, 13.7% in 2025, 8.9% in 2024), suggesting earnings quality issues. ROIC has collapsed from 6.3% (2023) to 4.0% (2025), well below the 10% threshold for acceptable returns and far below the 15% threshold for strong returns. This indicates that Entergy is destroying shareholder value: capital is being deployed at returns below the cost of capital. FCF is NEGATIVE and deteriorating: -3.7% (2023), -12.5% (2024), -21.6% (2025). This is CRITICAL: the company is burning cash despite positive net income, indicating that capex exceeds operating cash flow. Debt/Equity is elevated at 1.65x (2025), up from 1.57x (2023), indicating increasing leverage to fund capex. The company is trapped in a capital-intensive business model with declining returns and negative FCF. Dividend sustainability is at risk if FCF remains negative."
+  },
+  "valuation_analysis": {
+    "score": 3,
+    "overall_assessment": "very expensive",
+    "peg_signal": "very expensive",
+    "ev_ebitda_signal": "expensive",
+    "implied_10yr_growth_rate": "1.2% per year",
+    "implied_growth_realistic": true,
+    "implied_growth_assessment": "At current price of $109.03 with P/E of 27.7x and forward P/E of 21.7x, the market is pricing in approximately 1.2% annual earnings growth over 10 years (reverse DCF at 10% discount rate). This is REALISTIC given revenue decline of -2.2% CAGR and ROIC compression. However, the valuation is EXTREMELY EXPENSIVE for a company with negative FCF, declining revenue, and deteriorating returns. The market is paying a premium multiple (27.7x P/E) for a low-growth, challenged utility. EV/EBITDA of 14.7x is elevated for a regulated utility with 4% annual rate caps and negative FCF. Comparable utilities (Duke Energy, Southern Company) trade at 12-14x EV/EBITDA with better growth prospects. Entergy's dividend yield of 2.35% (235 bps) is attractive but unsustainable if FCF remains negative. The company is trading at a 12% premium to analyst target of $122.21, suggesting limited upside and significant downside risk.",
+    "estimated_intrinsic_value_conservative": "$65",
+    "estimated_intrinsic_value_optimistic": "$85",
+    "current_vs_intrinsic": "-40% discount to conservative estimate, -22% discount to optimistic estimate",
+    "strong_buy_price": "$65",
+    "watchlist_price": "$75",
+    "valuation_deep_analysis": "Entergy is trading at 27.7x P/E with negative FCF and declining revenue, which is INDEFENSIBLE for a mature utility. PEG analysis is not applicable (negative growth), but the P/E multiple is 2-3x higher than justified by fundamentals. EV/EBITDA of 14.7x is elevated vs. sector norms (12-14x for comparable utilities) and unjustified given negative FCF and ROIC compression. Reverse DCF at 10% discount rate implies 1.2% annual earnings growth, which is realistic but does not justify a 27.7x multiple. Margin of safety is NEGATIVE: the stock is trading at a premium to intrinsic value. Conservative DCF (assuming 0% growth, 4% ROIC, 10% discount rate) implies intrinsic value of $65-70. Optimistic DCF (assuming 2% growth, 5% ROIC, 10% discount rate) implies intrinsic value of $80-85. Current price of $109 is 28-40% above intrinsic value. The stock is OVERVALUED and offers poor risk/reward. Strong buy price is $65 (40% discount); watchlist price is $75 (30% discount)."
+  },
+  "risk_matrix": {
+    "competitive_disruption": "High",
+    "competitive_disruption_explanation": "Distributed solar and battery storage are rapidly eroding Entergy's generation monopoly and pricing power. Rooftop solar + battery storage is now cost-competitive with grid electricity in many Entergy territories. The 10-K identifies distributed solar adoption as a material threat to electricity sales volumes and pricing power. Entergy's response (renewable investment) requires massive capex with uncertain returns.",
+    "regulatory": "High",
+    "regulatory_explanation": "Regulatory rate caps (4% annual in Arkansas/Mississippi) prevent pricing power expansion and constrain returns on capital. State regulators can disallow capex recovery or delay rate cases, impacting financial results. Renewable energy mandates force Entergy to invest in lower-margin wind/solar generation. Regulatory risk is explicitly identified in the 10-K as material.",
+    "macro_sensitivity": "Medium",
+    "macro_explanation": "Electricity demand is relatively inelastic in recessions (utilities outperformed in 2008-2009 and 2020), providing defensive characteristics. However, industrial customers have increasing bargaining power and can relocate to lower-cost jurisdictions. Economic slowdown could reduce industrial demand and pressure pricing. Inflation increases capex costs and reduces returns on capital.",
+    "balance_sheet": "High",
+    "balance_sheet_explanation": "Debt/Equity is elevated at 1.65x and increasing. FCF is negative (-21.6% in 2025), indicating that capex exceeds operating cash flow. The company is funding capex with debt, increasing leverage. Dividend sustainability is at risk if FCF remains negative. Credit rating downgrade risk is material if leverage continues to increase.",
+    "management": "Medium",
+    "management_explanation": "Management is executing a capital-intensive strategy (renewable investment, grid modernization) with uncertain returns. The company has not demonstrated ability to improve ROIC or stabilize revenue. Management's strategic response to distributed solar and energy efficiency threats is unclear. Dividend policy (235 bps yield) may be unsustainable given negative FCF.",
+    "geopolitical": "Low",
+    "geopolitical_explanation": "Entergy operates in domestic US markets (Arkansas, Louisiana, Mississippi, Texas) with low geopolitical risk. Nuclear fuel (uranium) supply is diversified and not subject to major geopolitical disruption. Natural gas supply is primarily domestic. Geopolitical risk is low relative to other sectors.",
+    "technology_obsolescence": "High",
+    "technology_obsolescence_explanation": "Entergy's nuclear fleet is aging (Grand Gulf operational since 1985, River Bend since 1986) with extended outages and decommissioning risks. The company's thermal generation fleet is becoming obsolete as renewable mandates scale. Grid modernization and smart grid technology are necessary but capital-intensive. Entergy's R&D spending is minimal; the company is not investing adequately in next-generation technologies.",
+    "esg": "Medium",
+    "esg_explanation": "Entergy faces ESG pressure to decarbonize and increase renewable generation. The company's coal and natural gas generation fleet is increasingly viewed as stranded assets. Nuclear generation is low-carbon but faces decommissioning and waste disposal risks. ESG-focused investors may divest, creating downward pressure on valuation.",
+    "overall_risk_level": "High",
+    "top_3_risks": [
+      "Distributed solar + battery storage erodes generation monopoly and pricing power, reducing revenue and ROIC below cost of capital",
+      "Regulatory rate caps (4% annual) prevent pricing power expansion and constrain returns on capital; rate case delays or disallowances could materially impact financial results",
+      "Negative FCF (-21.6% in 2025) and increasing leverage (D/E 1.65x) create dividend sustainability risk and credit rating downgrade risk"
+    ]
+  },
+  "sector_analysis": {
+    "sector_outlook_5_10yr": "declining",
+    "company_competitive_position": "weak",
+    "structural_tailwinds": [
+      "Essential electricity demand remains stable in recession (defensive characteristics)",
+      "Regulatory monopolies in transmission/distribution provide durable (but economically weak) competitive position",
+      "Aging grid infrastructure requires capex investment (but with uncertain returns)"
+    ],
+    "structural_headwinds": [
+      "Distributed solar + battery storage eroding generation monopoly (magnitude: 5-10% of generation by 2030)",
+      "Regulatory rate caps (4% annual) preventing pricing power expansion (magnitude: 2-3% annual return constraint)",
+      "Energy efficiency improvements reducing consumption (magnitude: 1-2% annual demand reduction)",
+      "Renewable energy mandates forcing lower-margin wind/solar investment (magnitude: 10-20% of capex by 2030)"
+    ],
+    "megatrend_impact": "Entergy is exposed to the energy transition as a HEADWIND, not a tailwind. Distributed solar and battery storage are disrupting the centralized generation model that has been the foundation of utility profitability for 100 years. Regulatory mandates for renewable adoption force Entergy to invest in lower-margin wind/solar generation while losing high-margin thermal generation. The company's value chain is shifting from generation (high-margin) to transmission/distribution (low-margin infrastructure). By 2035, Entergy will likely be a low-growth, low-return infrastructure utility with limited pricing power. The energy transition is structurally negative for legacy utilities like Entergy.",
+    "recession_history": "Entergy demonstrated defensive characteristics during 2008-2009 financial crisis and 2020 COVID recession. Electricity demand is relatively inelastic, and utilities outperformed broader market during downturns. However, industrial customers have increasing bargaining power and can relocate to lower-cost jurisdictions during recessions. The company's dividend was maintained during both recessions, providing income stability. However, current negative FCF (-21.6% in 2025) raises questions about dividend sustainability in a severe recession.",
+    "disruption_threats": "Distributed solar and battery storage are the primary disruption threats. Rooftop solar + battery storage is now cost-competitive with grid electricity in many Entergy territories and growing rapidly. Smart grid technology and demand response programs are fragmenting Entergy's load management monopoly. Electric vehicle charging infrastructure is creating new demand but also new competition (Tesla Supercharger network, third-party charging providers). Microgrids and community solar are enabling customers to bypass centralized generation. These disruptions are accelerating and will likely reduce Entergy's generation volumes by 10-20% by 2035.",
+    "better_sector_alternatives": [
+      "NextEra Energy (NEE): Largest US renewable energy company with 50%+ of generation from renewables; positioned to benefit from energy transition rather than be disrupted by it",
+      "Brookfield Renewable (BEP): Pure-play renewable energy company with global diversification and growth prospects",
+      "Dominion Energy (D): Larger regulated utility with more diversified generation portfolio and better positioned for energy transition"
+    ]
+  },
+  "investment_verdict": {
+    "key_thesis": "Entergy is a DETERIORATING cash cow trading at an UNJUSTIFIED premium valuation. The company exhibits classic utility characteristics (geographic monopolies, stable dividend, defensive recession performance) but faces structural headwinds from distributed solar, battery storage, regulatory rate caps, and energy efficiency improvements. Financial quality is POOR: revenue declining -2.2% CAGR, ROIC collapsing from 6.3% (2023) to 4.0% (2025), and FCF deeply negative at -21.6% (2025). At 27.7x P/E with negative FCF and 1.2% implied growth, the stock is trading 28-40% above intrinsic value ($65-85 range). The company is destroying shareholder value: capital is being deployed at returns (4% ROIC) below the cost of capital (8-10%). Dividend yield of 2.35% is attractive but unsustainable if FCF remains negative. Quality Score of 4.4/10 (below average) and Opportunity Score of 3.6/10 (poor entry point) combine to a Combined Score of 4.1/10, indicating AVOID. Better alternatives exist in the renewable energy sector (NextEra Energy, Brookfield Renewable) that offer growth and energy transition exposure.",
+    "upside_catalysts": [
+      "Regulatory rate increase approval above 4% annual cap (unlikely given political pressure for affordability; probability <20%)",
+      "Successful nuclear fleet extension (Grand Gulf, River Bend) reducing capex needs and improving ROIC (probability 30-40%; timeline 2-3 years)",
+      "Acquisition by larger utility at premium valuation (probability 20-30%; timeline 2-5 years)"
+    ],
+    "downside_risks": [
+      "Distributed solar adoption accelerates faster than expected, reducing generation volumes by 15%+ and forcing capex write-downs (probability 40-50%; impact -20% to stock price)",
+      "Regulatory rate case disallowance or delay, reducing earnings by 10-15% (probability 30-40%; impact -15% to stock price)",
+      "Credit rating downgrade due to negative FCF and increasing leverage, raising cost of capital and reducing valuation (probability 30-40%; impact -10% to stock price)",
+      "Dividend cut due to FCF deterioration, removing primary investment thesis (probability 20-30%; impact -25% to stock price)"
+    ],
+    "strong_buy_at": "$65",
+    "watchlist_at": "$75",
+    "exit_trigger": "Dividend cut announcement, credit rating downgrade, or FCF deterioration below -25% of net income",
+    "position_sizing_note": "avoid"
+  },
+  "comparable_companies": [
+    "Duke Energy (DUK): Larger regulated utility with similar challenges; trades at 12.5x EV/EBITDA vs Entergy 14.7x",
+    "Southern Company (SO): Larger regulated utility with better renewable positioning; trades at 13.2x EV/EBITDA",
+    "American Electric Power (AEP): Regulated utility with higher ROIC (6-7%) and better growth prospects; trades at 13.8x EV/EBITDA",
+    "NextEra Energy (NEE): Renewable-focused utility with 50%+ renewable generation; trades at 15.2x EV/EBITDA but with 5-7% growth prospects"
+  ],
+  "data_completeness": "High",
+  "data_source_notes": "Analysis based on 10-K filing, current market data (price $109.03, P/E 27.7x, EV/EBITDA 14.7x), and 4-year financial history. Analyst target of $122.21 suggests limited upside. Dividend yield of 2.35% is sustainable only if FCF improves materially. Reverse DCF analysis assumes 10% discount rate and perpetual growth model. Comparable company analysis uses current market multiples as of analysis date. Risk assessment is based on 10-K disclosures and sector trends. Valuation analysis assumes regulatory rate caps remain at 4% annual and distributed solar adoption continues at current pace."
+}
